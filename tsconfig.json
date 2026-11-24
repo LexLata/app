@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Pfad-Alias: @/* zeigt immer auf src/*, unabhängig von der Tiefe der
+       importierenden Datei. Kein baseUrl nötig: paths wird ohne baseUrl
+       relativ zum Verzeichnis dieser tsconfig.json aufgelöst (TS 4.1+) –
+       das ist hier ohnehin "." selbst. Vites native resolve.tsconfigPaths-
+       Option liest diese paths-Angabe automatisch aus – siehe vite.config.ts
+       und vitest.config.ts. */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

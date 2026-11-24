@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">ZVG</gesetz>
+        <geaendert>2026-11-22T15:14:20Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>§ 1</bezeichnung><titel>Zuständiges Amtsgericht</titel></norm>
+        <norm><bezeichnung>§ 2</bezeichnung><titel>Bestellung durch das höhere Gericht</titel></norm>
+        <norm><bezeichnung>§ 3</bezeichnung><titel>Zustellung</titel></norm>
+        <norm><bezeichnung>§ 4</bezeichnung><titel>Zustellung durch Aufgabe zur Post</titel></norm>
+        <norm><bezeichnung>§ 5</bezeichnung><titel>Zustellungsbevollmächtigter</titel></norm>
+        <norm><bezeichnung>§ 6</bezeichnung><titel>Zustellungsvertreter</titel></norm>
+        <norm><bezeichnung>§ 7</bezeichnung><titel>Zustellung an den Zustellungsvertreter</titel></norm>
+        <norm><bezeichnung>§ 8</bezeichnung><titel>Zustellung des Anordnungs- und Beitrittsbeschlusses</titel></norm>
+        <norm><bezeichnung>§ 9</bezeichnung><titel>Beteiligte</titel></norm>
+        <norm><bezeichnung>§ 10</bezeichnung><titel>Rangordnung der Rechte</titel></norm>
+        <norm><bezeichnung>§ 11</bezeichnung><titel>Rangordnung verschiedener Rechte in derselben Klasse</titel></norm>
+        <norm><bezeichnung>§ 12</bezeichnung><titel>Rangordnung gleicher Rechte untereinander</titel></norm>
+        <norm><bezeichnung>§ 13</bezeichnung><titel>Wiederkehrende Leistungen</titel></norm>
+        <norm><bezeichnung>§ 14</bezeichnung><titel>Ansprüche von unbestimmtem Betrag</titel></norm>
+        <norm><bezeichnung>§ 15</bezeichnung><titel>Antrag</titel></norm>
+        <norm><bezeichnung>§ 16</bezeichnung><titel>Inhalt des Antrages</titel></norm>
+        <norm><bezeichnung>§ 17</bezeichnung><titel>Eintragung oder Erbenstellung des Schuldners</titel></norm>
+        <norm><bezeichnung>§ 18</bezeichnung><titel>Versteigerung mehrerer Grundstücke</titel></norm>
+        <norm><bezeichnung>§ 19</bezeichnung><titel>Eintragung des Zwangsversteigerungsvermerks</titel></norm>
+        <norm><bezeichnung>§ 20</bezeichnung><titel>Beschlagnahme des Grundstücks; Umfang</titel></norm>
+        <norm><bezeichnung>§ 21</bezeichnung><titel>Umfang der Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 22</bezeichnung><titel>Wirksamwerden der Beschlagnahme; bei Forderungsbeschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 23</bezeichnung><titel>Wirkung der Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 24</bezeichnung><titel>Verwaltung und Benutzung nach Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 25</bezeichnung><titel>Sicherung der ordnungsmäßigen Bewirtschaftung</titel></norm>
+        <norm><bezeichnung>§ 26</bezeichnung><titel>Veräußerung nach Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 27</bezeichnung><titel>Beitritt zum Versteigerungsverfahren</titel></norm>
+        <norm><bezeichnung>§ 28</bezeichnung><titel>Entgegenstehende Rechte; Verfügungsbeschränkung oder Vollstreckungsmangel</titel></norm>
+        <norm><bezeichnung>§ 29</bezeichnung><titel>Zurücknahme des Antrages</titel></norm>
+        <norm><bezeichnung>§ 30</bezeichnung><titel>Einstweilige Einstellung auf Bewilligung des Gläubigers</titel></norm>
+        <norm><bezeichnung>§ 30a</bezeichnung><titel>Einstweilige Einstellung auf Antrag des Schuldners</titel></norm>
+        <norm><bezeichnung>§ 30b</bezeichnung><titel>Antrag auf einstweilige Einstellung</titel></norm>
+        <norm><bezeichnung>§ 30c</bezeichnung><titel>Erneute Einstellung</titel></norm>
+        <norm><bezeichnung>§ 30d</bezeichnung><titel>Einstweilige Einstellung auf Antrag des Insolvenzverwalters</titel></norm>
+        <norm><bezeichnung>§ 30e</bezeichnung><titel>Auflage bei einstweiliger Einstellung</titel></norm>
+        <norm><bezeichnung>§ 30f</bezeichnung><titel>Aufhebung der einstweiligen Einstellung</titel></norm>
+        <norm><bezeichnung>§ 31</bezeichnung><titel>Fortsetzung auf Antrag des Gläubigers</titel></norm>
+        <norm><bezeichnung>§ 32</bezeichnung><titel>Zustellung des Aufhebungs- oder Einstellungsbeschlusses</titel></norm>
+        <norm><bezeichnung>§ 33</bezeichnung><titel>Aufhebung oder einstweilige Einstellung nach Versteigerungsschluss</titel></norm>
+        <norm><bezeichnung>§ 34</bezeichnung><titel>Löschung des Versteigerungsvermerkes</titel></norm>
+        <norm><bezeichnung>§ 35</bezeichnung><titel>Ausführung durch Vollstreckungsgericht</titel></norm>
+        <norm><bezeichnung>§ 36</bezeichnung><titel>Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 37</bezeichnung><titel>Notwendiger Inhalt der Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 38</bezeichnung><titel>Weitere Angaben in der Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 39</bezeichnung><titel>Bekanntmachung der Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 40</bezeichnung><titel>Anheftung an die Gerichtstafel</titel></norm>
+        <norm><bezeichnung>§ 41</bezeichnung><titel>Zustellung an die Beteiligten</titel></norm>
+        <norm><bezeichnung>§ 42</bezeichnung><titel>Akteneinsicht</titel></norm>
+        <norm><bezeichnung>§ 43</bezeichnung><titel>Terminsaufhebung und Neubestimmung</titel></norm>
+        <norm><bezeichnung>§ 44</bezeichnung><titel>Geringstes Gebot</titel></norm>
+        <norm><bezeichnung>§ 45</bezeichnung><titel>Feststellung des geringsten Gebots</titel></norm>
+        <norm><bezeichnung>§ 46</bezeichnung><titel>Wiederkehrende Naturalleistungen</titel></norm>
+        <norm><bezeichnung>§ 47</bezeichnung><titel>Wiederkehrende Geldleistungen</titel></norm>
+        <norm><bezeichnung>§ 48</bezeichnung><titel>Bedingte Rechte; Widerspruch oder Vormerkung</titel></norm>
+        <norm><bezeichnung>§ 49</bezeichnung><titel>Bargebot</titel></norm>
+        <norm><bezeichnung>§ 50</bezeichnung><titel>Erhöhung des zu zahlenden Betrages</titel></norm>
+        <norm><bezeichnung>§ 51</bezeichnung><titel>Erhöhung in sonstigen Fällen</titel></norm>
+        <norm><bezeichnung>§ 52</bezeichnung><titel>Bestehenbleibende Rechte</titel></norm>
+        <norm><bezeichnung>§ 53</bezeichnung><titel>Schuldübernahme bei Grundpfandrechten</titel></norm>
+        <norm><bezeichnung>§ 54</bezeichnung><titel>Kündigung von Grundpfandrechten</titel></norm>
+        <norm><bezeichnung>§ 55</bezeichnung><titel>Gegenstand der Versteigerung</titel></norm>
+        <norm><bezeichnung>§ 56</bezeichnung><titel>Gefahrübergang</titel></norm>
+        <norm><bezeichnung>§ 57</bezeichnung><titel>Mieter oder Pächter</titel></norm>
+        <norm><bezeichnung>§ 57a</bezeichnung><titel>Kündigungsrecht des Erstehers</titel></norm>
+        <norm><bezeichnung>§ 57b</bezeichnung><titel>Vorausverfügungen über Miete oder Pacht</titel></norm>
+        <norm><bezeichnung>§ 58</bezeichnung><titel>Kosten des Zuschlagsbeschlusses</titel></norm>
+        <norm><bezeichnung>§ 59</bezeichnung><titel>Abweichende Feststellung des geringsten Gebots</titel></norm>
+        <norm><bezeichnung>§ 62</bezeichnung><titel>Erörterungen über geringstes Gebot und Versteigerungsbedingungen</titel></norm>
+        <norm><bezeichnung>§ 63</bezeichnung><titel>Einzel-, Gesamt- und Gruppenausgebot mehrerer Grundstücke</titel></norm>
+        <norm><bezeichnung>§ 64</bezeichnung><titel>Gesamthypothek</titel></norm>
+        <norm><bezeichnung>§ 65</bezeichnung><titel>Besondere Versteigerung oder anderweitige Verwertung</titel></norm>
+        <norm><bezeichnung>§ 66</bezeichnung><titel>Ablauf des Versteigerungstermins</titel></norm>
+        <norm><bezeichnung>§ 67</bezeichnung><titel>Verlangen einer Sicherheitsleistung</titel></norm>
+        <norm><bezeichnung>§ 68</bezeichnung><titel>Höhe der Sicherheitsleistung</titel></norm>
+        <norm><bezeichnung>§ 69</bezeichnung><titel>Art der Sicherheitsleistung</titel></norm>
+        <norm><bezeichnung>§ 70</bezeichnung><titel>Sofortige Entscheidung; sofortige Leistung</titel></norm>
+        <norm><bezeichnung>§ 71</bezeichnung><titel>Zurückweisung eines unwirksamen Gebots</titel></norm>
+        <norm><bezeichnung>§ 72</bezeichnung><titel>Erlöschen eines Gebots, Übergebot</titel></norm>
+        <norm><bezeichnung>§ 73</bezeichnung><titel>Versteigerungsdauer; Verkündung des letzten Gebots</titel></norm>
+        <norm><bezeichnung>§ 74</bezeichnung><titel>Anhörung über den Zuschlag</titel></norm>
+        <norm><bezeichnung>§ 74a</bezeichnung><titel>Antrag auf Versagung des Zuschlags</titel></norm>
+        <norm><bezeichnung>§ 74b</bezeichnung><titel>Nichtanwendung des § 74a</titel></norm>
+        <norm><bezeichnung>§ 75</bezeichnung><titel>Einstellung bei Vorlegung eines Einzahlungs- oder Überweisungsnachweises</titel></norm>
+        <norm><bezeichnung>§ 76</bezeichnung><titel>Einstellung wegen Deckung des Anspruchs</titel></norm>
+        <norm><bezeichnung>§ 77</bezeichnung><titel>Einstellung wegen Mangels an Geboten</titel></norm>
+        <norm><bezeichnung>§ 78</bezeichnung><titel>Protokoll</titel></norm>
+        <norm><bezeichnung>§ 79</bezeichnung><titel>Keine Bindung an Vorentscheidungen</titel></norm>
+        <norm><bezeichnung>§ 80</bezeichnung><titel>Nicht protokollierte Vorgänge</titel></norm>
+        <norm><bezeichnung>§ 81</bezeichnung><titel>Zuschlagsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 82</bezeichnung><titel>Inhalt des Zuschlagsbeschlusses</titel></norm>
+        <norm><bezeichnung>§ 83</bezeichnung><titel>Versagung des Zuschlags</titel></norm>
+        <norm><bezeichnung>§ 84</bezeichnung><titel>Keine Versagung des Zuschlags</titel></norm>
+        <norm><bezeichnung>§ 85</bezeichnung><titel>Versagung bei Antrag auf neuen Versteigerungstermin</titel></norm>
+        <norm><bezeichnung>§ 85a</bezeichnung><titel>Versagung bei zu niedrigem Meistgebot</titel></norm>
+        <norm><bezeichnung>§ 86</bezeichnung><titel>Wirkung der Versagung</titel></norm>
+        <norm><bezeichnung>§ 87</bezeichnung><titel>Verkündungstermin</titel></norm>
+        <norm><bezeichnung>§ 88</bezeichnung><titel>Zustellung des Beschlusses</titel></norm>
+        <norm><bezeichnung>§ 89</bezeichnung><titel>Wirksamwerden des Zuschlags</titel></norm>
+        <norm><bezeichnung>§ 90</bezeichnung><titel>Eigentumserwerb durch Zuschlag</titel></norm>
+        <norm><bezeichnung>§ 91</bezeichnung><titel>Erlöschen von Rechten</titel></norm>
+        <norm><bezeichnung>§ 92</bezeichnung><titel>Wertersatz für erloschene Rechte</titel></norm>
+        <norm><bezeichnung>§ 93</bezeichnung><titel>Zuschlagsbeschluss als Vollstreckungstitel</titel></norm>
+        <norm><bezeichnung>§ 94</bezeichnung><titel>Gerichtliche Verwaltung</titel></norm>
+        <norm><bezeichnung>§ 94a</bezeichnung><titel>Antrag der Gemeinde auf gerichtliche Verwaltung</titel></norm>
+        <norm><bezeichnung>§ 95</bezeichnung><titel>Zulässigkeit</titel></norm>
+        <norm><bezeichnung>§ 96</bezeichnung><titel>Anwendbarkeit der ZPO</titel></norm>
+        <norm><bezeichnung>§ 97</bezeichnung><titel>Beschwerdeberechtigte</titel></norm>
+        <norm><bezeichnung>§ 98</bezeichnung><titel>Beginn der Beschwerdefrist</titel></norm>
+        <norm><bezeichnung>§ 99</bezeichnung><titel>Gegner des Beschwerdeführers; Verbindung mehrerer Beschwerden</titel></norm>
+        <norm><bezeichnung>§ 100</bezeichnung><titel>Beschwerdegründe</titel></norm>
+        <norm><bezeichnung>§ 101</bezeichnung><titel>Begründete Beschwerde; begründete Rechtsbeschwerde</titel></norm>
+        <norm><bezeichnung>§ 102</bezeichnung><titel>Berechtigung zur Rechtsbeschwerde</titel></norm>
+        <norm><bezeichnung>§ 103</bezeichnung><titel>Zustellung der Beschwerdeentscheidung</titel></norm>
+        <norm><bezeichnung>§ 104</bezeichnung><titel>Wirksamwerden der Zuschlagserteilung bei Beschwerde</titel></norm>
+        <norm><bezeichnung>§ 105</bezeichnung><titel>Bestimmung des Verteilungstermins</titel></norm>
+        <norm><bezeichnung>§ 106</bezeichnung><titel>Vorläufiger Teilungsplan</titel></norm>
+        <norm><bezeichnung>§ 107</bezeichnung><titel>Teilungsmasse</titel></norm>
+        <norm><bezeichnung>§ 109</bezeichnung><titel>Verfahrenskosten; Überschuss</titel></norm>
+        <norm><bezeichnung>§ 110</bezeichnung><titel>Nachstehende Rechte</titel></norm>
+        <norm><bezeichnung>§ 111</bezeichnung><titel>Betagter Anspruch</titel></norm>
+        <norm><bezeichnung>§ 112</bezeichnung><titel>Verteilung bei Gesamtausgebot</titel></norm>
+        <norm><bezeichnung>§ 113</bezeichnung><titel>Aufstellung des Teilungsplans</titel></norm>
+        <norm><bezeichnung>§ 114</bezeichnung><titel>Aufzunehmende Ansprüche</titel></norm>
+        <norm><bezeichnung>§ 114a</bezeichnung><titel>Kein Anspruch des Erstehers unter 7/10-Grenze</titel></norm>
+        <norm><bezeichnung>§ 115</bezeichnung><titel>Verhandlung über den Teilungsplan</titel></norm>
+        <norm><bezeichnung>§ 116</bezeichnung><titel>Aussetzung der Ausführung des Teilungsplans</titel></norm>
+        <norm><bezeichnung>§ 117</bezeichnung><titel>Ausführung bei Zahlung des Bargebots</titel></norm>
+        <norm><bezeichnung>§ 118</bezeichnung><titel>Ausführung bei Nichtzahlung des Bargebots</titel></norm>
+        <norm><bezeichnung>§ 119</bezeichnung><titel>Feststellung bei bedingtem Anspruch</titel></norm>
+        <norm><bezeichnung>§ 120</bezeichnung><titel>Ausführung bei aufschiebender Bedingung</titel></norm>
+        <norm><bezeichnung>§ 121</bezeichnung><titel>Aufnahme von Fällen des § 92 Abs. 2</titel></norm>
+        <norm><bezeichnung>§ 122</bezeichnung><titel>Aufnahme einer Gesamthypothek</titel></norm>
+        <norm><bezeichnung>§ 123</bezeichnung><titel>Hilfszuteilung bei Gesamthypothek</titel></norm>
+        <norm><bezeichnung>§ 124</bezeichnung><titel>Verteilung bei Widerspruch gegen den Teilungsplan</titel></norm>
+        <norm><bezeichnung>§ 125</bezeichnung><titel>Zuteilung eines erhöhten Betrages</titel></norm>
+        <norm><bezeichnung>§ 126</bezeichnung><titel>Hilfszuteilung bei unbekannten Berechtigten</titel></norm>
+        <norm><bezeichnung>§ 127</bezeichnung><titel>Vermerke auf Hypothekenbriefen und vollstreckbaren Titeln</titel></norm>
+        <norm><bezeichnung>§ 128</bezeichnung><titel>Eintragung einer Sicherungshypothek</titel></norm>
+        <norm><bezeichnung>§ 129</bezeichnung><titel>Rangverhältnis der Sicherungshypothek</titel></norm>
+        <norm><bezeichnung>§ 130</bezeichnung><titel>Eintragung in das Grundbuch</titel></norm>
+        <norm><bezeichnung>§ 130a</bezeichnung><titel>Vormerkung</titel></norm>
+        <norm><bezeichnung>§ 131</bezeichnung><titel>Löschung eines Grundpfandrechts</titel></norm>
+        <norm><bezeichnung>§ 132</bezeichnung><titel>Vollstreckbarkeit; Vollstreckungsklausel</titel></norm>
+        <norm><bezeichnung>§ 133</bezeichnung><titel>Vollstreckung ohne Zustellung des Vollstreckungstitels</titel></norm>
+        <norm><bezeichnung>§ 135</bezeichnung><titel>Vertreter für unbekannten Berechtigten</titel></norm>
+        <norm><bezeichnung>§ 136</bezeichnung><titel>Kraftloserklärung von Grundpfandbriefen</titel></norm>
+        <norm><bezeichnung>§ 137</bezeichnung><titel>Nachträgliche Ermittlung des Berechtigten</titel></norm>
+        <norm><bezeichnung>§ 138</bezeichnung><titel>Ermächtigung bei unbekanntem Berechtigten</titel></norm>
+        <norm><bezeichnung>§ 139</bezeichnung><titel>Terminsbestimmung bei nachträglicher Ermittlung</titel></norm>
+        <norm><bezeichnung>§ 140</bezeichnung><titel>Aufgebotsverfahren</titel></norm>
+        <norm><bezeichnung>§ 141</bezeichnung><titel>Ausführung des Teilungsplans nach Ausschließungsbeschluss</titel></norm>
+        <norm><bezeichnung>§ 142</bezeichnung><titel>Erlöschen von Rechten auf hinterlegten Betrag</titel></norm>
+        <norm><bezeichnung>§ 143</bezeichnung><titel>Außergerichtliche Einigung über Erlösverteilung</titel></norm>
+        <norm><bezeichnung>§ 144</bezeichnung><titel>Außergerichtliche Befriedigung der Berechtigten</titel></norm>
+        <norm><bezeichnung>§ 145</bezeichnung><titel>Anwendbare Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 145a</bezeichnung><titel>Sonderbestimmungen für die Zwangsversteigerung</titel></norm>
+        <norm><bezeichnung>§ 146</bezeichnung><titel>Anordnung</titel></norm>
+        <norm><bezeichnung>§ 147</bezeichnung><titel>Eigenbesitz des Schuldners</titel></norm>
+        <norm><bezeichnung>§ 148</bezeichnung><titel>Umfang und Wirkung der Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 149</bezeichnung><titel>Wohnräume des Schuldners; Räumung; Unterhalt</titel></norm>
+        <norm><bezeichnung>§ 150</bezeichnung><titel>Bestellung des Verwalters; Übergabe</titel></norm>
+        <norm><bezeichnung>§ 150a</bezeichnung><titel>Vorschlagsrecht</titel></norm>
+        <norm><bezeichnung>§ 150b</bezeichnung><titel>Schuldner als Verwalter</titel></norm>
+        <norm><bezeichnung>§ 150c</bezeichnung><titel>Aufsichtsperson für Schuldner als Verwalter</titel></norm>
+        <norm><bezeichnung>§ 150d</bezeichnung><titel>Befugnisse des Schuldners als Verwalter</titel></norm>
+        <norm><bezeichnung>§ 150e</bezeichnung><titel>Keine Vergütung für Schuldner als Verwalter</titel></norm>
+        <norm><bezeichnung>§ 151</bezeichnung><titel>Wirksamwerden der Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 152</bezeichnung><titel>Aufgaben des Verwalters; Miet- und Pachtverträge</titel></norm>
+        <norm><bezeichnung>§ 152a</bezeichnung><titel>Verordnungsermächtigung</titel></norm>
+        <norm><bezeichnung>§ 153</bezeichnung><titel>Maßnahmen des Gerichts gegenüber dem Verwalter</titel></norm>
+        <norm><bezeichnung>§ 153a</bezeichnung><titel>Anordnungen über Entgelt für Viehfutter</titel></norm>
+        <norm><bezeichnung>§ 153b</bezeichnung><titel>Einstweilige Einstellung auf Antrag des Insolvenzverwalters</titel></norm>
+        <norm><bezeichnung>§ 153c</bezeichnung><titel>Aufhebung der einstweiligen Einstellung</titel></norm>
+        <norm><bezeichnung>§ 154</bezeichnung><titel>Verantwortlichkeit des Verwalters; Rechnungslegung</titel></norm>
+        <norm><bezeichnung>§ 155</bezeichnung><titel>Verteilung der Nutzungen</titel></norm>
+        <norm><bezeichnung>§ 156</bezeichnung><titel>Öffentliche Lasten; Verteilungstermin</titel></norm>
+        <norm><bezeichnung>§ 157</bezeichnung><titel>Ausführung des Teilungsplans</titel></norm>
+        <norm><bezeichnung>§ 158</bezeichnung><titel>Zahlungen auf Grundpfandrechte</titel></norm>
+        <norm><bezeichnung>§ 158a</bezeichnung><titel>Belastung in ausländischer Währung</titel></norm>
+        <norm><bezeichnung>§ 159</bezeichnung><titel>Klage auf Änderung des Teilungsplans</titel></norm>
+        <norm><bezeichnung>§ 160</bezeichnung><titel>Außergerichtliche Verteilung</titel></norm>
+        <norm><bezeichnung>§ 161</bezeichnung><titel>Aufhebung des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 162</bezeichnung><titel>Anwendbare Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 163</bezeichnung><titel>Zuständiges Amtsgericht; Schiffsregister; Beteiligte</titel></norm>
+        <norm><bezeichnung>§ 164</bezeichnung><titel>Ausnahme von § 17</titel></norm>
+        <norm><bezeichnung>§ 165</bezeichnung><titel>Bewachung und Verwahrung</titel></norm>
+        <norm><bezeichnung>§ 166</bezeichnung><titel>Wirkung gegen den Schiffseigner</titel></norm>
+        <norm><bezeichnung>§ 167</bezeichnung><titel>Bezeichnung bei Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 168</bezeichnung><titel>Bekanntmachung der Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 168b</bezeichnung><titel>Anmeldung beim Registergericht vor Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 168c</bezeichnung><titel>Schiffshypothek in ausländischer Währung</titel></norm>
+        <norm><bezeichnung>§ 169</bezeichnung><titel>Vorausverfügungen über Miete oder Pacht; Schiffshypothek gegen Ersteher</titel></norm>
+        <norm><bezeichnung>§ 169a</bezeichnung><titel>Auf Seeschiffe anzuwendende Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 170</bezeichnung><titel>Bewachung und Verwahrung des versteigerten Schiffes</titel></norm>
+        <norm><bezeichnung>§ 170a</bezeichnung><titel>Zwangsversteigerung eines Schiffsbauwerks</titel></norm>
+        <norm><bezeichnung>§ 171</bezeichnung><titel>Ausländische Schiffe</titel></norm>
+        <norm><bezeichnung>§ 171a</bezeichnung><titel>Anzuwendende Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 171b</bezeichnung><titel>Zuständiges Amtsgericht; Register für Pfandrechte an Luftfahrzeugen</titel></norm>
+        <norm><bezeichnung>§ 171c</bezeichnung><titel>Voraussetzungen der Anordnung; Bewachung und Verwahrung</titel></norm>
+        <norm><bezeichnung>§ 171d</bezeichnung><titel>Bezeichnung bei Terminsbestimmung</titel></norm>
+        <norm><bezeichnung>§ 171e</bezeichnung><titel>Registerpfandrechte in ausländischer Währung</titel></norm>
+        <norm><bezeichnung>§ 171f</bezeichnung><titel>Miete oder Pacht; Hypothek</titel></norm>
+        <norm><bezeichnung>§ 171g</bezeichnung><titel>Bewachung und Verwahrung des versteigerten Luftfahrzeugs</titel></norm>
+        <norm><bezeichnung>§ 171h</bezeichnung><titel>Ausländische Luftfahrzeuge</titel></norm>
+        <norm><bezeichnung>§ 171i</bezeichnung><titel>Rangverhältnisse der Ansprüche</titel></norm>
+        <norm><bezeichnung>§ 171k</bezeichnung><titel>Verfügung nach Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 171l</bezeichnung><titel>Benachrichtigungspflichten</titel></norm>
+        <norm><bezeichnung>§ 171m</bezeichnung><titel>Beschwerde</titel></norm>
+        <norm><bezeichnung>§ 171n</bezeichnung><titel>Wertersatz für erloschene Rechte</titel></norm>
+        <norm><bezeichnung>§ 172</bezeichnung><titel>Beantragung durch den Insolvenzverwalter</titel></norm>
+        <norm><bezeichnung>§ 173</bezeichnung><titel>Beschluss gilt nicht als Beschlagnahme</titel></norm>
+        <norm><bezeichnung>§ 174</bezeichnung><titel>Berücksichtigung der Insolvenzgläubiger</titel></norm>
+        <norm><bezeichnung>§ 174a</bezeichnung><titel>Antragsrecht des Insolvenzverwalters</titel></norm>
+        <norm><bezeichnung>§ 175</bezeichnung><titel>Antragsrecht des Erben eines Grundstücks</titel></norm>
+        <norm><bezeichnung>§ 176</bezeichnung><titel>Anzuwendende Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 177</bezeichnung><titel>Glaubhaftmachung des Rechts</titel></norm>
+        <norm><bezeichnung>§ 178</bezeichnung><titel>Nachlassinsolvenzverfahren</titel></norm>
+        <norm><bezeichnung>§ 179</bezeichnung><titel>Berücksichtigter Nachlassgläubiger</titel></norm>
+        <norm><bezeichnung>§ 180</bezeichnung><titel>Aufhebung einer Gemeinschaft</titel></norm>
+        <norm><bezeichnung>§ 181</bezeichnung><titel>Voraussetzungen der Anordnung</titel></norm>
+        <norm><bezeichnung>§ 182</bezeichnung><titel>Feststellung des geringsten Gebots</titel></norm>
+        <norm><bezeichnung>§ 183</bezeichnung><titel>Vermietung oder Verpachtung</titel></norm>
+        <norm><bezeichnung>§ 184</bezeichnung><titel>Keine Sicherheitsleistung durch Miteigentümer</titel></norm>
+        <norm><bezeichnung>§ 185</bezeichnung><titel>Verfahren über Zuweisung eines landwirtschaftlichen Betriebes</titel></norm>
+        <norm><bezeichnung>§ 186</bezeichnung><titel>Übergangsvorschrift zum 2. Justizmodernisierungsgesetz</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

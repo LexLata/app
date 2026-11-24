@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="eu">DSGVO</gesetz>
+        <verarbeitungszeit>2026-11-19T09:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>E25</bezeichnung>
+            <elementstand><textlaenge>412</textlaenge></elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 6 sowie § 26 BDSG und GG</verweistext>
+                <verweisziel>
+                    <bezeichnung>Art. 6</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="6"/>
+                    <elementstand><titel>Rechtmäßigkeit der Verarbeitung</titel><textlaenge>3051</textlaenge></elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">BDSG</gesetz>
+                    <bezeichnung>§ 26</bezeichnung>
+                    <verweistextZeichenbereich start="13" ende="22"/>
+                    <elementstand><titel>Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses</titel><textlaenge>2280</textlaenge></elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">GG</gesetz>
+                    <verweistextZeichenbereich start="27" ende="29"/>
+                </verweisziel>
+            </verweisinhalt>
+            <erstellt>2026-11-19T08:40:00Z</erstellt>
+            <geaendert>2026-11-19T08:50:00Z</geaendert>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>Art. 9</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="10"/>
+            </textstelle>
+            <bezugstext>Kategorien</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 4</verweistext>
+                <verweisziel>
+                    <bezeichnung>Art. 4</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="6"/>
+                </verweisziel>
+            </verweisinhalt>
+            <erstellt>2026-11-19T08:41:00Z</erstellt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>

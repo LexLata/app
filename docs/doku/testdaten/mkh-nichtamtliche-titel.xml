@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">MKH</gesetz>
+        <geaendert>2026-10-20T12:00:00Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm>
+            <bezeichnung>§ 12</bezeichnung>
+            <titel>Aktueller nichtamtlicher Titel</titel>
+        </norm>
+        <norm>
+            <bezeichnung>§ 22</bezeichnung>
+            <titel>Aktueller nichtamtlicher Titel</titel>
+        </norm>
+        <norm>
+            <bezeichnung>§ 32</bezeichnung>
+            <titel>Aktueller nichtamtlicher Titel</titel>
+        </norm>
+        <norm>
+            <bezeichnung>§ 42</bezeichnung>
+            <titel>Aktueller nichtamtlicher Titel</titel>
+        </norm>
+    </inhalt>
+</nichtamtlicheTitel>

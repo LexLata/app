@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">GVG</gesetz>
+        <geaendert>2026-11-22T10:21:05Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>§ 1</bezeichnung><titel>Unabhängigkeit der Gerichte</titel></norm>
+        <norm><bezeichnung>§ 10</bezeichnung><titel>Referendare</titel></norm>
+        <norm><bezeichnung>§ 12</bezeichnung><titel>Ordentliche Gerichtsbarkeit</titel></norm>
+        <norm><bezeichnung>§ 13</bezeichnung><titel>Zuständigkeit der ordentlichen Gerichte</titel></norm>
+        <norm><bezeichnung>§ 13a</bezeichnung><titel>Zuweisung durch Landesrecht</titel></norm>
+        <norm><bezeichnung>§ 14</bezeichnung><titel>Gerichte der Schiffahrt</titel></norm>
+        <norm><bezeichnung>§ 16</bezeichnung><titel>Ausnahmegerichte</titel></norm>
+        <norm><bezeichnung>§ 17</bezeichnung><titel>Rechtshängigkeit; Entscheidung des Rechtsstreits</titel></norm>
+        <norm><bezeichnung>§ 17a</bezeichnung><titel>Rechtsweg</titel></norm>
+        <norm><bezeichnung>§ 17b</bezeichnung><titel>Anhängigkeit nach Verweisung; Kosten</titel></norm>
+        <norm><bezeichnung>§ 17c</bezeichnung><titel>Zuständigkeitskonzentrationen, Änderungen der Gerichtsbezirksgrenzen</titel></norm>
+        <norm><bezeichnung>§ 18</bezeichnung><titel>Exterritorialität von Mitgliedern diplomatischer Missionen</titel></norm>
+        <norm><bezeichnung>§ 19</bezeichnung><titel>Exterritorialität von Mitgliedern konsularischer Vertretungen</titel></norm>
+        <norm><bezeichnung>§ 20</bezeichnung><titel>Exterritorialität weiterer Personen</titel></norm>
+        <norm><bezeichnung>§ 21</bezeichnung><titel>Ersuchen eines internationalen Strafgerichtshofes</titel></norm>
+        <norm><bezeichnung>§ 21a</bezeichnung><titel>Präsidium</titel></norm>
+        <norm><bezeichnung>§ 21b</bezeichnung><titel>Wahl des Präsidiums</titel></norm>
+        <norm><bezeichnung>§ 21c</bezeichnung><titel>Vertretung im Präsidium; Ersetzung</titel></norm>
+        <norm><bezeichnung>§ 21d</bezeichnung><titel>Größe des Präsidiums</titel></norm>
+        <norm><bezeichnung>§ 21e</bezeichnung><titel>Aufgaben und Befugnisse des Präsidiums; Geschäftsverteilung</titel></norm>
+        <norm><bezeichnung>§ 21f</bezeichnung><titel>Vorsitz in den Spruchkörpern</titel></norm>
+        <norm><bezeichnung>§ 21g</bezeichnung><titel>Geschäftsverteilung innerhalb der Spruchkörper</titel></norm>
+        <norm><bezeichnung>§ 21h</bezeichnung><titel>Vertretung des Präsidenten und des aufsichtführenden Richters</titel></norm>
+        <norm><bezeichnung>§ 21i</bezeichnung><titel>Beschlussfähigkeit des Präsidiums</titel></norm>
+        <norm><bezeichnung>§ 21j</bezeichnung><titel>Anordnungen des Präsidenten; Frist zur Bildung des Präsidiums</titel></norm>
+        <norm><bezeichnung>§ 22</bezeichnung><titel>Richter beim Amtsgericht</titel></norm>
+        <norm><bezeichnung>§ 22a</bezeichnung><titel>Präsident des LG oder AG als Vorsitzender des Präsidiums</titel></norm>
+        <norm><bezeichnung>§ 22b</bezeichnung><titel>Vertretung von Richtern</titel></norm>
+        <norm><bezeichnung>§ 22c</bezeichnung><titel>Bereitschaftsdienst</titel></norm>
+        <norm><bezeichnung>§ 22d</bezeichnung><titel>Handlungen eines unzuständigen Richters</titel></norm>
+        <norm><bezeichnung>§ 23</bezeichnung><titel>Zuständigkeit in Zivilsachen</titel></norm>
+        <norm><bezeichnung>§ 23a</bezeichnung><titel>Zuständigkeit in Familiensachen und in Angelegenheiten der freiwilligen Gerichtsbarkeit</titel></norm>
+        <norm><bezeichnung>§ 23b</bezeichnung><titel>Familiengerichte</titel></norm>
+        <norm><bezeichnung>§ 23c</bezeichnung><titel>Betreuungsgerichte</titel></norm>
+        <norm><bezeichnung>§ 23d</bezeichnung><titel>Gemeinsames Amtsgericht in Familien-, Handelssachen sowie Angelegenheiten der freiwilligen Gerichtsbarkeit</titel></norm>
+        <norm><bezeichnung>§ 24</bezeichnung><titel>Zuständigkeit in Strafsachen</titel></norm>
+        <norm><bezeichnung>§ 25</bezeichnung><titel>Zuständigkeit des Strafrichters</titel></norm>
+        <norm><bezeichnung>§ 26</bezeichnung><titel>Zuständigkeit in Jugendschutzsachen</titel></norm>
+        <norm><bezeichnung>§ 27</bezeichnung><titel>Sonstige Zuständigkeit und Geschäftskreis</titel></norm>
+        <norm><bezeichnung>§ 28</bezeichnung><titel>Zuständigkeit des Schöffengerichts</titel></norm>
+        <norm><bezeichnung>§ 29</bezeichnung><titel>Zusammensetzung; erweitertes Schöffengericht</titel></norm>
+        <norm><bezeichnung>§ 30</bezeichnung><titel>Befugnisse der Schöffen</titel></norm>
+        <norm><bezeichnung>§ 31</bezeichnung><titel>Schöffenamt</titel></norm>
+        <norm><bezeichnung>§ 32</bezeichnung><titel>Unfähigkeit zum Schöffenamt</titel></norm>
+        <norm><bezeichnung>§ 33</bezeichnung><titel>Nicht zu berufende Personen</titel></norm>
+        <norm><bezeichnung>§ 34</bezeichnung><titel>Weitere nicht zu berufende Personen</titel></norm>
+        <norm><bezeichnung>§ 35</bezeichnung><titel>Ablehnung der Berufung</titel></norm>
+        <norm><bezeichnung>§ 36</bezeichnung><titel>Vorschlagsliste</titel></norm>
+        <norm><bezeichnung>§ 37</bezeichnung><titel>Einspruch gegen die Vorschlagsliste</titel></norm>
+        <norm><bezeichnung>§ 38</bezeichnung><titel>Übersendung der Vorschlagsliste</titel></norm>
+        <norm><bezeichnung>§ 39</bezeichnung><titel>Vorbereitung der Bezirksliste</titel></norm>
+        <norm><bezeichnung>§ 40</bezeichnung><titel>Ausschuss</titel></norm>
+        <norm><bezeichnung>§ 41</bezeichnung><titel>Entscheidung über Einsprüche</titel></norm>
+        <norm><bezeichnung>§ 42</bezeichnung><titel>Wahl der Schöffen und Ersatzschöffen</titel></norm>
+        <norm><bezeichnung>§ 43</bezeichnung><titel>Schöffenzahl</titel></norm>
+        <norm><bezeichnung>§ 44</bezeichnung><titel>Schöffenlisten</titel></norm>
+        <norm><bezeichnung>§ 45</bezeichnung><titel>Feststellung der Sitzungstage</titel></norm>
+        <norm><bezeichnung>§ 46</bezeichnung><titel>Bildung eines weiteren Schöffengerichts</titel></norm>
+        <norm><bezeichnung>§ 47</bezeichnung><titel>Außerordentliche Sitzungen</titel></norm>
+        <norm><bezeichnung>§ 48</bezeichnung><titel>Zuweisung von Ergänzungsschöffen</titel></norm>
+        <norm><bezeichnung>§ 49</bezeichnung><titel>Heranziehung von Ersatzschöffen</titel></norm>
+        <norm><bezeichnung>§ 50</bezeichnung><titel>Mehrtägige Sitzungen</titel></norm>
+        <norm><bezeichnung>§ 51</bezeichnung><titel>Amtsenthebung von Schöffen</titel></norm>
+        <norm><bezeichnung>§ 52</bezeichnung><titel>Streichung von der Schöffenliste</titel></norm>
+        <norm><bezeichnung>§ 53</bezeichnung><titel>Ablehnungsgründe</titel></norm>
+        <norm><bezeichnung>§ 54</bezeichnung><titel>Entbindung an bestimmten Sitzungstagen</titel></norm>
+        <norm><bezeichnung>§ 55</bezeichnung><titel>Entschädigung</titel></norm>
+        <norm><bezeichnung>§ 56</bezeichnung><titel>Unentschuldigtes Ausbleiben</titel></norm>
+        <norm><bezeichnung>§ 57</bezeichnung><titel>Bestimmung der Fristen</titel></norm>
+        <norm><bezeichnung>§ 58</bezeichnung><titel>Gemeinsames Amtsgericht in Strafsachen</titel></norm>
+        <norm><bezeichnung>§ 59</bezeichnung><titel>Besetzung</titel></norm>
+        <norm><bezeichnung>§ 60</bezeichnung><titel>Zivil- und Strafkammern</titel></norm>
+        <norm><bezeichnung>§ 70</bezeichnung><titel>Vertretung von Kammermitgliedern</titel></norm>
+        <norm><bezeichnung>§ 71</bezeichnung><titel>Zuständigkeit in Zivilsachen in 1. Instanz</titel></norm>
+        <norm><bezeichnung>§ 72</bezeichnung><titel>Zuständigkeit in Zivilsachen in 2. Instanz</titel></norm>
+        <norm><bezeichnung>§ 72a</bezeichnung><titel>Obligatorische Einrichtung spezialisierter Spruchkörper</titel></norm>
+        <norm><bezeichnung>§ 73</bezeichnung><titel>Allgemeine Zuständigkeit in Strafsachen</titel></norm>
+        <norm><bezeichnung>§ 74</bezeichnung><titel>Zuständigkeit in Strafsachen in 1. und 2. Instanz</titel></norm>
+        <norm><bezeichnung>§ 74a</bezeichnung><titel>Zuständigkeit der Staatsschutzkammer</titel></norm>
+        <norm><bezeichnung>§ 74b</bezeichnung><titel>Zuständigkeit in Jugendschutzsachen</titel></norm>
+        <norm><bezeichnung>§ 74c</bezeichnung><titel>Zuständigkeit der Wirtschaftsstrafkammer</titel></norm>
+        <norm><bezeichnung>§ 74d</bezeichnung><titel>Strafkammer als gemeinsames Schwurgericht</titel></norm>
+        <norm><bezeichnung>§ 74e</bezeichnung><titel>Vorrang bei verschiedenen Zuständigkeiten</titel></norm>
+        <norm><bezeichnung>§ 74f</bezeichnung><titel>Zuständigkeit bei Anordnung der Sicherungsverwahrung</titel></norm>
+        <norm><bezeichnung>§ 75</bezeichnung><titel>Besetzung der Zivilkammern</titel></norm>
+        <norm><bezeichnung>§ 76</bezeichnung><titel>Besetzung der Strafkammern</titel></norm>
+        <norm><bezeichnung>§ 77</bezeichnung><titel>Schöffen der Strafkammern</titel></norm>
+        <norm><bezeichnung>§ 78</bezeichnung><titel>Auswärtige Strafkammern bei Amtsgerichten</titel></norm>
+        <norm><bezeichnung>§ 78a</bezeichnung><titel>Bildung und Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 78b</bezeichnung><titel>Besetzung</titel></norm>
+        <norm><bezeichnung>§ 93</bezeichnung><titel>Bildung</titel></norm>
+        <norm><bezeichnung>§ 94</bezeichnung><titel>Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 95</bezeichnung><titel>Handelssachen</titel></norm>
+        <norm><bezeichnung>§ 96</bezeichnung><titel>Antrag auf Verhandlung vor der Kammer für Handelssachen</titel></norm>
+        <norm><bezeichnung>§ 97</bezeichnung><titel>Verweisung an Zivilkammer wegen anfänglicher Unzuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 98</bezeichnung><titel>Verweisung an Kammer für Handelssachen</titel></norm>
+        <norm><bezeichnung>§ 99</bezeichnung><titel>Verweisung an Zivilkammer wegen nachträglicher Unzuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 100</bezeichnung><titel>Zuständigkeit in 2. Instanz</titel></norm>
+        <norm><bezeichnung>§ 101</bezeichnung><titel>Antrag auf Verweisung</titel></norm>
+        <norm><bezeichnung>§ 102</bezeichnung><titel>Unanfechtbarkeit der Verweisung</titel></norm>
+        <norm><bezeichnung>§ 103</bezeichnung><titel>Hauptintervention</titel></norm>
+        <norm><bezeichnung>§ 104</bezeichnung><titel>Verweisung in Beschwerdesachen</titel></norm>
+        <norm><bezeichnung>§ 105</bezeichnung><titel>Besetzung</titel></norm>
+        <norm><bezeichnung>§ 106</bezeichnung><titel>Vorsitzender bei auswärtiger Kammer</titel></norm>
+        <norm><bezeichnung>§ 107</bezeichnung><titel>Entschädigung ehrenamtlicher Richter</titel></norm>
+        <norm><bezeichnung>§ 108</bezeichnung><titel>Dauer der Ernennung</titel></norm>
+        <norm><bezeichnung>§ 109</bezeichnung><titel>Voraussetzungen der Ernennung</titel></norm>
+        <norm><bezeichnung>§ 110</bezeichnung><titel>Ehrenamtliche Richter an Seeplätzen</titel></norm>
+        <norm><bezeichnung>§ 112</bezeichnung><titel>Rechte und Pflichten</titel></norm>
+        <norm><bezeichnung>§ 113</bezeichnung><titel>Amtsenthebung</titel></norm>
+        <norm><bezeichnung>§ 114</bezeichnung><titel>Entscheidung auf Grund eigener Sachkunde und Wissenschaft</titel></norm>
+        <norm><bezeichnung>§ 115</bezeichnung><titel>Besetzung</titel></norm>
+        <norm><bezeichnung>§ 116</bezeichnung><titel>Zivil- und Strafsenate, Ermittlungsrichter</titel></norm>
+        <norm><bezeichnung>§ 117</bezeichnung><titel>Vertretung von Senatsmitgliedern</titel></norm>
+        <norm><bezeichnung>§ 118</bezeichnung><titel>Zuständigkeit in Musterverfahren nach KapMuG</titel></norm>
+        <norm><bezeichnung>§ 119</bezeichnung><titel>Zuständigkeit in Zivilsachen in 2. Instanz</titel></norm>
+        <norm><bezeichnung>§ 119a</bezeichnung><titel>Zivilsenate für besondere Sachgebiete</titel></norm>
+        <norm><bezeichnung>§ 119b</bezeichnung><titel>Commercial Courts</titel></norm>
+        <norm><bezeichnung>§ 120</bezeichnung><titel>Zuständigkeit in Strafsachen in 1. Instanz</titel></norm>
+        <norm><bezeichnung>§ 120a</bezeichnung><titel>Zuständigkeit bei Anordnung der Sicherungsverwahrung</titel></norm>
+        <norm><bezeichnung>§ 120b</bezeichnung><titel>Zuständigkeit bei bei Delikten nach § 180e und § 108f StGB</titel></norm>
+        <norm><bezeichnung>§ 121</bezeichnung><titel>Zuständigkeit in Strafsachen in der Rechtsmittelinstanz</titel></norm>
+        <norm><bezeichnung>§ 122</bezeichnung><titel>Besetzung der Senate</titel></norm>
+        <norm><bezeichnung>§ 123</bezeichnung><titel>Sitz</titel></norm>
+        <norm><bezeichnung>§ 124</bezeichnung><titel>Besetzung</titel></norm>
+        <norm><bezeichnung>§ 125</bezeichnung><titel>Ernennung der Mitglieder</titel></norm>
+        <norm><bezeichnung>§ 130</bezeichnung><titel>Zivil- und Strafsenate; Ermittlungsrichter</titel></norm>
+        <norm><bezeichnung>§ 132</bezeichnung><titel>Große Senate</titel></norm>
+        <norm><bezeichnung>§ 133</bezeichnung><titel>Zuständigkeit in Zivilsachen</titel></norm>
+        <norm><bezeichnung>§ 135</bezeichnung><titel>Zuständigkeit in Strafsachen</titel></norm>
+        <norm><bezeichnung>§ 138</bezeichnung><titel>Verfahren vor den Großen Senaten</titel></norm>
+        <norm><bezeichnung>§ 139</bezeichnung><titel>Besetzung der Senate</titel></norm>
+        <norm><bezeichnung>§ 140</bezeichnung><titel>Geschäftsordnung</titel></norm>
+        <norm><bezeichnung>§ 140a</bezeichnung><titel>Zuständigkeit für Wiederaufnahmeverfahren in Strafsachen</titel></norm>
+        <norm><bezeichnung>§ 141</bezeichnung><titel>Sitz</titel></norm>
+        <norm><bezeichnung>§ 142</bezeichnung><titel>Sachliche Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 142a</bezeichnung><titel>Zuständigkeit des Generalbundesanwalts</titel></norm>
+        <norm><bezeichnung>§ 143</bezeichnung><titel>Örtliche Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 144</bezeichnung><titel>Vertretung</titel></norm>
+        <norm><bezeichnung>§ 145</bezeichnung><titel>Befugnisse der ersten Beamten; Amtsanwälte</titel></norm>
+        <norm><bezeichnung>§ 146</bezeichnung><titel>Weisungsgebundenheit</titel></norm>
+        <norm><bezeichnung>§ 147</bezeichnung><titel>Dienstaufsicht</titel></norm>
+        <norm><bezeichnung>§ 148</bezeichnung><titel>Generalbundesanwalt und Bundesanwälte</titel></norm>
+        <norm><bezeichnung>§ 149</bezeichnung><titel>Ernennung des Generalbundesanwalts und der Bundesanwälte</titel></norm>
+        <norm><bezeichnung>§ 150</bezeichnung><titel>Unabhängigkeit von den Gerichten</titel></norm>
+        <norm><bezeichnung>§ 151</bezeichnung><titel>Ausschluss von richterlichen Geschäften</titel></norm>
+        <norm><bezeichnung>§ 152</bezeichnung><titel>Ermittlungspersonen der Staatsanwaltschaft</titel></norm>
+        <norm><bezeichnung>§ 153</bezeichnung><titel>Geschäftsstelle, Urkundsbeamte</titel></norm>
+        <norm><bezeichnung>§ 154</bezeichnung><titel>Gerichtsvollzieher</titel></norm>
+        <norm><bezeichnung>§ 155</bezeichnung><titel>Ausschließung von der Amtsausübung</titel></norm>
+        <norm><bezeichnung>§ 156</bezeichnung><titel>Rechtshilfepflicht</titel></norm>
+        <norm><bezeichnung>§ 157</bezeichnung><titel>Amtsgericht als Rechtshilfegericht</titel></norm>
+        <norm><bezeichnung>§ 158</bezeichnung><titel>Ablehnung der Rechtshilfe</titel></norm>
+        <norm><bezeichnung>§ 159</bezeichnung><titel>Entscheidung des Oberlandesgerichts</titel></norm>
+        <norm><bezeichnung>§ 160</bezeichnung><titel>Vollstreckungen, Ladungen und Zustellungen</titel></norm>
+        <norm><bezeichnung>§ 161</bezeichnung><titel>Mitwirkung bei Beauftragung eines Gerichtsvollziehers</titel></norm>
+        <norm><bezeichnung>§ 162</bezeichnung><titel>Vollstreckung von Freiheitsstrafen außerhalb des Gerichtsbezirks</titel></norm>
+        <norm><bezeichnung>§ 163</bezeichnung><titel>Ersuchung einer Staatsanwaltschaft außerhalb des Gerichtsbezirks</titel></norm>
+        <norm><bezeichnung>§ 164</bezeichnung><titel>Erstattung von Kosten und Auslagen</titel></norm>
+        <norm><bezeichnung>§ 166</bezeichnung><titel>Amtshandlungen außerhalb des Gerichtsbezirks</titel></norm>
+        <norm><bezeichnung>§ 167</bezeichnung><titel>Verfolgung von Flüchtigen über Landesgrenzen</titel></norm>
+        <norm><bezeichnung>§ 168</bezeichnung><titel>Mitteilung von Akten</titel></norm>
+        <norm><bezeichnung>§ 169</bezeichnung><titel>Öffentlichkeit der Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 170</bezeichnung><titel>Nicht öffentliche Verhandlung in Familiensachen und Angelegenheiten der freiwilligen Gerichtsbarkeit</titel></norm>
+        <norm><bezeichnung>§ 171a</bezeichnung><titel>Ausschluss der Öffentlichkeit in Unterbringungssachen</titel></norm>
+        <norm><bezeichnung>§ 171b</bezeichnung><titel>Ausschluss der Öffentlichkeit zum Schutz der Privatsphäre</titel></norm>
+        <norm><bezeichnung>§ 172</bezeichnung><titel>Weitere Gründe für Ausschluss der Öffentlichkeit</titel></norm>
+        <norm><bezeichnung>§ 173</bezeichnung><titel>Öffentliche Urteilsverkündung</titel></norm>
+        <norm><bezeichnung>§ 174</bezeichnung><titel>Verhandlung über Ausschluss der Öffentlichkeit; Geheimhaltungspflicht</titel></norm>
+        <norm><bezeichnung>§ 175</bezeichnung><titel>Versagung des Zutritts</titel></norm>
+        <norm><bezeichnung>§ 176</bezeichnung><titel>Sitzungspolizei</titel></norm>
+        <norm><bezeichnung>§ 177</bezeichnung><titel>Maßnahmen zur Aufrechterhaltung der Ordnung</titel></norm>
+        <norm><bezeichnung>§ 178</bezeichnung><titel>Ordnungsmittel wegen Ungebühr</titel></norm>
+        <norm><bezeichnung>§ 179</bezeichnung><titel>Vollstreckung der Ordnungsmittel</titel></norm>
+        <norm><bezeichnung>§ 180</bezeichnung><titel>Befugnisse außerhalb der Sitzung</titel></norm>
+        <norm><bezeichnung>§ 181</bezeichnung><titel>Beschwerde gegen Ordnungsmittel</titel></norm>
+        <norm><bezeichnung>§ 182</bezeichnung><titel>Protokollierung von Ordnungsmitteln</titel></norm>
+        <norm><bezeichnung>§ 183</bezeichnung><titel>Straftaten in der Sitzung</titel></norm>
+        <norm><bezeichnung>§ 184</bezeichnung><titel>Deutsch als Gerichtssprache, Sorbisch</titel></norm>
+        <norm><bezeichnung>§ 184a</bezeichnung><titel>Englische Sprache vor Commercial Chambers und Courts</titel></norm>
+        <norm><bezeichnung>§ 184b</bezeichnung><titel>Englische Sprache vor dem BGH</titel></norm>
+        <norm><bezeichnung>§ 185</bezeichnung><titel>Dolmetscher</titel></norm>
+        <norm><bezeichnung>§ 186</bezeichnung><titel>Verständigung mit hör- oder sprachbehinderten Personen</titel></norm>
+        <norm><bezeichnung>§ 187</bezeichnung><titel>Dolmetscher oder Übersetzer für Beschuldigte oder Verurteilte</titel></norm>
+        <norm><bezeichnung>§ 188</bezeichnung><titel>Eide in Fremdsprache</titel></norm>
+        <norm><bezeichnung>§ 189</bezeichnung><titel>Dolmetschereid</titel></norm>
+        <norm><bezeichnung>§ 190</bezeichnung><titel>Urkundsbeamter als Dolmetscher</titel></norm>
+        <norm><bezeichnung>§ 191</bezeichnung><titel>Ausschließung und Ablehnung des Dolmetschers</titel></norm>
+        <norm><bezeichnung>§ 191a</bezeichnung><titel>Rechte blinder oder sehbehinderter Personen</titel></norm>
+        <norm><bezeichnung>§ 192</bezeichnung><titel>Mitwirkung von Richtern und Schöffen</titel></norm>
+        <norm><bezeichnung>§ 193</bezeichnung><titel>Bild- und Tonübertragung; Anwesenheit weiterer Personen</titel></norm>
+        <norm><bezeichnung>§ 194</bezeichnung><titel>Ablauf der Beratung</titel></norm>
+        <norm><bezeichnung>§ 195</bezeichnung><titel>Keine Verweigerung der Abstimmung</titel></norm>
+        <norm><bezeichnung>§ 196</bezeichnung><titel>Absolute Mehrheit; sonstige Fälle</titel></norm>
+        <norm><bezeichnung>§ 197</bezeichnung><titel>Reihenfolge der Stimmabgabe</titel></norm>
+        <norm><bezeichnung>§ 198</bezeichnung><titel>Entschädigung bei unangemessener Verfahrensdauer; Verzögerungsrüge</titel></norm>
+        <norm><bezeichnung>§ 199</bezeichnung><titel>Anwendung für das Strafverfahren</titel></norm>
+        <norm><bezeichnung>§ 200</bezeichnung><titel>Haftende Körperschaft</titel></norm>
+        <norm><bezeichnung>§ 201</bezeichnung><titel>Zuständigkeit für die Entschädigungsklage; Verfahren</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

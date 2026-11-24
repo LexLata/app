@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">PatG</gesetz>
+        <geaendert>2026-05-26T00:00:00Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>§ 1</bezeichnung><titel>Erteilungsvoraussetzungen</titel></norm>
+        <norm><bezeichnung>§ 1a</bezeichnung><titel>Menschlicher Körper</titel></norm>
+        <norm><bezeichnung>§ 2</bezeichnung><titel>Sittenwidrige Erfindungen</titel></norm>
+        <norm><bezeichnung>§ 2a</bezeichnung><titel>Pflanzen und Tiere</titel></norm>
+        <norm><bezeichnung>§ 3</bezeichnung><titel>Neuheit der Erfindung</titel></norm>
+        <norm><bezeichnung>§ 4</bezeichnung><titel>Beruhen auf erfinderischer Tätigkeit</titel></norm>
+        <norm><bezeichnung>§ 5</bezeichnung><titel>Gewerbliche Anwendbarkeit</titel></norm>
+        <norm><bezeichnung>§ 6</bezeichnung><titel>Recht des Erfinders</titel></norm>
+        <norm><bezeichnung>§ 7</bezeichnung><titel>Berechtigung des Anmelders; älteres Recht</titel></norm>
+        <norm><bezeichnung>§ 8</bezeichnung><titel>Patentvindikation</titel></norm>
+        <norm><bezeichnung>§ 9</bezeichnung><titel>Rechtswirkung des Patents</titel></norm>
+        <norm><bezeichnung>§ 9a</bezeichnung><titel>Biologisches Material</titel></norm>
+        <norm><bezeichnung>§ 9b</bezeichnung><titel>Vermehrung biologischen Materials</titel></norm>
+        <norm><bezeichnung>§ 9c</bezeichnung><titel>Landwirtschaftliche Zwecke</titel></norm>
+        <norm><bezeichnung>§ 10</bezeichnung><titel>Verbotene Verwendung von Erfindungsmitteln</titel></norm>
+        <norm><bezeichnung>§ 11</bezeichnung><titel>Zulässige Handlungen</titel></norm>
+        <norm><bezeichnung>§ 12</bezeichnung><titel>Vorbenutzungsrecht</titel></norm>
+        <norm><bezeichnung>§ 13</bezeichnung><titel>Nutzung für öffentliche Wohlfahrt und Staatssicherheit</titel></norm>
+        <norm><bezeichnung>§ 14</bezeichnung><titel>Schutzbereich des Patents</titel></norm>
+        <norm><bezeichnung>§ 15</bezeichnung><titel>Übergang des Patents; Lizenzen</titel></norm>
+        <norm><bezeichnung>§ 16</bezeichnung><titel>Dauer des Patentschutzes</titel></norm>
+        <norm><bezeichnung>§ 16a</bezeichnung><titel>Ergänzende Schutzzertifikate</titel></norm>
+        <norm><bezeichnung>§ 17</bezeichnung><titel>Jahresgebühren</titel></norm>
+        <norm><bezeichnung>§ 20</bezeichnung><titel>Erlöschen des Patens</titel></norm>
+        <norm><bezeichnung>§ 21</bezeichnung><titel>Widerruf des Patents</titel></norm>
+        <norm><bezeichnung>§ 22</bezeichnung><titel>Nichtigkeit des Patents</titel></norm>
+        <norm><bezeichnung>§ 23</bezeichnung><titel>Erklärung der Lizenzbereitschaft</titel></norm>
+        <norm><bezeichnung>§ 24</bezeichnung><titel>Zwangslizenz; Rücknahme des Patents</titel></norm>
+        <norm><bezeichnung>§ 25</bezeichnung><titel>Vertreter im Inlands</titel></norm>
+        <norm><bezeichnung>§ 26</bezeichnung><titel>Deutsches Patent- und Markenamt</titel></norm>
+        <norm><bezeichnung>§ 26a</bezeichnung><titel>Öffentlichkeit; Zusammenarbeit</titel></norm>
+        <norm><bezeichnung>§ 27</bezeichnung><titel>Prüfungsstellen; Patentabteilungen</titel></norm>
+        <norm><bezeichnung>§ 28</bezeichnung><titel>Verordnungsermächtigungen</titel></norm>
+        <norm><bezeichnung>§ 29</bezeichnung><titel>Gutachten; Auskunftserteilung zum Stand der Technik</titel></norm>
+        <norm><bezeichnung>§ 29a</bezeichnung><titel>Schutzgegenstände</titel></norm>
+        <norm><bezeichnung>§ 30</bezeichnung><titel>Register</titel></norm>
+        <norm><bezeichnung>§ 31</bezeichnung><titel>Akteneinsicht</titel></norm>
+        <norm><bezeichnung>§ 32</bezeichnung><titel>Veröffentlichungen des Patentamts</titel></norm>
+        <norm><bezeichnung>§ 33</bezeichnung><titel>Entschädigung</titel></norm>
+        <norm><bezeichnung>§ 34</bezeichnung><titel>Anmeldung des Patents</titel></norm>
+        <norm><bezeichnung>§ 34a</bezeichnung><titel>Angaben bei biologischem Material</titel></norm>
+        <norm><bezeichnung>§ 35</bezeichnung><titel>Anmeldetag; Zeichnungen</titel></norm>
+        <norm><bezeichnung>§ 35a</bezeichnung><titel>Übersetzung; Frist</titel></norm>
+        <norm><bezeichnung>§ 36</bezeichnung><titel>Anmeldeunterlagen</titel></norm>
+        <norm><bezeichnung>§ 37</bezeichnung><titel>Nennung des Erfinders</titel></norm>
+        <norm><bezeichnung>§ 38</bezeichnung><titel>Anmeldungsänderung</titel></norm>
+        <norm><bezeichnung>§ 39</bezeichnung><titel>Anmeldungsteilung</titel></norm>
+        <norm><bezeichnung>§ 40</bezeichnung><titel>Prioritätsrecht</titel></norm>
+        <norm><bezeichnung>§ 41</bezeichnung><titel>Prioritätserklärung</titel></norm>
+        <norm><bezeichnung>§ 42</bezeichnung><titel>Anmeldungsmangel</titel></norm>
+        <norm><bezeichnung>§ 43</bezeichnung><titel>Rechercheantrag</titel></norm>
+        <norm><bezeichnung>§ 44</bezeichnung><titel>Prüfungsantrag</titel></norm>
+        <norm><bezeichnung>§ 45</bezeichnung><titel>Mängelbeseitigung</titel></norm>
+        <norm><bezeichnung>§ 46</bezeichnung><titel>Anhörungen und Vernehmungen</titel></norm>
+        <norm><bezeichnung>§ 47</bezeichnung><titel>Formvorschriften für Beschlüsse</titel></norm>
+        <norm><bezeichnung>§ 48</bezeichnung><titel>Anmeldungszurückweisung</titel></norm>
+        <norm><bezeichnung>§ 49</bezeichnung><titel>Beschluß der Patenterteilung</titel></norm>
+        <norm><bezeichnung>§ 49a</bezeichnung><titel>Ergänzendes Schutzzertifikat</titel></norm>
+        <norm><bezeichnung>§ 50</bezeichnung><titel>Geheimpatente</titel></norm>
+        <norm><bezeichnung>§ 51</bezeichnung><titel>Akteneinsicht</titel></norm>
+        <norm><bezeichnung>§ 52</bezeichnung><titel>Anmeldung im Ausland</titel></norm>
+        <norm><bezeichnung>§ 53</bezeichnung><titel>Keine Geheimhaltung</titel></norm>
+        <norm><bezeichnung>§ 54</bezeichnung><titel>Erteilung eines Geheimpatents</titel></norm>
+        <norm><bezeichnung>§ 55</bezeichnung><titel>Entschädigung für unterlassene Verwertung</titel></norm>
+        <norm><bezeichnung>§ 56</bezeichnung><titel>Zuständige oberste Bundesbehörde</titel></norm>
+        <norm><bezeichnung>§ 58</bezeichnung><titel>Veröffentlichung der Patenterteilung</titel></norm>
+        <norm><bezeichnung>§ 59</bezeichnung><titel>Einspruch durch Dritte</titel></norm>
+        <norm><bezeichnung>§ 61</bezeichnung><titel>Entscheidung über den Einspruch</titel></norm>
+        <norm><bezeichnung>§ 62</bezeichnung><titel>Gebühren des Einspruchsverfahrens</titel></norm>
+        <norm><bezeichnung>§ 63</bezeichnung><titel>Nennung des Erfinders</titel></norm>
+        <norm><bezeichnung>§ 64</bezeichnung><titel>Widerruf oder Beschränkung</titel></norm>
+        <norm><bezeichnung>§ 65</bezeichnung><titel>Patentgericht</titel></norm>
+        <norm><bezeichnung>§ 66</bezeichnung><titel>Beschwerde- und Nichtigkeitssenate</titel></norm>
+        <norm><bezeichnung>§ 67</bezeichnung><titel>Besetzung</titel></norm>
+        <norm><bezeichnung>§ 68</bezeichnung><titel>Geschäftsverteilung; Vertreter des Präsidenten</titel></norm>
+        <norm><bezeichnung>§ 69</bezeichnung><titel>Öffentlichkeitsgrundsatz; Sitzungspolizei</titel></norm>
+        <norm><bezeichnung>§ 70</bezeichnung><titel>Beratung und Abstimmung</titel></norm>
+        <norm><bezeichnung>§ 71</bezeichnung><titel>Richter kraft Auftrags, abgeordnete Richter</titel></norm>
+        <norm><bezeichnung>§ 72</bezeichnung><titel>Geschäftsstelle</titel></norm>
+        <norm><bezeichnung>§ 73</bezeichnung><titel>Beschwerdeeinlegung</titel></norm>
+        <norm><bezeichnung>§ 74</bezeichnung><titel>Beschwerdeberechtigung</titel></norm>
+        <norm><bezeichnung>§ 75</bezeichnung><titel>Aufschiebende Wirkung</titel></norm>
+        <norm><bezeichnung>§ 76</bezeichnung><titel>Mitwirkungsrecht des Präsidenten des Deutschen Patent- und Markenamts</titel></norm>
+        <norm><bezeichnung>§ 77</bezeichnung><titel>Beitritt des Präsidenten des Deutschen Patent- und Markenamts</titel></norm>
+        <norm><bezeichnung>§ 78</bezeichnung><titel>Mündliche Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 79</bezeichnung><titel>Beschwerdeentscheidung</titel></norm>
+        <norm><bezeichnung>§ 80</bezeichnung><titel>Kostenentscheidung</titel></norm>
+        <norm><bezeichnung>§ 81</bezeichnung><titel>Nichtigkeits- und Zwangslizenzklage</titel></norm>
+        <norm><bezeichnung>§ 82</bezeichnung><titel>Klagezustellung; Erklärungsfrist</titel></norm>
+        <norm><bezeichnung>§ 83</bezeichnung><titel>Hinweis des Gerichts</titel></norm>
+        <norm><bezeichnung>§ 84</bezeichnung><titel>Urteil; Kostenentscheidung</titel></norm>
+        <norm><bezeichnung>§ 85</bezeichnung><titel>Verfahren wegen Erteilung der Zwangslizenz</titel></norm>
+        <norm><bezeichnung>§ 85a</bezeichnung><titel>Verfahren für Zwangslizenzen nach Verordnung (EG) Nr. 816/2006</titel></norm>
+        <norm><bezeichnung>§ 86</bezeichnung><titel>Ausschließung und Ablehnung von Gerichtspersonen</titel></norm>
+        <norm><bezeichnung>§ 87</bezeichnung><titel>Untersuchungsgrundsatz; Verhandlungsvorbereitung</titel></norm>
+        <norm><bezeichnung>§ 88</bezeichnung><titel>Beweise</titel></norm>
+        <norm><bezeichnung>§ 89</bezeichnung><titel>Ladung</titel></norm>
+        <norm><bezeichnung>§ 90</bezeichnung><titel>Mündliche Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 91</bezeichnung><titel>Erörterung der Sache</titel></norm>
+        <norm><bezeichnung>§ 92</bezeichnung><titel>Niederschrift der Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 93</bezeichnung><titel>Freie Beweiswürdigung; Stützung auf Tatsachen</titel></norm>
+        <norm><bezeichnung>§ 94</bezeichnung><titel>Verkündung; Begründung</titel></norm>
+        <norm><bezeichnung>§ 95</bezeichnung><titel>Berichtigung</titel></norm>
+        <norm><bezeichnung>§ 96</bezeichnung><titel>Antrag auf Berichtigung</titel></norm>
+        <norm><bezeichnung>§ 97</bezeichnung><titel>Prozessvertretung</titel></norm>
+        <norm><bezeichnung>§ 99</bezeichnung><titel>Anwendbarkeit des GVG und der ZPO</titel></norm>
+        <norm><bezeichnung>§ 100</bezeichnung><titel>Zulassung</titel></norm>
+        <norm><bezeichnung>§ 101</bezeichnung><titel>Beschwerdeberechtigung; Beschwerdegründe</titel></norm>
+        <norm><bezeichnung>§ 102</bezeichnung><titel>Einlegung und Begründung der Rechtsbeschwerde</titel></norm>
+        <norm><bezeichnung>§ 103</bezeichnung><titel>Aufschiebende Wirkung</titel></norm>
+        <norm><bezeichnung>§ 104</bezeichnung><titel>Zulässigkeitsprüfung</titel></norm>
+        <norm><bezeichnung>§ 105</bezeichnung><titel>Mehrere Beteiligte</titel></norm>
+        <norm><bezeichnung>§ 106</bezeichnung><titel>Anwendbare Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 107</bezeichnung><titel>Entscheidung durch Beschluss</titel></norm>
+        <norm><bezeichnung>§ 108</bezeichnung><titel>Zurückverweisung an das Patentgericht</titel></norm>
+        <norm><bezeichnung>§ 109</bezeichnung><titel>Kostenentscheidung</titel></norm>
+        <norm><bezeichnung>§ 110</bezeichnung><titel>Statthaftigkeit</titel></norm>
+        <norm><bezeichnung>§ 111</bezeichnung><titel>Verletzung des Bundesrechts</titel></norm>
+        <norm><bezeichnung>§ 112</bezeichnung><titel>Begründung der Berufung</titel></norm>
+        <norm><bezeichnung>§ 113</bezeichnung><titel>Vertretungszwang</titel></norm>
+        <norm><bezeichnung>§ 114</bezeichnung><titel>Zulässigkeitsprüfung</titel></norm>
+        <norm><bezeichnung>§ 115</bezeichnung><titel>Anschlussberufung</titel></norm>
+        <norm><bezeichnung>§ 116</bezeichnung><titel>Prüfungsumfang</titel></norm>
+        <norm><bezeichnung>§ 117</bezeichnung><titel>Anwendbarkeit der ZPO</titel></norm>
+        <norm><bezeichnung>§ 118</bezeichnung><titel>Mündliche Verhandlung; Ladungsfrist</titel></norm>
+        <norm><bezeichnung>§ 119</bezeichnung><titel>Entscheidung über die Berufung</titel></norm>
+        <norm><bezeichnung>§ 120</bezeichnung><titel>Entscheidungsbegründung</titel></norm>
+        <norm><bezeichnung>§ 121</bezeichnung><titel>Streitwert; Verfahrenskosten</titel></norm>
+        <norm><bezeichnung>§ 122</bezeichnung><titel>Beschwerdeverfahren</titel></norm>
+        <norm><bezeichnung>§ 122a</bezeichnung><titel>Verletzung des Anspruchs auf rechtliches Gehör</titel></norm>
+        <norm><bezeichnung>§ 123</bezeichnung><titel>Wiedereinsetzung in den vorigen Stand</titel></norm>
+        <norm><bezeichnung>§ 123a</bezeichnung><titel>Antrag auf Weiterbehandlung</titel></norm>
+        <norm><bezeichnung>§ 124</bezeichnung><titel>Wahrheit</titel></norm>
+        <norm><bezeichnung>§ 125</bezeichnung><titel>Einreichung von Druckschriften</titel></norm>
+        <norm><bezeichnung>§ 125a</bezeichnung><titel>Elektronisches Verfahren</titel></norm>
+        <norm><bezeichnung>§ 126</bezeichnung><titel>Amtssprache</titel></norm>
+        <norm><bezeichnung>§ 127</bezeichnung><titel>Anwendbarkeit des VwZG</titel></norm>
+        <norm><bezeichnung>§ 128</bezeichnung><titel>Rechtshilfe</titel></norm>
+        <norm><bezeichnung>§ 128a</bezeichnung><titel>Anwendbarkeit des JVEG</titel></norm>
+        <norm><bezeichnung>§ 128b</bezeichnung><titel>Anwendbarkeit des GVG</titel></norm>
+        <norm><bezeichnung>§ 129</bezeichnung><titel>Verfahrenskostenhilfe</titel></norm>
+        <norm><bezeichnung>§ 130</bezeichnung><titel>Patenterteilung</titel></norm>
+        <norm><bezeichnung>§ 131</bezeichnung><titel>Patentbeschränkungsverfahren</titel></norm>
+        <norm><bezeichnung>§ 132</bezeichnung><titel>Einspruchsverfahren</titel></norm>
+        <norm><bezeichnung>§ 133</bezeichnung><titel>Beiordnung eines Patent- oder Rechtsanwalts</titel></norm>
+        <norm><bezeichnung>§ 134</bezeichnung><titel>Hemmung der Gebührenfristen</titel></norm>
+        <norm><bezeichnung>§ 135</bezeichnung><titel>Bewilligung der Verfahrenskostenhilfe</titel></norm>
+        <norm><bezeichnung>§ 136</bezeichnung><titel>Anwendbarkeit der ZPO</titel></norm>
+        <norm><bezeichnung>§ 137</bezeichnung><titel>Aufhebung der Verfahrenskostenhilfe</titel></norm>
+        <norm><bezeichnung>§ 138</bezeichnung><titel>Rechtsbeschwerde</titel></norm>
+        <norm><bezeichnung>§ 139</bezeichnung><titel>Ansprüche bei Patentverletzung</titel></norm>
+        <norm><bezeichnung>§ 140</bezeichnung><titel>Geltendmachung vor Patenterteilung</titel></norm>
+        <norm><bezeichnung>§ 140a</bezeichnung><titel>Vernichtungs- und Rückrufansprüche</titel></norm>
+        <norm><bezeichnung>§ 140b</bezeichnung><titel>Auskunftsanspruch</titel></norm>
+        <norm><bezeichnung>§ 140c</bezeichnung><titel>Vorlage- und Besichtigungsansprüche</titel></norm>
+        <norm><bezeichnung>§ 140d</bezeichnung><titel>Vorlageanspruch zur Schadensersatzdurchsetzung</titel></norm>
+        <norm><bezeichnung>§ 140e</bezeichnung><titel>Anspruch auf Urteilsbekanntmachung</titel></norm>
+        <norm><bezeichnung>§ 141</bezeichnung><titel>Verjährung</titel></norm>
+        <norm><bezeichnung>§ 141a</bezeichnung><titel>Ansprüche aus anderen gesetzlichen Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 142</bezeichnung><titel>Strafbarkeit</titel></norm>
+        <norm><bezeichnung>§ 142a</bezeichnung><titel>Beschlagnahme durch Zollbehörden</titel></norm>
+        <norm><bezeichnung>§ 142b</bezeichnung><titel>Verfahren nach der Verordnung (EU) Nr. 608/2013</titel></norm>
+        <norm><bezeichnung>§ 143</bezeichnung><titel>Gerichte für Patentstreitsachen</titel></norm>
+        <norm><bezeichnung>§ 144</bezeichnung><titel>Streitwertherabsetzung</titel></norm>
+        <norm><bezeichnung>§ 145</bezeichnung><titel>Weitere Klage wegen anderer Patente</titel></norm>
+        <norm><bezeichnung>§ 145a</bezeichnung><titel>Patentstreitsachen, Zwangslizenzverfahren</titel></norm>
+        <norm><bezeichnung>§ 146</bezeichnung><titel>Patentberühmung</titel></norm>
+        <norm><bezeichnung>§ 147</bezeichnung><titel>Übergangsvorschriften</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

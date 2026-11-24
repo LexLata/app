@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">GG</gesetz>
+        <geaendert>2026-05-26T00:00:00Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>Art. 1</bezeichnung><titel>Menschenwürde; Menschenrechte; Grundrechtsbindung</titel></norm>
+        <norm><bezeichnung>Art. 2</bezeichnung><titel>Allgemeine Handlungsfreiheit; Recht auf Leben, körperliche Unversehrtheit, Freiheit der Person</titel></norm>
+        <norm><bezeichnung>Art. 3</bezeichnung><titel>Gleichheitsgrundsätze</titel></norm>
+        <norm><bezeichnung>Art. 4</bezeichnung><titel>Glaubens-, Gewissens- und Bekenntnisfreiheit; Kriegsdienstverweigerung</titel></norm>
+        <norm><bezeichnung>Art. 5</bezeichnung><titel>Meinungs-, Informations-, Presse-, und Rundfunkfreiheit; Kunst- und Wissenschaftsfreiheit</titel></norm>
+        <norm><bezeichnung>Art. 6</bezeichnung><titel>Ehe und Familie; Elternrecht; nicht eheliche Kinder</titel></norm>
+        <norm><bezeichnung>Art. 7</bezeichnung><titel>Schulwesen; Religionsunterricht; Privatschulfreiheit</titel></norm>
+        <norm><bezeichnung>Art. 8</bezeichnung><titel>Versammlungsfreiheit</titel></norm>
+        <norm><bezeichnung>Art. 9</bezeichnung><titel>Vereinigungsfreiheit</titel></norm>
+        <norm><bezeichnung>Art. 10</bezeichnung><titel>Brief-, Post- und Fernmeldegeheimnis</titel></norm>
+        <norm><bezeichnung>Art. 11</bezeichnung><titel>Freizügigkeit</titel></norm>
+        <norm><bezeichnung>Art. 12</bezeichnung><titel>Berufsfreiheit</titel></norm>
+        <norm><bezeichnung>Art. 12a</bezeichnung><titel>Wehrdienst; Ersatzdienst</titel></norm>
+        <norm><bezeichnung>Art. 13</bezeichnung><titel>Unverletzlichkeit der Wohnung</titel></norm>
+        <norm><bezeichnung>Art. 14</bezeichnung><titel>Eigentum, Erbrecht; Sozialbindung; Enteignung</titel></norm>
+        <norm><bezeichnung>Art. 15</bezeichnung><titel>Vergesellschaftung, Gemeineigentum</titel></norm>
+        <norm><bezeichnung>Art. 16</bezeichnung><titel>Ausbürgerung; Auslieferung</titel></norm>
+        <norm><bezeichnung>Art. 16a</bezeichnung><titel>Asylrecht</titel></norm>
+        <norm><bezeichnung>Art. 17</bezeichnung><titel>Petitionsrecht</titel></norm>
+        <norm><bezeichnung>Art. 17a</bezeichnung><titel>Grundrechtseinschränkungen bei Wehr- und Ersatzdienst</titel></norm>
+        <norm><bezeichnung>Art. 18</bezeichnung><titel>Verwirkung von Grundrechten</titel></norm>
+        <norm><bezeichnung>Art. 19</bezeichnung><titel>Einschränkung von Grundrechten; Wesengehaltsgarantie; juristische Personen; Rechtsschutz</titel></norm>
+        <norm><bezeichnung>Art. 20</bezeichnung><titel>Demokratie- und Sozialstaatsprinzip; Volkssouveränität; Gesetzesbindung; Widerstandsrecht</titel></norm>
+        <norm><bezeichnung>Art. 20a</bezeichnung><titel>Schutz der natürlichen Lebensgrundlagen und Tiere</titel></norm>
+        <norm><bezeichnung>Art. 21</bezeichnung><titel>Parteien</titel></norm>
+        <norm><bezeichnung>Art. 22</bezeichnung><titel>Bundeshauptstadt; Bundesflagge</titel></norm>
+        <norm><bezeichnung>Art. 23</bezeichnung><titel>Verwirklichung der Europäischen Union; Beteiligung des Bundesrates, der Bundesregierung</titel></norm>
+        <norm><bezeichnung>Art. 24</bezeichnung><titel>Übertragung von Hoheitsrechten; kollektives Sicherheitssystem; internationale Schiedsgerichtsbarkeit</titel></norm>
+        <norm><bezeichnung>Art. 25</bezeichnung><titel>Allgemeine Regeln des Völkerrechts</titel></norm>
+        <norm><bezeichnung>Art. 26</bezeichnung><titel>Verbot des Angriffskrieges; Kriegswaffen</titel></norm>
+        <norm><bezeichnung>Art. 27</bezeichnung><titel>Handelsflotte</titel></norm>
+        <norm><bezeichnung>Art. 28</bezeichnung><titel>Verfassung der Länder; kommunales Selbstverwaltungsrecht</titel></norm>
+        <norm><bezeichnung>Art. 29</bezeichnung><titel>Neugliederung des Bundesgebietes</titel></norm>
+        <norm><bezeichnung>Art. 30</bezeichnung><titel>Funktionen der Länder</titel></norm>
+        <norm><bezeichnung>Art. 31</bezeichnung><titel>Vorrang des Bundesrechts</titel></norm>
+        <norm><bezeichnung>Art. 32</bezeichnung><titel>Auswärtige Beziehungen</titel></norm>
+        <norm><bezeichnung>Art. 33</bezeichnung><titel>Staatsbürgerliche Rechte und Pflichten; öffentlicher Dienst</titel></norm>
+        <norm><bezeichnung>Art. 34</bezeichnung><titel>Haftung bei Amtspflichtverletzung</titel></norm>
+        <norm><bezeichnung>Art. 35</bezeichnung><titel>Rechts- und Amtshilfe</titel></norm>
+        <norm><bezeichnung>Art. 36</bezeichnung><titel>Beamte der Bundesbehörden</titel></norm>
+        <norm><bezeichnung>Art. 37</bezeichnung><titel>Bundeszwang</titel></norm>
+        <norm><bezeichnung>Art. 38</bezeichnung><titel>Wahlrechtsgrundsätze; Rechtsstellung der Abgeordneten; Wahlrecht</titel></norm>
+        <norm><bezeichnung>Art. 39</bezeichnung><titel>Wahlperiode und Zusammentritt des Bundestages</titel></norm>
+        <norm><bezeichnung>Art. 40</bezeichnung><titel>Bundestagspräsident; Geschäftsordnung; Hausrecht, Polizeigewalt</titel></norm>
+        <norm><bezeichnung>Art. 41</bezeichnung><titel>Wahlprüfung, Mandatsprüfung; Wahlprüfungsbeschwerde</titel></norm>
+        <norm><bezeichnung>Art. 42</bezeichnung><titel>Öffentlichkeit der Sitzungen; Mehrheitsprinzip; Berichterstattung</titel></norm>
+        <norm><bezeichnung>Art. 43</bezeichnung><titel>Zitierrecht; Zutrittsrecht; Rederecht</titel></norm>
+        <norm><bezeichnung>Art. 44</bezeichnung><titel>Untersuchungsausschüsse</titel></norm>
+        <norm><bezeichnung>Art. 45</bezeichnung><titel>Ausschuss für die Angelegenheiten der Europäischen Union</titel></norm>
+        <norm><bezeichnung>Art. 45a</bezeichnung><titel>Ausschüsse für auswärtige Angelegenheiten und Verteidigung</titel></norm>
+        <norm><bezeichnung>Art. 45b</bezeichnung><titel>Wehrbeauftragter</titel></norm>
+        <norm><bezeichnung>Art. 45c</bezeichnung><titel>Petitionsausschuss</titel></norm>
+        <norm><bezeichnung>Art. 46</bezeichnung><titel>Indemnität und Immunität der Abgeordneten</titel></norm>
+        <norm><bezeichnung>Art. 47</bezeichnung><titel>Zeugnisverweigerungsrecht der Abgeordneten</titel></norm>
+        <norm><bezeichnung>Art. 48</bezeichnung><titel>Urlaubsanspruch; Hinderungsverbot; Entschädigungsanspruch</titel></norm>
+        <norm><bezeichnung>Art. 50</bezeichnung><titel>Aufgaben</titel></norm>
+        <norm><bezeichnung>Art. 51</bezeichnung><titel>Zusammensetzung</titel></norm>
+        <norm><bezeichnung>Art. 52</bezeichnung><titel>Bundesratspräsident; Einberufung; Beschlussfassung; Europakammer</titel></norm>
+        <norm><bezeichnung>Art. 53</bezeichnung><titel>Teilnahme der Bundesregierung; Rederecht; Informationspflicht</titel></norm>
+        <norm><bezeichnung>Art. 53a</bezeichnung><titel>Zusammensetzung; Unterrichtung durch die Bundesregierung</titel></norm>
+        <norm><bezeichnung>Art. 54</bezeichnung><titel>Wahl durch die Bundesversammlung; Amtszeit</titel></norm>
+        <norm><bezeichnung>Art. 55</bezeichnung><titel>Inkompatibilitäten</titel></norm>
+        <norm><bezeichnung>Art. 56</bezeichnung><titel>Amtseid</titel></norm>
+        <norm><bezeichnung>Art. 57</bezeichnung><titel>Stellvertretung</titel></norm>
+        <norm><bezeichnung>Art. 58</bezeichnung><titel>Gegenzeichnung durch Bundeskanzler oder Bundesminister</titel></norm>
+        <norm><bezeichnung>Art. 59</bezeichnung><titel>Völkerrechtliche Vertretung; Zustimmungs- und Mitwirkungsrechte</titel></norm>
+        <norm><bezeichnung>Art. 60</bezeichnung><titel>Ernennung der Bundesrichter, Bundesbeamten und Soldaten; Begnadigungsrecht; Immunität</titel></norm>
+        <norm><bezeichnung>Art. 61</bezeichnung><titel>Anklage vor dem Bundesverfassungsgericht</titel></norm>
+        <norm><bezeichnung>Art. 62</bezeichnung><titel>Zusammensetzung</titel></norm>
+        <norm><bezeichnung>Art. 63</bezeichnung><titel>Wahl und Ernennung des Bundeskanzlers</titel></norm>
+        <norm><bezeichnung>Art. 64</bezeichnung><titel>Ernennung der Bundesminister; Amtseid</titel></norm>
+        <norm><bezeichnung>Art. 65</bezeichnung><titel>Richtlinienkompetenz des Bundeskanzlers; Ressortprinzip; </titel></norm>
+        <norm><bezeichnung>Art. 65a</bezeichnung><titel>Befehls- und Kommandogewalt über die Streitkräfte</titel></norm>
+        <norm><bezeichnung>Art. 66</bezeichnung><titel>Inkompatibilitäten</titel></norm>
+        <norm><bezeichnung>Art. 67</bezeichnung><titel>Misstrauensvotum</titel></norm>
+        <norm><bezeichnung>Art. 68</bezeichnung><titel>Vertrauensfrage</titel></norm>
+        <norm><bezeichnung>Art. 69</bezeichnung><titel>Stellvertreter des Bundeskanzlers; Amtszeiten</titel></norm>
+        <norm><bezeichnung>Art. 70</bezeichnung><titel>Verteilung der Gesetzgebungsbefugnisse</titel></norm>
+        <norm><bezeichnung>Art. 71</bezeichnung><titel>Ausschließliche Gesetzgebung</titel></norm>
+        <norm><bezeichnung>Art. 72</bezeichnung><titel>Konkurrierende Gesetzgebung</titel></norm>
+        <norm><bezeichnung>Art. 73</bezeichnung><titel>Gegenstände der ausschließlichen Gesetzgebung</titel></norm>
+        <norm><bezeichnung>Art. 74</bezeichnung><titel>Gegenstände der konkurrierenden Gesetzgebung</titel></norm>
+        <norm><bezeichnung>Art. 76</bezeichnung><titel>Gesetzesvorlagen</titel></norm>
+        <norm><bezeichnung>Art. 77</bezeichnung><titel>Verfahren bei Gesetzesbeschlüssen</titel></norm>
+        <norm><bezeichnung>Art. 78</bezeichnung><titel>Zustandekommen von Gesetzen</titel></norm>
+        <norm><bezeichnung>Art. 79</bezeichnung><titel>Änderungen des Grundgesetzes; Ewigkeitsklausel</titel></norm>
+        <norm><bezeichnung>Art. 80</bezeichnung><titel>Rechtsverordnungen</titel></norm>
+        <norm><bezeichnung>Art. 80a</bezeichnung><titel>Spannungsfall</titel></norm>
+        <norm><bezeichnung>Art. 81</bezeichnung><titel>Gesetzgebungsnotstand</titel></norm>
+        <norm><bezeichnung>Art. 82</bezeichnung><titel>Ausfertigung, Verkündung und Inkrafttreten von Gesetzen und Rechtsverordnungen</titel></norm>
+        <norm><bezeichnung>Art. 83</bezeichnung><titel>Grundsatz der Landeseigenverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 84</bezeichnung><titel>Landeseigenverwaltung und Bundesaufsicht</titel></norm>
+        <norm><bezeichnung>Art. 85</bezeichnung><titel>Auftragsverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 86</bezeichnung><titel>Bundesverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 87</bezeichnung><titel>Gegenstände der Bundesverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 87a</bezeichnung><titel>Streitkräfte</titel></norm>
+        <norm><bezeichnung>Art. 87b</bezeichnung><titel>Bundeswehrverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 87c</bezeichnung><titel>Bundesauftragsverwaltung bei Gesetzen zur Kernenergie</titel></norm>
+        <norm><bezeichnung>Art. 87d</bezeichnung><titel>Luftverkehrsverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 87e</bezeichnung><titel>Eisenbahnen des Bundes</titel></norm>
+        <norm><bezeichnung>Art. 87f</bezeichnung><titel>Post und Telekommunikation</titel></norm>
+        <norm><bezeichnung>Art. 88</bezeichnung><titel>Bundesbank</titel></norm>
+        <norm><bezeichnung>Art. 89</bezeichnung><titel>Bundeswasserstraßen</titel></norm>
+        <norm><bezeichnung>Art. 90</bezeichnung><titel>Bundesautobahnen und -straßen</titel></norm>
+        <norm><bezeichnung>Art. 91</bezeichnung><titel>Abwehr von Gefahren für den Bestand des Bundes oder eines Landes</titel></norm>
+        <norm><bezeichnung>Art. 91a</bezeichnung><titel>Mitwirkung des Bundes bei Länderaufgaben</titel></norm>
+        <norm><bezeichnung>Art. 91b</bezeichnung><titel>Forschungsförderung; Bildungsvergleich</titel></norm>
+        <norm><bezeichnung>Art. 91c</bezeichnung><titel>Informationstechnische Systeme</titel></norm>
+        <norm><bezeichnung>Art. 91d</bezeichnung><titel>Leistungsvergleichsstudien</titel></norm>
+        <norm><bezeichnung>Art. 91e</bezeichnung><titel>Grundsicherung für Arbeitsuchende</titel></norm>
+        <norm><bezeichnung>Art. 92</bezeichnung><titel>Gerichtsorganisation</titel></norm>
+        <norm><bezeichnung>Art. 93</bezeichnung><titel>Zusammensetzung des Bundesverfassungsgerichts</titel></norm>
+        <norm><bezeichnung>Art. 94</bezeichnung><titel>Zuständigkeit des Bundesverfassungsgerichts</titel></norm>
+        <norm><bezeichnung>Art. 95</bezeichnung><titel>Oberste Gerichtshöfe des Bundes</titel></norm>
+        <norm><bezeichnung>Art. 96</bezeichnung><titel>Weitere Bundesgerichte</titel></norm>
+        <norm><bezeichnung>Art. 97</bezeichnung><titel>Richterliche Unabhängigkeit</titel></norm>
+        <norm><bezeichnung>Art. 98</bezeichnung><titel>Rechtsstellung der Richter</titel></norm>
+        <norm><bezeichnung>Art. 99</bezeichnung><titel>Verfassungsstreitigkeiten innerhalb eines Landes</titel></norm>
+        <norm><bezeichnung>Art. 100</bezeichnung><titel>Konkrete Normenkontrolle</titel></norm>
+        <norm><bezeichnung>Art. 101</bezeichnung><titel>Ausnahmegerichte, gesetzlicher Richter</titel></norm>
+        <norm><bezeichnung>Art. 102</bezeichnung><titel>Abschaffung der Todesstrafe</titel></norm>
+        <norm><bezeichnung>Art. 103</bezeichnung><titel>Rechtliches Gehör; Bestimmtheitsgebot; ne bis in idem</titel></norm>
+        <norm><bezeichnung>Art. 104</bezeichnung><titel>Freiheitsbeschränkung und -entziehung</titel></norm>
+        <norm><bezeichnung>Art. 104a</bezeichnung><titel>Ausgaben- und Lastenverteilung</titel></norm>
+        <norm><bezeichnung>Art. 104b</bezeichnung><titel>Finanzhilfen für bedeutsame Investitionen der Länder</titel></norm>
+        <norm><bezeichnung>Art. 104c</bezeichnung><titel>Finanzhilfen für bedeutsame Investitionen im Bereich der kommunalen Bildungsinfrastruktur</titel></norm>
+        <norm><bezeichnung>Art. 104d</bezeichnung><titel>Finanzhilfen für bedeutsame Investitionen im Bereich des sozialen Wohnungsbaus</titel></norm>
+        <norm><bezeichnung>Art. 105</bezeichnung><titel>Gesetzgebungskompetenzen</titel></norm>
+        <norm><bezeichnung>Art. 106</bezeichnung><titel>Verteilung des Steueraufkommens und des Ertrages der Finanzmonopole</titel></norm>
+        <norm><bezeichnung>Art. 106a</bezeichnung><titel>Länderanteil für den öffentlichen Personennahverkehr</titel></norm>
+        <norm><bezeichnung>Art. 106b</bezeichnung><titel>Länderanteil an der Kraftfahrzeugsteuer</titel></norm>
+        <norm><bezeichnung>Art. 107</bezeichnung><titel>Finanzausgleich; Ergänzungszuweisungen</titel></norm>
+        <norm><bezeichnung>Art. 108</bezeichnung><titel>Finanzverwaltung</titel></norm>
+        <norm><bezeichnung>Art. 109</bezeichnung><titel>Haushaltswirtschaft von Bund und Ländern</titel></norm>
+        <norm><bezeichnung>Art. 109a</bezeichnung><titel>Haushaltsnotlagen</titel></norm>
+        <norm><bezeichnung>Art. 110</bezeichnung><titel>Haushaltsplan des Bundes; Haushaltsgesetz</titel></norm>
+        <norm><bezeichnung>Art. 111</bezeichnung><titel>Ausgaben vor Feststellung des Haushaltsplanes</titel></norm>
+        <norm><bezeichnung>Art. 112</bezeichnung><titel>Überplanmäßige und außerplanmäßige Ausgaben</titel></norm>
+        <norm><bezeichnung>Art. 113</bezeichnung><titel>Ausgabenerhöhungen und Einnahmeminderungen</titel></norm>
+        <norm><bezeichnung>Art. 114</bezeichnung><titel>Rechnungslegung; Bundesrechnungshof</titel></norm>
+        <norm><bezeichnung>Art. 115</bezeichnung><titel>Aufnahme von Krediten</titel></norm>
+        <norm><bezeichnung>Art. 115a</bezeichnung><titel>Feststellung des Verteidigungsfalles</titel></norm>
+        <norm><bezeichnung>Art. 115b</bezeichnung><titel>Befehls- und Kommandogewalt des Bundeskanzlers</titel></norm>
+        <norm><bezeichnung>Art. 115c</bezeichnung><titel>Erweiterte Bundesgesetzgebungskompetenz</titel></norm>
+        <norm><bezeichnung>Art. 115d</bezeichnung><titel>Vereinfachtes Gesetzgebungsverfahren</titel></norm>
+        <norm><bezeichnung>Art. 115e</bezeichnung><titel>Aufgaben des Gemeinsamen Ausschusses</titel></norm>
+        <norm><bezeichnung>Art. 115f</bezeichnung><titel>Erweiterte Befugnisse der Bundesregierung</titel></norm>
+        <norm><bezeichnung>Art. 115g</bezeichnung><titel>Stellung des Bundesverfassungsgerichts</titel></norm>
+        <norm><bezeichnung>Art. 115h</bezeichnung><titel>Wahlperioden und Amtszeiten</titel></norm>
+        <norm><bezeichnung>Art. 115i</bezeichnung><titel>Erweiterte Befugnisse der Landesregierungen</titel></norm>
+        <norm><bezeichnung>Art. 115k</bezeichnung><titel>Geltung von Gesetzen und Rechtsverordnungen des Verteidigungsfalls</titel></norm>
+        <norm><bezeichnung>Art. 115l</bezeichnung><titel>Aufhebung von Maßnahmen; Beendigung des Verteidigungsfalls</titel></norm>
+        <norm><bezeichnung>Art. 116</bezeichnung><titel>Begriff „Deutscher“; nationalsozialistische Ausbürgerungen</titel></norm>
+        <norm><bezeichnung>Art. 117</bezeichnung><titel>Übergangsvorschriften zu Art. 3 Abs. 2 und Art. 11</titel></norm>
+        <norm><bezeichnung>Art. 118</bezeichnung><titel>Neugliederung der badischen und württembergischen Länder</titel></norm>
+        <norm><bezeichnung>Art. 118a</bezeichnung><titel>Neugliederung der Länder Berlin und Brandenburg</titel></norm>
+        <norm><bezeichnung>Art. 119</bezeichnung><titel>Flüchtlinge und Vertriebene</titel></norm>
+        <norm><bezeichnung>Art. 120</bezeichnung><titel>Kriegsfolge- und Sozialversicherungslasten</titel></norm>
+        <norm><bezeichnung>Art. 120a</bezeichnung><titel>Lastenausgleich</titel></norm>
+        <norm><bezeichnung>Art. 121</bezeichnung><titel>Begriff „Mehrheit“</titel></norm>
+        <norm><bezeichnung>Art. 122</bezeichnung><titel>Übergang der Gesetzgebungskompetenzen</titel></norm>
+        <norm><bezeichnung>Art. 123</bezeichnung><titel>Fortgeltung des alten Rechts</titel></norm>
+        <norm><bezeichnung>Art. 124</bezeichnung><titel>Altes Recht auf dem Gebiet der ausschließlichen Gesetzgebung</titel></norm>
+        <norm><bezeichnung>Art. 125</bezeichnung><titel>Altes Recht auf dem Gebiet der konkurrierenden Gesetzgebung</titel></norm>
+        <norm><bezeichnung>Art. 125a</bezeichnung><titel>Fortgeltung von Bundes- und Landesrecht; Ersetzungsbefugnis</titel></norm>
+        <norm><bezeichnung>Art. 125b</bezeichnung><titel>Fortgeltung von Bundesrecht; Abweichung durch Landesrecht</titel></norm>
+        <norm><bezeichnung>Art. 125c</bezeichnung><titel>Fortgeltung von Bundesrecht im Bereich der Gemeindeverkehrsfinanzierung und der sozialen Wohnraumförderung</titel></norm>
+        <norm><bezeichnung>Art. 126</bezeichnung><titel>Streit über das Fortgelten als Bundesrecht</titel></norm>
+        <norm><bezeichnung>Art. 127</bezeichnung><titel>Recht des Vereinigten Wirtschaftsgebietes</titel></norm>
+        <norm><bezeichnung>Art. 128</bezeichnung><titel>Fortbestehen von Weisungsrechten</titel></norm>
+        <norm><bezeichnung>Art. 129</bezeichnung><titel>Übergang von Ermächtigungen zu Rechtsverordnungen</titel></norm>
+        <norm><bezeichnung>Art. 130</bezeichnung><titel>Überleitung von Verwaltungs- und Rechtspflegeeinrichtungen</titel></norm>
+        <norm><bezeichnung>Art. 131</bezeichnung><titel>Ehemalige Angehörige des öffentlichen Dienstes</titel></norm>
+        <norm><bezeichnung>Art. 132</bezeichnung><titel>Ausschluss aus dem öffentlichen Dienst</titel></norm>
+        <norm><bezeichnung>Art. 133</bezeichnung><titel>Verwaltung des Vereinigten Wirtschaftsgebietes</titel></norm>
+        <norm><bezeichnung>Art. 134</bezeichnung><titel>Rechtsnachfolge in das Reichsvermögen</titel></norm>
+        <norm><bezeichnung>Art. 135</bezeichnung><titel>Rechtsnachfolge bei Gebietsänderung</titel></norm>
+        <norm><bezeichnung>Art. 135a</bezeichnung><titel>Nichterfüllung von Verbindlichkeiten</titel></norm>
+        <norm><bezeichnung>Art. 136</bezeichnung><titel>Erstmaliger Zusammentritt des Bundesrates</titel></norm>
+        <norm><bezeichnung>Art. 137</bezeichnung><titel>Beschränkung der Wählbarkeit von Angehörigen des Öffentlichen Dienstes</titel></norm>
+        <norm><bezeichnung>Art. 138</bezeichnung><titel>Süddeutsche Notariate</titel></norm>
+        <norm><bezeichnung>Art. 139</bezeichnung><titel>Vorschriften zur Entnazifizierung</titel></norm>
+        <norm><bezeichnung>Art. 140</bezeichnung><titel>Übernahme von Bestimmungen der Weimarer Reichsverfassung</titel></norm>
+        <norm><bezeichnung>Art. 141</bezeichnung><titel>Religionsunterricht</titel></norm>
+        <norm><bezeichnung>Art. 142</bezeichnung><titel>Grundrechte in Landesverfassungen</titel></norm>
+        <norm><bezeichnung>Art. 143</bezeichnung><titel>Übergangsvorschriften für neue Bundesländer und Ost-Berlin</titel></norm>
+        <norm><bezeichnung>Art. 143a</bezeichnung><titel>Übergangsvorschriften für Bundeseisenbahnen</titel></norm>
+        <norm><bezeichnung>Art. 143b</bezeichnung><titel>Umwandlung der Deutschen Bundespost</titel></norm>
+        <norm><bezeichnung>Art. 143c</bezeichnung><titel>Übergangsvorschriften für Finanzhilfen des Bundes</titel></norm>
+        <norm><bezeichnung>Art. 143d</bezeichnung><titel>Übergangsvorschriften für Konsolidierungs- und Sanierungshilfen</titel></norm>
+        <norm><bezeichnung>Art. 143e</bezeichnung><titel>Übergangsvorschrift für die Verwaltung der Bundesautobahnen</titel></norm>
+        <norm><bezeichnung>Art. 143f</bezeichnung><titel>Übergangsvorschrift für die Neuordnung der bundesstaatlichen Finanzbeziehungen</titel></norm>
+        <norm><bezeichnung>Art. 143g</bezeichnung><titel>Anwendung des Art. 107 GG</titel></norm>
+        <norm><bezeichnung>Art. 143h</bezeichnung><titel>Sondervermögen für zusätzliche Investitionen in Infrastruktur und Klimaneutralität</titel></norm>
+        <norm><bezeichnung>Art. 144</bezeichnung><titel>Annahme des Grundgesetzes</titel></norm>
+        <norm><bezeichnung>Art. 145</bezeichnung><titel>Ausfertigung, Verkündung und Inkrafttreten des Grundgesetzes</titel></norm>
+        <norm><bezeichnung>Art. 146</bezeichnung><titel>Geltungsdauer des Grundgesetzes</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

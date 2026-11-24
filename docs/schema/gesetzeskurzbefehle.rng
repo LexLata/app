@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="gesetzeskurzbefehle">
+      <attribute name="version">
+        <value>1</value>
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>version</name>
+            </except>
+          </anyName>
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <element name="infos">
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+            </attribute>
+          </zeroOrMore>
+          <interleave>
+            <optional>
+              <element name="verarbeitungszeit">
+                <zeroOrMore>
+                  <attribute>
+                    <anyName/>
+                  </attribute>
+                </zeroOrMore>
+                <data type="dateTime"/>
+              </element>
+            </optional>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>verarbeitungszeit</name>
+                  </except>
+                </anyName>
+                <ref name="libre"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <element name="inhalt">
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+            </attribute>
+          </zeroOrMore>
+          <interleave>
+            <zeroOrMore>
+              <element name="gesetzeskurzbefehl">
+                <zeroOrMore>
+                  <attribute>
+                    <anyName/>
+                  </attribute>
+                </zeroOrMore>
+                <interleave>
+                  <ref name="gesetz"/>
+                  <element name="taste">
+                    <optional>
+                      <attribute name="primaer">
+                        <value>true</value>
+                      </attribute>
+                    </optional>
+                    <optional>
+                      <attribute name="sekundaer">
+                        <value>true</value>
+                      </attribute>
+                    </optional>
+                    <optional>
+                      <attribute name="shift">
+                        <value>true</value>
+                      </attribute>
+                    </optional>
+                    <optional>
+                      <attribute name="alt">
+                        <value>true</value>
+                      </attribute>
+                    </optional>
+                    <zeroOrMore>
+                      <attribute>
+                        <anyName>
+                          <except>
+                            <name>primaer</name>
+                            <name>sekundaer</name>
+                            <name>shift</name>
+                            <name>alt</name>
+                          </except>
+                        </anyName>
+                      </attribute>
+                    </zeroOrMore>
+                    <data type="string">
+                      <param name="minLength">1</param>
+                      <param name="pattern">[\s\S]*[^\s][\s\S]*</param>
+                    </data>
+                  </element>
+                  <zeroOrMore>
+                    <element>
+                      <anyName>
+                        <except>
+                          <name>gesetz</name>
+                          <name>taste</name>
+                        </except>
+                      </anyName>
+                      <ref name="libre"/>
+                    </element>
+                  </zeroOrMore>
+                </interleave>
+              </element>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>gesetzeskurzbefehl</name>
+                  </except>
+                </anyName>
+                <ref name="libre"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>infos</name>
+                <name>inhalt</name>
+              </except>
+            </anyName>
+            <ref name="libre"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </start>
+  <define name="libre">
+    <zeroOrMore>
+      <attribute>
+        <anyName/>
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName/>
+          <ref name="libre"/>
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  <!-- Normgeber: kleingeschriebener Code mit höchstens 20 Zeichen. -->
+  <define name="gesetz">
+    <element name="gesetz">
+      <attribute name="normgeber">
+        <data type="string">
+          <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+          <param name="maxLength">20</param>
+        </data>
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>normgeber</name>
+            </except>
+          </anyName>
+        </attribute>
+      </zeroOrMore>
+      <data type="string">
+        <param name="minLength">1</param>
+        <param name="pattern">[\s\S]*[^\s][\s\S]*</param>
+      </data>
+    </element>
+  </define>
+</grammar>

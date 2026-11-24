@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">HGB</gesetz>
+        <geaendert>2026-11-20T13:57:33Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>§ 1</bezeichnung><titel>Istkaufmann; Handelsgewerbe</titel></norm>
+        <norm><bezeichnung>§ 2</bezeichnung><titel>Kannkaufmann</titel></norm>
+        <norm><bezeichnung>§ 3</bezeichnung><titel>Land- und Forstwirtschaft</titel></norm>
+        <norm><bezeichnung>§ 5</bezeichnung><titel>Fiktivkaufmann</titel></norm>
+        <norm><bezeichnung>§ 6</bezeichnung><titel>Handelsgesellschaften; Formkaufmann; Verein</titel></norm>
+        <norm><bezeichnung>§ 7</bezeichnung><titel>Unbeachtlichkeit des öffentlichen Rechts</titel></norm>
+        <norm><bezeichnung>§ 14</bezeichnung><titel>Zwangsgeld</titel></norm>
+        <norm><bezeichnung>§ 15</bezeichnung><titel>Publizität des Handelsregisters</titel></norm>
+        <norm><bezeichnung>§ 16</bezeichnung><titel>Entscheidung des Prozessgerichts</titel></norm>
+        <norm><bezeichnung>§ 17</bezeichnung><titel>Begriff</titel></norm>
+        <norm><bezeichnung>§ 18</bezeichnung><titel>Anforderungen an die Firma</titel></norm>
+        <norm><bezeichnung>§ 19</bezeichnung><titel>Firma bei Einzelkaufleuten, einer OHG oder KG</titel></norm>
+        <norm><bezeichnung>§ 21</bezeichnung><titel>Fortführung bei Namensänderung</titel></norm>
+        <norm><bezeichnung>§ 22</bezeichnung><titel>Fortführung bei Erwerb eines Handelsgeschäfts</titel></norm>
+        <norm><bezeichnung>§ 23</bezeichnung><titel>Veräußerungsverbot</titel></norm>
+        <norm><bezeichnung>§ 24</bezeichnung><titel>Fortführung bei Wechsel von Gesellschaftern</titel></norm>
+        <norm><bezeichnung>§ 25</bezeichnung><titel>Haftung des Erwerbers bei Firmenfortführung</titel></norm>
+        <norm><bezeichnung>§ 26</bezeichnung><titel>Haftung des früheren Geschäftsinhabers</titel></norm>
+        <norm><bezeichnung>§ 27</bezeichnung><titel>Haftung des Erben bei Geschäftsfortführung</titel></norm>
+        <norm><bezeichnung>§ 28</bezeichnung><titel>Eintritt in das Geschäft eines Einzelkaufmanns</titel></norm>
+        <norm><bezeichnung>§ 29</bezeichnung><titel>Anmeldung der Firma</titel></norm>
+        <norm><bezeichnung>§ 30</bezeichnung><titel>Unterscheidbarkeit</titel></norm>
+        <norm><bezeichnung>§ 31</bezeichnung><titel>Änderung und Erlöschen der Firma</titel></norm>
+        <norm><bezeichnung>§ 32</bezeichnung><titel>Eintragung eines Insolvenzverfahrens</titel></norm>
+        <norm><bezeichnung>§ 33</bezeichnung><titel>Anmeldung und Eintragung einer juristischen Person</titel></norm>
+        <norm><bezeichnung>§ 34</bezeichnung><titel>Anmeldung und Eintragung von Änderungen</titel></norm>
+        <norm><bezeichnung>§ 37</bezeichnung><titel>Unbefugter Firmengebrauch</titel></norm>
+        <norm><bezeichnung>§ 37a</bezeichnung><titel>Angaben auf Geschäftsbriefen</titel></norm>
+        <norm><bezeichnung>§ 48</bezeichnung><titel>Erteilung der Prokura; Gesamtprokura</titel></norm>
+        <norm><bezeichnung>§ 49</bezeichnung><titel>Umfang der Prokura</titel></norm>
+        <norm><bezeichnung>§ 50</bezeichnung><titel>Beschränkung des Umfangs</titel></norm>
+        <norm><bezeichnung>§ 51</bezeichnung><titel>Zeichnung des Prokuristen</titel></norm>
+        <norm><bezeichnung>§ 52</bezeichnung><titel>Widerruflichkeit; Unübertragbarkeit; Tod des Inhabers</titel></norm>
+        <norm><bezeichnung>§ 53</bezeichnung><titel>Anmeldung von Erteilung und Erlöschen</titel></norm>
+        <norm><bezeichnung>§ 54</bezeichnung><titel>Handlungsvollmacht</titel></norm>
+        <norm><bezeichnung>§ 55</bezeichnung><titel>Abschlussvertreter</titel></norm>
+        <norm><bezeichnung>§ 56</bezeichnung><titel>Angestellte in Laden oder Warenlager</titel></norm>
+        <norm><bezeichnung>§ 57</bezeichnung><titel>Zeichnung des Handlungsbevollmächtigten</titel></norm>
+        <norm><bezeichnung>§ 58</bezeichnung><titel>Unübertragbarkeit der Handlungsvollmacht</titel></norm>
+        <norm><bezeichnung>§ 59</bezeichnung><titel>Handlungsgehilfe</titel></norm>
+        <norm><bezeichnung>§ 60</bezeichnung><titel>Wettbewerbsverbot</titel></norm>
+        <norm><bezeichnung>§ 61</bezeichnung><titel>Verletzung des Wettbewerbsverbots</titel></norm>
+        <norm><bezeichnung>§ 62</bezeichnung><titel>Fürsorgepflichten des Prinzipals</titel></norm>
+        <norm><bezeichnung>§ 64</bezeichnung><titel>Gehaltszahlung</titel></norm>
+        <norm><bezeichnung>§ 65</bezeichnung><titel>Provision</titel></norm>
+        <norm><bezeichnung>§ 74</bezeichnung><titel>Wettbewerbsverbot nach Beendigung des Dienstverhältnisses</titel></norm>
+        <norm><bezeichnung>§ 74a</bezeichnung><titel>Grenzen des Wettbewerbsverbots</titel></norm>
+        <norm><bezeichnung>§ 74b</bezeichnung><titel>Zahlung und Berechnung der Entschädigung</titel></norm>
+        <norm><bezeichnung>§ 74c</bezeichnung><titel>Anrechnung anderweitigen Erwerbs</titel></norm>
+        <norm><bezeichnung>§ 75</bezeichnung><titel>Unwirksamkeit des Wettbewerbsverbots bei Kündigung</titel></norm>
+        <norm><bezeichnung>§ 75a</bezeichnung><titel>Verzicht des Prinzipals auf das Wettbewerbsverbot</titel></norm>
+        <norm><bezeichnung>§ 75c</bezeichnung><titel>Vertragsstrafe</titel></norm>
+        <norm><bezeichnung>§ 75d</bezeichnung><titel>Abweichende Vereinbarungen</titel></norm>
+        <norm><bezeichnung>§ 75f</bezeichnung><titel>Sperrabrede unter Prinzipalen</titel></norm>
+        <norm><bezeichnung>§ 75g</bezeichnung><titel>Vermittlungsgehilfe</titel></norm>
+        <norm><bezeichnung>§ 75h</bezeichnung><titel>Geschäft ohne Vertretungsmacht</titel></norm>
+        <norm><bezeichnung>§ 82a</bezeichnung><titel>Wettbewerbsverbot des Volontärs</titel></norm>
+        <norm><bezeichnung>§ 83</bezeichnung><titel>Sonstige Arbeitnehmer</titel></norm>
+        <norm><bezeichnung>§ 84</bezeichnung><titel>Begriff</titel></norm>
+        <norm><bezeichnung>§ 85</bezeichnung><titel>Vertragsurkunde</titel></norm>
+        <norm><bezeichnung>§ 86</bezeichnung><titel>Pflichten des Handelsvertreters</titel></norm>
+        <norm><bezeichnung>§ 86a</bezeichnung><titel>Pflichten des Unternehmers</titel></norm>
+        <norm><bezeichnung>§ 86b</bezeichnung><titel>Delkredereprovision</titel></norm>
+        <norm><bezeichnung>§ 87</bezeichnung><titel>Anspruch auf Provision</titel></norm>
+        <norm><bezeichnung>§ 87a</bezeichnung><titel>Fälligkeit der Provision</titel></norm>
+        <norm><bezeichnung>§ 87b</bezeichnung><titel>Höhe der Provision</titel></norm>
+        <norm><bezeichnung>§ 87c</bezeichnung><titel>Abrechnung über die Provision</titel></norm>
+        <norm><bezeichnung>§ 87d</bezeichnung><titel>Aufwendungsersatz</titel></norm>
+        <norm><bezeichnung>§ 88a</bezeichnung><titel>Zurückbehaltungsrechte</titel></norm>
+        <norm><bezeichnung>§ 89</bezeichnung><titel>Kündigung des Vertragsverhältnisses</titel></norm>
+        <norm><bezeichnung>§ 89a</bezeichnung><titel>Fristlose Kündigung</titel></norm>
+        <norm><bezeichnung>§ 89b</bezeichnung><titel>Ausgleichsanspruch</titel></norm>
+        <norm><bezeichnung>§ 90</bezeichnung><titel>Geschäfts- und Betriebsgeheimnisse</titel></norm>
+        <norm><bezeichnung>§ 90a</bezeichnung><titel>Wettbewerbsabrede</titel></norm>
+        <norm><bezeichnung>§ 91</bezeichnung><titel>Vollmachten des Handelsvertreters</titel></norm>
+        <norm><bezeichnung>§ 91a</bezeichnung><titel>Geschäft ohne Vertretungsmacht</titel></norm>
+        <norm><bezeichnung>§ 92</bezeichnung><titel>Versicherungs- und Bausparkassenvertreter</titel></norm>
+        <norm><bezeichnung>§ 92a</bezeichnung><titel>Verordnungsermächtigung für Mindestbedingungen</titel></norm>
+        <norm><bezeichnung>§ 92b</bezeichnung><titel>Handelsvertreter im Nebenberuf</titel></norm>
+        <norm><bezeichnung>§ 92c</bezeichnung><titel>Handelsvertreter außerhalb der EG; Schifffahrtsvertreter</titel></norm>
+        <norm><bezeichnung>§ 93</bezeichnung><titel>Begriff</titel></norm>
+        <norm><bezeichnung>§ 94</bezeichnung><titel>Schlussnote</titel></norm>
+        <norm><bezeichnung>§ 95</bezeichnung><titel>Schlussnote mit Vorbehalt</titel></norm>
+        <norm><bezeichnung>§ 96</bezeichnung><titel>Aufbewahrung von Proben</titel></norm>
+        <norm><bezeichnung>§ 97</bezeichnung><titel>Keine Inkassovollmacht</titel></norm>
+        <norm><bezeichnung>§ 98</bezeichnung><titel>Haftung gegenüber beiden Parteien</titel></norm>
+        <norm><bezeichnung>§ 99</bezeichnung><titel>Lohnanspruch gegen beide Parteien</titel></norm>
+        <norm><bezeichnung>§ 100</bezeichnung><titel>Tagebuch</titel></norm>
+        <norm><bezeichnung>§ 101</bezeichnung><titel>Auszüge aus dem Tagebuch</titel></norm>
+        <norm><bezeichnung>§ 102</bezeichnung><titel>Vorlegung im Rechtsstreit</titel></norm>
+        <norm><bezeichnung>§ 103</bezeichnung><titel>Ordnungswidrigkeiten</titel></norm>
+        <norm><bezeichnung>§ 104</bezeichnung><titel>Anwendung im Kleinverkehr, bei Versicherungs- und Bausparverträgen</titel></norm>
+        <norm><bezeichnung>§ 161</bezeichnung><titel>Begriff; Anwendbarkeit der OHG-Vorschriften</titel></norm>
+        <norm><bezeichnung>§ 162</bezeichnung><titel>Anmeldung zum Handelsregister</titel></norm>
+        <norm><bezeichnung>§ 163</bezeichnung><titel>Verhältnis der Gesellschafter untereinander</titel></norm>
+        <norm><bezeichnung>§ 165</bezeichnung><titel>Kein Wettbewerbsverbot für Kommanditisten</titel></norm>
+        <norm><bezeichnung>§ 169</bezeichnung><titel>Gewinnauszahlung an Kommanditisten</titel></norm>
+        <norm><bezeichnung>§ 171</bezeichnung><titel>Haftung des Kommanditisten</titel></norm>
+        <norm><bezeichnung>§ 172</bezeichnung><titel>Umfang der Haftung</titel></norm>
+        <norm><bezeichnung>§ 173</bezeichnung><titel>Haftung bei Eintritt als Kommanditist</titel></norm>
+        <norm><bezeichnung>§ 174</bezeichnung><titel>Herabsetzung der Haftsumme</titel></norm>
+        <norm><bezeichnung>§ 176</bezeichnung><titel>Haftung vor Eintragung</titel></norm>
+        <norm><bezeichnung>§ 177</bezeichnung><titel>Tod eines Kommanditisten</titel></norm>
+        <norm><bezeichnung>§ 177a</bezeichnung><titel>Angaben auf Geschäftsbriefen</titel></norm>
+        <norm><bezeichnung>§ 178</bezeichnung><titel>Liquidation der Kommanditgesellschaft</titel></norm>
+        <norm><bezeichnung>§ 230</bezeichnung><titel>Stille Gesellschaft</titel></norm>
+        <norm><bezeichnung>§ 231</bezeichnung><titel>Beteiligung an Gewinn und Verlust</titel></norm>
+        <norm><bezeichnung>§ 232</bezeichnung><titel>Gewinn- und Verlustrechnung</titel></norm>
+        <norm><bezeichnung>§ 234</bezeichnung><titel>Kündigung der Gesellschaft; Tod des stillen Gesellschafters</titel></norm>
+        <norm><bezeichnung>§ 235</bezeichnung><titel>Auseinandersetzung</titel></norm>
+        <norm><bezeichnung>§ 236</bezeichnung><titel>Insolvenz des Inhabers</titel></norm>
+        <norm><bezeichnung>§ 315e</bezeichnung><titel>Konzernabschluss nach internationalen Rechnungslegungsstandards</titel></norm>
+        <norm><bezeichnung>§ 330</bezeichnung><titel>Verordnungsermächtigung</titel></norm>
+        <norm><bezeichnung>§ 340</bezeichnung><titel>Anwendungsbereich</titel></norm>
+        <norm><bezeichnung>§ 340k</bezeichnung><titel>Prüfung</titel></norm>
+        <norm><bezeichnung>§ 340l</bezeichnung><titel>Offenlegung</titel></norm>
+        <norm><bezeichnung>§ 341</bezeichnung><titel>Anwendungsbereich</titel></norm>
+        <norm><bezeichnung>§ 341k</bezeichnung><titel>Prüfung</titel></norm>
+        <norm><bezeichnung>§ 341l</bezeichnung><titel>Offenlegung</titel></norm>
+        <norm><bezeichnung>§ 343</bezeichnung><titel>Begriff des Handelsgeschäfts</titel></norm>
+        <norm><bezeichnung>§ 344</bezeichnung><titel>Vermutung für das Handelsgeschäft</titel></norm>
+        <norm><bezeichnung>§ 345</bezeichnung><titel>Einseitige Handelsgeschäfte</titel></norm>
+        <norm><bezeichnung>§ 346</bezeichnung><titel>Handelsgewohnheiten und -bräuche</titel></norm>
+        <norm><bezeichnung>§ 347</bezeichnung><titel>Sorgfalt eines ordentlichen Kaufmanns</titel></norm>
+        <norm><bezeichnung>§ 348</bezeichnung><titel>Vertragsstrafe</titel></norm>
+        <norm><bezeichnung>§ 349</bezeichnung><titel>Keine Einrede der Vorausklage</titel></norm>
+        <norm><bezeichnung>§ 350</bezeichnung><titel>Formfreiheit von Bürgschaft, Schuldversprechen und Schuldanerkenntnis</titel></norm>
+        <norm><bezeichnung>§ 352</bezeichnung><titel>Gesetzlicher Zinssatz</titel></norm>
+        <norm><bezeichnung>§ 353</bezeichnung><titel>Fälligkeitszinsen</titel></norm>
+        <norm><bezeichnung>§ 354</bezeichnung><titel>Provision und Lagergeld; Zinsen</titel></norm>
+        <norm><bezeichnung>§ 354a</bezeichnung><titel>Wirksamkeit der Abtretung einer Geldforderung</titel></norm>
+        <norm><bezeichnung>§ 355</bezeichnung><titel>Laufende Rechnung, Kontokorrent</titel></norm>
+        <norm><bezeichnung>§ 356</bezeichnung><titel>Befriedigung aus Sicherheiten</titel></norm>
+        <norm><bezeichnung>§ 357</bezeichnung><titel>Pfändung des Saldos</titel></norm>
+        <norm><bezeichnung>§ 358</bezeichnung><titel>Zeit der Leistung</titel></norm>
+        <norm><bezeichnung>§ 359</bezeichnung><titel>Vereinbarte Zeit der Leistung; acht Tage</titel></norm>
+        <norm><bezeichnung>§ 360</bezeichnung><titel>Gattungsschuld</titel></norm>
+        <norm><bezeichnung>§ 361</bezeichnung><titel>Maß, Gewicht, Währung, Zeitrechnung und Entfernungen</titel></norm>
+        <norm><bezeichnung>§ 362</bezeichnung><titel>Schweigen des Kaufmanns auf Anträge</titel></norm>
+        <norm><bezeichnung>§ 363</bezeichnung><titel>Kaufmännische Orderpapiere</titel></norm>
+        <norm><bezeichnung>§ 364</bezeichnung><titel>Indossament</titel></norm>
+        <norm><bezeichnung>§ 365</bezeichnung><titel>Wirkung des Indossaments</titel></norm>
+        <norm><bezeichnung>§ 365a</bezeichnung><titel>Anwendung des WechselG; Kraftloserklärung im Aufgebotsverfahren</titel></norm>
+        <norm><bezeichnung>§ 366</bezeichnung><titel>Gutgläubiger Erwerb von beweglichen Sachen</titel></norm>
+        <norm><bezeichnung>§ 367</bezeichnung><titel>Gutgläubiger Erwerb gewisser Wertpapiere</titel></norm>
+        <norm><bezeichnung>§ 368</bezeichnung><titel>Pfandverkauf</titel></norm>
+        <norm><bezeichnung>§ 369</bezeichnung><titel>Kaufmännisches Zurückbehaltungsrecht</titel></norm>
+        <norm><bezeichnung>§ 371</bezeichnung><titel>Befriedigungsrecht des Gläubigers</titel></norm>
+        <norm><bezeichnung>§ 372</bezeichnung><titel>Eigentumsfiktion; Rechtskrafterstreckung</titel></norm>
+        <norm><bezeichnung>§ 373</bezeichnung><titel>Annahmeverzug des Käufers</titel></norm>
+        <norm><bezeichnung>§ 374</bezeichnung><titel>Anwendbarkeit des BGB bei Annahmeverzug</titel></norm>
+        <norm><bezeichnung>§ 375</bezeichnung><titel>Bestimmungskauf</titel></norm>
+        <norm><bezeichnung>§ 376</bezeichnung><titel>Fixhandelskauf</titel></norm>
+        <norm><bezeichnung>§ 377</bezeichnung><titel>Untersuchungs- und Rügeobliegenheit</titel></norm>
+        <norm><bezeichnung>§ 379</bezeichnung><titel>Einstweilige Aufbewahrung; Notverkauf</titel></norm>
+        <norm><bezeichnung>§ 380</bezeichnung><titel>Taragewicht</titel></norm>
+        <norm><bezeichnung>§ 381</bezeichnung><titel>Kauf von Wertpapieren; Werklieferungsvertrag</titel></norm>
+        <norm><bezeichnung>§ 383</bezeichnung><titel>Kommissionsvertrag</titel></norm>
+        <norm><bezeichnung>§ 384</bezeichnung><titel>Pflichten des Kommissionärs</titel></norm>
+        <norm><bezeichnung>§ 385</bezeichnung><titel>Weisungen des Kommittenten</titel></norm>
+        <norm><bezeichnung>§ 386</bezeichnung><titel>Abweichung von Preisgrenzen</titel></norm>
+        <norm><bezeichnung>§ 387</bezeichnung><titel>Vorteilhafterer Abschluss</titel></norm>
+        <norm><bezeichnung>§ 388</bezeichnung><titel>Beschädigtes oder mangelhaftes Kommissionsgut</titel></norm>
+        <norm><bezeichnung>§ 389</bezeichnung><titel>Hinterlegung und Selbsthilfeverkauf</titel></norm>
+        <norm><bezeichnung>§ 390</bezeichnung><titel>Haftung des Kommissionärs für das Gut</titel></norm>
+        <norm><bezeichnung>§ 391</bezeichnung><titel>Pflichten des Kommittenten bei Einkaufskommission</titel></norm>
+        <norm><bezeichnung>§ 392</bezeichnung><titel>Forderungen aus dem Kommissionsgeschäft</titel></norm>
+        <norm><bezeichnung>§ 393</bezeichnung><titel>Vorschuss; Kredit</titel></norm>
+        <norm><bezeichnung>§ 394</bezeichnung><titel>Delkredererisiko und -provision</titel></norm>
+        <norm><bezeichnung>§ 395</bezeichnung><titel>Wechselindossament</titel></norm>
+        <norm><bezeichnung>§ 396</bezeichnung><titel>Provision des Kommissionärs; Aufwendungsersatz</titel></norm>
+        <norm><bezeichnung>§ 398</bezeichnung><titel>Befriedigung aus dem Kommissionsgut</titel></norm>
+        <norm><bezeichnung>§ 399</bezeichnung><titel>Befriedigung aus Forderungen</titel></norm>
+        <norm><bezeichnung>§ 400</bezeichnung><titel>Selbsteintritt des Kommissionärs</titel></norm>
+        <norm><bezeichnung>§ 401</bezeichnung><titel>Deckungsgeschäft</titel></norm>
+        <norm><bezeichnung>§ 402</bezeichnung><titel>Unabdingbarkeit</titel></norm>
+        <norm><bezeichnung>§ 403</bezeichnung><titel>Provision bei Selbsteintritt</titel></norm>
+        <norm><bezeichnung>§ 404</bezeichnung><titel>Pfandrecht bei Selbsteintritt</titel></norm>
+        <norm><bezeichnung>§ 405</bezeichnung><titel>Anzeige des Selbsteintritts; Widerruf der Kommission</titel></norm>
+        <norm><bezeichnung>§ 406</bezeichnung><titel>Ähnliche Geschäfte</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

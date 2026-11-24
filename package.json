@@ -1,0 +1,176 @@
+{
+  "name": "lexlata",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Desktop-Anwendung zum Lesen, Durchsuchen und Annotieren von Rechtstexten",
+  "license": "AGPL-3.0-or-later",
+  "author": "LexLata <lexlata@mailbox.org>",
+  "homepage": "https://github.com/LexLata/app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexLata/app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LexLata/app/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pruefen": "node scripts/automatisch/pruefen.mjs",
+    "vollpruefen": "node scripts/automatisch/pruefen.mjs --voll",
+    "pruefen:typen": "tsc --noEmit",
+    "pruefen:tests": "node scripts/automatisch/wegwerf-heimat.mjs vitest run",
+    "pruefen:rust": "cd src-tauri && node ../scripts/automatisch/wegwerf-heimat.mjs cargo test",
+    "pruefen:rust-clippy": "cd src-tauri && cargo clippy --all-targets -- -D warnings",
+    "pruefen:unterdrueckungen": "node scripts/automatisch/unterdrueckungen-begruendet.mjs",
+    "pruefen:lint": "node scripts/automatisch/lint-geaendert.mjs",
+    "pruefen:lint-voll": "eslint . --max-warnings 0",
+    "pruefen:textanzeige-ausnahmen": "node scripts/automatisch/textanzeige-ausnahmen.mjs",
+    "pruefen:knip-unterdrueckung": "node scripts/automatisch/keine-knip-unterdrueckung.mjs",
+    "pruefen:checkbox": "node scripts/automatisch/checkbox-einheitlich.mjs",
+    "pruefen:knip": "knip",
+    "pruefen:modulgrenzen": "dependency-cruiser src scripts --config scripts/automatisch/dependency-cruiser.cjs --output-type err",
+    "pruefen:modulzyklen": "node scripts/automatisch/modulzyklen-pruefen.mjs",
+    "pruefen:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm --validate-integrity",
+    "pruefen:pfade": "node scripts/automatisch/pfad-kleinschreibung.mjs",
+    "pruefen:ressourcen-schemaversion": "node scripts/automatisch/ressourcen-schemaversion-pruefen.mjs",
+    "pruefen:kopfkommentare": "node scripts/automatisch/kopfkommentare.mjs",
+    "pruefen:dateinamen": "node scripts/automatisch/doppelte-dateinamen.mjs",
+    "pruefen:version": "node scripts/automatisch/versionsabgleich.mjs",
+    "pruefen:zeilenlimit": "node scripts/automatisch/zeilenlimit-pruefen.mjs",
+    "pruefen:doku": "node scripts/automatisch/doku-pruefen.mjs",
+    "pruefen:duplikate": "node scripts/automatisch/jscpd-pruefen.mjs",
+    "pruefen:drittlizenzen": "node scripts/automatisch/drittlizenzen-aktuell.mjs",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepare": "husky",
+    "version": "node scripts/automatisch/versionsabgleich.mjs --nachziehen",
+    "versionsnummer": "npm version --no-git-tag-version",
+    "audit": "bash scripts/audit/audit.sh",
+    "mutation": "bash scripts/werkzeuge/mutation.sh",
+    "lockfile-lint": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm --validate-integrity",
+    "gesetzesxml": "node scripts/werkzeuge/praefixstrukturen.mjs",
+    "quelldateien": "node scripts/werkzeuge/praefixstrukturen.mjs",
+    "grundbestand": "node scripts/werkzeuge/praefixstrukturen.mjs",
+    "praefixstrukturen": "node scripts/werkzeuge/praefixstrukturen.mjs",
+    "titelvergleich": "node scripts/werkzeuge/titelvergleich.mjs",
+    "drittlizenzen": "node scripts/werkzeuge/drittlizenzen.mjs",
+    "praefixdiagnose": "node scripts/werkzeuge/praefixdiagnose.mjs",
+    "pruefen:typzusagen": "node scripts/automatisch/typzusagen-pruefen.mjs",
+    "vollpruefen:interface-namen": "node scripts/automatisch/interface-namen-pruefen.mjs",
+    "pruefen:ungenutzter-app-code": "node scripts/automatisch/ungenutzter-app-code.mjs",
+    "pruefen:modulgrenzen-attrappen": "node scripts/automatisch/modulgrenzen-attrappen.mjs"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@tanstack/react-virtual": "^3.13.26",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-deep-link": "^2",
+    "@tauri-apps/plugin-dialog": "^2.7.1",
+    "@tauri-apps/plugin-fs": "^2.5.1",
+    "@tauri-apps/plugin-http": "^2.5.9",
+    "@tauri-apps/plugin-os": "^2.3.2",
+    "fflate": "^0.8.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "saxes": "^6.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stryker-mutator/core": "^10.0.0",
+    "@stryker-mutator/vitest-runner": "^10.0.0",
+    "@tauri-apps/cli": "^2",
+    "@types/culori": "^4.0.1",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^6.1.0",
+    "@vitest/coverage-v8": "^4.1.11",
+    "culori": "^4.0.2",
+    "dependency-cruiser": "^18.2.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.4",
+    "eslint-plugin-sonarjs": "^4.2.0",
+    "fast-check": "^4.9.0",
+    "globals": "^17.11.0",
+    "husky": "^9.1.7",
+    "jscpd": "^5.0.16",
+    "jsdom": "^30.1.2",
+    "knip": "^6.0.0",
+    "linkedom": "^0.18.13",
+    "lint-staged": "^17.3.0",
+    "lockfile-lint": "^5.0.1",
+    "madge": "^8.0.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.12",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.67.0",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11",
+    "xmllint-wasm": "^5.3.0"
+  },
+  "overrides": {
+    "typed-rest-client": {
+      "qs": "6.16.0"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "node scripts/automatisch/wegwerf-heimat.mjs vitest related --run --passWithNoTests"
+    ],
+    "*.{json,md,css}": [
+      "prettier --write"
+    ],
+    "*.rs": [
+      "rustfmt --edition 2021"
+    ]
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  },
+  "knip": {
+    "entry": [
+      "src/main.tsx",
+      "scripts/werkzeuge/*.ts",
+      "src/components/ziehvorschau/ziehvorschau.start.ts"
+    ],
+    "project": [
+      "src/**/*.{ts,tsx}",
+      "scripts/**/*.ts"
+    ],
+    "ignoreDependencies": [
+      "madge"
+    ],
+    "ignoreBinaries": [
+      "rustfmt"
+    ],
+    "stryker": {
+      "config": [
+        "scripts/werkzeuge/stryker.config.mjs"
+      ]
+    },
+    "vitest": {
+      "config": [
+        "vitest.config.ts"
+      ],
+      "entry": [
+        "src/test/setupNode.ts"
+      ]
+    }
+  }
+}

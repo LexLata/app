@@ -1,0 +1,14 @@
+/* tableiste.css: Scrollleisten der Tableiste verbergen, Scrollen bleibt möglich. */
+.gz-tableiste-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.gz-tableiste-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Die Faust gilt während des Tabziehens auch außerhalb der Tableiste. */
+html.tab-wird-gezogen,
+html.tab-wird-gezogen * {
+  cursor: grabbing !important;
+}

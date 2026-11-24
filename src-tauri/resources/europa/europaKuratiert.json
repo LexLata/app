@@ -1,0 +1,1184 @@
+[
+  {
+    "celex": "12016E/TXT",
+    "kurztitel": "AEUV",
+    "langtitel": "Vertrag über die Arbeitsweise der Europäischen Union"
+  },
+  {
+    "celex": "12016M/TXT",
+    "kurztitel": "EUV",
+    "langtitel": "Vertrag über die Europäische Union"
+  },
+  {
+    "celex": "12016P/TXT",
+    "kurztitel": "GRCh",
+    "langtitel": "Charta der Grundrechte der Europäischen Union"
+  },
+  {
+    "celex": "32004L0038",
+    "kurztitel": "2004/38/EG",
+    "alternativen": ["Unionsbürger-RL"],
+    "langtitel": "Richtlinie 2004/38/EG des Europäischen Parlaments und des Rates vom 29. April 2004 über das Recht der Unionsbürger und ihrer Familienangehörigen, sich im Hoheitsgebiet der Mitgliedstaaten frei zu bewegen und aufzuhalten, zur Änderung der Verordnung (EWG) Nr. 1612/68 und zur Aufhebung der Richtlinien 64/221/EWG, 68/360/EWG, 72/194/EWG, 73/148/EWG, 75/34/EWG, 75/35/EWG, 90/364/EWG, 90/365/EWG und 93/96/EWG"
+  },
+  {
+    "celex": "32007R0864",
+    "kurztitel": "Rom-II-VO",
+    "alternativen": ["Rom II"],
+    "langtitel": "Verordnung (EG) Nr. 864/2007 des Europäischen Parlaments und des Rates vom 11. Juli 2007 über das auf außervertragliche Schuldverhältnisse anzuwendende Recht (Rom II)"
+  },
+  {
+    "celex": "32008R0593",
+    "kurztitel": "Rom-I-VO",
+    "alternativen": ["Rom I"],
+    "langtitel": "Verordnung (EG) Nr. 593/2008 des Europäischen Parlaments und des Rates vom 17. Juni 2008 über das auf vertragliche Schuldverhältnisse anzuwendende Recht (Rom I)"
+  },
+  {
+    "celex": "32012R1215",
+    "kurztitel": "EuGVVO",
+    "alternativen": ["Brüssel-Ia-VO"],
+    "langtitel": "Verordnung (EU) Nr. 1215/2012 des Europäischen Parlaments und des Rates vom 12. Dezember 2012 über die gerichtliche Zuständigkeit und die Anerkennung und Vollstreckung von Entscheidungen in Zivil- und Handelssachen (Neufassung)"
+  },
+  {
+    "celex": "32016R0679",
+    "kurztitel": "DSGVO",
+    "alternativen": ["GDPR", "DS-GVO", "Datenschutz-Grundverordnung"],
+    "langtitel": "Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)"
+  },
+  {
+    "celex": "32022R2065",
+    "kurztitel": "DSA",
+    "alternativen": ["Digital Services Act"],
+    "langtitel": "Verordnung (EU) 2022/2065 des Europäischen Parlaments und des Rates vom 19. Oktober 2022 über einen Binnenmarkt für digitale Dienste und zur Änderung der Richtlinie 2000/31/EG (Gesetz über digitale Dienste)"
+  },
+  {
+    "celex": "32024R1689",
+    "kurztitel": "AI Act",
+    "alternativen": ["KI-VO"],
+    "langtitel": "Verordnung (EU) 2024/1689 des Europäischen Parlaments und des Rates vom 13. Juni 2024 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz und zur Änderung der Verordnungen (EG) Nr. 300/2008, (EU) Nr. 167/2013, (EU) Nr. 168/2013, (EU) 2018/858, (EU) 2018/1139 und (EU) 2019/2144 sowie der Richtlinien 2014/90/EU, (EU) 2016/797 und (EU) 2020/1828 (Verordnung über künstliche Intelligenz)"
+  },
+  {
+    "celex": "32003L0088",
+    "kurztitel": "ArbZRL",
+    "alternativen": ["Arbeitszeit-RL"],
+    "langtitel": "Richtlinie 2003/88/EG des Europäischen Parlaments und des Rates vom 4. November 2003 über bestimmte Aspekte der Arbeitszeitgestaltung"
+  },
+  {
+    "celex": "32024R1348",
+    "kurztitel": "AsylVerfVO",
+    "alternativen": ["AsylVfVO"],
+    "langtitel": "Verordnung (EU) 2024/1348 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung eines gemeinsamen Verfahrens für internationalen Schutz in der Union und zur Aufhebung der Richtlinie 2013/32/EU"
+  },
+  {
+    "celex": "32022R1925",
+    "kurztitel": "DMA",
+    "alternativen": ["Digital Markets Act"],
+    "langtitel": "Verordnung (EU) 2022/1925 des Europäischen Parlaments und des Rates vom 14. September 2022 über bestreitbare und faire Märkte im digitalen Sektor und zur Änderung der Richtlinien (EU) 2019/1937 und (EU) 2020/1828 (Gesetz über digitale Märkte)"
+  },
+  {
+    "celex": "32022R2554",
+    "kurztitel": "DORA",
+    "langtitel": "Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011"
+  },
+  {
+    "celex": "32019L0790",
+    "kurztitel": "DSM-RL",
+    "alternativen": ["DSM"],
+    "langtitel": "Richtlinie (EU) 2019/790 des Europäischen Parlaments und des Rates vom 17. April 2019 über das Urheberrecht und die verwandten Schutzrechte im digitalen Binnenmarkt und zur Änderung der Richtlinien 96/9/EG und 2001/29/EG"
+  },
+  {
+    "celex": "32023R2854",
+    "kurztitel": "Data Act",
+    "langtitel": "Verordnung (EU) 2023/2854 des Europäischen Parlaments und des Rates vom 13. Dezember 2023 über harmonisierte Vorschriften für einen fairen Datenzugang und eine faire Datennutzung sowie zur Änderung der Verordnung (EU) 2017/2394 und der Richtlinie (EU) 2020/1828 (Datenverordnung)"
+  },
+  {
+    "celex": "32024R1083",
+    "kurztitel": "EMFA",
+    "langtitel": "Verordnung (EU) 2024/1083 des Europäischen Parlaments und des Rates vom 11. April 2024 zur Schaffung eines gemeinsamen Rahmens für Mediendienste im Binnenmarkt und zur Änderung der Richtlinie 2010/13/EU (Europäisches Medienfreiheitsgesetz)"
+  },
+  {
+    "celex": "32023L0970",
+    "kurztitel": "Entgelttransparenz-RL",
+    "alternativen": ["ETRL", "EntgTranspRL"],
+    "langtitel": "Richtlinie (EU) 2023/970 des Europäischen Parlaments und des Rates vom 10. Mai 2023 zur Stärkung der Anwendung des Grundsatzes des gleichen Entgelts für Männer und Frauen bei gleicher oder gleichwertiger Arbeit durch Entgelttransparenz und Durchsetzungsmechanismen"
+  },
+  {
+    "celex": "32012R0650",
+    "kurztitel": "EuErbVO",
+    "langtitel": "Verordnung (EU) Nr. 650/2012 des Europäischen Parlaments und des Rates vom 4. Juli 2012 über die Zuständigkeit, das anzuwendende Recht, die Anerkennung und Vollstreckung von Entscheidungen und die Annahme und Vollstreckung öffentlicher Urkunden in Erbsachen sowie zur Einführung eines Europäischen Nachlasszeugnisses"
+  },
+  {
+    "celex": "32006R1896",
+    "kurztitel": "EuMVVO",
+    "alternativen": ["EuMahnverfVO", "EuMahnVO"],
+    "langtitel": "Verordnung (EG) Nr. 1896/2006 des Europäischen Parlaments und des Rates vom 12. Dezember 2006 zur Einführung eines Europäischen Mahnverfahrens"
+  },
+  {
+    "celex": "32024R1358",
+    "kurztitel": "Eurodac-VO",
+    "alternativen": ["EurodacVO"],
+    "langtitel": "Verordnung (EU) 2024/1358 des Europäischen Parlaments und des Rates vom 14. Mai 2024 über die Einrichtung von Eurodac für den Abgleich biometrischer Daten zur effektiven Anwendung der Verordnungen (EU) 2024/1351 und (EU) 2024/1350 des Europäischen Parlaments und des Rates und der Richtlinie 2001/55/EG sowie zur Feststellung der Identität illegal aufhältiger Drittstaatsangehöriger oder Staatenloser und über der Gefahrenabwehr und Strafverfolgung dienende Anträge der Gefahrenabwehr- und Strafverfolgungsbehörden der Mitgliedstaaten und Europols auf den Abgleich mit Eurodac-Daten, zur Änderung der Verordnungen (EU) 2018/1240 und (EU) 2019/818 des Europäischen Parlaments und des Rates und zur Aufhebung der Verordnung (EU) Nr. 603/2013 des Europäischen Parlaments und des Rates"
+  },
+  {
+    "celex": "32004R0805",
+    "kurztitel": "EuVTVO",
+    "langtitel": "Verordnung (EG) Nr. 805/2004 des Europäischen Parlaments und des Rates vom 21. April 2004 zur Einführung eines europäischen Vollstreckungstitels für unbestrittene Forderungen"
+  },
+  {
+    "celex": "32007R0861",
+    "kurztitel": "EuBagatellVO",
+    "alternativen": ["EuGFVO"],
+    "langtitel": "Verordnung (EG) Nr. 861/2007 des Europäischen Parlaments und des Rates vom 11. Juli 2007 zur Einführung eines europäischen Verfahrens für geringfügige Forderungen"
+  },
+  {
+    "celex": "32015R0848",
+    "kurztitel": "EuInsVO",
+    "langtitel": "Verordnung (EU) 2015/848 des Europäischen Parlaments und des Rates vom 20. Mai 2015 über Insolvenzverfahren (Neufassung)"
+  },
+  {
+    "celex": "32022L2555",
+    "kurztitel": "NIS-2-RL",
+    "alternativen": ["NIS2"],
+    "langtitel": "Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union, zur Änderung der Verordnung (EU) Nr. 910/2014 und der Richtlinie (EU) 2018/1972 sowie zur Aufhebung der Richtlinie (EU) 2016/1148 (NIS-2-Richtlinie)"
+  },
+  {
+    "celex": "32019R2088",
+    "kurztitel": "SFDR",
+    "alternativen": ["Offenlegungs-VO"],
+    "langtitel": "Verordnung (EU) 2019/2088 des Europäischen Parlaments und des Rates vom 27. November 2019 über nachhaltigkeitsbezogene Offenlegungspflichten im Finanzdienstleistungssektor"
+  },
+  {
+    "celex": "32017R1001",
+    "kurztitel": "UMV",
+    "langtitel": "Verordnung (EU) 2017/1001 des Europäischen Parlaments und des Rates vom 14. Juni 2017 über die Unionsmarke (kodifizierter Text)"
+  },
+  {
+    "celex": "32020R1784",
+    "kurztitel": "EuZVO",
+    "langtitel": "Verordnung (EU) 2020/1784 des Europäischen Parlaments und des Rates vom 25. November 2020 über die Zustellung gerichtlicher und außergerichtlicher Schriftstücke in Zivil- oder Handelssachen in den Mitgliedstaaten (Zustellung von Schriftstücken) (Neufassung)"
+  },
+  {
+    "celex": "32019R1111",
+    "kurztitel": "Brüssel-IIb-VO",
+    "alternativen": ["EuEheVO"],
+    "langtitel": "Verordnung (EU) 2019/1111 des Rates vom 25. Juni 2019 über die Zuständigkeit, die Anerkennung und Vollstreckung von Entscheidungen in Ehesachen und in Verfahren betreffend die elterliche Verantwortung und über internationale Kindesentführungen (Neufassung)"
+  },
+  {
+    "celex": "32009R0004",
+    "kurztitel": "EuUnthVO",
+    "langtitel": "Verordnung (EG) Nr. 4/2009 des Rates vom 18. Dezember 2008 über die Zuständigkeit, das anwendbare Recht, die Anerkennung und Vollstreckung von Entscheidungen und die Zusammenarbeit in Unterhaltssachen"
+  },
+  {
+    "celex": "32010R1259",
+    "kurztitel": "Rom-III-VO",
+    "alternativen": ["Rom III"],
+    "langtitel": "Verordnung (EU) Nr. 1259/2010 des Rates vom 20. Dezember 2010 zur Durchführung einer Verstärkten Zusammenarbeit im Bereich des auf die Ehescheidung und Trennung ohne Auflösung des Ehebandes anzuwendenden Rechts"
+  },
+  {
+    "celex": "32016R1103",
+    "kurztitel": "EuGüVO",
+    "langtitel": "Verordnung (EU) 2016/1103 des Rates vom 24. Juni 2016 zur Durchführung einer Verstärkten Zusammenarbeit im Bereich der Zuständigkeit, des anzuwendenden Rechts und der Anerkennung und Vollstreckung von Entscheidungen in Fragen des ehelichen Güterstands"
+  },
+  {
+    "celex": "32016R1104",
+    "kurztitel": "EuPartVO",
+    "langtitel": "Verordnung (EU) 2016/1104 des Rates vom 24. Juni 2016 zur Durchführung der Verstärkten Zusammenarbeit im Bereich der Zuständigkeit, des anzuwendenden Rechts und der Anerkennung und Vollstreckung von Entscheidungen in Fragen güterrechtlicher Wirkungen eingetragener Partnerschaften"
+  },
+  {
+    "celex": "32020R1783",
+    "kurztitel": "EuBVO",
+    "langtitel": "Verordnung (EU) 2020/1783 des Europäischen Parlaments und des Rates vom 25. November 2020 über die Zusammenarbeit zwischen den Gerichten der Mitgliedstaaten auf dem Gebiet der Beweisaufnahme in Zivil- oder Handelssachen (Beweisaufnahme) (Neufassung)"
+  },
+  {
+    "celex": "32008L0052",
+    "kurztitel": "Mediations-RL",
+    "langtitel": "Richtlinie 2008/52/EG des Europäischen Parlaments und des Rates vom 21. Mai 2008 über bestimmte Aspekte der Mediation in Zivil- und Handelssachen"
+  },
+  {
+    "celex": "32011L0083",
+    "kurztitel": "VRRL",
+    "alternativen": ["Verbraucherrechte-RL"],
+    "langtitel": "Richtlinie 2011/83/EU des Europäischen Parlaments und des Rates vom 25. Oktober 2011 über die Rechte der Verbraucher, zur Abänderung der Richtlinie 93/13/EWG des Rates und der Richtlinie 1999/44/EG des Europäischen Parlaments und des Rates sowie zur Aufhebung der Richtlinie 85/577/EWG des Rates und der Richtlinie 97/7/EG des Europäischen Parlaments und des Rates"
+  },
+  {
+    "celex": "31993L0013",
+    "kurztitel": "Klausel-RL",
+    "langtitel": "Richtlinie 93/13/EWG des Rates vom 5. April 1993 über mißbräuchliche Klauseln in Verbraucherverträgen"
+  },
+  {
+    "celex": "32019L0771",
+    "kurztitel": "Warenkauf-RL",
+    "alternativen": ["WKRL"],
+    "langtitel": "Richtlinie (EU) 2019/771 des Europäischen Parlaments und des Rates vom 20. Mai 2019 über bestimmte vertragsrechtliche Aspekte des Warenkaufs, zur Änderung der Verordnung (EU) 2017/2394 und der Richtlinie 2009/22/EG sowie zur Aufhebung der Richtlinie 1999/44/EG"
+  },
+  {
+    "celex": "32019L0770",
+    "kurztitel": "Digitale-Inhalte-RL",
+    "alternativen": ["DIRL"],
+    "langtitel": "Richtlinie (EU) 2019/770 des Europäischen Parlaments und des Rates vom 20. Mai 2019 über bestimmte vertragsrechtliche Aspekte der Bereitstellung digitaler Inhalte und digitaler Dienstleistungen"
+  },
+  {
+    "celex": "32005L0029",
+    "kurztitel": "UGP-RL",
+    "langtitel": "Richtlinie 2005/29/EG des Europäischen Parlaments und des Rates vom 11. Mai 2005 über unlautere Geschäftspraktiken im binnenmarktinternen Geschäftsverkehr zwischen Unternehmen und Verbrauchern und zur Änderung der Richtlinie 84/450/EWG des Rates, der Richtlinien 97/7/EG, 98/27/EG und 2002/65/EG des Europäischen Parlaments und des Rates sowie der Verordnung (EG) Nr. 2006/2004 des Europäischen Parlaments und des Rates (Richtlinie über unlautere Geschäftspraktiken)"
+  },
+  {
+    "celex": "32015L2302",
+    "kurztitel": "Pauschalreise-RL",
+    "alternativen": ["PRRL"],
+    "langtitel": "Richtlinie (EU) 2015/2302 des Europäischen Parlaments und des Rates vom 25. November 2015 über Pauschalreisen und verbundene Reiseleistungen, zur Änderung der Verordnung (EG) Nr. 2006/2004 und der Richtlinie 2011/83/EU des Europäischen Parlaments und des Rates sowie zur Aufhebung der Richtlinie 90/314/EWG des Rates"
+  },
+  {
+    "celex": "32011L0007",
+    "kurztitel": "Zahlungsverzugs-RL",
+    "langtitel": "Richtlinie 2011/7/EU des Europäischen Parlaments und des Rates vom 16. Februar 2011 zur Bekämpfung von Zahlungsverzug im Geschäftsverkehr (Neufassung)"
+  },
+  {
+    "celex": "32024L2853",
+    "kurztitel": "ProdHaftRL",
+    "alternativen": ["Produkthaftungs-RL"],
+    "langtitel": "Richtlinie (EU) 2024/2853 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über die Haftung für fehlerhafte Produkte und zur Aufhebung der Richtlinie 85/374/EWG des Rates"
+  },
+  {
+    "celex": "32004R0261",
+    "kurztitel": "Fluggastrechte-VO",
+    "langtitel": "Verordnung (EG) Nr. 261/2004 des Europäischen Parlaments und des Rates vom 11. Februar 2004 über eine gemeinsame Regelung für Ausgleichs- und Unterstützungsleistungen für Fluggäste im Fall der Nichtbeförderung und bei Annullierung oder großer Verspätung von Flügen und zur Aufhebung der Verordnung (EWG) Nr. 295/91"
+  },
+  {
+    "celex": "32018R0302",
+    "kurztitel": "Geoblocking-VO",
+    "langtitel": "Verordnung (EU) 2018/302 des Europäischen Parlaments und des Rates vom 28. Februar 2018 über Maßnahmen gegen ungerechtfertigtes Geoblocking und andere Formen der Diskriminierung aufgrund der Staatsangehörigkeit, des Wohnsitzes oder des Ortes der Niederlassung des Kunden innerhalb des Binnenmarkts und zur Änderung der Verordnungen (EG) Nr. 2006/2004 und (EU) 2017/2394 sowie der Richtlinie 2009/22/EG"
+  },
+  {
+    "celex": "32020L1828",
+    "kurztitel": "Verbandsklage-RL",
+    "langtitel": "Richtlinie (EU) 2020/1828 des Europäischen Parlaments und des Rates vom 25. November 2020 über Verbandsklagen zum Schutz der Kollektivinteressen der Verbraucher und zur Aufhebung der Richtlinie 2009/22/EG"
+  },
+  {
+    "celex": "32019L1937",
+    "kurztitel": "Hinweisgeber-RL",
+    "alternativen": ["Whistleblower-RL"],
+    "langtitel": "Richtlinie (EU) 2019/1937 des Europäischen Parlaments und des Rates vom 23. Oktober 2019 zum Schutz von Personen, die Verstöße gegen das Unionsrecht melden"
+  },
+  {
+    "celex": "32000L0031",
+    "kurztitel": "E-Commerce-RL",
+    "langtitel": "Richtlinie 2000/31/EG des Europäischen Parlaments und des Rates vom 8. Juni 2000 über bestimmte rechtliche Aspekte der Dienste der Informationsgesellschaft, insbesondere des elektronischen Geschäftsverkehrs, im Binnenmarkt („Richtlinie über den elektronischen Geschäftsverkehr“)"
+  },
+  {
+    "celex": "32002L0058",
+    "kurztitel": "ePrivacy-RL",
+    "langtitel": "Richtlinie 2002/58/EG des Europäischen Parlaments und des Rates vom 12. Juli 2002 über die Verarbeitung personenbezogener Daten und den Schutz der Privatsphäre in der elektronischen Kommunikation (Datenschutzrichtlinie für elektronische Kommunikation)"
+  },
+  {
+    "celex": "32016L0943",
+    "kurztitel": "Geschäftsgeheimnis-RL",
+    "langtitel": "Richtlinie (EU) 2016/943 des Europäischen Parlaments und des Rates vom 8. Juni 2016 über den Schutz vertraulichen Know-hows und vertraulicher Geschäftsinformationen (Geschäftsgeheimnisse) vor rechtswidrigem Erwerb sowie rechtswidriger Nutzung und Offenlegung"
+  },
+  {
+    "celex": "32001L0029",
+    "kurztitel": "InfoSoc-RL",
+    "langtitel": "Richtlinie 2001/29/EG des Europäischen Parlaments und des Rates vom 22. Mai 2001 zur Harmonisierung bestimmter Aspekte des Urheberrechts und der verwandten Schutzrechte in der Informationsgesellschaft"
+  },
+  {
+    "celex": "32004L0048",
+    "kurztitel": "Durchsetzungs-RL",
+    "alternativen": ["Enforcement-RL"],
+    "langtitel": "Richtlinie 2004/48/EG des Europäischen Parlaments und des Rates vom 29. April 2004 zur Durchsetzung der Rechte des geistigen Eigentums"
+  },
+  {
+    "celex": "32015L2436",
+    "kurztitel": "Marken-RL",
+    "langtitel": "Richtlinie (EU) 2015/2436 des Europäischen Parlaments und des Rates vom 16. Dezember 2015 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über die Marken (Neufassung)"
+  },
+  {
+    "celex": "32014L0104",
+    "kurztitel": "Kartellschadensersatz-RL",
+    "langtitel": "Richtlinie 2014/104/EU des Europäischen Parlaments und des Rates vom 26. November 2014 über bestimmte Vorschriften für Schadensersatzklagen nach nationalem Recht wegen Zuwiderhandlungen gegen wettbewerbsrechtliche Bestimmungen der Mitgliedstaaten und der Europäischen Union"
+  },
+  {
+    "celex": "32003R0001",
+    "kurztitel": "Kartellverfahrens-VO",
+    "langtitel": "Verordnung (EG) Nr. 1/2003 des Rates vom 16. Dezember 2002 zur Durchführung der in den Artikeln 81 und 82 des Vertrags niedergelegten Wettbewerbsregeln"
+  },
+  {
+    "celex": "32004R0139",
+    "kurztitel": "FKVO",
+    "langtitel": "Verordnung (EG) Nr. 139/2004 des Rates vom 20. Januar 2004 über die Kontrolle von Unternehmenszusammenschlüssen („EG-Fusionskontrollverordnung“)"
+  },
+  {
+    "celex": "32017L1132",
+    "kurztitel": "GesRRL",
+    "alternativen": ["Gesellschaftsrechts-RL"],
+    "langtitel": "Richtlinie (EU) 2017/1132 des Europäischen Parlaments und des Rates vom 14. Juni 2017 über bestimmte Aspekte des Gesellschaftsrechts (kodifizierter Text)"
+  },
+  {
+    "celex": "32001R2157",
+    "kurztitel": "SE-VO",
+    "langtitel": "Verordnung (EG) Nr. 2157/2001 des Rates vom 8. Oktober 2001 über das Statut der Europäischen Gesellschaft (SE)"
+  },
+  {
+    "celex": "32007L0036",
+    "kurztitel": "Aktionärsrechte-RL",
+    "alternativen": ["ARRL"],
+    "langtitel": "Richtlinie 2007/36/EG des Europäischen Parlaments und des Rates vom 11. Juli 2007 über die Ausübung bestimmter Rechte von Aktionären in börsennotierten Gesellschaften"
+  },
+  {
+    "celex": "32019L2121",
+    "kurztitel": "Umwandlungs-RL",
+    "langtitel": "Richtlinie (EU) 2019/2121 des Europäischen Parlaments und des Rates vom 27. November 2019 zur Änderung der Richtlinie (EU) 2017/1132 in Bezug auf grenzüberschreitende Umwandlungen, Verschmelzungen und Spaltungen"
+  },
+  {
+    "celex": "32014R0596",
+    "kurztitel": "MAR",
+    "alternativen": ["Marktmissbrauchs-VO"],
+    "langtitel": "Verordnung (EU) Nr. 596/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über Marktmissbrauch (Marktmissbrauchsverordnung) und zur Aufhebung der Richtlinie 2003/6/EG des Europäischen Parlaments und des Rates und der Richtlinien 2003/124/EG, 2003/125/EG und 2004/72/EG der Kommission"
+  },
+  {
+    "celex": "32017R1129",
+    "kurztitel": "Prospekt-VO",
+    "langtitel": "Verordnung (EU) 2017/1129 des Europäischen Parlaments und des Rates vom 14. Juni 2017 über den Prospekt, der beim öffentlichen Angebot von Wertpapieren oder bei deren Zulassung zum Handel an einem geregelten Markt zu veröffentlichen ist und zur Aufhebung der Richtlinie 2003/71/EG"
+  },
+  {
+    "celex": "32014L0065",
+    "kurztitel": "MiFID II",
+    "langtitel": "Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom 15. Mai 2014 über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU (Neufassung)"
+  },
+  {
+    "celex": "32014R0600",
+    "kurztitel": "MiFIR",
+    "langtitel": "Verordnung (EU) Nr. 600/2014 des Europäischen Parlaments und des Rates vom 15. Mai 2014 über Märkte für Finanzinstrumente und zur Änderung der Verordnung (EU) Nr. 648/2012"
+  },
+  {
+    "celex": "32015L2366",
+    "kurztitel": "PSD2",
+    "alternativen": ["Zahlungsdienste-RL"],
+    "langtitel": "Richtlinie (EU) 2015/2366 des Europäischen Parlaments und des Rates vom 25. November 2015 über Zahlungsdienste im Binnenmarkt, zur Änderung der Richtlinien 2002/65/EG, 2009/110/EG und 2013/36/EU und der Verordnung (EU) Nr. 1093/2010 sowie zur Aufhebung der Richtlinie 2007/64/EG"
+  },
+  {
+    "celex": "32013R0575",
+    "kurztitel": "CRR",
+    "langtitel": "Verordnung (EU) Nr. 575/2013 des Europäischen Parlaments und des Rates vom 26. Juni 2013 über Aufsichtsanforderungen an Kreditinstitute und Wertpapierfirmen und zur Änderung der Verordnung (EU) Nr. 646/2012"
+  },
+  {
+    "celex": "32013L0036",
+    "kurztitel": "CRD",
+    "langtitel": "Richtlinie 2013/36/EU des Europäischen Parlaments und des Rates vom 26. Juni 2013 über den Zugang zur Tätigkeit von Kreditinstituten und die Beaufsichtigung von Kreditinstituten und Wertpapierfirmen, zur Änderung der Richtlinie 2002/87/EG und zur Aufhebung der Richtlinien 2006/48/EG und 2006/49/EG"
+  },
+  {
+    "celex": "32009L0138",
+    "kurztitel": "Solvabilität II",
+    "alternativen": ["Solvency II"],
+    "langtitel": "Richtlinie 2009/138/EG des Europäischen Parlaments und des Rates vom 25. November 2009 betreffend die Aufnahme und Ausübung der Versicherungs- und der Rückversicherungstätigkeit (Solvabilität II) (Neufassung)"
+  },
+  {
+    "celex": "32012R0648",
+    "kurztitel": "EMIR",
+    "langtitel": "Verordnung (EU) Nr. 648/2012 des Europäischen Parlaments und des Rates vom 4. Juli 2012 über OTC-Derivate, zentrale Gegenparteien und Transaktionsregister"
+  },
+  {
+    "celex": "32020R0852",
+    "kurztitel": "Taxonomie-VO",
+    "langtitel": "Verordnung (EU) 2020/852 des Europäischen Parlaments und des Rates vom 18. Juni 2020 über die Einrichtung eines Rahmens zur Erleichterung nachhaltiger Investitionen und zur Änderung der Verordnung (EU) 2019/2088"
+  },
+  {
+    "celex": "32023R1114",
+    "kurztitel": "MiCAR",
+    "langtitel": "Verordnung (EU) 2023/1114 des Europäischen Parlaments und des Rates vom 31. Mai 2023 über Märkte für Kryptowerte und zur Änderung der Verordnungen (EU) Nr. 1093/2010 und (EU) Nr. 1095/2010 sowie der Richtlinien 2013/36/EU und (EU) 2019/1937"
+  },
+  {
+    "celex": "32022L2464",
+    "kurztitel": "CSRD",
+    "langtitel": "Richtlinie (EU) 2022/2464 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 zur Änderung der Verordnung (EU) Nr. 537/2014 und der Richtlinien 2004/109/EG, 2006/43/EG und 2013/34/EU hinsichtlich der Nachhaltigkeitsberichterstattung von Unternehmen"
+  },
+  {
+    "celex": "32024L1760",
+    "kurztitel": "CSDDD",
+    "alternativen": ["Lieferketten-RL", "CS3D"],
+    "langtitel": "Richtlinie (EU) 2024/1760 des Europäischen Parlaments und des Rates vom 13. Juni 2024 über die Sorgfaltspflichten von Unternehmen im Hinblick auf Nachhaltigkeit und zur Änderung der Richtlinie (EU) 2019/1937 und der Verordnung (EU) 2023/2859"
+  },
+  {
+    "celex": "32022L2041",
+    "kurztitel": "Mindestlohn-RL",
+    "langtitel": "Richtlinie (EU) 2022/2041 des Europäischen Parlaments und des Rates vom 19. Oktober 2022 über angemessene Mindestlöhne in der Europäischen Union"
+  },
+  {
+    "celex": "31996L0071",
+    "kurztitel": "Entsende-RL",
+    "langtitel": "Richtlinie 96/71/EG des Europäischen Parlaments und des Rates vom 16. Dezember 1996 über die Entsendung von Arbeitnehmern im Rahmen der Erbringung von Dienstleistungen"
+  },
+  {
+    "celex": "32001L0023",
+    "kurztitel": "Betriebsübergangs-RL",
+    "langtitel": "Richtlinie 2001/23/EG des Rates vom 12. März 2001 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über die Wahrung von Ansprüchen der Arbeitnehmer beim Übergang von Unternehmen, Betrieben oder Unternehmens- oder Betriebsteilen"
+  },
+  {
+    "celex": "31998L0059",
+    "kurztitel": "Massenentlassungs-RL",
+    "langtitel": "Richtlinie 98/59/EG des Rates vom 20. Juli 1998 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über Massenentlassungen"
+  },
+  {
+    "celex": "31999L0070",
+    "kurztitel": "Befristungs-RL",
+    "langtitel": "Richtlinie 1999/70/EG des Rates vom 28. Juni 1999 zu der EGB-UNICE-CEEP-Rahmenvereinbarung über befristete Arbeitsverträge"
+  },
+  {
+    "celex": "32000L0078",
+    "kurztitel": "Gleichbehandlungsrahmen-RL",
+    "langtitel": "Richtlinie 2000/78/EG des Rates vom 27. November 2000 zur Festlegung eines allgemeinen Rahmens für die Verwirklichung der Gleichbehandlung in Beschäftigung und Beruf"
+  },
+  {
+    "celex": "32000L0043",
+    "kurztitel": "Antirassismus-RL",
+    "langtitel": "Richtlinie 2000/43/EG des Rates vom 29. Juni 2000 zur Anwendung des Gleichbehandlungsgrundsatzes ohne Unterschied der Rasse oder der ethnischen Herkunft"
+  },
+  {
+    "celex": "32006L0054",
+    "kurztitel": "2006/54/EG",
+    "langtitel": "Richtlinie 2006/54/EG des Europäischen Parlaments und des Rates vom 5. Juli 2006 zur Verwirklichung des Grundsatzes der Chancengleichheit und Gleichbehandlung von Männern und Frauen in Arbeits- und Beschäftigungsfragen (Neufassung)"
+  },
+  {
+    "celex": "32008L0104",
+    "kurztitel": "Leiharbeits-RL",
+    "langtitel": "Richtlinie 2008/104/EG des Europäischen Parlaments und des Rates vom 19. November 2008 über Leiharbeit"
+  },
+  {
+    "celex": "32019L1152",
+    "kurztitel": "Arbeitsbedingungen-RL",
+    "alternativen": ["Nachweis-RL"],
+    "langtitel": "Richtlinie (EU) 2019/1152 des Europäischen Parlaments und des Rates vom 20. Juni 2019 über transparente und vorhersehbare Arbeitsbedingungen in der Europäischen Union"
+  },
+  {
+    "celex": "32019L1158",
+    "kurztitel": "Vereinbarkeits-RL",
+    "langtitel": "Richtlinie (EU) 2019/1158 des Europäischen Parlaments und des Rates vom 20. Juni 2019 zur Vereinbarkeit von Beruf und Privatleben für Eltern und pflegende Angehörige und zur Aufhebung der Richtlinie 2010/18/EU des Rates"
+  },
+  {
+    "celex": "32024L2831",
+    "kurztitel": "Plattformarbeits-RL",
+    "langtitel": "Richtlinie (EU) 2024/2831 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 zur Verbesserung der Arbeitsbedingungen in der Plattformarbeit"
+  },
+  {
+    "celex": "32024R1351",
+    "kurztitel": "AMM-VO",
+    "alternativen": ["AMMVO"],
+    "langtitel": "Verordnung (EU) 2024/1351 des Europäischen Parlaments und des Rates vom 14. Mai 2024 über Asyl- und Migrationsmanagement, zur Änderung der Verordnungen (EU) 2021/1147 und (EU) 2021/1060 und zur Aufhebung der Verordnung (EU) Nr. 604/2013"
+  },
+  {
+    "celex": "32024R1347",
+    "kurztitel": "Qualifikations-VO",
+    "alternativen": ["StatusVO", "Statusverordnung"],
+    "langtitel": "Verordnung (EU) 2024/1347 des Europäischen Parlaments und des Rates vom 14. Mai 2024 über Normen für die Anerkennung von Drittstaatsangehörigen oder Staatenlosen als Personen, denen internationaler Schutz gewährt wurde, für einen einheitlichen Status für Flüchtlinge oder für Personen mit Anspruch auf subsidiären Schutz und für den Inhalt des gewährten Schutzes, zur Änderung der Richtlinie 2003/109/EG des Rates und zur Aufhebung der Richtlinie 2011/95/EU des Europäischen Parlaments und des Rates"
+  },
+  {
+    "celex": "32024L1346",
+    "kurztitel": "Aufnahme-RL",
+    "alternativen": ["AufnRL"],
+    "langtitel": "Richtlinie (EU) 2024/1346 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Festlegung von Normen für die Aufnahme von Personen, die internationalen Schutz beantragen"
+  },
+  {
+    "celex": "32008L0115",
+    "kurztitel": "Rückführungs-RL",
+    "langtitel": "Richtlinie 2008/115/EG des Europäischen Parlaments und des Rates vom 16. Dezember 2008 über gemeinsame Normen und Verfahren in den Mitgliedstaaten zur Rückführung illegal aufhältiger Drittstaatsangehöriger"
+  },
+  {
+    "celex": "32003L0086",
+    "kurztitel": "Familienzusammenführungs-RL",
+    "langtitel": "Richtlinie 2003/86/EG des Rates vom 22. September 2003 betreffend das Recht auf Familienzusammenführung"
+  },
+  {
+    "celex": "32003L0109",
+    "kurztitel": "Daueraufenthalts-RL",
+    "langtitel": "Richtlinie 2003/109/EG des Rates vom 25. November 2003 betreffend die Rechtsstellung der langfristig aufenthaltsberechtigten Drittstaatsangehörigen"
+  },
+  {
+    "celex": "32021L1883",
+    "kurztitel": "Blaue-Karte-RL",
+    "langtitel": "Richtlinie (EU) 2021/1883 des Europäischen Parlaments und des Rates vom 20. Oktober 2021 über die Bedingungen für die Einreise und den Aufenthalt von Drittstaatsangehörigen zur Ausübung einer hoch qualifizierten Beschäftigung und zur Aufhebung der Richtlinie 2009/50/EG des Rates"
+  },
+  {
+    "celex": "32016R0399",
+    "kurztitel": "SGK",
+    "alternativen": ["Schengener Grenzkodex"],
+    "langtitel": "Verordnung (EU) 2016/399 des Europäischen Parlaments und des Rates vom 9. März 2016 über einen Gemeinschaftskodex für das Überschreiten der Grenzen durch Personen (Schengener Grenzkodex) (kodifizierter Text)"
+  },
+  {
+    "celex": "32009R0810",
+    "kurztitel": "Visakodex",
+    "langtitel": "Verordnung (EG) Nr. 810/2009 des Europäischen Parlaments und des Rates vom 13. Juli 2009 über einen Visakodex der Gemeinschaft (Visakodex)"
+  },
+  {
+    "celex": "32011R0492",
+    "kurztitel": "Arbeitnehmerfreizügigkeits-VO",
+    "langtitel": "Verordnung (EU) Nr. 492/2011 des Europäischen Parlaments und des Rates vom 5. April 2011 über die Freizügigkeit der Arbeitnehmer innerhalb der Union"
+  },
+  {
+    "celex": "32004R0883",
+    "kurztitel": "Koordinierungs-VO",
+    "langtitel": "Verordnung (EG) Nr. 883/2004 des Europäischen Parlaments und des Rates vom 29. April 2004 zur Koordinierung der Systeme der sozialen Sicherheit"
+  },
+  {
+    "celex": "32017R1939",
+    "kurztitel": "EuStA-VO",
+    "langtitel": "Verordnung (EU) 2017/1939 des Rates vom 12. Oktober 2017 zur Durchführung einer Verstärkten Zusammenarbeit zur Errichtung der Europäischen Staatsanwaltschaft (EUStA)"
+  },
+  {
+    "celex": "32014L0041",
+    "kurztitel": "EEA-RL",
+    "langtitel": "Richtlinie 2014/41/EU des Europäischen Parlaments und des Rates vom 3. April 2014 über die Europäische Ermittlungsanordnung in Strafsachen"
+  },
+  {
+    "celex": "32014L0024",
+    "kurztitel": "Vergabe-RL",
+    "langtitel": "Richtlinie 2014/24/EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die öffentliche Auftragsvergabe und zur Aufhebung der Richtlinie 2004/18/EG"
+  },
+  {
+    "celex": "32014L0025",
+    "kurztitel": "Sektoren-RL",
+    "langtitel": "Richtlinie 2014/25/EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die Vergabe von Aufträgen durch Auftraggeber im Bereich der Wasser-, Energie- und Verkehrsversorgung sowie der Postdienste und zur Aufhebung der Richtlinie 2004/17/EG"
+  },
+  {
+    "celex": "32014L0023",
+    "kurztitel": "Konzessions-RL",
+    "langtitel": "Richtlinie 2014/23/EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 über die Konzessionsvergabe"
+  },
+  {
+    "celex": "32015R1589",
+    "kurztitel": "Beihilfeverfahrens-VO",
+    "langtitel": "Verordnung (EU) 2015/1589 des Rates vom 13. Juli 2015 über besondere Vorschriften für die Anwendung von Artikel 108 des Vertrags über die Arbeitsweise der Europäischen Union (kodifizierter Text)"
+  },
+  {
+    "celex": "32014R0651",
+    "kurztitel": "AGVO",
+    "langtitel": "Verordnung (EU) Nr. 651/2014 der Kommission vom 17. Juni 2014 zur Feststellung der Vereinbarkeit bestimmter Gruppen von Beihilfen mit dem Binnenmarkt in Anwendung der Artikel 107 und 108 des Vertrags über die Arbeitsweise der Europäischen Union"
+  },
+  {
+    "celex": "32006R1907",
+    "kurztitel": "REACH",
+    "alternativen": ["REACH-VO"],
+    "langtitel": "Verordnung (EG) Nr. 1907/2006 des Europäischen Parlaments und des Rates vom 18. Dezember 2006 zur Registrierung, Bewertung, Zulassung und Beschränkung chemischer Stoffe (REACH), zur Schaffung einer Europäischen Agentur für chemische Stoffe, zur Änderung der Richtlinie 1999/45/EG und zur Aufhebung der Verordnung (EWG) Nr. 793/93 des Rates, der Verordnung (EG) Nr. 1488/94 der Kommission, der Richtlinie 76/769/EWG des Rates sowie der Richtlinien 91/155/EWG, 93/67/EWG, 93/105/EG und 2000/21/EG der Kommission"
+  },
+  {
+    "celex": "32008R1272",
+    "kurztitel": "CLP-VO",
+    "langtitel": "Verordnung (EG) Nr. 1272/2008 des Europäischen Parlaments und des Rates vom 16. Dezember 2008 über die Einstufung, Kennzeichnung und Verpackung von Stoffen und Gemischen, zur Änderung und Aufhebung der Richtlinien 67/548/EWG und 1999/45/EG und zur Änderung der Verordnung (EG) Nr. 1907/2006"
+  },
+  {
+    "celex": "32011L0092",
+    "kurztitel": "UVP-RL",
+    "langtitel": "Richtlinie 2011/92/EU des Europäischen Parlaments und des Rates vom 13. Dezember 2011 über die Umweltverträglichkeitsprüfung bei bestimmten öffentlichen und privaten Projekten (Kodifizierter Text)"
+  },
+  {
+    "celex": "32008L0098",
+    "kurztitel": "Abfallrahmen-RL",
+    "langtitel": "Richtlinie 2008/98/EG des Europäischen Parlaments und des Rates vom 19. November 2008 über Abfälle und zur Aufhebung bestimmter Richtlinien"
+  },
+  {
+    "celex": "32003L0087",
+    "kurztitel": "Emissionshandels-RL",
+    "alternativen": ["ETS-RL"],
+    "langtitel": "Richtlinie 2003/87/EG des Europäischen Parlaments und des Rates vom 13. Oktober 2003 über ein System für den Handel mit Treibhausgasemissionszertifikaten in der Gemeinschaft und zur Änderung der Richtlinie 96/61/EG des Rates"
+  },
+  {
+    "celex": "32018L2001",
+    "kurztitel": "RED II",
+    "alternativen": ["Erneuerbare-Energien-RL"],
+    "langtitel": "Richtlinie (EU) 2018/2001 des Europäischen Parlaments und des Rates vom 11. Dezember 2018 zur Förderung der Nutzung von Energie aus erneuerbaren Quellen (Neufassung)"
+  },
+  {
+    "celex": "32013R0952",
+    "kurztitel": "UZK",
+    "langtitel": "Verordnung (EU) Nr. 952/2013 des Europäischen Parlaments und des Rates vom 9. Oktober 2013 zur Festlegung des Zollkodex der Union (Neufassung)"
+  },
+  {
+    "celex": "32006L0112",
+    "kurztitel": "MwStSystRL",
+    "langtitel": "Richtlinie 2006/112/EG des Rates vom 28. November 2006 über das gemeinsame Mehrwertsteuersystem"
+  },
+  {
+    "celex": "32024R2847",
+    "kurztitel": "CRA",
+    "alternativen": ["Cyberresilienzgesetz", "Cyber Resilience Act"],
+    "langtitel": "Verordnung (EU) 2024/2847 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über horizontale Cybersicherheitsanforderungen für Produkte mit digitalen Elementen und zur Änderung der Verordnungen (EU) Nr. 168/2013 und (EU) 2019/1020 und der Richtlinie (EU) 2020/1828 (Cyberresilienz-Verordnung)"
+  },
+  {
+    "celex": "32022R0868",
+    "kurztitel": "DGA",
+    "alternativen": ["Data Governance Act"],
+    "langtitel": "Verordnung (EU) 2022/868 des Europäischen Parlaments und des Rates vom 30. Mai 2022 über europäische Daten-Governance und zur Änderung der Verordnung (EU) 2018/1724 (Daten-Governance-Rechtsakt)"
+  },
+  {
+    "celex": "32014R0910",
+    "kurztitel": "eIDAS-VO",
+    "langtitel": "Verordnung (EU) Nr. 910/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 über elektronische Identifizierung und Vertrauensdienste für elektronische Transaktionen im Binnenmarkt und zur Aufhebung der Richtlinie 1999/93/EG"
+  },
+  {
+    "celex": "32019L0882",
+    "kurztitel": "Barrierefreiheits-RL",
+    "alternativen": ["European Accessibility Act", "EAA"],
+    "langtitel": "Richtlinie (EU) 2019/882 des Europäischen Parlaments und des Rates vom 17. April 2019 über die Barrierefreiheitsanforderungen für Produkte und Dienstleistungen"
+  },
+  {
+    "celex": "32023R1542",
+    "kurztitel": "BattVO",
+    "alternativen": ["Batterie-VO"],
+    "langtitel": "Verordnung (EU) 2023/1542 des Europäischen Parlaments und des Rates vom 12. Juli 2023 über Batterien und Altbatterien, zur Änderung der Richtlinie 2008/98/EG und der Verordnung (EU) 2019/1020 und zur Aufhebung der Richtlinie 2006/66/EG"
+  },
+  {
+    "celex": "32023R0988",
+    "kurztitel": "GPSR",
+    "alternativen": ["Produktsicherheits-VO"],
+    "langtitel": "Verordnung (EU) 2023/988 des Europäischen Parlaments und des Rates vom 10. Mai 2023 über die allgemeine Produktsicherheit, zur Änderung der Verordnung (EU) Nr. 1025/2012 des Europäischen Parlaments und des Rates und der Richtlinie (EU) 2020/1828 des Europäischen Parlaments und des Rates sowie zur Aufhebung der Richtlinie 2001/95/EG des Europäischen Parlaments und des Rates und der Richtlinie 87/357/EWG des Rates"
+  },
+  {
+    "celex": "32017R0745",
+    "kurztitel": "MDR",
+    "alternativen": ["Medizinprodukte-VO"],
+    "langtitel": "Verordnung (EU) 2017/745 des Europäischen Parlaments und des Rates vom 5. April 2017 über Medizinprodukte, zur Änderung der Richtlinie 2001/83/EG, der Verordnung (EG) Nr. 178/2002 und der Verordnung (EG) Nr. 1223/2009 und zur Aufhebung der Richtlinien 90/385/EWG und 93/42/EWG des Rates"
+  },
+  {
+    "celex": "32023R1230",
+    "kurztitel": "Maschinen-VO",
+    "langtitel": "Verordnung (EU) 2023/1230 des Europäischen Parlaments und des Rates vom 14. Juni 2023 über Maschinen und zur Aufhebung der Richtlinie 2006/42/EG des Europäischen Parlaments und des Rates und der Richtlinie 73/361/EWG des Rates"
+  },
+  {
+    "celex": "32002R0178",
+    "kurztitel": "Lebensmittel-Basis-VO",
+    "alternativen": ["BasisVO", "Basis-VO", "EG-BasisVO"],
+    "langtitel": "Verordnung (EG) Nr. 178/2002 des Europäischen Parlaments und des Rates vom 28. Januar 2002 zur Festlegung der allgemeinen Grundsätze und Anforderungen des Lebensmittelrechts, zur Errichtung der Europäischen Behörde für Lebensmittelsicherheit und zur Festlegung von Verfahren zur Lebensmittelsicherheit"
+  },
+  {
+    "celex": "32011R1169",
+    "kurztitel": "LMIV",
+    "langtitel": "Verordnung (EU) Nr. 1169/2011 des Europäischen Parlaments und des Rates vom 25. Oktober 2011 betreffend die Information der Verbraucher über Lebensmittel und zur Änderung der Verordnungen (EG) Nr. 1924/2006 und (EG) Nr. 1925/2006 des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinie 87/250/EWG der Kommission, der Richtlinie 90/496/EWG des Rates, der Richtlinie 1999/10/EG der Kommission, der Richtlinie 2000/13/EG des Europäischen Parlaments und des Rates, der Richtlinien 2002/67/EG und 2008/5/EG der Kommission und der Verordnung (EG) Nr. 608/2004 der Kommission"
+  },
+  {
+    "celex": "32018L1972",
+    "kurztitel": "EKEK",
+    "langtitel": "Richtlinie (EU) 2018/1972 des Europäischen Parlaments und des Rates vom 11. Dezember 2018 über den europäischen Kodex für die elektronische Kommunikation (Neufassung)"
+  },
+  {
+    "celex": "32008L0048",
+    "kurztitel": "Verbraucherkredit-RL",
+    "alternativen": ["CCD I"],
+    "langtitel": "Richtlinie 2008/48/EG des Europäischen Parlaments und des Rates vom 23. April 2008 über Verbraucherkreditverträge und zur Aufhebung der Richtlinie 87/102/EWG des Rates"
+  },
+  {
+    "celex": "32023L2225",
+    "kurztitel": "Verbraucherkredit-RL II",
+    "alternativen": ["CCD II", "CCD2"],
+    "langtitel": "Richtlinie (EU) 2023/2225 des Europäischen Parlaments und des Rates vom 18. Oktober 2023 über Verbraucherkreditverträge und zur Aufhebung der Richtlinie 2008/48/EG"
+  },
+  {
+    "celex": "32014L0017",
+    "kurztitel": "WIKR",
+    "alternativen": ["Wohnimmobilienkredit-RL"],
+    "langtitel": "Richtlinie 2014/17/ЕU des Europäischen Parlaments und des Rates vom 4. Februar 2014 über Wohnimmobilienkreditverträge für Verbraucher und zur Änderung der Richtlinien 2008/48/EG und 2013/36/EU und der Verordnung (EU) Nr. 1093/2010"
+  },
+  {
+    "celex": "31985L0374",
+    "kurztitel": "ProdHaftRL 1985",
+    "alternativen": ["Produkthaftungs-RL 1985"],
+    "langtitel": "Richtlinie 85/374/EWG des Rates vom 25. Juli 1985 zur Angleichung der Rechts- und Verwaltungsvorschriften der Mitgliedstaaten über die Haftung für fehlerhafte Produkte"
+  },
+  {
+    "celex": "32006L0123",
+    "kurztitel": "Dienstleistungs-RL",
+    "alternativen": ["DLRL"],
+    "langtitel": "Richtlinie 2006/123/EG des Europäischen Parlaments und des Rates vom 12. Dezember 2006 über Dienstleistungen im Binnenmarkt"
+  },
+  {
+    "celex": "32005L0036",
+    "kurztitel": "Berufsanerkennungs-RL",
+    "langtitel": "Richtlinie 2005/36/EG des Europäischen Parlaments und des Rates vom 7. September 2005 über die Anerkennung von Berufsqualifikationen"
+  },
+  {
+    "celex": "31986L0653",
+    "kurztitel": "Handelsvertreter-RL",
+    "langtitel": "Richtlinie 86/653/EWG des Rates vom 18. Dezember 1986 zur Koordinierung der Rechtsvorschriften der Mitgliedstaaten betreffend die selbständigen Handelsvertreter"
+  },
+  {
+    "celex": "32006L0114",
+    "kurztitel": "Werbe-RL",
+    "alternativen": ["Vergleichende-Werbung-RL"],
+    "langtitel": "Richtlinie 2006/114/EG des Europäischen Parlaments und des Rates vom 12. Dezember 2006 über irreführende und vergleichende Werbung (kodifizierte Fassung)"
+  },
+  {
+    "celex": "32019L2161",
+    "kurztitel": "Modernisierungs-RL",
+    "alternativen": ["Verbraucher-Omnibus-RL"],
+    "langtitel": "Richtlinie (EU) 2019/2161 des Europäischen Parlaments und des Rates vom 27. November 2019 zur Änderung der Richtlinie 93/13/EWG des Rates und der Richtlinien 98/6/EG, 2005/29/EG und 2011/83/EU des Europäischen Parlaments und des Rates zur besseren Durchsetzung und Modernisierung der Verbraucherschutzvorschriften der Union"
+  },
+  {
+    "celex": "32024L0825",
+    "kurztitel": "EmpCo-RL",
+    "alternativen": ["ECGT", "Greenwashing-RL", "Empowering-Consumers-RL"],
+    "langtitel": "Richtlinie (EU) 2024/825 des Europäischen Parlaments und des Rates vom 28. Februar 2024 zur Änderung der Richtlinien 2005/29/EG und 2011/83/EU hinsichtlich der Stärkung der Verbraucher für den ökologischen Wandel durch besseren Schutz gegen unlautere Praktiken und durch bessere Informationen"
+  },
+  {
+    "celex": "32024L1799",
+    "kurztitel": "Reparatur-RL",
+    "alternativen": ["Recht-auf-Reparatur-RL", "Right-to-Repair-RL"],
+    "langtitel": "Richtlinie (EU) 2024/1799 des Europäischen Parlaments und des Rates vom 13. Juni 2024 über gemeinsame Vorschriften zur Förderung der Reparatur von Waren und zur Änderung der Verordnung (EU) 2017/2394 und der Richtlinien (EU) 2019/771 und (EU) 2020/1828"
+  },
+  {
+    "celex": "32017R2394",
+    "kurztitel": "CPC-VO",
+    "langtitel": "Verordnung (EU) 2017/2394 des Europäischen Parlaments und des Rates vom 12. Dezember 2017 über die Zusammenarbeit zwischen den für die Durchsetzung der Verbraucherschutzgesetze zuständigen nationalen Behörden und zur Aufhebung der Verordnung (EG) Nr. 2006/2004"
+  },
+  {
+    "celex": "32019R1150",
+    "kurztitel": "P2B-VO",
+    "alternativen": ["Platform-to-Business-VO"],
+    "langtitel": "Verordnung (EU) 2019/1150 des Europäischen Parlaments und des Rates vom 20. Juni 2019 zur Förderung von Fairness und Transparenz für gewerbliche Nutzer von Online-Vermittlungsdiensten"
+  },
+  {
+    "celex": "32019R1020",
+    "kurztitel": "Marktüberwachungs-VO",
+    "langtitel": "Verordnung (EU) 2019/1020 des Europäischen Parlaments und des Rates vom 20. Juni 2019 über Marktüberwachung und die Konformität von Produkten sowie zur Änderung der Richtlinie 2004/42/EG und der Verordnungen (EG) Nr. 765/2008 und (EU) Nr. 305/2011"
+  },
+  {
+    "celex": "32013L0011",
+    "kurztitel": "ADR-RL",
+    "langtitel": "Richtlinie 2013/11/EU des Europäischen Parlaments und des Rates vom 21. Mai 2013 über die alternative Beilegung verbraucherrechtlicher Streitigkeiten und zur Änderung der Verordnung (EG) Nr. 2006/2004 und der Richtlinie 2009/22/EG (Richtlinie über alternative Streitbeilegung in Verbraucherangelegenheiten)"
+  },
+  {
+    "celex": "32014R0655",
+    "kurztitel": "EuKoPfVO",
+    "langtitel": "Verordnung (EU) Nr. 655/2014 des Europäischen Parlaments und des Rates vom 15. Mai 2014 zur Einführung eines Verfahrens für einen Europäischen Beschluss zur vorläufigen Kontenpfändung im Hinblick auf die Erleichterung der grenzüberschreitenden Eintreibung von Forderungen in Zivil- und Handelssachen"
+  },
+  {
+    "celex": "32009L0024",
+    "kurztitel": "Computerprogramm-RL",
+    "langtitel": "Richtlinie 2009/24/EG des Europäischen Parlaments und des Rates vom 23. April 2009 über den Rechtsschutz von Computerprogrammen (kodifizierte Fassung)"
+  },
+  {
+    "celex": "31996L0009",
+    "kurztitel": "Datenbank-RL",
+    "langtitel": "Richtlinie 96/9/EG des Europäischen Parlaments und des Rates vom 11. März 1996 über den rechtlichen Schutz von Datenbanken"
+  },
+  {
+    "celex": "32012R1257",
+    "kurztitel": "Einheitspatent-VO",
+    "alternativen": ["EPV"],
+    "langtitel": "Verordnung (EU) Nr. 1257/2012 des Europäischen Parlaments und des Rates vom 17. Dezember 2012 über die Umsetzung der Verstärkten Zusammenarbeit im Bereich der Schaffung eines einheitlichen Patentschutzes"
+  },
+  {
+    "celex": "32012R1260",
+    "kurztitel": "Einheitspatent-Übersetzungs-VO",
+    "alternativen": ["EPVÜ"],
+    "langtitel": "Verordnung (EU) Nr. 1260/2012 des Rates vom 17. Dezember 2012 über die Umsetzung der verstärkten Zusammenarbeit im Bereich der Schaffung eines einheitlichen Patentschutzes im Hinblick auf die anzuwendenden Übersetzungsregelungen"
+  },
+  {
+    "celex": "32026R0715",
+    "kurztitel": "Unionsdesign-VO",
+    "langtitel": "Verordnung (EU) 2026/715 des Europäischen Parlaments und des Rates vom 11. März 2026 über das Unionsdesign (kodifizierter Text)"
+  },
+  {
+    "celex": "32024L2823",
+    "kurztitel": "Design-RL",
+    "langtitel": "Richtlinie (EU) 2024/2823 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über den rechtlichen Schutz von Designs (Neufassung)"
+  },
+  {
+    "celex": "32016L0680",
+    "kurztitel": "JI-RL",
+    "langtitel": "Richtlinie (EU) 2016/680 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten durch die zuständigen Behörden zum Zwecke der Verhütung, Ermittlung, Aufdeckung oder Verfolgung von Straftaten oder der Strafvollstreckung sowie zum freien Datenverkehr und zur Aufhebung des Rahmenbeschlusses 2008/977/JI des Rates"
+  },
+  {
+    "celex": "32025R2518",
+    "kurztitel": "DSGVO-Verfahrens-VO",
+    "langtitel": "Verordnung (EU) 2025/2518 des Europäischen Parlaments und des Rates vom 26. November 2025 zur Festlegung zusätzlicher Verfahrensregeln für die Durchsetzung der Verordnung (EU) 2016/679"
+  },
+  {
+    "celex": "32024R1624",
+    "kurztitel": "AMLR",
+    "alternativen": ["AML-VO", "Geldwäsche-VO"],
+    "langtitel": "Verordnung (EU) 2024/1624 des Europäischen Parlaments und des Rates vom 31. Mai 2024 zur Verhinderung der Nutzung des Finanzsystems für Zwecke der Geldwäsche oder der Terrorismusfinanzierung"
+  },
+  {
+    "celex": "32024R1620",
+    "kurztitel": "AMLA-VO",
+    "langtitel": "Verordnung (EU) 2024/1620 des Europäischen Parlaments und des Rates vom 31. Mai 2024 zur Errichtung der Behörde zur Bekämpfung von Geldwäsche und Terrorismusfinanzierung und zur Änderung der Verordnungen (EU) Nr. 1093/2010, (EU) Nr. 1094/2010 und (EU) Nr. 1095/2010"
+  },
+  {
+    "celex": "32015L0849",
+    "kurztitel": "Geldwäsche-RL",
+    "alternativen": ["AMLD4"],
+    "langtitel": "Richtlinie (EU) 2015/849 des Europäischen Parlaments und des Rates vom 20. Mai 2015 zur Verhinderung der Nutzung des Finanzsystems zum Zwecke der Geldwäsche und der Terrorismusfinanzierung, zur Änderung der Verordnung (EU) Nr. 648/2012 des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinie 2005/60/EG des Europäischen Parlaments und des Rates und der Richtlinie 2006/70/EG der Kommission"
+  },
+  {
+    "celex": "32024L1640",
+    "kurztitel": "Geldwäsche-RL 2024",
+    "alternativen": ["AMLD6"],
+    "langtitel": "Richtlinie (EU) 2024/1640 des Europäischen Parlaments und des Rates vom 31. Mai 2024 über die von den Mitgliedstaaten einzurichtenden Mechanismen zur Verhinderung der Nutzung des Finanzsystems für Zwecke der Geldwäsche oder der Terrorismusfinanzierung, zur Änderung der Richtlinie (EU) 2019/1937 und zur Änderung und Aufhebung der Richtlinie (EU) 2015/849"
+  },
+  {
+    "celex": "32023R1113",
+    "kurztitel": "Geldtransfer-VO",
+    "langtitel": "Verordnung (EU) 2023/1113 des Europäischen Parlaments und des Rates vom 31. Mai 2023 über die Übermittlung von Angaben bei Geldtransfers und Transfers bestimmter Kryptowerte und zur Änderung der Richtlinie (EU) 2015/849"
+  },
+  {
+    "celex": "32004L0109",
+    "kurztitel": "Transparenz-RL",
+    "langtitel": "Richtlinie 2004/109/EG des Europäischen Parlaments und des Rates vom 15. Dezember 2004 zur Harmonisierung der Transparenzanforderungen in Bezug auf Informationen über Emittenten, deren Wertpapiere zum Handel auf einem geregelten Markt zugelassen sind, und zur Änderung der Richtlinie 2001/34/EG"
+  },
+  {
+    "celex": "32004L0025",
+    "kurztitel": "Übernahme-RL",
+    "langtitel": "Richtlinie 2004/25/EG des Europäischen Parlaments und des rates vom 21. april 2004 betreffend Übernahmeangebote"
+  },
+  {
+    "celex": "32011L0061",
+    "kurztitel": "AIFM-RL",
+    "langtitel": "Richtlinie 2011/61/EU des Europäischen Parlaments und des Rates vom 8. Juni 2011 über die Verwalter alternativer Investmentfonds und zur Änderung der Richtlinien 2003/41/EG und 2009/65/EG und der Verordnungen (EG) Nr. 1060/2009 und (EU) Nr. 1095/2010"
+  },
+  {
+    "celex": "32009L0065",
+    "kurztitel": "OGAW-RL",
+    "alternativen": ["UCITS-RL"],
+    "langtitel": "Richtlinie 2009/65/EG des Europäischen Parlaments und des Rates vom 13. Juli 2009 zur Koordinierung der Rechts- und Verwaltungsvorschriften betreffend bestimmte Organismen für gemeinsame Anlagen in Wertpapieren (OGAW) (Neufassung)"
+  },
+  {
+    "celex": "32013L0034",
+    "kurztitel": "Bilanz-RL",
+    "langtitel": "Richtlinie 2013/34/EU des Europäischen Parlaments und des Rates vom 26. Juni 2013 über den Jahresabschluss, den konsolidierten Abschluss und damit verbundene Berichte von Unternehmen bestimmter Rechtsformen und zur Änderung der Richtlinie 2006/43/EG des Europäischen Parlaments und des Rates und zur Aufhebung der Richtlinien 78/660/EWG und 83/349/EWG des Rates"
+  },
+  {
+    "celex": "32019L1023",
+    "kurztitel": "Restrukturierungs-RL",
+    "langtitel": "Richtlinie (EU) 2019/1023 des Europäischen Parlaments und des Rates vom 20. Juni 2019 über präventive Restrukturierungsrahmen, über Entschuldung und über Tätigkeitsverbote sowie über Maßnahmen zur Steigerung der Effizienz von Restrukturierungs-, Insolvenz- und Entschuldungsverfahren und zur Änderung der Richtlinie (EU) 2017/1132 (Richtlinie über Restrukturierung und Insolvenz)"
+  },
+  {
+    "celex": "32026L0799",
+    "kurztitel": "Insolvenzharmonisierungs-RL",
+    "langtitel": "Richtlinie (EU) 2026/799 des Europäischen Parlaments und des Rates vom 30. März 2026 zur Harmonisierung bestimmter Aspekte des Insolvenzrechts"
+  },
+  {
+    "celex": "32014L0059",
+    "kurztitel": "BRRD",
+    "langtitel": "Richtlinie 2014/59/EU des Europäischen Parlaments und des Rates vom 15. Mai 2014 zur Festlegung eines Rahmens für die Sanierung und Abwicklung von Kreditinstituten und Wertpapierfirmen und zur Änderung der Richtlinie 82/891/EWG des Rates, der Richtlinien 2001/24/EG, 2002/47/EG, 2004/25/EG, 2005/56/EG, 2007/36/EG, 2011/35/EU, 2012/30/EU und 2013/36/EU sowie der Verordnungen (EU) Nr. 1093/2010 und (EU) Nr. 648/2012 des Europäischen Parlaments und des Rates"
+  },
+  {
+    "celex": "32014R0806",
+    "kurztitel": "SRM-VO",
+    "langtitel": "Verordnung (EU) Nr. 806/2014 des Europäischen Parlaments und des Rates vom 15. Juli 2014 zur Festlegung einheitlicher Vorschriften und eines einheitlichen Verfahrens für die Abwicklung von Kreditinstituten und bestimmten Wertpapierfirmen im Rahmen eines einheitlichen Abwicklungsmechanismus und eines einheitlichen Abwicklungsfonds sowie zur Änderung der Verordnung (EU) Nr. 1093/2010"
+  },
+  {
+    "celex": "32002R1606",
+    "kurztitel": "IAS-VO",
+    "langtitel": "Verordnung (EG) Nr. 1606/2002 des Europäischen Parlaments und des Rates vom 19. Juli 2002 betreffend die Anwendung internationaler Rechnungslegungsstandards"
+  },
+  {
+    "celex": "32006L0043",
+    "kurztitel": "Abschlussprüfer-RL",
+    "langtitel": "Richtlinie 2006/43/EG des Europäischen Parlaments und des Rates vom 17. Mai 2006 über Abschlussprüfungen von Jahresabschlüssen und konsolidierten Abschlüssen, zur Änderung der Richtlinien 78/660/EWG und 83/349/EWG des Rates und zur Aufhebung der Richtlinie 84/253/EWG des Rates"
+  },
+  {
+    "celex": "32014R0537",
+    "kurztitel": "APVO",
+    "alternativen": ["Abschlussprüfer-VO"],
+    "langtitel": "Verordnung (EU) Nr. 537/2014 des Europäischen Parlaments und des Rates vom 16. April 2014 über spezifische Anforderungen an die Abschlussprüfung bei Unternehmen von öffentlichem Interesse und zur Aufhebung des Beschlusses 2005/909/EG der Kommission"
+  },
+  {
+    "celex": "32012R0236",
+    "kurztitel": "Leerverkaufs-VO",
+    "langtitel": "Verordnung (EU) Nr. 236/2012 des Europäischen Parlaments und des Rates vom 14. März 2012 über Leerverkäufe und bestimmte Aspekte von Credit Default Swaps"
+  },
+  {
+    "celex": "32014R0909",
+    "kurztitel": "CSDR",
+    "langtitel": "Verordnung (EU) Nr. 909/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 zur Verbesserung der Wertpapierlieferungen und -abrechnungen in der Europäischen Union und über Zentralverwahrer sowie zur Änderung der Richtlinien 98/26/EG und 2014/65/EU und der Verordnung (EU) Nr. 236/2012"
+  },
+  {
+    "celex": "32016L0097",
+    "kurztitel": "IDD",
+    "alternativen": ["Versicherungsvertriebs-RL"],
+    "langtitel": "Richtlinie (EU) 2016/97 des Europäischen Parlaments und des Rates vom 20. Januar 2016 über Versicherungsvertrieb (Neufassung)"
+  },
+  {
+    "celex": "32002L0047",
+    "kurztitel": "Finanzsicherheiten-RL",
+    "langtitel": "Richtlinie 2002/47/EG des Europäischen Parlaments und des Rates vom 6. Juni 2002 über Finanzsicherheiten"
+  },
+  {
+    "celex": "32022R0720",
+    "kurztitel": "Vertikal-GVO",
+    "langtitel": "Verordnung (EU) 2022/720 der Kommission vom 10. Mai 2022 über die Anwendung des Artikels 101 Absatz 3 des Vertrags über die Arbeitsweise der Europäischen Union auf Gruppen von vertikalen Vereinbarungen und abgestimmten Verhaltensweisen"
+  },
+  {
+    "celex": "32023R1066",
+    "kurztitel": "FuE-GVO",
+    "langtitel": "Verordnung (EU) 2023/1066 der Kommission vom 1. Juni 2023 über die Anwendung des Artikels 101 Absatz 3 des Vertrags über die Arbeitsweise der Europäischen Union auf bestimmte Gruppen von Vereinbarungen über Forschung und Entwicklung"
+  },
+  {
+    "celex": "32023R1067",
+    "kurztitel": "Spezialisierungs-GVO",
+    "langtitel": "Verordnung (EU) 2023/1067 der Kommission vom 1. Juni 2023 über die Anwendung des Artikels 101 Absatz 3 des Vertrags über die Arbeitsweise der Europäischen Union auf bestimmte Gruppen von Spezialisierungsvereinbarungen"
+  },
+  {
+    "celex": "32026R0877",
+    "kurztitel": "TT-GVO",
+    "alternativen": ["Technologietransfer-GVO"],
+    "langtitel": "Verordnung (EU) 2026/877 der Kommission vom 16. April 2026 über die Anwendung des Artikels 101 Absatz 3 des Vertrags über die Arbeitsweise der Europäischen Union auf Gruppen von Technologietransfer-Vereinbarungen"
+  },
+  {
+    "celex": "32023R2831",
+    "kurztitel": "De-minimis-VO",
+    "langtitel": "Verordnung (EU) 2023/2831 der Kommission vom 13. Dezember 2023 über die Anwendung der Artikel 107 und 108 des Vertrags über die Arbeitsweise der Europäischen Union auf De-minimis-Beihilfen"
+  },
+  {
+    "celex": "32022R2560",
+    "kurztitel": "FSR",
+    "alternativen": ["Drittstaatssubventions-VO"],
+    "langtitel": "Verordnung (EU) 2022/2560 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über den Binnenmarkt verzerrende drittstaatliche Subventionen"
+  },
+  {
+    "celex": "32009R0987",
+    "kurztitel": "Koordinierungs-DVO",
+    "alternativen": ["Durchführungs-VO 883/2004"],
+    "langtitel": "Verordnung (EG) Nr. 987/2009 des Europäischen Parlaments und des Rates vom 16. September 2009 zur Festlegung der Modalitäten für die Durchführung der Verordnung (EG) Nr. 883/2004 über die Koordinierung der Systeme der sozialen Sicherheit"
+  },
+  {
+    "celex": "31989L0391",
+    "kurztitel": "Arbeitsschutz-Rahmen-RL",
+    "langtitel": "Richtlinie 89/391/EWG des Rates vom 12. Juni 1989 über die Durchführung von Maßnahmen zur Verbesserung der Sicherheit und des Gesundheitsschutzes der Arbeitnehmer bei der Arbeit"
+  },
+  {
+    "celex": "31997L0081",
+    "kurztitel": "Teilzeit-RL",
+    "langtitel": "Richtlinie 97/81/EG des Rates vom 15. Dezember 1997 zu der von UNICE, CEEP and EGB geschlossenen Rahmenvereinigung über Teilzeitarbeit - Anhang : Rahmenvereinbarung über Teilzeitarbeit"
+  },
+  {
+    "celex": "31992L0085",
+    "kurztitel": "Mutterschutz-RL",
+    "langtitel": "Richtlinie 92/85/EWG des Rates vom 19. Oktober 1992 über die Durchführung von Maßnahmen zur Verbesserung der Sicherheit und des Gesundheitsschutzes von schwangeren Arbeitnehmerinnen, Wöchnerinnen und stillenden Arbeitnehmerinnen am Arbeitsplatz (zehnte Einzelrichtlinie im Sinne des Artikels 16 Absatz 1 der Richtlinie 89/391/EWG)"
+  },
+  {
+    "celex": "32009L0038",
+    "kurztitel": "EBR-RL",
+    "langtitel": "Richtlinie 2009/38/EG des Europäischen Parlaments und des Rates vom 6. Mai 2009 über die Einsetzung eines Europäischen Betriebsrats oder die Schaffung eines Verfahrens zur Unterrichtung und Anhörung der Arbeitnehmer in gemeinschaftsweit operierenden Unternehmen und Unternehmensgruppen (Neufassung)"
+  },
+  {
+    "celex": "32004L0113",
+    "kurztitel": "Gütergleichbehandlungs-RL",
+    "alternativen": ["Unisex-RL"],
+    "langtitel": "Richtlinie 2004/113/EG des Rates vom 13. Dezember 2004 zur Verwirklichung des Grundsatzes der Gleichbehandlung von Männern und Frauen beim Zugang zu und bei der Versorgung mit Gütern und Dienstleistungen"
+  },
+  {
+    "celex": "32008L0094",
+    "kurztitel": "Insolvenzschutz-RL",
+    "langtitel": "Richtlinie 2008/94/EG des Europäischen Parlaments und des Rates vom 22. Oktober 2008 über den Schutz der Arbeitnehmer bei Zahlungsunfähigkeit des Arbeitgebers (kodifizierte Fassung)"
+  },
+  {
+    "celex": "32002L0014",
+    "kurztitel": "Unterrichtungs-RL",
+    "langtitel": "Richtlinie 2002/14/EG des Europäischen Parlaments und des Rates vom 11. März 2002 zur Festlegung eines allgemeinen Rahmens für die Unterrichtung und Anhörung der Arbeitnehmer in der Europäischen Gemeinschaft - Gemeinsame Erklärung des Europäischen Parlaments, des Rates und der Kommission zur Vertretung der Arbeitnehmer"
+  },
+  {
+    "celex": "32024R1356",
+    "kurztitel": "Screening-VO",
+    "alternativen": ["ScreeningVO"],
+    "langtitel": "Verordnung (EU) 2024/1356 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Einführung der Überprüfung von Drittstaatsangehörigen an den Außengrenzen und zur Änderung der Verordnungen (EG) Nr. 767/2008, (EU) 2017/2226, (EU) 2018/1240 und (EU) 2019/817"
+  },
+  {
+    "celex": "32024R1359",
+    "kurztitel": "Krisen-VO",
+    "alternativen": ["KrisenVO"],
+    "langtitel": "Verordnung (EU) 2024/1359 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl und zur Änderung der Verordnung (EU) 2021/1147"
+  },
+  {
+    "celex": "32024R1350",
+    "kurztitel": "Resettlement-VO",
+    "alternativen": ["ResettlementVO"],
+    "langtitel": "Verordnung (EU) 2024/1350 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Schaffung eines Unionsrahmens für Neuansiedlung und Aufnahme aus humanitären Gründen sowie zur Änderung der Verordnung (EU) 2021/1147"
+  },
+  {
+    "celex": "32024R1349",
+    "kurztitel": "Grenzrückführungs-VO",
+    "alternativen": ["GrenzRVO"],
+    "langtitel": "Verordnung (EU) 2024/1349 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Festlegung eines Rückkehrverfahrens an der Grenze und zur Änderung der Verordnung (EU) 2021/1148"
+  },
+  {
+    "celex": "32001L0055",
+    "kurztitel": "Massenzustrom-RL",
+    "langtitel": "Richtlinie 2001/55/EG des Rates vom 20. Juli 2001 über Mindestnormen für die Gewährung vorübergehenden Schutzes im Falle eines Massenzustroms von Vertriebenen und Maßnahmen zur Förderung einer ausgewogenen Verteilung der Belastungen, die mit der Aufnahme dieser Personen und den Folgen dieser Aufnahme verbunden sind, auf die Mitgliedstaaten"
+  },
+  {
+    "celex": "32026R2280",
+    "kurztitel": "Rückkehr-VO",
+    "alternativen": ["RückkehrVO", "Rückführungsverordnung"],
+    "langtitel": "Verordnung (EU) 2026/2280 des Europäischen Parlaments und des Rates vom 7. Oktober 2026 zur Einrichtung eines gemeinsamen Systems für die Rückkehr von illegal in der Union aufhältigen Drittstaatsangehörigen und zur Aufhebung der Richtlinie 2008/115/EG des Europäischen Parlaments und des Rates, der Richtlinie 2001/40/EG des Rates und der Entscheidung 2004/191/EG des Rates"
+  },
+  {
+    "celex": "32012L0013",
+    "kurztitel": "Belehrungs-RL",
+    "langtitel": "Richtlinie 2012/13/EU des Europäischen Parlaments und des Rates vom 22. Mai 2012 über das Recht auf Belehrung und Unterrichtung in Strafverfahren"
+  },
+  {
+    "celex": "32010L0064",
+    "kurztitel": "Dolmetscher-RL",
+    "langtitel": "Richtlinie 2010/64/EU des Europäischen Parlaments und des Rates vom 20. Oktober 2010 über das Recht auf Dolmetschleistungen und Übersetzungen in Strafverfahren"
+  },
+  {
+    "celex": "32013L0048",
+    "kurztitel": "Rechtsbeistands-RL",
+    "langtitel": "Richtlinie 2013/48/EU des Europäischen Parlaments und des Rates vom 22. Oktober 2013 über das Recht auf Zugang zu einem Rechtsbeistand in Strafverfahren und in Verfahren zur Vollstreckung des Europäischen Haftbefehls sowie über das Recht auf Benachrichtigung eines Dritten bei Freiheitsentzug und das Recht auf Kommunikation mit Dritten und mit Konsularbehörden während des Freiheitsentzugs"
+  },
+  {
+    "celex": "32016L0343",
+    "kurztitel": "Unschuldsvermutungs-RL",
+    "langtitel": "Richtlinie (EU) 2016/343 des Europäischen Parlaments und des Rates vom 9. März 2016 über die Stärkung bestimmter Aspekte der Unschuldsvermutung und des Rechts auf Anwesenheit in der Verhandlung in Strafverfahren"
+  },
+  {
+    "celex": "32012L0029",
+    "kurztitel": "Opferschutz-RL",
+    "langtitel": "Richtlinie 2012/29/EU des Europäischen Parlaments und des Rates vom 25. Oktober 2012 über Mindeststandards für die Rechte, die Unterstützung und den Schutz von Opfern von Straftaten sowie zur Ersetzung des Rahmenbeschlusses 2001/220/JI"
+  },
+  {
+    "celex": "32017L1371",
+    "kurztitel": "PIF-RL",
+    "langtitel": "Richtlinie (EU) 2017/1371 des Europäischen Parlaments und des Rates vom 5. Juli 2017 über die strafrechtliche Bekämpfung von gegen die finanziellen Interessen der Union gerichtetem Betrug"
+  },
+  {
+    "celex": "32026L1021",
+    "kurztitel": "Korruptions-RL",
+    "langtitel": "Richtlinie (EU) 2026/1021 des Europäischen Parlaments und des Rates vom 29. April 2026 zur Bekämpfung der Korruption, zur Ersetzung des Rahmenbeschlusses 2003/568/JI des Rates und des Übereinkommens über die Bekämpfung der Bestechung, an der Beamte der Europäischen Gemeinschaften oder der Mitgliedstaaten der Europäischen Union beteiligt sind, sowie zur Änderung der Richtlinie (EU) 2017/1371 des Europäischen Parlaments und des Rates"
+  },
+  {
+    "celex": "32010L0075",
+    "kurztitel": "IE-RL",
+    "alternativen": ["IED", "Industrieemissions-RL"],
+    "langtitel": "Richtlinie 2010/75/EU des Europäischen Parlaments und des Rates vom 24. November 2010 über Industrieemissionen (integrierte Vermeidung und Verminderung der Umweltverschmutzung) (Neufassung)"
+  },
+  {
+    "celex": "32000L0060",
+    "kurztitel": "WRRL",
+    "alternativen": ["Wasserrahmen-RL"],
+    "langtitel": "Richtlinie 2000/60/EG des Europäischen Parlaments und des Rates vom 23. Oktober 2000 zur Schaffung eines Ordnungsrahmens für Maßnahmen der Gemeinschaft im Bereich der Wasserpolitik"
+  },
+  {
+    "celex": "31992L0043",
+    "kurztitel": "FFH-RL",
+    "langtitel": "Richtlinie 92/43/EWG des Rates vom 21. Mai 1992 zur Erhaltung der natürlichen Lebensräume sowie der wildlebenden Tiere und Pflanzen"
+  },
+  {
+    "celex": "32009L0147",
+    "kurztitel": "Vogelschutz-RL",
+    "langtitel": "Richtlinie 2009/147/EG des Europäischen Parlaments und des Rates vom 30. November 2009 über die Erhaltung der wildlebenden Vogelarten (kodifizierte Fassung)"
+  },
+  {
+    "celex": "32004L0035",
+    "kurztitel": "Umwelthaftungs-RL",
+    "langtitel": "Richtlinie 2004/35/EG des Europäischen Parlaments und des Rates vom 21. April 2004 über Umwelthaftung zur Vermeidung und Sanierung von Umweltschäden"
+  },
+  {
+    "celex": "32003L0004",
+    "kurztitel": "Umweltinformations-RL",
+    "langtitel": "Richtlinie 2003/4/EG des Europäischen Parlaments und des Rates vom 28. Januar 2003 über den Zugang der Öffentlichkeit zu Umweltinformationen und zur Aufhebung der Richtlinie 90/313/EWG des Rates"
+  },
+  {
+    "celex": "32023L1791",
+    "kurztitel": "EED",
+    "alternativen": ["Energieeffizienz-RL"],
+    "langtitel": "Richtlinie (EU) 2023/1791 des Europäischen Parlaments und des Rates vom 13. September 2023 zur Energieeffizienz und zur Änderung der Verordnung (EU) 2023/955 (Neufassung)"
+  },
+  {
+    "celex": "32019L0944",
+    "kurztitel": "Elektrizitätsbinnenmarkt-RL",
+    "langtitel": "Richtlinie (EU) 2019/944 des Europäischen Parlaments und des Rates vom 5. Juni 2019 mit gemeinsamen Vorschriften für den Elektrizitätsbinnenmarkt und zur Änderung der Richtlinie 2012/27/EU (Neufassung)"
+  },
+  {
+    "celex": "32023R0956",
+    "kurztitel": "CBAM",
+    "alternativen": ["CBAM-VO"],
+    "langtitel": "Verordnung (EU) 2023/956 des Europäischen Parlaments und des Rates vom 10. Mai 2023 zur Schaffung eines CO2-Grenzausgleichssystems"
+  },
+  {
+    "celex": "32023R1115",
+    "kurztitel": "EUDR",
+    "alternativen": ["Entwaldungs-VO"],
+    "langtitel": "Verordnung (EU) 2023/1115 des Europäischen Parlaments und des Rates vom 31. Mai 2023 über die Bereitstellung bestimmter Rohstoffe und Erzeugnisse, die mit Entwaldung und Waldschädigung in Verbindung stehen, auf dem Unionsmarkt und ihre Ausfuhr aus der Union sowie zur Aufhebung der Verordnung (EU) Nr. 995/2010"
+  },
+  {
+    "celex": "32025R0040",
+    "kurztitel": "PPWR",
+    "alternativen": ["Verpackungs-VO"],
+    "langtitel": "Verordnung (EU) 2025/40 des Europäischen Parlaments und des Rates vom 19. Dezember 2024 über Verpackungen und Verpackungsabfälle, zur Änderung der Verordnung (EU) 2019/1020 und der Richtlinie (EU) 2019/904 sowie zur Aufhebung der Richtlinie 94/62/EG"
+  },
+  {
+    "celex": "32011R0282",
+    "kurztitel": "MwSt-DVO",
+    "alternativen": ["MwSt-Durchführungs-VO"],
+    "langtitel": "Durchführungsverordnung (EU) Nr. 282/2011 des Rates vom 15. März 2011 zur Festlegung von Durchführungsvorschriften zur Richtlinie 2006/112/EG über das gemeinsame Mehrwertsteuersystem (Neufassung)"
+  },
+  {
+    "celex": "32011L0096",
+    "kurztitel": "Mutter-Tochter-RL",
+    "langtitel": "Richtlinie 2011/96/EU des Rates vom 30. November 2011 über das gemeinsame Steuersystem der Mutter- und Tochtergesellschaften verschiedener Mitgliedstaaten (Neufassung)"
+  },
+  {
+    "celex": "32016L1164",
+    "kurztitel": "ATAD",
+    "alternativen": ["Anti-Steuervermeidungs-RL"],
+    "langtitel": "Richtlinie (EU) 2016/1164 des Rates vom 12. Juli 2016 mit Vorschriften zur Bekämpfung von Steuervermeidungspraktiken mit unmittelbaren Auswirkungen auf das Funktionieren des Binnenmarkts"
+  },
+  {
+    "celex": "32011L0016",
+    "kurztitel": "Amtshilfe-RL",
+    "alternativen": ["DAC"],
+    "langtitel": "Richtlinie 2011/16/EU des Rates vom 15. Februar 2011 über die Zusammenarbeit der Verwaltungsbehörden im Bereich der Besteuerung und zur Aufhebung der Richtlinie 77/799/EWG"
+  },
+  {
+    "celex": "32022L2523",
+    "kurztitel": "Mindeststeuer-RL",
+    "langtitel": "Richtlinie (EU) 2022/2523 des Rates vom 14. Dezember 2022 zur Gewährleistung einer globalen Mindestbesteuerung für multinationale Unternehmensgruppen und große inländische Gruppen in der Union"
+  },
+  {
+    "celex": "32017R0746",
+    "kurztitel": "IVDR",
+    "alternativen": ["In-vitro-Diagnostika-VO"],
+    "langtitel": "Verordnung (EU) 2017/746 des Europäischen Parlaments und des Rates vom 5. April 2017 über In-vitro-Diagnostika und zur Aufhebung der Richtlinie 98/79/EG und des Beschlusses 2010/227/EU der Kommission"
+  },
+  {
+    "celex": "32011L0065",
+    "kurztitel": "RoHS-RL",
+    "langtitel": "Richtlinie 2011/65/EU des Europäischen Parlaments und des Rates vom 8. Juni 2011 zur Beschränkung der Verwendung bestimmter gefährlicher Stoffe in Elektro- und Elektronikgeräten (Neufassung)"
+  },
+  {
+    "celex": "32012L0019",
+    "kurztitel": "WEEE-RL",
+    "alternativen": ["Elektroaltgeräte-RL"],
+    "langtitel": "Richtlinie 2012/19/EU des Europäischen Parlaments und des Rates vom 4. Juli 2012 über Elektro- und Elektronik-Altgeräte (Neufassung)"
+  },
+  {
+    "celex": "32001L0083",
+    "kurztitel": "Humanarzneimittel-RL",
+    "alternativen": ["Arzneimittel-RL"],
+    "langtitel": "Richtlinie 2001/83/EG des Europäischen Parlaments und des Rates vom 6. November 2001 zur Schaffung eines Gemeinschaftskodexes für Humanarzneimittel"
+  },
+  {
+    "celex": "32009R1223",
+    "kurztitel": "Kosmetik-VO",
+    "alternativen": ["KosmetikVO"],
+    "langtitel": "Verordnung (EG) Nr. 1223/2009 des Europäischen Parlaments und des Rates vom 30. November 2009 über kosmetische Mittel (Neufassung)"
+  },
+  {
+    "celex": "32014L0053",
+    "kurztitel": "Funkanlagen-RL",
+    "langtitel": "Richtlinie 2014/53/EU des Europäischen Parlaments und des Rates vom 16. April 2014 über die Harmonisierung der Rechtsvorschriften der Mitgliedstaaten über die Bereitstellung von Funkanlagen auf dem Markt und zur Aufhebung der Richtlinie 1999/5/EG"
+  },
+  {
+    "celex": "32001R1049",
+    "kurztitel": "Dokumentenzugangs-VO",
+    "langtitel": "Verordnung (EG) Nr. 1049/2001 des Europäischen Parlaments und des Rates vom 30. Mai 2001 über den Zugang der Öffentlichkeit zu Dokumenten des Europäischen Parlaments, des Rates und der Kommission"
+  },
+  {
+    "celex": "31998L0005",
+    "kurztitel": "Anwaltsniederlassungs-RL",
+    "langtitel": "Richtlinie 98/5/EG des Europäischen Parlaments und des Rates vom 16. Februar 1998 zur Erleichterung der ständigen Ausübung des Rechtsanwaltsberufs in einem anderen Mitgliedstaat als dem, in dem die Qualifikation erworben wurde"
+  },
+  {
+    "celex": "31977L0249",
+    "kurztitel": "Anwaltsdienstleistungs-RL",
+    "langtitel": "Richtlinie 77/249/EWG des Rates vom 22. März 1977 zur Erleichterung der tatsächlichen Ausübung des freien Dienstleistungsverkehrs der Rechtsanwälte"
+  }
+]

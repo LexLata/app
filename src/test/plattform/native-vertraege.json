@@ -1,0 +1,252 @@
+{
+  "archivierung": {
+    "command": "archiviere_beschaedigte_datei",
+    "argumente": {
+      "relativerPfad": "markierungen/BGB.xml",
+      "erwarteterInhalt": "beschaedigt",
+      "token": "token",
+      "vorgang": "vorgang"
+    },
+    "ergebnisse": [
+      {
+        "status": "archiviert",
+        "sicherungspfad": "markierungen/BGB.beschaedigt.xml"
+      },
+      {
+        "status": "fehlt",
+        "sicherungspfad": null
+      },
+      {
+        "status": "veraendert",
+        "sicherungspfad": null
+      },
+      {
+        "status": "gesichert_aber_nicht_entfernt",
+        "sicherungspfad": "markierungen/BGB.beschaedigt.xml"
+      }
+    ],
+    "ungueltig": [
+      {
+        "status": "gesichert",
+        "sicherungspfad": "kopie"
+      },
+      {
+        "status": "archiviert"
+      },
+      {
+        "status": "archiviert",
+        "sicherungspfad": false
+      },
+      {
+        "status": "archiviert",
+        "sicherungsPfad": "kopie"
+      }
+    ]
+  },
+  "pruefvorgang": {
+    "command": "pruefvorgang_abfragen",
+    "argumente": {
+      "konfliktToken": "token",
+      "vorgaenge": []
+    },
+    "stand": {
+      "offeneQuellen": 2,
+      "offenePruefungen": 1,
+      "vollbedarf": true
+    },
+    "ungueltig": [
+      {
+        "offene_quellen": 2,
+        "offenePruefungen": 1,
+        "vollbedarf": true
+      },
+      {
+        "offeneQuellen": 2,
+        "offenePruefungen": 1
+      },
+      {
+        "offeneQuellen": -1,
+        "offenePruefungen": 1,
+        "vollbedarf": true
+      },
+      {
+        "offeneQuellen": 2,
+        "offenePruefungen": 1,
+        "vollbedarf": "true"
+      }
+    ]
+  },
+  "fenster": {
+    "positionCommand": "fenster_alle_positionen",
+    "oeffnenCommand": "fenster_oeffnen_mit_label",
+    "position": {
+      "label": "main",
+      "x": -800,
+      "y": 20,
+      "breite": 800,
+      "hoehe": 600
+    },
+    "geometrie": {
+      "x": -800,
+      "y": 20,
+      "breite": 800,
+      "hoehe": 600,
+      "maximiert": false
+    },
+    "ungueltigeGeometrien": [
+      {
+        "breite": "800",
+        "hoehe": 600,
+        "x": 0,
+        "y": 0,
+        "maximiert": false
+      },
+      {
+        "breite": 800,
+        "hoehe": 600,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "width": 800,
+        "hoehe": 600,
+        "x": 0,
+        "y": 0,
+        "maximiert": false
+      }
+    ],
+    "ohneGeometrie": null
+  },
+  "ereignisse": {
+    "zustandsanfrage": {
+      "name": "menu-zustand-anfordern",
+      "payload": null
+    },
+    "undo": {
+      "name": "markierung-rueckgaengig-anfrage",
+      "payload": null
+    },
+    "tiefenlink": {
+      "name": "tiefenlink-oeffnen",
+      "payload": ["lexlata://de-bund/BGB/1"]
+    },
+    "loeschung": {
+      "name": "gesetze-geloescht",
+      "payload": [
+        {
+          "kurztitel": "BGB",
+          "normgeber": "de-bund"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "sendenCommand": "interne_navigation_senden",
+    "lesenCommand": "interne_navigation_lesen",
+    "auftrag": {
+      "gesetz": {
+        "kurztitel": "BGB",
+        "normgeber": "de-bund"
+      },
+      "ziel": {
+        "type": "ueberschrift",
+        "gliederungskennzahl": "010"
+      }
+    },
+    "uebergabe": {
+      "kennung": 1,
+      "auftrag": {
+        "gesetz": {
+          "kurztitel": "BGB",
+          "normgeber": "de-bund"
+        },
+        "ziel": {
+          "type": "ueberschrift",
+          "gliederungskennzahl": "010"
+        }
+      },
+      "neuesFenster": false
+    },
+    "ereignis": {
+      "name": "interne-navigation-vorhanden",
+      "payload": null
+    }
+  },
+  "oeffnenLink": {
+    "sendenCommand": "oeffnen_link_navigation_senden",
+    "auftrag": {
+      "type": "oeffnen",
+      "suchtext": "433 BGB"
+    },
+    "uebergabe": {
+      "kennung": 2,
+      "auftrag": {
+        "type": "oeffnen",
+        "suchtext": "433 BGB"
+      },
+      "neuesFenster": false
+    },
+    "parser": [
+      {
+        "url": "lexlata://oeffnen/433%20BGB",
+        "suchtext": "433 BGB"
+      },
+      {
+        "url": "LEXLATA://OeFFnEn/%C2%A7%20%C3%84%2BB%2FC",
+        "suchtext": "§ Ä+B/C"
+      },
+      {
+        "url": "lexlata://oeffnen/%2520",
+        "suchtext": "%20"
+      },
+      {
+        "url": "lexlata://oeffnen/A+B",
+        "suchtext": "A+B"
+      },
+      {
+        "url": "lexlata://oeffnen/433 BGB",
+        "suchtext": "433 BGB"
+      },
+      {
+        "url": "lexlata://oeffnen",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/%20",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/%XX",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/%FF",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/BGB/433",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/BGB/",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen//BGB",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/BGB?keinFallback",
+        "suchtext": null
+      },
+      {
+        "url": "lexlata://oeffnen/BGB#x",
+        "suchtext": null
+      }
+    ]
+  }
+}

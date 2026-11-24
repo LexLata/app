@@ -1,0 +1,209 @@
+{
+  "zweck": "Einordnung jedes Elements und Attributs aus docs/schema/gesetz.rng für die Höhenschätzung der Gesetzestextansicht (virtualizer.ts, textMessung.ts). Bei Änderungen am Schema, an der Darstellung oder an der Schätzung anpassen; geprüft durch scripts/automatisch/hoehenschaetzung-einordnung.test.ts. Attribute als „element@attribut“; Pfadangaben relativ zu src/components/gesetzestextansicht/ansichtssteuerung/scrollen/.",
+  "eintraege": {
+    "gesetz": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Wurzelelement; die Höhe entsteht aus den Normen und Gliederungen in <inhalt>."
+    },
+    "gesetz@version": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Schemaversion; keine Darstellung."
+    },
+    "infos": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatenhülle; erscheint nicht in der virtualisierten Textliste."
+    },
+    "kurztitel": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "langtitel": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "fundstelle": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "ausfertigung": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "stand": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "aenderungsvermerk": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "neugefasst": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "fassung": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "fassung@art": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "fassung@stichtag": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "fassung@erwaegungsgruendeErgaenzt": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "datenquelle": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "datenquelle@name": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "datenquelle@url": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "normgeber": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "normpraefix": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "verarbeitungszeit": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "letzteNeuerung": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Metadatum in <infos>; erscheint nicht in der virtualisierten Textliste."
+    },
+    "sprache": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: trennsprache() wählt aus kontext.lang den Regelsatz der Silbentrennungsnäherung."
+    },
+    "inhalt": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Hülle der Normen und Gliederungen; selbst ohne eigene Zeile."
+    },
+    "norm": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: schaetzeElementHoehe(), Fall 'norm'."
+    },
+    "norm@id": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Kennung für Sprünge und Markierungen; keine Darstellung."
+    },
+    "norm@gliederungskennzahl": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: macht die Norm zum Gliederungsartikel; untergeordnete Überschriften über kontext.unterArtikelIds (kleinere Schrift, anderer Abstand)."
+    },
+    "norm@status": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: weggefallene Norm nur mit Titelzeile (normWeggefallen, normZeilenHoehe kursiv)."
+    },
+    "norm@typ": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Erwägungsgrund wird wie eine gewöhnliche Norm dargestellt; der Typ wirkt nur auf Ausgangsstellen von Markierungen."
+    },
+    "norm@vorgaenger": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Bezug auf die frühere Fassung; keine Darstellung."
+    },
+    "gliederung": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: schaetzeElementHoehe(), Fall 'ueberschrift'."
+    },
+    "gliederung@gliederungskennzahl": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Ebene der Überschrift bestimmt den oberen Abstand (ermittleUeberschriftTopPad)."
+    },
+    "bezeichnung": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Norm: Vorlauf vor dem Titel in normZeilenHoehe(); Überschrift: Teil des Überschriftentexts."
+    },
+    "titel": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Norm: normZeilenHoehe() (fett, mehrzeilig); Überschrift: Teil des Überschriftentexts."
+    },
+    "fussnoten": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Fußnoten werden in der Gesetzestextansicht nicht angezeigt."
+    },
+    "text": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Absätze und Zusatztexte im Fall 'norm'."
+    },
+    "absatz": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: je Absatz Zeilen und Absatzabstand im Fall 'norm'."
+    },
+    "absatz@zahl": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Bezeichnungsspalte der Absätze (absNrBreite)."
+    },
+    "absatz@typ": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Zwischenüberschrift als kursiver Text über die volle Breite."
+    },
+    "unterabsatz": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: zeilenFuerUnterabsaetze()."
+    },
+    "unterabsatz@zahl": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: gemeinsame Bezeichnungsspalte der Unterabsätze (uaNrBreite)."
+    },
+    "satz": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: zeilenFuerSatz() bzw. inlineText()."
+    },
+    "satz@zahl": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Satznummernspalte bzw. hochgestellte Nummer, angenähert über die Satzanzahl (satzListenNrBreite, inlineText)."
+    },
+    "nummer": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: zeilenFuerEintrag()/zeilenFuerEintraege()."
+    },
+    "nummer@zahl": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Bezeichnungsspalte der Einträge (nrBreite)."
+    },
+    "litera": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: zeilenFuerEintrag()/zeilenFuerEintraege()."
+    },
+    "litera@buchstabe": {
+      "einordnung": "wird geschätzt",
+      "wo": "virtualizer.ts: Bezeichnungsspalte der Einträge (nrBreite)."
+    },
+    "verweis": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Inline-Hülle ohne Größenänderung; ihr Text zählt im umgebenden Satz mit."
+    },
+    "verweis@gesetz": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Verweisziel; keine Darstellung."
+    },
+    "verweis@normgeber": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Verweisziel; keine Darstellung."
+    },
+    "verweis@norm": {
+      "einordnung": "ohne Höhenwirkung",
+      "begruendung": "Verweisziel; keine Darstellung."
+    },
+    "zeilenumbruch": {
+      "einordnung": "wird geschätzt",
+      "wo": "../../text-darstellung/textMessung.ts: zeilenFuerText() zählt mit harteUmbrueche (Normtext) jeden harten Zeilenumbruch (im Text als \\n) als neue Zeile; Titel und Überschriften behandeln Umbrüche wie Leerzeichen."
+    }
+  }
+}

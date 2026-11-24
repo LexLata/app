@@ -1,0 +1,41 @@
+/* mobile.css
+   Ergänzung zu index.css, ausschließlich in MobileApp.tsx importiert (nicht
+   in main.tsx global), damit Desktop-Styles unangetastet bleiben.
+   Safe-Area-Insets (Notch/Dynamic Island, Home-Indicator) werden pro
+   Screen-Komponente inline via env(safe-area-inset-*) berücksichtigt (siehe
+   OeffnenScreen.tsx, GesetzTextScreen.tsx, MobileSeitenleiste.tsx) –
+   hier nur die App-weiten Grundeinstellungen. */
+
+html,
+body,
+#root {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Custom-Tastatur (CustomTastatur.tsx): kein natives Auswahl-Callout/
+   Textmarkieren beim Long-Press auf einer Taste. */
+.custom-tastatur-taste {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: none;
+}
+
+/* Selbst gezeichneter blinkender Cursor (OeffnenScreen.tsx), da der
+   native Caret bei readOnly-Inputs auf vielen mobilen Browsern unsichtbar
+   bleibt. */
+.custom-cursor {
+  animation: custom-cursor-blink 1s step-end infinite;
+}
+
+@keyframes custom-cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="markierungen">
+      <attribute name="version">
+        <value>1</value>
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>version</name>
+            </except>
+          </anyName>
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="infos" />
+        <element name="inhalt">
+          <zeroOrMore>
+            <attribute>
+              <anyName />
+              <text />
+            </attribute>
+          </zeroOrMore>
+          <interleave>
+            <zeroOrMore>
+              <choice>
+                <ref name="unterstreichung" />
+                <ref name="hervorhebung" />
+                <ref name="kommentar" />
+                <ref name="verweismarkierung" />
+              </choice>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>unterstreichung</name>
+                    <name>hervorhebung</name>
+                    <name>kommentar</name>
+                    <name>verweismarkierung</name>
+                  </except>
+                </anyName>
+                <ref name="anyContent" />
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>infos</name>
+                <name>inhalt</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </start>
+  <define name="nichtleer">
+    <data type="token">
+      <param name="minLength">1</param>
+    </data>
+  </define>
+  <define name="normgeber">
+    <data type="string">
+      <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+      <param name="maxLength">20</param>
+    </data>
+  </define>
+  <define name="number">
+    <data type="string">
+      <param name="pattern">[0-9]+</param>
+    </data>
+  </define>
+  <define name="positive">
+    <data type="string">
+      <param name="pattern">[1-9][0-9]*</param>
+    </data>
+  </define>
+  <define name="anyContent">
+    <zeroOrMore>
+      <attribute>
+        <anyName />
+        <text />
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName />
+          <ref name="anyContent" />
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  <define name="gesetzRef">
+    <element name="gesetz">
+      <attribute name="normgeber">
+        <ref name="normgeber" />
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>normgeber</name>
+            </except>
+          </anyName>
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <ref name="nichtleer" />
+    </element>
+  </define>
+  <define name="gliederungskennzahl">
+    <element name="gliederungskennzahl">
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>praefix</name>
+            </except>
+          </anyName>
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <data type="string">
+        <param name="pattern">([0-9]{3})+</param>
+      </data>
+    </element>
+  </define>
+  <define name="ausgangsstelle">
+    <choice>
+      <element name="bezeichnung">
+        <ref name="nichtleer" />
+      </element>
+      <ref name="gliederungskennzahl" />
+    </choice>
+  </define>
+  <define name="bezeichnung">
+    <element name="bezeichnung">
+      <ref name="nichtleer" />
+    </element>
+  </define>
+  <define name="zeichenbereich">
+    <element name="zeichenbereich">
+      <attribute name="start">
+        <ref name="number" />
+      </attribute>
+      <attribute name="ende">
+        <ref name="number" />
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>start</name>
+              <name>ende</name>
+            </except>
+          </anyName>
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <empty />
+    </element>
+  </define>
+  <define name="verweistextZeichenbereich">
+    <element name="verweistextZeichenbereich">
+      <attribute name="start">
+        <ref name="number" />
+      </attribute>
+      <attribute name="ende">
+        <ref name="number" />
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>start</name>
+              <name>ende</name>
+            </except>
+          </anyName>
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <empty />
+    </element>
+  </define>
+  <define name="textstelle">
+    <element name="textstelle">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <group>
+          <choice>
+            <group>
+              <optional>
+                <element name="absatz">
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName>
+                        <except>
+                          <name>wiederholung</name>
+                        </except>
+                      </anyName>
+                      <text />
+                    </attribute>
+                  </zeroOrMore>
+                  <choice>
+                    <group>
+                      <optional>
+                        <attribute name="wiederholung">
+                          <data type="nonNegativeInteger" />
+                        </attribute>
+                      </optional>
+                      <ref name="nichtleer" />
+                    </group>
+                    <group>
+                      <attribute name="wiederholung">
+                        <data type="nonNegativeInteger" />
+                      </attribute>
+                      <empty />
+                    </group>
+                  </choice>
+                </element>
+              </optional>
+              <optional>
+                <element name="unterabsatz">
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName />
+                      <text />
+                    </attribute>
+                  </zeroOrMore>
+                  <ref name="nichtleer" />
+                </element>
+              </optional>
+              <choice>
+                <group>
+                  <optional>
+                    <element name="satz">
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName />
+                          <text />
+                        </attribute>
+                      </zeroOrMore>
+                      <ref name="positive" />
+                    </element>
+                  </optional>
+                  <oneOrMore>
+                    <choice>
+                      <element name="nummer">
+                        <optional>
+                          <attribute name="wiederholung">
+                            <ref name="positive" />
+                          </attribute>
+                        </optional>
+                        <zeroOrMore>
+                          <attribute>
+                            <anyName>
+                              <except>
+                                <name>wiederholung</name>
+                              </except>
+                            </anyName>
+                            <text />
+                          </attribute>
+                        </zeroOrMore>
+                        <ref name="nichtleer" />
+                      </element>
+                      <element name="litera">
+                        <optional>
+                          <attribute name="wiederholung">
+                            <ref name="positive" />
+                          </attribute>
+                        </optional>
+                        <zeroOrMore>
+                          <attribute>
+                            <anyName>
+                              <except>
+                                <name>wiederholung</name>
+                              </except>
+                            </anyName>
+                            <text />
+                          </attribute>
+                        </zeroOrMore>
+                        <ref name="nichtleer" />
+                      </element>
+                    </choice>
+                  </oneOrMore>
+                  <optional>
+                    <element name="satz">
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName />
+                          <text />
+                        </attribute>
+                      </zeroOrMore>
+                      <ref name="positive" />
+                    </element>
+                  </optional>
+                </group>
+                <optional>
+                  <element name="satz">
+                    <zeroOrMore>
+                      <attribute>
+                        <anyName />
+                        <text />
+                      </attribute>
+                    </zeroOrMore>
+                    <ref name="positive" />
+                  </element>
+                </optional>
+              </choice>
+            </group>
+            <element name="bereich">
+              <zeroOrMore>
+                <attribute>
+                  <anyName />
+                  <text />
+                </attribute>
+              </zeroOrMore>
+              <choice>
+                <value>amtlicher-titel</value>
+                <value>nichtamtlicher-titel</value>
+                <value>bezeichnung</value>
+              </choice>
+            </element>
+          </choice>
+          <ref name="zeichenbereich" />
+        </group>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>absatz</name>
+                <name>unterabsatz</name>
+                <name>satz</name>
+                <name>nummer</name>
+                <name>litera</name>
+                <name>bereich</name>
+                <name>zeichenbereich</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="elementstand">
+    <element name="elementstand">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <optional>
+          <element name="titel">
+            <zeroOrMore>
+              <attribute>
+                <anyName />
+                <text />
+              </attribute>
+            </zeroOrMore>
+            <text />
+          </element>
+        </optional>
+        <element name="textlaenge">
+          <zeroOrMore>
+            <attribute>
+              <anyName />
+              <text />
+            </attribute>
+          </zeroOrMore>
+          <ref name="number" />
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>titel</name>
+                <name>textlaenge</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="verweisinhalt">
+    <element name="verweisinhalt">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <element name="verweistext">
+          <zeroOrMore>
+            <attribute>
+              <anyName />
+              <text />
+            </attribute>
+          </zeroOrMore>
+          <text />
+        </element>
+        <zeroOrMore>
+          <element name="verweisziel">
+            <choice>
+              <group>
+                <optional>
+                  <ref name="gesetzRef" />
+                </optional>
+                <choice>
+                  <group>
+                    <ref name="bezeichnung" />
+                    <ref name="verweistextZeichenbereich" />
+                    <ref name="elementstand" />
+                  </group>
+                  <group>
+                    <ref name="bezeichnung" />
+                    <ref name="verweistextZeichenbereich" />
+                  </group>
+                </choice>
+              </group>
+              <group>
+                <ref name="gesetzRef" />
+                <ref name="verweistextZeichenbereich" />
+              </group>
+            </choice>
+            <zeroOrMore>
+              <attribute>
+                <anyName>
+                  <except>
+                    <name>ohneZiel</name>
+                  </except>
+                </anyName>
+                <text />
+              </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>gesetz</name>
+                    <name>bezeichnung</name>
+                    <name>verweistextZeichenbereich</name>
+                    <name>elementstand</name>
+                    <name>normstand</name>
+                  </except>
+                </anyName>
+                <ref name="anyContent" />
+              </element>
+            </zeroOrMore>
+          </element>
+        </zeroOrMore>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>verweistext</name>
+                <name>zielnorm</name>
+                <name>verweisziel</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="unterstreichung">
+    <element name="unterstreichung">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="ausgangsstelle" />
+        <group>
+          <ref name="textstelle" />
+          <element name="bezugstext">
+            <zeroOrMore>
+              <attribute>
+                <anyName />
+                <text />
+              </attribute>
+            </zeroOrMore>
+            <text />
+          </element>
+        </group>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>bezeichnung</name>
+                <name>gliederungskennzahl</name>
+                <name>textstelle</name>
+                <name>bezugstext</name>
+                <name>kommentartext</name>
+                <name>text</name>
+                <name>elementstand</name>
+                <name>normstand</name>
+                <name>verweisinhalt</name>
+                <name>erstellt</name>
+                <name>geaendert</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+      <optional><element name="erstellt"><ref name="markierungszeit" /></element></optional>
+    </element>
+  </define>
+  <define name="hervorhebung">
+    <element name="hervorhebung">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="ausgangsstelle" />
+        <group>
+          <ref name="textstelle" />
+          <element name="bezugstext">
+            <zeroOrMore>
+              <attribute>
+                <anyName />
+                <text />
+              </attribute>
+            </zeroOrMore>
+            <text />
+          </element>
+        </group>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>bezeichnung</name>
+                <name>gliederungskennzahl</name>
+                <name>textstelle</name>
+                <name>bezugstext</name>
+                <name>kommentartext</name>
+                <name>text</name>
+                <name>elementstand</name>
+                <name>normstand</name>
+                <name>verweisinhalt</name>
+                <name>erstellt</name>
+                <name>geaendert</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+      <optional><element name="erstellt"><ref name="markierungszeit" /></element></optional>
+    </element>
+  </define>
+  <define name="kommentar">
+    <element name="kommentar">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="ausgangsstelle" />
+        <choice>
+          <group>
+            <ref name="textstelle" />
+            <element name="bezugstext">
+              <zeroOrMore>
+                <attribute>
+                  <anyName />
+                  <text />
+                </attribute>
+              </zeroOrMore>
+              <text />
+            </element>
+          </group>
+          <ref name="elementstand" />
+        </choice>
+        <element name="kommentartext">
+          <zeroOrMore>
+            <attribute>
+              <anyName />
+              <text />
+            </attribute>
+          </zeroOrMore>
+          <text />
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>bezeichnung</name>
+                <name>gliederungskennzahl</name>
+                <name>textstelle</name>
+                <name>bezugstext</name>
+                <name>kommentartext</name>
+                <name>text</name>
+                <name>elementstand</name>
+                <name>normstand</name>
+                <name>verweisinhalt</name>
+                <name>erstellt</name>
+                <name>geaendert</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+      <optional><element name="erstellt"><ref name="markierungszeit" /></element></optional>
+      <optional><element name="geaendert"><ref name="markierungszeit" /></element></optional>
+    </element>
+  </define>
+  <define name="verweismarkierung">
+    <element name="verweismarkierung">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="ausgangsstelle" />
+        <choice>
+          <group>
+            <ref name="textstelle" />
+            <element name="bezugstext">
+              <zeroOrMore>
+                <attribute>
+                  <anyName />
+                  <text />
+                </attribute>
+              </zeroOrMore>
+              <text />
+            </element>
+          </group>
+          <ref name="elementstand" />
+        </choice>
+        <ref name="verweisinhalt" />
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>bezeichnung</name>
+                <name>gliederungskennzahl</name>
+                <name>textstelle</name>
+                <name>bezugstext</name>
+                <name>kommentartext</name>
+                <name>text</name>
+                <name>elementstand</name>
+                <name>normstand</name>
+                <name>verweisinhalt</name>
+                <name>erstellt</name>
+                <name>geaendert</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+      <optional><element name="erstellt"><ref name="markierungszeit" /></element></optional>
+      <optional><element name="geaendert"><ref name="markierungszeit" /></element></optional>
+    </element>
+  </define>
+  <define name="infos">
+    <element name="infos">
+      <zeroOrMore>
+        <attribute>
+          <anyName />
+          <text />
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="gesetzRef" />
+        <element name="verarbeitungszeit">
+          <zeroOrMore>
+            <attribute>
+              <anyName />
+              <text />
+            </attribute>
+          </zeroOrMore>
+          <data type="dateTime" />
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>gesetz</name>
+                <name>verarbeitungszeit</name>
+              </except>
+            </anyName>
+            <ref name="anyContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="markierungszeit">
+    <data type="dateTime"><param name="pattern">[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z</param></data>
+  </define>
+</grammar>

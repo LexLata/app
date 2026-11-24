@@ -1,0 +1,6 @@
+interface:
+  display_name: "Umsetzung mit Subagenten"
+  short_description: "Plan phasenweise mit Subagenten umsetzen"
+  default_prompt: "Nutze $umsa, um den abgestimmten Plan mit Subagenten vollständig umzusetzen."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "scope": "src production code",
+  "jscpd": {
+    "minLines": 10,
+    "minTokens": 50,
+    "ignore": "**/*.test.ts"
+  },
+  "fingerprints": [
+    {
+      "fingerprint": "67e38df2ff4eed806249ecc48eac3b97372bd604fa2bbf79a002718a2272413c",
+      "cluster": "K-TabButtonHover"
+    },
+    {
+      "cluster": "K-TastenkuerzelLeisten",
+      "fingerprint": "3afb09a359c7e13bbefbef1c149cf0908dd6ad733310ffc2c7d63ee059d2c750"
+    },
+    {
+      "cluster": "K-TastenkuerzelLeisten",
+      "fingerprint": "28de7bf0169a6a8b1fd3236b621c0cf40e04354728f49b6586a0d35a08bcfd37"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">BVerfGG</gesetz>
+        <geaendert>2026-11-20T16:21:05Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>§ 1</bezeichnung><titel>Selbstständigkeit und Unabhängigkeit; Sitz; Geschäftsordnung</titel></norm>
+        <norm><bezeichnung>§ 2</bezeichnung><titel>Senate</titel></norm>
+        <norm><bezeichnung>§ 3</bezeichnung><titel>Qualifikation für das Richteramt</titel></norm>
+        <norm><bezeichnung>§ 4</bezeichnung><titel>Amtszeit</titel></norm>
+        <norm><bezeichnung>§ 5</bezeichnung><titel>Wahl der Richter</titel></norm>
+        <norm><bezeichnung>§ 6</bezeichnung><titel>Wahlverfahren im Bundestag</titel></norm>
+        <norm><bezeichnung>§ 7</bezeichnung><titel>Wahlverfahren im Bundesrat</titel></norm>
+        <norm><bezeichnung>§ 7a</bezeichnung><titel>Wahlverfahren in besonderen Fällen</titel></norm>
+        <norm><bezeichnung>§ 8</bezeichnung><titel>Vorschlagslisten</titel></norm>
+        <norm><bezeichnung>§ 9</bezeichnung><titel>Wahl des Präsidenten und Vizepräsidenten</titel></norm>
+        <norm><bezeichnung>§ 10</bezeichnung><titel>Ernennung durch den Bundespräsidenten</titel></norm>
+        <norm><bezeichnung>§ 11</bezeichnung><titel>Vereidigung</titel></norm>
+        <norm><bezeichnung>§ 12</bezeichnung><titel>Recht auf jederzeitige Entlassung</titel></norm>
+        <norm><bezeichnung>§ 13</bezeichnung><titel>Zuständigkeit des Gerichts</titel></norm>
+        <norm><bezeichnung>§ 14</bezeichnung><titel>Zuständigkeit der Senate</titel></norm>
+        <norm><bezeichnung>§ 15</bezeichnung><titel>Vorsitz; Beschlussfähigkeit</titel></norm>
+        <norm><bezeichnung>§ 15a</bezeichnung><titel>Berufung von Kammern; Geschäftsverteilung</titel></norm>
+        <norm><bezeichnung>§ 16</bezeichnung><titel>Plenarentscheidungen</titel></norm>
+        <norm><bezeichnung>§ 17</bezeichnung><titel>Anwendbarkeit des GVG</titel></norm>
+        <norm><bezeichnung>§ 17a</bezeichnung><titel>Ton- und Fernseh-Rundfunkaufnahmen</titel></norm>
+        <norm><bezeichnung>§ 18</bezeichnung><titel>Ausschließung eines Richters</titel></norm>
+        <norm><bezeichnung>§ 19</bezeichnung><titel>Ablehnung eines Richters wegen Besorgnis der Befangenheit</titel></norm>
+        <norm><bezeichnung>§ 20</bezeichnung><titel>Akteneinsicht</titel></norm>
+        <norm><bezeichnung>§ 21</bezeichnung><titel>Rechte von Personengruppen</titel></norm>
+        <norm><bezeichnung>§ 22</bezeichnung><titel>Prozessvertretung</titel></norm>
+        <norm><bezeichnung>§ 23</bezeichnung><titel>Einleitung des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 23a</bezeichnung><titel>Einreichung elektronischer Dokumente</titel></norm>
+        <norm><bezeichnung>§ 23b</bezeichnung><titel>Qualifizierte elektronische Signatur</titel></norm>
+        <norm><bezeichnung>§ 23c</bezeichnung><titel>Übermittlung als elektronische Dokumente</titel></norm>
+        <norm><bezeichnung>§ 23d</bezeichnung><titel>Ausdruck für Akten in Papierform</titel></norm>
+        <norm><bezeichnung>§ 23e</bezeichnung><titel>Elektronische Führung der Verfahrensakten</titel></norm>
+        <norm><bezeichnung>§ 24</bezeichnung><titel>A-Limine-Abweisung</titel></norm>
+        <norm><bezeichnung>§ 25</bezeichnung><titel>Mündliche Verhandlung; Urteil, Beschluss</titel></norm>
+        <norm><bezeichnung>§ 25a</bezeichnung><titel>Protokoll und Tonbandaufnahme</titel></norm>
+        <norm><bezeichnung>§ 26</bezeichnung><titel>Beweiserhebung</titel></norm>
+        <norm><bezeichnung>§ 27</bezeichnung><titel>Rechts- und Amtshilfe</titel></norm>
+        <norm><bezeichnung>§ 27a</bezeichnung><titel>Sachkundige Dritte</titel></norm>
+        <norm><bezeichnung>§ 28</bezeichnung><titel>Zeugen und Sachverständige</titel></norm>
+        <norm><bezeichnung>§ 29</bezeichnung><titel>Beweistermine</titel></norm>
+        <norm><bezeichnung>§ 30</bezeichnung><titel>Form und Verkündung der Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 31</bezeichnung><titel>Verbindlichkeit der Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 32</bezeichnung><titel>Einstweilige Anordnung</titel></norm>
+        <norm><bezeichnung>§ 33</bezeichnung><titel>Aussetzung des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 34</bezeichnung><titel>Kostenfreiheit; Missbrauchsgebühr</titel></norm>
+        <norm><bezeichnung>§ 34a</bezeichnung><titel>Erstattung der Auslagen</titel></norm>
+        <norm><bezeichnung>§ 35</bezeichnung><titel>Regelung der Vollstreckung</titel></norm>
+        <norm><bezeichnung>§ 35a</bezeichnung><titel>Auskunft über personenbezogene Daten</titel></norm>
+        <norm><bezeichnung>§ 35b</bezeichnung><titel>Auskunft und Akteneinsicht</titel></norm>
+        <norm><bezeichnung>§ 35c</bezeichnung><titel>Nutzung personenbezogener Daten für andere Verfahren</titel></norm>
+        <norm><bezeichnung>§ 36</bezeichnung><titel>Antragsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 37</bezeichnung><titel>Vorverfahren</titel></norm>
+        <norm><bezeichnung>§ 38</bezeichnung><titel>Beschlagnahme und Durchsuchung</titel></norm>
+        <norm><bezeichnung>§ 39</bezeichnung><titel>Entscheidung über Verwirkung von Grundrechten</titel></norm>
+        <norm><bezeichnung>§ 40</bezeichnung><titel>Aufhebung oder Verkürzung der Verwirkung</titel></norm>
+        <norm><bezeichnung>§ 41</bezeichnung><titel>Wiederholung eines Antrags</titel></norm>
+        <norm><bezeichnung>§ 43</bezeichnung><titel>Antragsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 44</bezeichnung><titel>Vertretung der Partei</titel></norm>
+        <norm><bezeichnung>§ 45</bezeichnung><titel>Vorverfahren</titel></norm>
+        <norm><bezeichnung>§ 46</bezeichnung><titel>Entscheidung über Verfassungswidrigkeit einer Partei</titel></norm>
+        <norm><bezeichnung>§ 46a</bezeichnung><titel>Entscheidung über den Ausschluss von der staatlichen Parteienfinanzierung</titel></norm>
+        <norm><bezeichnung>§ 47</bezeichnung><titel>Beschlagnahme und Durchsuchung</titel></norm>
+        <norm><bezeichnung>§ 48</bezeichnung><titel>Zulässigkeit des Antrags</titel></norm>
+        <norm><bezeichnung>§ 49</bezeichnung><titel>Anklageschrift</titel></norm>
+        <norm><bezeichnung>§ 50</bezeichnung><titel>Frist für Anklageerhebung</titel></norm>
+        <norm><bezeichnung>§ 51</bezeichnung><titel>Einleitung und Durchführung des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 52</bezeichnung><titel>Zurücknahme der Anklage</titel></norm>
+        <norm><bezeichnung>§ 53</bezeichnung><titel>Einstweilige Anordnung</titel></norm>
+        <norm><bezeichnung>§ 54</bezeichnung><titel>Voruntersuchung</titel></norm>
+        <norm><bezeichnung>§ 55</bezeichnung><titel>Mündliche Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 56</bezeichnung><titel>Urteil; Amtsverlust</titel></norm>
+        <norm><bezeichnung>§ 57</bezeichnung><titel>Übersendung des Urteils</titel></norm>
+        <norm><bezeichnung>§ 58</bezeichnung><titel>Richteranklage</titel></norm>
+        <norm><bezeichnung>§ 59</bezeichnung><titel>Urteil; Amtsverlust</titel></norm>
+        <norm><bezeichnung>§ 60</bezeichnung><titel>Aussetzung anhängiger Disziplinarverfahrens</titel></norm>
+        <norm><bezeichnung>§ 61</bezeichnung><titel>Wiederaufnahme des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 62</bezeichnung><titel>Verfahren gegen Landesrichter</titel></norm>
+        <norm><bezeichnung>§ 63</bezeichnung><titel>Antragsteller und Antragsgegner</titel></norm>
+        <norm><bezeichnung>§ 64</bezeichnung><titel>Antragsbefugnis</titel></norm>
+        <norm><bezeichnung>§ 65</bezeichnung><titel>Beitritt zum Verfahren; Kenntnisgabe</titel></norm>
+        <norm><bezeichnung>§ 66</bezeichnung><titel>Verbindung und Trennung von Verfahren</titel></norm>
+        <norm><bezeichnung>§ 66a</bezeichnung><titel>Entscheidung nach dem PUAG</titel></norm>
+        <norm><bezeichnung>§ 67</bezeichnung><titel>Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 68</bezeichnung><titel>Antragsteller und Antragsgegner</titel></norm>
+        <norm><bezeichnung>§ 69</bezeichnung><titel>Anwendung von Vorschriften über das Organstreitverfahren</titel></norm>
+        <norm><bezeichnung>§ 70</bezeichnung><titel>Anfechtungsfrist</titel></norm>
+        <norm><bezeichnung>§ 71</bezeichnung><titel>Antragsteller und Antragsgegner</titel></norm>
+        <norm><bezeichnung>§ 72</bezeichnung><titel>Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 73</bezeichnung><titel>Beteiligte</titel></norm>
+        <norm><bezeichnung>§ 74</bezeichnung><titel>Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 75</bezeichnung><titel>Verfahrensvorschriften</titel></norm>
+        <norm><bezeichnung>§ 76</bezeichnung><titel>Zulässigkeit des Antrags</titel></norm>
+        <norm><bezeichnung>§ 77</bezeichnung><titel>Äußerungsberechtigte Bundes- und Landesorgane</titel></norm>
+        <norm><bezeichnung>§ 78</bezeichnung><titel>Nichtigerklärung von Gesetzen</titel></norm>
+        <norm><bezeichnung>§ 79</bezeichnung><titel>Wirkung der Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 80</bezeichnung><titel>Vorlage durch ein Gericht</titel></norm>
+        <norm><bezeichnung>§ 81</bezeichnung><titel>Entscheidung über die Rechtsfrage</titel></norm>
+        <norm><bezeichnung>§ 81a</bezeichnung><titel>Feststellung der Unzulässigkeit eines Antrags</titel></norm>
+        <norm><bezeichnung>§ 82</bezeichnung><titel>Äußerungs- und Beitrittsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 82a</bezeichnung><titel>Verfahren nach dem PUAG</titel></norm>
+        <norm><bezeichnung>§ 83</bezeichnung><titel>Entscheidung; Äußerungs- und Beitrittsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 84</bezeichnung><titel>Anwendung von Vorschriften über die konkrete Normenkontrolle</titel></norm>
+        <norm><bezeichnung>§ 85</bezeichnung><titel>Vorlage durch Landesverfassungsgericht; Äußerungsberechtigte; Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 86</bezeichnung><titel>Antragsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 87</bezeichnung><titel>Zulässigkeit des Antrags</titel></norm>
+        <norm><bezeichnung>§ 88</bezeichnung><titel>Äußerungs- und Beitrittsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 89</bezeichnung><titel>Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 90</bezeichnung><titel>Aktivlegitimation; Rechtswegerschöpfung</titel></norm>
+        <norm><bezeichnung>§ 91</bezeichnung><titel>Aktivlegitimation von Gemeinden</titel></norm>
+        <norm><bezeichnung>§ 92</bezeichnung><titel>Begründung der Beschwerde</titel></norm>
+        <norm><bezeichnung>§ 93</bezeichnung><titel>Erhebungs- und Begründungsfrist</titel></norm>
+        <norm><bezeichnung>§ 93a</bezeichnung><titel>Annahme zur Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 93b</bezeichnung><titel>Befugnisse der Kammer</titel></norm>
+        <norm><bezeichnung>§ 93c</bezeichnung><titel>Stattgabe der Beschwerde durch die Kammer</titel></norm>
+        <norm><bezeichnung>§ 93d</bezeichnung><titel>Verfahren vor der Kammer</titel></norm>
+        <norm><bezeichnung>§ 94</bezeichnung><titel>Anhörung Betroffener</titel></norm>
+        <norm><bezeichnung>§ 95</bezeichnung><titel>Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 96</bezeichnung><titel>Begründung des Antrags; Äußerungs- und Beitrittsberechtigte</titel></norm>
+        <norm><bezeichnung>§ 96a</bezeichnung><titel>Beschwerdeberechtigte; Frist</titel></norm>
+        <norm><bezeichnung>§ 96b</bezeichnung><titel>Äußerung des Bundeswahlausschusses</titel></norm>
+        <norm><bezeichnung>§ 96c</bezeichnung><titel>Entscheidung ohne mündliche Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 96d</bezeichnung><titel>Entscheidungsbekanntgabe ohne Begründung</titel></norm>
+        <norm><bezeichnung>§ 97a</bezeichnung><titel>Entschädigung wegen unangemessener Verfahrensdauer</titel></norm>
+        <norm><bezeichnung>§ 97b</bezeichnung><titel>Verzögerungsbeschwerde, Verzögerungsrüge</titel></norm>
+        <norm><bezeichnung>§ 97c</bezeichnung><titel>Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 97d</bezeichnung><titel>Stellungnahme; Entscheidung</titel></norm>
+        <norm><bezeichnung>§ 97e</bezeichnung><titel>Geltungsdauer</titel></norm>
+        <norm><bezeichnung>§ 98</bezeichnung><titel>Ruhestand</titel></norm>
+        <norm><bezeichnung>§ 100</bezeichnung><titel>Übergangsgeld</titel></norm>
+        <norm><bezeichnung>§ 101</bezeichnung><titel>Ausscheiden aus dem bisherigen Amt</titel></norm>
+        <norm><bezeichnung>§ 102</bezeichnung><titel>Verhältnis mehrerer Bezüge</titel></norm>
+        <norm><bezeichnung>§ 103</bezeichnung><titel>Anwendung der Vorschriften für Bundesrichter</titel></norm>
+        <norm><bezeichnung>§ 104</bezeichnung><titel>Rechtsanwälte und Notare als Richter am BVerfG</titel></norm>
+        <norm><bezeichnung>§ 105</bezeichnung><titel>Versetzung in den Ruhestand bzw. Entlassung von Richtern</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

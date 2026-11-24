@@ -1,0 +1,149 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`erhält das XML für Ausgangsgesetz (mit Bezugstext=false) 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">TestG</gesetz>
+        <verarbeitungszeit>2026-10-11T14:51:10Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>§ 1</bezeichnung>
+            <elementstand>
+                <titel>Ausgangsnorm</titel>
+                <textlaenge>42</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>GG</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">TestG</gesetz>
+                    <verweistextZeichenbereich start="0" ende="2"/>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>"
+`;
+
+exports[`erhält das XML für Ausgangsgesetz (mit Bezugstext=true) 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">TestG</gesetz>
+        <verarbeitungszeit>2026-10-11T14:51:10Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>§ 1</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="2"/>
+            </textstelle>
+            <bezugstext>GG</bezugstext>
+            <verweisinhalt>
+                <verweistext>GG</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">TestG</gesetz>
+                    <verweistextZeichenbereich start="0" ende="2"/>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>"
+`;
+
+exports[`erhält das XML für externes Gesetz (mit Bezugstext=false) 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">TestG</gesetz>
+        <verarbeitungszeit>2026-10-11T14:51:10Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>§ 1</bezeichnung>
+            <elementstand>
+                <titel>Ausgangsnorm</titel>
+                <textlaenge>42</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>GG</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">GG</gesetz>
+                    <verweistextZeichenbereich start="0" ende="2"/>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>"
+`;
+
+exports[`erhält das XML für externes Gesetz (mit Bezugstext=true) 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">TestG</gesetz>
+        <verarbeitungszeit>2026-10-11T14:51:10Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>§ 1</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="2"/>
+            </textstelle>
+            <bezugstext>GG</bezugstext>
+            <verweisinhalt>
+                <verweistext>GG</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">GG</gesetz>
+                    <verweistextZeichenbereich start="0" ende="2"/>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>"
+`;
+
+exports[`erhält das XML für ohne Ziel (mit Bezugstext=false) 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">TestG</gesetz>
+        <verarbeitungszeit>2026-10-11T14:51:10Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>§ 1</bezeichnung>
+            <elementstand>
+                <titel>Ausgangsnorm</titel>
+                <textlaenge>42</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>GG</verweistext>
+            </verweisinhalt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>"
+`;
+
+exports[`erhält das XML für ohne Ziel (mit Bezugstext=true) 1`] = `
+"<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">TestG</gesetz>
+        <verarbeitungszeit>2026-10-11T14:51:10Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <verweismarkierung>
+            <bezeichnung>§ 1</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="2"/>
+            </textstelle>
+            <bezugstext>GG</bezugstext>
+            <verweisinhalt>
+                <verweistext>GG</verweistext>
+            </verweisinhalt>
+        </verweismarkierung>
+    </inhalt>
+</markierungen>"
+`;

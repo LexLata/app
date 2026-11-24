@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">BGB</gesetz>
+        <verarbeitungszeit>2026-11-19T09:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <unterstreichung>
+            <bezeichnung>§ 433</bezeichnung>
+            <textstelle>
+                <absatz>(1)</absatz>
+                <satz>2</satz>
+                <zeichenbereich start="12" ende="34"/>
+            </textstelle>
+            <bezugstext>frei von Sach- und Rec</bezugstext>
+            <erstellt>2026-11-19T08:15:00Z</erstellt>
+        </unterstreichung>
+        <hervorhebung>
+            <bezeichnung>§ 312g</bezeichnung>
+            <textstelle>
+                <absatz>(2)</absatz>
+                <unterabsatz>[1]</unterabsatz>
+                <satz>3</satz>
+                <nummer wiederholung="1">2.</nummer>
+                <litera>b)</litera>
+                <satz>2</satz>
+                <zeichenbereich start="0" ende="9"/>
+            </textstelle>
+            <bezugstext>Lieferung</bezugstext>
+            <erstellt>2026-11-19T08:20:00Z</erstellt>
+        </hervorhebung>
+        <hervorhebung>
+            <bezeichnung>§ 438</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="10" ende="28"/>
+            </textstelle>
+            <bezugstext>binnen 2 Wochen 📅</bezugstext>
+        </hervorhebung>
+        <unterstreichung>
+            <bezeichnung>§ 437</bezeichnung>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="7"/>
+            </textstelle>
+            <bezugstext>Rechte </bezugstext>
+        </unterstreichung>
+    </inhalt>
+</markierungen>

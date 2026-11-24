@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="importindex">
+      <interleave>
+        <zeroOrMore>
+          <attribute>
+            <anyName>
+              <except>
+                <name>version</name>
+              </except>
+            </anyName>
+            <text/>
+          </attribute>
+        </zeroOrMore>
+        <attribute name="version">
+          <value>1</value>
+        </attribute>
+        <element name="infos">
+          <interleave>
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <element name="verarbeitungszeit">
+              <interleave>
+                <zeroOrMore>
+                  <attribute>
+                    <anyName>
+                      <except>
+                        <name>herkunft</name>
+                      </except>
+                    </anyName>
+                    <text/>
+                  </attribute>
+                </zeroOrMore>
+                <optional>
+                  <attribute name="herkunft">
+                    <choice>
+                      <value>nutzer</value>
+                      <value>standard</value>
+                    </choice>
+                  </attribute>
+                </optional>
+                <data type="dateTime"/>
+              </interleave>
+            </element>
+            <element name="normgeber">
+              <interleave>
+                <zeroOrMore><attribute><anyName/><text/></attribute></zeroOrMore>
+                <ref name="normgeber"/>
+              </interleave>
+            </element>
+            <element name="datenquelle">
+              <zeroOrMore><attribute><anyName/><text/></attribute></zeroOrMore>
+              <empty/>
+            </element>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>verarbeitungszeit</name>
+                    <name>normgeber</name>
+                    <name>datenquelle</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <element name="inhalt">
+          <interleave>
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element name="gesetz">
+                <interleave>
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName>
+                        <except>
+                          <name>typ</name>
+                          <name>kurztitelArt</name>
+                          <name>permalinkArt</name>
+                          <name>duplikatArt</name>
+                          <name>duplikatVon</name>
+                          <name>aktualisierung</name>
+                        </except>
+                      </anyName>
+                      <text/>
+                    </attribute>
+                  </zeroOrMore>
+                  <optional>
+                    <attribute name="typ"><text/></attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="kurztitelArt">
+                      <value>nummeriert</value>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="permalinkArt">
+                      <value>schlecht</value>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <attribute name="aktualisierung">
+                      <choice>
+                        <value>neu</value>
+                        <value>beide</value>
+                        <value>kurztitel</value>
+                        <value>langtitel</value>
+                        <value>leerzeichen-entfernt</value>
+                      </choice>
+                    </attribute>
+                  </optional>
+                  <optional>
+                    <group>
+                      <attribute name="duplikatArt">
+                        <choice>
+                          <value>eg</value>
+                          <value>unaufgeloest</value>
+                        </choice>
+                      </attribute>
+                      <attribute name="duplikatVon">
+                        <data type="token">
+                          <param name="minLength">1</param>
+                        </data>
+                      </attribute>
+                    </group>
+                  </optional>
+                  <element name="kurztitel">
+                    <interleave>
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName>
+                            <except>
+                              <name>bwZusatz</name>
+                              <name>kurztitelDuplikat</name>
+                              <name>kurztitelOriginal</name>
+                              <name>aktualisierung</name>
+                            </except>
+                          </anyName>
+                          <text/>
+                        </attribute>
+                      </zeroOrMore>
+                      <optional>
+                        <attribute name="bwZusatz">
+                          <data type="token">
+                            <param name="minLength">1</param>
+                          </data>
+                        </attribute>
+                      </optional>
+                      <optional>
+                        <attribute name="kurztitelDuplikat">
+                          <data type="token">
+                            <param name="minLength">1</param>
+                          </data>
+                        </attribute>
+                      </optional>
+                      <optional>
+                        <attribute name="kurztitelOriginal">
+                          <data type="token">
+                            <param name="minLength">1</param>
+                          </data>
+                        </attribute>
+                      </optional>
+                      <optional>
+                        <attribute name="aktualisierung">
+                          <choice>
+                            <value>neu</value>
+                            <value>beide</value>
+                            <value>kurztitel</value>
+                            <value>langtitel</value>
+                            <value>leerzeichen-entfernt</value>
+                          </choice>
+                        </attribute>
+                      </optional>
+                      <data type="token">
+                        <param name="minLength">1</param>
+                      </data>
+                    </interleave>
+                  </element>
+                  <element name="langtitel">
+                    <interleave>
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName>
+                            <except>
+                              <name>aktualisierung</name>
+                            </except>
+                          </anyName>
+                          <text/>
+                        </attribute>
+                      </zeroOrMore>
+                      <optional>
+                        <attribute name="aktualisierung">
+                          <choice>
+                            <value>neu</value>
+                            <value>beide</value>
+                            <value>kurztitel</value>
+                            <value>langtitel</value>
+                            <value>leerzeichen-entfernt</value>
+                          </choice>
+                        </attribute>
+                      </optional>
+                      <text/>
+                    </interleave>
+                  </element>
+                  <element name="abrufkennung">
+                    <interleave>
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName/>
+                          <text/>
+                        </attribute>
+                      </zeroOrMore>
+                      <data type="token">
+                        <param name="minLength">1</param>
+                      </data>
+                    </interleave>
+                  </element>
+                  <zeroOrMore>
+                    <element>
+                      <anyName>
+                        <except>
+                          <name>kurztitel</name>
+                          <name>langtitel</name>
+                          <name>abrufkennung</name>
+                        </except>
+                      </anyName>
+                      <ref name="extensionContent"/>
+                    </element>
+                  </zeroOrMore>
+                </interleave>
+              </element>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>gesetz</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>infos</name>
+                <name>inhalt</name>
+              </except>
+            </anyName>
+            <ref name="extensionContent"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </start>
+  <define name="normgeber">
+    <data type="string">
+      <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+      <param name="maxLength">20</param>
+    </data>
+  </define>
+  <define name="extensionContent">
+    <zeroOrMore>
+      <attribute>
+        <anyName/>
+        <text/>
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName/>
+          <ref name="extensionContent"/>
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>

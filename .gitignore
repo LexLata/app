@@ -1,0 +1,65 @@
+# Logs
+.codex-notifications/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tauri: generierte native Projekte (ios/android init).
+# gen/apple und gen/android werden versioniert, weil sie inzwischen manuell
+# gepflegte Konfiguration enthalten (Info.plist, AndroidManifest.xml,
+# values-sw600dp/bools.xml – Portrait-Sperre mit Tablet-Ausnahme), die bei
+# `npx tauri ios/android init` NICHT automatisch neu erzeugt würde, wenn der
+# Ordner fehlt. Reine Build-Artefakte innerhalb dieser Ordner bleiben
+# ausgeschlossen:
+src-tauri/gen/apple/DerivedData/
+src-tauri/gen/apple/build/
+src-tauri/gen/apple/*.xcodeproj/xcuserdata/
+src-tauri/gen/apple/*.xcodeproj/project.xcworkspace/xcuserdata/
+src-tauri/gen/android/.gradle/
+src-tauri/gen/android/build/
+src-tauri/gen/android/app/build/
+# Reine Build-Kopien von src-tauri/resources (bei jedem Mobile-Build neu
+# erzeugt); Gradle/Xcode räumen das Zielverzeichnis dabei nicht auf, bei
+# Umbenennungen der Quelle können daher veraltete Dateien liegen bleiben,
+# die man sich sonst als "Änderung" in git einhandeln würde – lokal per
+# `./gradlew clean` bzw. manuellem Löschen bereinigen.
+src-tauri/gen/android/app/src/main/assets/resources/
+src-tauri/gen/apple/assets/resources/
+src-tauri/target/
+
+# Bestandsaufnahme-Berichte (npm run audit) – werden bei jedem Lauf neu
+# erzeugt, nie mehrere Versionen gleichzeitig nötig, daher nicht versioniert.
+.reports/
+
+# Coverage-Report (npm run audit / vitest --coverage) – transientes Artefakt.
+coverage/
+
+# Mutation-Testing-Report (npm run mutation) – transientes Artefakt.
+reports/
+.stryker-tmp/
+
+# Arbeitsdateien der Entwicklerläufe
+arbeitsdaten/
+
+# TypeScript-Build-Informationen
+*.tsbuildinfo

@@ -1,0 +1,65 @@
+# Menüleiste
+
+Diese Datei hält fest, welche Menüs es gibt, wer sie steuert, wann Menüpunkte aktiv sind und welche Texte sie tragen.
+
+## Zwei Menüs, gemeinsame IDs
+
+- **Native Menüleiste (macOS):** [menu.rs](../../src-tauri/src/menu.rs) mit [anwendung.rs](../../src-tauri/src/menu/anwendung.rs), [bearbeiten.rs](../../src-tauri/src/menu/bearbeiten.rs) und [navigationsmenue.rs](../../src-tauri/src/menu/navigationsmenue.rs). Windows und Linux haben keine native Leiste.
+- **Hamburger-Menü (☰ in der Tableiste):** Daten in [menuStruktur.ts](../../src/lib/plattform/menu/menuStruktur.ts), Aufbau in [hamburgerMenu.ts](../../src/components/tableiste/hamburgerMenu.ts). Es wird bei jedem Klick neu gebaut, auch die Texte der Favoriten- und Lesezeichen-Punkte (aus dem zuletzt gemeldeten Normstatus). Auf macOS erscheint es nur mit der Einstellung „Plattformfremde UI anzeigen“.
+- Gliederung und Beschriftung dürfen sich unterscheiden; die Menü-IDs sind gleich. Beschriftungen werden von Hand abgestimmt, Tastenkürzel kommen aus dem [Tastenkürzel-Katalog](../../src/lib/plattform/tastenkuerzel/tastenkuerzel.index.ts). Der automatische Test [menu-ids.test.ts](../../scripts/automatisch/menu-ids.test.ts) gleicht die ID-Mengen beider Menüs ab (Abweichungen stehen dort mit Begründung) und ordnet jede native ID genau einer Aktivierungsgruppe zu oder führt sie ausdrücklich als „immer aktiv“. Eine neue, nicht eingeordnete ID lässt ihn scheitern.
+- Ein Menüpunkt löst dasselbe Ereignis aus wie in der nativen Leiste; [useMenueEvents.ts](../../src/hooks/eingabe/useMenueEvents.ts) führt es im adressierten Fenster aus.
+
+## Zuständigkeit
+
+- **Menüziel** ist das fokussierte, sonst das zuletzt fokussierte sichtbare Fenster ([menu_sync.rs](../../src-tauri/src/fenster/menu_sync.rs): `menue_fenster`, `menue_hauptfenster`). Befehle werden nie an ein anderes Fenster umgeleitet; ein Hilfsfenster als Ziel ist kein Hauptfenster-Ziel.
+- Nur die Schließbefehle erreichen auch Hilfsfenster. „Markierungskonflikte verwalten“ öffnet das einzige Konfliktfenster und hängt von keinem Menüziel ab.
+- Jedes Hauptfenster meldet seine Werte selbst ([menuAktivZustandStore.ts](../../src/lib/plattform/menu/menuAktivZustandStore.ts), [menueZustandSync.ts](../../src/lib/plattform/menu/menueZustandSync.ts)). Rust hält je Fenster einen Snapshot der Aktivwerte und daneben den Normstatus (Bezeichnung der aktiven Norm, Favorit, Lesezeichen) und wendet nur die Werte des Menüziels an. Beim Fokuswechsel meldet das Fenster beides erneut. Einzige gemeinsame Größe ist der Stapel geschlossener Tabs.
+- Quelle des Normstatus ist das flüchtige, fensterlokale Modul [aktives-element](../../src/lib/domain/aktives-element/aktives-element.index.ts) mit `liesSpeicherbareNorm`, `schreibeSpeicherbareNorm` und `abonniereSpeicherbareNorm`. Es hält Gesetzesreferenz, volle Bezeichnung und Favoritenzustand oder `null`, keine Listen und keine persistierten Nutzerdaten. Alleiniger fachlicher Schreiber ist die sichtbare [Gesetzestextansicht](../../src/components/gesetzestextansicht/Gesetzestextansicht.tsx), über die Hülle verdrahtet; Verdecken oder Abbau leert ihren Zustand, ohne eine neu sichtbare Ansicht zu überschreiben.
+- [Favoritenleiste](../../src/components/seitenleisten/favoriten/Favoritenleiste.tsx), [Lesezeichenleiste](../../src/components/seitenleisten/lesezeichen/Lesezeichenleiste.tsx) und [Schnellaktionen](../../src/components/seitenleisten/Schnellaktionen.tsx) abonnieren die Quelle an den betroffenen Anzeigen mit `useSyncExternalStore`. Hervorhebung und Tooltips folgen ihr; der Lesezeichenstatus ergibt sich zusätzlich aus der bestehenden Lesezeichenliste. Der Menümelder in [useLesezeichenUndFavoriten.ts](../../src/hooks/useLesezeichenUndFavoriten.ts) abonniert ohne React-State und meldet nur Änderungen des Normstatus.
+- Im verbleibenden [Seitenleistenstatus](../../src/hooks/useSeitenleistenStatus.ts) liegen Favoriteneinträge, Sichtbarkeit, Aufrufaktion und Klappstufensteuerung. Die aktive Normbezeichnung wird dort nicht mehr gehalten. `istAktuellFavorit` bleibt als aus derselben Ermittlung abgeleiteter Wert für die Einführung; ein reiner Normwechsel bei sonst gleichen Angaben erzeugt keine Favoritenstatus-Meldung.
+- Ein Aktivwert, der noch nie gemeldet wurde, gilt in der nativen Leiste als **inaktiv**, im Hamburger-Menü als **aktiv**. Ohne gemeldeten Normstatus gilt „keine Norm bestimmbar“, die Menütexte tragen dann den Ersatztext.
+
+## Wann ein Menüpunkt aktiv ist
+
+| Bedingung                                  | Menüpunkte                                                                                                                                                                                                                                             |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| immer                                      | Neues Fenster, Neuer Tab, Einstellungen, Markierungskonflikte verwalten; das Menü Markierungen ist immer erreichbar (die übrigen Punkte darin gelten einzeln)                                                                                          |
+| Stapel geschlossener Tabs nicht leer       | Zuletzt geschlossenen Tab öffnen (auch ohne offenes Fenster)                                                                                                                                                                                           |
+| sichtbares Fenster ist Menüziel            | Tab schließen, Fenster schließen (Hilfsfenster eingeschlossen)                                                                                                                                                                                         |
+| Hauptfenster ist Menüziel                  | Gesetze verwalten, Dateien importieren, Importindizes aktualisieren, Export, Gesetz oder Norm öffnen, Suche in allen Gesetzen, alle Hilfe-Punkte (auf macOS auch „Über LexLata“ und „Nach Updates suchen…“ im App-Menü); das Menü Navigation insgesamt |
+| zusätzlich: Gesetze installiert            | Gesetze aktualisieren                                                                                                                                                                                                                                  |
+| zusätzlich: Lesezeichen vorhanden          | Alle Lesezeichen löschen                                                                                                                                                                                                                               |
+| zusätzlich: Undo- bzw. Redo-Stapel gefüllt | Markierung rückgängig, Markierung wiederholen                                                                                                                                                                                                          |
+| zusätzlich: Gesetz im aktiven Tab offen    | Informationen zum geöffneten Gesetz, Suche im geöffneten Gesetz, Verlauf anzeigen, Favorit speichern bzw. entfernen, Mehrere Favoriten hinzufügen, Lesezeichen speichern bzw. entfernen, Verweis, Kommentar                                            |
+| zusätzlich: Text ausgewählt                | Unterstreichen, Hervorheben                                                                                                                                                                                                                            |
+
+Bedingungen aus dem Frontend stehen in `menueZustandSync.ts` und an den jeweils meldenden Hooks. Die Fensterbedingungen stehen in `menu_sync.rs` als reine Funktionen ohne Tauri-Typen (`menu_item_ist_aktiv` je Punkt, `submenu_ist_erreichbar` je Submenü); `fenster_abhaengige_menu_items_synchronisieren` wendet ihr Ergebnis nur an. Die Reihenfolge der Menüs in `menu.rs` ist an Index 3 (Navigation) und 4 (Markierungen) gebunden.
+
+## Menütexte
+
+- **Gesetzesbezogene Beschriftungen:** „Gesetz oder Norm öffnen“ wählt ein Ziel und importiert bei Bedarf; „Suche im geöffneten Gesetz“ und „Suche in allen Gesetzen“ sind Textsuchen; „Informationen zum geöffneten Gesetz“; „Gesetze verwalten“ öffnet die Gesetzesübersicht. „Informationen zum geöffneten Gesetz“, „Suche im geöffneten Gesetz“ und „Gesetz oder Norm öffnen“ lauten in der nativen Leiste und im Hamburger-Menü gleich.
+- **Favorit und Lesezeichen** nennen die konkrete Norm und wechseln nach dem Zustand der aktiven Norm. „§ 4“ steht für die volle Bezeichnung wie beim Speichern, bei Gliederungsartikeln mit Präfix („Art. 229 § 3“).
+
+  | Zustand                                                                         | Favoriten-Punkt                          | Lesezeichen-Punkt                          |
+  | ------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------ |
+  | Norm bestimmbar, nicht gespeichert                                              | § 4 als Favoriten speichern              | § 4 als Lesezeichen speichern              |
+  | Norm bestimmbar, gespeichert                                                    | § 4 aus Favoriten entfernen              | § 4 aus Lesezeichen entfernen              |
+  | keine Norm bestimmbar (Überschrift, nicht eindeutig, kein Element, kein Gesetz) | Ausgewählte Norm als Favoriten speichern | Ausgewählte Norm als Lesezeichen speichern |
+
+- Der Text entsteht in `norm_menu_text` aus Punkt und Normstatus; Typ, Textfunktion, Textbausteine und Maskierung stehen in [menu_normstatus.rs](../../src-tauri/src/fenster/menu_normstatus.rs). [menu_sync.rs](../../src-tauri/src/fenster/menu_sync.rs) hält die Ablagen und Fensterzuständigkeit und nimmt den Befehl `menu_normstatus_melden` entgegen. Die Anlage der nativen Punkte verwendet dieselben Textbausteine. Das Hamburger-Menü bildet ihn beim Aufbau aus dem lokal gehaltenen Normstatus mit eigenen Bausteinen, die von Hand mit Rust abgestimmt werden.
+- Bei der nativen Übergabe maskiert `maskiere_menue_text` jedes `&` als `&&`, weil Muda 0.20.0 das Zeichen als Zugriffstastenmarkierung behandelt. Unterstriche maskiert das GTK-Backend selbst. Die sichtbare Bezeichnung und der Text im Hamburger-Menü bleiben unverändert.
+- Die Tooltips der Schnellaktionen in der Seitenleiste nennen dieselbe Norm („§ 4 als Favorit speichern (Kürzel)“) und lesen dieselbe Zustandsquelle. Ohne bestimmbare Norm lauten sie „Favorit speichern (Kürzel)“ bzw. „Lesezeichen speichern (Kürzel)“.
+
+## Einführung
+
+Während der Einführung ist die native Leiste komplett gesperrt (`menueleiste_aktivieren`). Das Hamburger-Menü bleibt bedienbar; dort sperrt die Wirkungsseite in `useMenueEvents.ts` alle Ereignisse außer „Einführung erneut durchführen“ und den in der jeweiligen Teilaktion freigegebenen (Gesetz oder Norm öffnen, Favorit, Lesezeichen).
+
+## Entscheidungen
+
+- **Öffnen und Suchen:** Das Wort „Suche“ steht nur für Textsuche. „Gesetz oder Norm öffnen“ ist keine Suche, sondern die Wahl eines Ziels.
+- **Norm oder Überschrift:** Ob die aktive Stelle eine Norm ist, steuert kein Ausgrauen. Die Favoriten- und Lesezeichen-Punkte bleiben aktiv; bei einer Überschrift oder nicht eindeutigen Norm tragen sie den Ersatztext „Ausgewählte Norm …“ und melden beim Klick eine Warnung.
+- **Verweis und Kommentar** hängen am geöffneten Gesetz, nicht an der Textauswahl. Ohne aktives Element öffnet sich nichts; das Menü zeigt den Punkt trotzdem aktiv.
+- **Markierungskonflikte** sind immer aktiv, auch ohne Fenster; das Fenster ist auch ohne Konflikte nutzbar.
+- **Markierung rückgängig/wiederholen** haben in der nativen Leiste kein Kürzel, weil ⌘Z/⇧⌘Z im Menü Bearbeiten belegt sind; das Hamburger-Menü zeigt sie an.
+- **Tastenkürzel fragen den Menüzustand ab.** Kürzel und Menüpunkt haben dieselben Voraussetzungen. Das gilt für Gesetze aktualisieren, Alle Lesezeichen löschen, Informationen zum geöffneten Gesetz, Suche im geöffneten Gesetz, Verlauf anzeigen, Favorit speichern, Lesezeichen speichern, Verweis und Kommentar. Das Kürzel prüft vor der Ausführung `istAktiv` aus `menuAktivZustandStore.ts`; ein nie gemeldeter Wert gilt als aktiv. Ist die Voraussetzung nicht erfüllt, tut das Kürzel nichts, wird aber verbraucht. Die Prüfungen am Handler (aktiver Tab) bleiben zusätzlich bestehen. Bewusst unabhängig bleiben „Zuletzt geschlossenen Tab öffnen“ ([menuAktivZustandStore.ts](../../src/lib/plattform/menu/menuAktivZustandStore.ts)) sowie Unterstreichen, Hervorheben, Rückgängig und Wiederholen.
+- **Normstatus-Meldung statt Ja/Nein:** Der Menütext hängt von der Bezeichnung ab, ein Ja/Nein-Snapshot kann ihn nicht tragen. Das Fenster meldet deshalb einen Normstatus über einen eigenen Befehl, Rust hält ihn je Fenster neben dem Snapshot und bildet daraus den Menütext. Er gilt wie die übrigen fensterlokalen Werte nur für das Menüziel.

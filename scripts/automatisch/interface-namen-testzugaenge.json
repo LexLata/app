@@ -1,0 +1,52 @@
+{
+  "testzugaenge": [
+    {
+      "interface": "src/components/gesetzestextansicht/gesetzestextansicht.index.ts",
+      "namen": {
+        "useTextDarstellungsModell": "Vertrag des öffentlichen Darstellungsmodells, über das die Testgrundlage echt misst (Test: src/test/gesetz/testDarstellung.ts, scripts/automatisch/absatz-wiederholung.integration.test.ts)."
+      }
+    },
+    {
+      "interface": "src/components/seitenleisten/seitenleisten.index.ts",
+      "namen": {
+        "Favoritenleiste": "Bedienung der echten Favoritenleiste im Einführungs- und Sprungnachweis (Test: src/test/einfuehrung/EinfuehrungBedienungProbe.tsx, textSpruengeVerlauf.integration.test.tsx).",
+        "FavoritSchnellaktion": "Bedienung der echten Favoriten-Schnellaktion (Test: src/test/einfuehrung/EinfuehrungBedienungProbe.tsx, textSpruengeVerlauf.integration.test.tsx).",
+        "Lesezeichenleiste": "Bedienung der echten Lesezeichenleiste im Einführungsnachweis; Props-Vertrag der Leiste (Test: src/test/einfuehrung/EinfuehrungBedienungProbe.tsx).",
+        "Schnellaktionen": "Bedienung der echten Schnellaktionen im Einführungsnachweis (Test: src/test/einfuehrung/EinfuehrungBedienungProbe.tsx).",
+        "Seitenleiste": "Bannergrenze an der echten Seitenleiste vor dem Rendern einer Hilfsfensterwurzel (Test: src/components/hauptfenster/BannerHost.grenze.test.tsx)."
+      }
+    },
+    {
+      "interface": "src/lib/domain/textpfad/textpfad.index.ts",
+      "namen": {
+        "blattPfad": "Textpfad-Vertrag: Pfad eines Textblatts (Test: formexMarkierungen.integration.test.tsx, satzEintragBausteine.test.tsx, VerlaufOverlay.test.tsx, scripts/automatisch/absatz-wiederholung.integration.test.ts).",
+        "textAnTextpfad": "Textpfad-Vertrag: Text an einem Textpfad (Test: textBlatt.auswahl.test.tsx, formexMarkierungen.integration.test.tsx, textstelleZusammenspiel.integration.test.tsx, satzEintragBausteine.test.tsx, VerlaufOverlay.test.tsx, GesetzTextScreen.anzeige.test.tsx, gesetzesXMLParser.eintragsKette.test.ts, markierungsXML.eintragsKette.test.ts, markierungskonfliktPruefung.test.ts, scripts/automatisch/absatz-wiederholung.integration.test.ts)."
+      }
+    },
+    {
+      "interface": "src/lib/markierungen/markierungskonflikte/markierungskonflikte.index.ts",
+      "namen": {
+        "pruefeMarkierungenSelektiv": "Speichergrenze mit echter Konfliktprüfung: Der Test ruft die selektive Prüfung direkt auf, weil die App sie nur über die von initialisiereMarkierungen angemeldeten Auslöser anstößt, die dieser Test bewusst nicht anmeldet (Test: src/lib/markierungen/eintrag/markierungSpeicher.grenze.test.ts)."
+      }
+    },
+    {
+      "interface": "src/lib/persistenz/gesetz/gesetz.index.ts",
+      "namen": {
+        "pruefeNichtamtlicheTitelXML": "Dateiformat Nichtamtliche-Titel-XML (Test: scripts/automatisch/schema-kopf-formate.test.ts, gesetzRessourcen.test.ts)."
+      }
+    },
+    {
+      "interface": "src/lib/persistenz/kern/kern.index.ts",
+      "namen": {
+        "mitDateiSperren": "Signaturvertrag der Mehrfach-Dateisperre: Die Sperrattrappe ist mit typeof mitDateiSperren typisiert und muss dieselbe Signatur haben; das Submodul dateizugriff ist von außen nur für Attrappen, nicht für Importe freigegeben (Test: src/test/plattform/dateiSperreAttrappe.ts)."
+      }
+    },
+    {
+      "interface": "src/lib/plattform/tastenkuerzel/tastenkuerzel.index.ts",
+      "namen": {
+        "parseTastenkuerzel": "Format der Tastenkürzel im Katalog (Test: scripts/automatisch/tastenkuerzel-katalog.test.ts, useTastenkuerzel.helpers.test.ts).",
+        "tastenkuerzelFamilie": "Format der Tastenkürzel im Katalog (Test: scripts/automatisch/tastenkuerzel-katalog.test.ts)."
+      }
+    }
+  ]
+}

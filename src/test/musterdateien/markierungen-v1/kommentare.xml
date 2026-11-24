@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">BGB</gesetz>
+        <verarbeitungszeit>2026-11-19T09:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <kommentar>
+            <bezeichnung>§ 433</bezeichnung>
+            <elementstand><titel>Vertragstypische Pflichten beim Kaufvertrag</titel><textlaenge>842</textlaenge></elementstand>
+            <kommentartext>  Käufer &amp; Verkäufer: Pflichten prüfen.
+Übergabe und Übereignung „Zug um Zug“.  </kommentartext>
+            <erstellt>2026-11-19T08:30:00Z</erstellt>
+            <geaendert>2026-11-19T08:45:10Z</geaendert>
+        </kommentar>
+        <kommentar>
+            <gliederungskennzahl>002001</gliederungskennzahl>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="10"/>
+            </textstelle>
+            <bezugstext>Titel 1 📅</bezugstext>
+            <kommentartext>Überschrift prüfen</kommentartext>
+            <erstellt>2026-11-19T08:31:00Z</erstellt>
+        </kommentar>
+    </inhalt>
+</markierungen>

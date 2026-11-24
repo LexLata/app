@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "LexLata",
+  "version": "../package.json",
+  "identifier": "org.lexlata",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "LexLata",
+        "width": 1000,
+        "height": 700,
+        "x": -10000,
+        "y": -10000,
+        "visible": false,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; connect-src 'self' ipc: http://ipc.localhost; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "createUpdaterArtifacts": true,
+    "publisher": "LexLata",
+    "copyright": "Copyright (C) 2026 LexLata",
+    "shortDescription": "Rechtstexte lesen, durchsuchen und annotieren",
+    "resources": ["resources", "icons/menu"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "deep-link": {
+      "desktop": {
+        "schemes": ["lexlata"]
+      }
+    },
+    "http": {
+      "scopeRedirects": true
+    },
+    "updater": {
+      "requireSignedVersion": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDc0QzM3Q0VGOEIxQ0VBMEMKUldRTTZoeUw3M3pEZEUxS1BiRDkwYkRYc1hVZzRNbUVFektaVk15d1JRNldYUE92T2JMWjhiL2IK",
+      "endpoints": ["https://github.com/LexLata/app/releases/latest/download/latest.json"]
+    }
+  }
+}

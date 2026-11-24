@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!-- Grundbestand: kuratierte Gesetzesliste je Normgeber für den Entwicklerlauf. -->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="grundbestand">
+      <attribute name="version">
+        <value>1</value>
+      </attribute>
+      <interleave>
+        <element name="infos">
+          <interleave>
+            <element name="geaendert">
+              <data type="dateTime">
+                <param name="pattern">[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z</param>
+              </data>
+            </element>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>geaendert</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <element name="inhalt">
+          <interleave>
+            <optional>
+              <element name="bund">
+                <ref name="gesetze"/>
+              </element>
+            </optional>
+            <optional>
+              <element name="bw">
+                <ref name="gesetze"/>
+              </element>
+            </optional>
+            <optional>
+              <element name="eu">
+                <ref name="gesetze"/>
+              </element>
+            </optional>
+          </interleave>
+        </element>
+      </interleave>
+    </element>
+  </start>
+  <define name="gesetze">
+    <zeroOrMore>
+      <element name="gesetz">
+        <data type="token">
+          <param name="minLength">1</param>
+        </data>
+      </element>
+    </zeroOrMore>
+  </define>
+  <define name="extensionContent">
+    <zeroOrMore>
+      <attribute>
+        <anyName/>
+        <text/>
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName/>
+          <ref name="extensionContent"/>
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>

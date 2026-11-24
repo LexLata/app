@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nichtamtlicheTitel version="1">
+    <infos>
+        <gesetz normgeber="de-bund">VwGO</gesetz>
+        <geaendert>2026-05-26T00:00:00Z</geaendert>
+    </infos>
+    <inhalt>
+        <norm><bezeichnung>§ 1</bezeichnung><titel>Unabhängigkeit der Verwaltungsgerichte</titel></norm>
+        <norm><bezeichnung>§ 2</bezeichnung><titel>Instanzen der Verwaltungsgerichtsbarkeit</titel></norm> 
+        <norm><bezeichnung>§ 3</bezeichnung><titel>Organisation der Gerichte</titel></norm>
+        <norm><bezeichnung>§ 4</bezeichnung><titel>Präsidium und Geschäftsverteilung</titel></norm>
+        <norm><bezeichnung>§ 5</bezeichnung><titel>Zusammensetzung und Gliederung der Verwaltungsgerichte</titel></norm>
+        <norm><bezeichnung>§ 6</bezeichnung><titel>Übertragung des Rechtsstreits auf Einzelrichter, Rückübertragung auf die Kammer</titel></norm>
+        <norm><bezeichnung>§ 9</bezeichnung><titel>Zusammensetzung und Gliederung der Oberverwaltungsgerichte</titel></norm>
+        <norm><bezeichnung>§ 10</bezeichnung><titel>Zusammensetzung und Gliederung des Bundesverwaltungsgerichts</titel></norm>
+        <norm><bezeichnung>§ 11</bezeichnung><titel>Großer Senat beim Bundesverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 12</bezeichnung><titel>Großer Senat beim Oberverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 13</bezeichnung><titel>Geschäftsstelle</titel></norm>
+        <norm><bezeichnung>§ 14</bezeichnung><titel>Rechts- und Amtshilfe</titel></norm>
+        <norm><bezeichnung>§ 15</bezeichnung><titel>Richter im Hauptamt</titel></norm>
+        <norm><bezeichnung>§ 16</bezeichnung><titel>Richter im Nebenamt</titel></norm>
+        <norm><bezeichnung>§ 17</bezeichnung><titel>Andere Arten von Richtern</titel></norm>
+        <norm><bezeichnung>§ 18</bezeichnung><titel>Richter auf Zeit</titel></norm>
+        <norm><bezeichnung>§ 19</bezeichnung><titel>Aufgaben</titel></norm>
+        <norm><bezeichnung>§ 20</bezeichnung><titel>Persönliche Voraussetzungen der Berufung</titel></norm>
+        <norm><bezeichnung>§ 21</bezeichnung><titel>Ausschluss vom Ehrenamt</titel></norm>
+        <norm><bezeichnung>§ 22</bezeichnung><titel>Hinderungsgründe</titel></norm>
+        <norm><bezeichnung>§ 23</bezeichnung><titel>Ablehnungsrecht</titel></norm>
+        <norm><bezeichnung>§ 24</bezeichnung><titel>Entbindung vom Ehrenamt</titel></norm>
+        <norm><bezeichnung>§ 25</bezeichnung><titel>Wahlperiode</titel></norm>
+        <norm><bezeichnung>§ 26</bezeichnung><titel>Wahlausschuss</titel></norm>
+        <norm><bezeichnung>§ 27</bezeichnung><titel>Anzahl der ehrenamtlichen Richter</titel></norm>
+        <norm><bezeichnung>§ 28</bezeichnung><titel>Vorschlagsliste</titel></norm>
+        <norm><bezeichnung>§ 29</bezeichnung><titel>Wahlverfahren</titel></norm>
+        <norm><bezeichnung>§ 30</bezeichnung><titel>Heranziehung zu Sitzungen, Vertreter</titel></norm>
+        <norm><bezeichnung>§ 32</bezeichnung><titel>Entschädigung</titel></norm>
+        <norm><bezeichnung>§ 33</bezeichnung><titel>Ordnungsgeld, Auferlegung von Kosten</titel></norm>
+        <norm><bezeichnung>§ 34</bezeichnung><titel>Ehrenamtliche Richter beim Oberverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 35</bezeichnung><titel>Vertreter des Bundesinteresses beim Bundesverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 36</bezeichnung><titel>Vertreter des öffentlichen Interesses beim (Ober-)Verwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 37</bezeichnung><titel>Befähigung zum Richteramt</titel></norm>
+        <norm><bezeichnung>§ 38</bezeichnung><titel>Dienstaufsicht</titel></norm>
+        <norm><bezeichnung>§ 39</bezeichnung><titel>Verwaltungsgeschäfte</titel></norm>
+        <norm><bezeichnung>§ 40</bezeichnung><titel>Eröffnung des Verwaltungsrechtsweges</titel></norm>
+        <norm><bezeichnung>§ 42</bezeichnung><titel>Anfechtungs- und Verpflichtungsklage</titel></norm>
+        <norm><bezeichnung>§ 43</bezeichnung><titel>Feststellungsklage</titel></norm>
+        <norm><bezeichnung>§ 44</bezeichnung><titel>Objektive Klagehäufung</titel></norm>
+        <norm><bezeichnung>§ 44a</bezeichnung><titel>Rechtsbehelfe gegen behördliche Verfahrenshandlungen</titel></norm>
+        <norm><bezeichnung>§ 45</bezeichnung><titel>Sachliche Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 46</bezeichnung><titel>Instanzielle Zuständigkeit des Oberverwaltungsgerichts</titel></norm>
+        <norm><bezeichnung>§ 47</bezeichnung><titel>Normenkontrolle vor dem Oberverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 48</bezeichnung><titel>Weitere sachliche Zuständigkeit des Oberverwaltungsgerichts</titel></norm>
+        <norm><bezeichnung>§ 49</bezeichnung><titel>Instanzielle Zuständigkeit des Bundesverwaltungsgerichts</titel></norm>
+        <norm><bezeichnung>§ 50</bezeichnung><titel>Sachliche Zuständigkeit des Bundesverwaltungsgerichts</titel></norm>
+        <norm><bezeichnung>§ 51</bezeichnung><titel>Aussetzung bei Verfahren über Vereinsverbote</titel></norm>
+        <norm><bezeichnung>§ 52</bezeichnung><titel>Örtliche Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 53</bezeichnung><titel>Bestimmung des zuständigen Gerichts</titel></norm>
+        <norm><bezeichnung>§ 54</bezeichnung><titel>Ausschließung und Ablehnung von Gerichtspersonen</titel></norm>
+        <norm><bezeichnung>§ 55</bezeichnung><titel>Anwendung von Ordnungsvorschriften des GVG</titel></norm>
+        <norm><bezeichnung>§ 55a</bezeichnung><titel>Elektronische Dokumentenübermittlung</titel></norm>
+        <norm><bezeichnung>§ 55b</bezeichnung><titel>Elektronische Prozessaktenführung</titel></norm>
+        <norm><bezeichnung>§ 56</bezeichnung><titel>Zustellung von Anordnungen und Entscheidungen</titel></norm>
+        <norm><bezeichnung>§ 56a</bezeichnung><titel>Öffentliche Bekanntmachung bei mehr als 50 Personen</titel></norm>
+        <norm><bezeichnung>§ 57</bezeichnung><titel>Fristen</titel></norm>
+        <norm><bezeichnung>§ 58</bezeichnung><titel>Rechtsbehelfsbelehrung</titel></norm>
+        <norm><bezeichnung>§ 60</bezeichnung><titel>Wiedereinsetzung in den vorigen Stand</titel></norm>
+        <norm><bezeichnung>§ 61</bezeichnung><titel>Beteiligtenfähigkeit</titel></norm>
+        <norm><bezeichnung>§ 62</bezeichnung><titel>Prozessfähigkeit</titel></norm>
+        <norm><bezeichnung>§ 63</bezeichnung><titel>Beteiligte</titel></norm>
+        <norm><bezeichnung>§ 64</bezeichnung><titel>Streitgenossenschaft</titel></norm>
+        <norm><bezeichnung>§ 65</bezeichnung><titel>Beiladung Dritter</titel></norm>
+        <norm><bezeichnung>§ 66</bezeichnung><titel>Prozessuale Rechte des Beigeladenen</titel></norm>
+        <norm><bezeichnung>§ 67</bezeichnung><titel>Prozessbevollmächtigte und Beistände</titel></norm>
+        <norm><bezeichnung>§ 67a</bezeichnung><titel>Gemeinsamer Bevollmächtigter</titel></norm>
+        <norm><bezeichnung>§ 68</bezeichnung><titel>Vorverfahren</titel></norm>
+        <norm><bezeichnung>§ 69</bezeichnung><titel>Widerspruch</titel></norm>
+        <norm><bezeichnung>§ 70</bezeichnung><titel>Frist und Form des Widerspruchs</titel></norm>
+        <norm><bezeichnung>§ 72</bezeichnung><titel>Abhilfe</titel></norm>
+        <norm><bezeichnung>§ 73</bezeichnung><titel>Widerspruchsbescheid</titel></norm>
+        <norm><bezeichnung>§ 74</bezeichnung><titel>Klagefrist</titel></norm>
+        <norm><bezeichnung>§ 75</bezeichnung><titel>Untätigkeitsklage</titel></norm>
+        <norm><bezeichnung>§ 77</bezeichnung><titel>Ausschließlichkeit des Widerspruchsverfahrens</titel></norm>
+        <norm><bezeichnung>§ 78</bezeichnung><titel>Beklagter</titel></norm>
+        <norm><bezeichnung>§ 79</bezeichnung><titel>Gegenstand der Anfechtungsklage</titel></norm>
+        <norm><bezeichnung>§ 80</bezeichnung><titel>Aufschiebende Wirkung</titel></norm>
+        <norm><bezeichnung>§ 80a</bezeichnung><titel>Verwaltungsakt mit Doppelwirkung</titel></norm>
+        <norm><bezeichnung>§ 80b</bezeichnung><titel>Ende der aufschiebenden Wirkung</titel></norm>
+        <norm><bezeichnung>§ 80c</bezeichnung><titel>Anordnung oder Wiederherstellung der aufschiebenden Wirkung</titel></norm>
+        <norm><bezeichnung>§ 81</bezeichnung><titel>Klageerhebung</titel></norm>
+        <norm><bezeichnung>§ 82</bezeichnung><titel>Inhalt der Klageschrift</titel></norm>
+        <norm><bezeichnung>§ 83</bezeichnung><titel>Sachliche und örtliche Zuständigkeit</titel></norm>
+        <norm><bezeichnung>§ 84</bezeichnung><titel>Gerichtsbescheid</titel></norm>
+        <norm><bezeichnung>§ 85</bezeichnung><titel>Zustellung der Klageschrift</titel></norm>
+        <norm><bezeichnung>§ 86</bezeichnung><titel>Untersuchungsgrundsatz; Aufklärungspflicht; Schriftsätze</titel></norm>
+        <norm><bezeichnung>§ 87</bezeichnung><titel>Vorbereitendes Verfahren</titel></norm>
+        <norm><bezeichnung>§ 87a</bezeichnung><titel>Entscheidung im vorbereitenden Verfahren</titel></norm>
+        <norm><bezeichnung>§ 87b</bezeichnung><titel>Fristsetzung; Fristversäumung</titel></norm>
+        <norm><bezeichnung>§ 87c</bezeichnung><titel>Beschleunigte Verfahren</titel></norm>
+        <norm><bezeichnung>§ 88</bezeichnung><titel>Bindung an Klagebegehren</titel></norm>
+        <norm><bezeichnung>§ 89</bezeichnung><titel>Widerklage</titel></norm>
+        <norm><bezeichnung>§ 90</bezeichnung><titel>Rechtshängigkeit</titel></norm>
+        <norm><bezeichnung>§ 91</bezeichnung><titel>Klageänderung</titel></norm>
+        <norm><bezeichnung>§ 92</bezeichnung><titel>Klagerücknahme</titel></norm>
+        <norm><bezeichnung>§ 93</bezeichnung><titel>Verbindung und Trennung von Verfahren</titel></norm>
+        <norm><bezeichnung>§ 93a</bezeichnung><titel>Musterverfahren</titel></norm>
+        <norm><bezeichnung>§ 94</bezeichnung><titel>Aussetzung des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 95</bezeichnung><titel>Persönliches Erscheinen der Beteiligten</titel></norm>
+        <norm><bezeichnung>§ 96</bezeichnung><titel>Unmittelbarkeit der Beweisaufnahme</titel></norm>
+        <norm><bezeichnung>§ 97</bezeichnung><titel>Beweistermine</titel></norm>
+        <norm><bezeichnung>§ 98</bezeichnung><titel>Vorschriften der ZPO für die Beweisaufnahme</titel></norm>
+        <norm><bezeichnung>§ 99</bezeichnung><titel>Vorlage-, Übermittlungs- und Auskunftspflicht der Behörden</titel></norm>
+        <norm><bezeichnung>§ 100</bezeichnung><titel>Akteneinsicht; Vervielfältigung</titel></norm>
+        <norm><bezeichnung>§ 101</bezeichnung><titel>Grundsatz der mündlichen Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 102</bezeichnung><titel>Ladung zur mündlichen Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 102a</bezeichnung><titel>Videoverhandlungen</titel></norm>
+        <norm><bezeichnung>§ 103</bezeichnung><titel>Ablauf der mündlichen Verhandlung</titel></norm>
+        <norm><bezeichnung>§ 104</bezeichnung><titel>Leitung de Verhandlung; richterliche Frage- und Erörterungspflicht</titel></norm>
+        <norm><bezeichnung>§ 105</bezeichnung><titel>Vorschriften der ZPO für das Protokoll</titel></norm>
+        <norm><bezeichnung>§ 106</bezeichnung><titel>Gerichtlicher Vergleich</titel></norm>
+        <norm><bezeichnung>§ 107</bezeichnung><titel>Entscheidung durch Urteil</titel></norm>
+        <norm><bezeichnung>§ 108</bezeichnung><titel>Freie Beweiswürdigung; Urteilsgründe; rechtliches Gehör</titel></norm>
+        <norm><bezeichnung>§ 109</bezeichnung><titel>Zwischenurteil über die Zulässigkeit der Klage</titel></norm>
+        <norm><bezeichnung>§ 110</bezeichnung><titel>Teilurteil über einen Teil des Streitgegenstands</titel></norm>
+        <norm><bezeichnung>§ 111</bezeichnung><titel>Zwischenurteil über den Grund einer Leistungsklage</titel></norm>
+        <norm><bezeichnung>§ 112</bezeichnung><titel>Zur Urteilsfällung berechtigte Richter</titel></norm>
+        <norm><bezeichnung>§ 113</bezeichnung><titel>Urteilstenor</titel></norm>
+        <norm><bezeichnung>§ 114</bezeichnung><titel>Überprüfung von Ermessensentscheidungen</titel></norm>
+        <norm><bezeichnung>§ 115</bezeichnung><titel>Klage gegen den Widerspruchsbescheid</titel></norm>
+        <norm><bezeichnung>§ 116</bezeichnung><titel>Verkündung und Zustellung des Urteils</titel></norm>
+        <norm><bezeichnung>§ 117</bezeichnung><titel>Form und Inhalt des Urteils</titel></norm>
+        <norm><bezeichnung>§ 118</bezeichnung><titel>Berichtigung des Urteils</titel></norm>
+        <norm><bezeichnung>§ 119</bezeichnung><titel>Berichtigung des Tatbestands eines Urteils</titel></norm>
+        <norm><bezeichnung>§ 120</bezeichnung><titel>Ergänzung des Urteils</titel></norm>
+        <norm><bezeichnung>§ 121</bezeichnung><titel>Rechtskraft des Urteils</titel></norm>
+        <norm><bezeichnung>§ 122</bezeichnung><titel>Beschlüsse</titel></norm>
+        <norm><bezeichnung>§ 123</bezeichnung><titel>Erlass einstweiliger Anordnungen</titel></norm>
+        <norm><bezeichnung>§ 124</bezeichnung><titel>Zulässigkeit der Berufung</titel></norm>
+        <norm><bezeichnung>§ 124a</bezeichnung><titel>Zulassung, Einlegung und Begründung der Berufung; Frist</titel></norm>
+        <norm><bezeichnung>§ 125</bezeichnung><titel>Berufungsverfahren; Verwerfung bei Unzulässigkeit</titel></norm>
+        <norm><bezeichnung>§ 126</bezeichnung><titel>Zurücknahme der Berufung</titel></norm>
+        <norm><bezeichnung>§ 127</bezeichnung><titel>Anschlussberufung</titel></norm>
+        <norm><bezeichnung>§ 128</bezeichnung><titel>Umfang der Nachprüfung</titel></norm>
+        <norm><bezeichnung>§ 128a</bezeichnung><titel>Neue Erklärungen und Beweismittel; Verspätung; Ausschluss</titel></norm>
+        <norm><bezeichnung>§ 129</bezeichnung><titel>Bindung an den Antrag</titel></norm>
+        <norm><bezeichnung>§ 130</bezeichnung><titel>Entscheidung oder Zurückverweisung</titel></norm>
+        <norm><bezeichnung>§ 130a</bezeichnung><titel>Entscheidung durch Beschluss</titel></norm>
+        <norm><bezeichnung>§ 130b</bezeichnung><titel>Vereinfachte Abfassung des Berufungsurteils</titel></norm>
+        <norm><bezeichnung>§ 132</bezeichnung><titel>Zulässigkeit der Revision</titel></norm>
+        <norm><bezeichnung>§ 133</bezeichnung><titel>Nichtzulassungsbeschwerde</titel></norm>
+        <norm><bezeichnung>§ 134</bezeichnung><titel>Sprungrevision</titel></norm>
+        <norm><bezeichnung>§ 135</bezeichnung><titel>Revision bei Ausschluss der Berufung</titel></norm>
+        <norm><bezeichnung>§ 137</bezeichnung><titel>Relative Revisionsgründe</titel></norm>
+        <norm><bezeichnung>§ 138</bezeichnung><titel>Absolute Revisionsgründe</titel></norm>
+        <norm><bezeichnung>§ 139</bezeichnung><titel>Revisionseinlegung; Revisionsbegründung; Frist und Form</titel></norm>
+        <norm><bezeichnung>§ 140</bezeichnung><titel>Zurücknahme der Revision</titel></norm>
+        <norm><bezeichnung>§ 141</bezeichnung><titel>Revisionsverfahren</titel></norm>
+        <norm><bezeichnung>§ 142</bezeichnung><titel>Unzulässigkeit von Klageänderungen und Beiladungen</titel></norm>
+        <norm><bezeichnung>§ 143</bezeichnung><titel>Prüfung der Zulässigkeitsvoraussetzungen</titel></norm>
+        <norm><bezeichnung>§ 144</bezeichnung><titel>Verwerfung, Zurückverweisung oder Entscheidung der Revision</titel></norm>
+        <norm><bezeichnung>§ 146</bezeichnung><titel>Statthaftigkeit der Beschwerde</titel></norm>
+        <norm><bezeichnung>§ 147</bezeichnung><titel>Beschwerdeeinlegung; Form und Frist</titel></norm>
+        <norm><bezeichnung>§ 148</bezeichnung><titel>Abhilfe oder Vorlage an das Oberverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 149</bezeichnung><titel>Aufschiebende Wirkung</titel></norm>
+        <norm><bezeichnung>§ 150</bezeichnung><titel>Entscheidung durch Beschluss</titel></norm>
+        <norm><bezeichnung>§ 151</bezeichnung><titel>Beauftragter oder ersuchter Richter; Urkundsbeamter</titel></norm>
+        <norm><bezeichnung>§ 152</bezeichnung><titel>Beschwerde an das Bundesverwaltungsgericht</titel></norm>
+        <norm><bezeichnung>§ 152a</bezeichnung><titel>Anhörungsrüge</titel></norm>
+        <norm><bezeichnung>§ 153</bezeichnung><titel>Wiederaufnahme des Verfahrens</titel></norm>
+        <norm><bezeichnung>§ 154</bezeichnung><titel>Kostentragungspflicht</titel></norm>
+        <norm><bezeichnung>§ 155</bezeichnung><titel>Kostenverteilung</titel></norm>
+        <norm><bezeichnung>§ 156</bezeichnung><titel>Kosten bei sofortigem Anerkenntnis</titel></norm>
+        <norm><bezeichnung>§ 158</bezeichnung><titel>Anfechtung der Kostenentscheidung</titel></norm>
+        <norm><bezeichnung>§ 159</bezeichnung><titel>Mehrere Kostenpflichtige</titel></norm>
+        <norm><bezeichnung>§ 160</bezeichnung><titel>Kostenverteilung bei Vergleich</titel></norm>
+        <norm><bezeichnung>§ 161</bezeichnung><titel>Kostenentscheidung; Erledigung der Hauptsache; Untätigkeitsklage</titel></norm>
+        <norm><bezeichnung>§ 162</bezeichnung><titel>Erstattungsfähige Kosten</titel></norm>
+        <norm><bezeichnung>§ 163</bezeichnung><titel>Änderung der Kostenentscheidung</titel></norm>
+        <norm><bezeichnung>§ 164</bezeichnung><titel>Kostenfestsetzung</titel></norm>
+        <norm><bezeichnung>§ 165</bezeichnung><titel>Anfechtung der Kostenfestsetzung</titel></norm>
+        <norm><bezeichnung>§ 165a</bezeichnung><titel>Prozesskostensicherheit</titel></norm>
+        <norm><bezeichnung>§ 166</bezeichnung><titel>Prozesskostenhilfe</titel></norm>
+        <norm><bezeichnung>§ 167</bezeichnung><titel>Anwendung der ZPO; vorläufige Vollstreckbarkeit</titel></norm>
+        <norm><bezeichnung>§ 168</bezeichnung><titel>Vollstreckungstitel</titel></norm>
+        <norm><bezeichnung>§ 169</bezeichnung><titel>Vollstreckung zugunsten der öffentlichen Hand</titel></norm>
+        <norm><bezeichnung>§ 170</bezeichnung><titel>Vollstreckung gegen die öffentliche Hand</titel></norm>
+        <norm><bezeichnung>§ 171</bezeichnung><titel>Vollstreckungsklausel</titel></norm>
+        <norm><bezeichnung>§ 172</bezeichnung><titel>Zwangsgeld gegen eine Behörde</titel></norm>
+        <norm><bezeichnung>§ 173</bezeichnung><titel>Entsprechende Anwendung des GVG und der ZPO</titel></norm>
+        <norm><bezeichnung>§ 174</bezeichnung><titel>Vertreter des öffentlichen Interesses; Befähigung zum Richteramt</titel></norm>
+        <norm><bezeichnung>§ 175</bezeichnung><titel>§ 43 EGGVG</titel></norm>
+        <norm><bezeichnung>§ 176</bezeichnung><titel>Möglichkeit der Mitwirkung an Verwaltungsgerichten bis Ende 2025</titel></norm>
+        <norm><bezeichnung>§ 177</bezeichnung><titel>Weiterführung und Übermittlung in Papierform</titel></norm>
+        <norm><bezeichnung>§§ 178 und 179</bezeichnung><titel>Änderungsvorschriften</titel></norm>
+        <norm><bezeichnung>§ 180</bezeichnung><titel>Zeugen- und Sachverständigenvernehmung nach dem VwVfG oder dem SGB X</titel></norm>
+        <norm><bezeichnung>§§ 181 und 182</bezeichnung><titel>Änderungsvorschriften</titel></norm>
+        <norm><bezeichnung>§ 183</bezeichnung><titel>Nichtigkeit von Landesrecht; Bestandskraft von Entscheidungen</titel></norm>
+        <norm><bezeichnung>§ 184</bezeichnung><titel>Weiterführung der Bezeichnung Verwaltungsgerichtshof</titel></norm>
+        <norm><bezeichnung>§ 185</bezeichnung><titel>Sonderregelungen für Anhörung und Widerspruchsbescheid</titel></norm>
+        <norm><bezeichnung>§ 186</bezeichnung><titel>Sonderregelungen für ehrenamtliche Richter</titel></norm>
+        <norm><bezeichnung>§ 187</bezeichnung><titel>Disziplinar-, Schieds- und Berufsgerichtsbarkeit; Personalvertretungsrecht</titel></norm>
+        <norm><bezeichnung>§ 188</bezeichnung><titel>Sozialkammern; Sozialsenate; Kostenfreiheit</titel></norm>
+        <norm><bezeichnung>§ 188a</bezeichnung><titel>Wirtschaftskammern, Wirtschaftssenate</titel></norm>
+        <norm><bezeichnung>§ 188b</bezeichnung><titel>Planungskammern, Planungssenate</titel></norm>
+        <norm><bezeichnung>§ 189</bezeichnung><titel>Fachsenate für Entscheidungen nach § 99 Abs. 2</titel></norm>
+        <norm><bezeichnung>§ 190</bezeichnung><titel>Fortgeltung bestimmter Sonderregelungen</titel></norm>
+        <norm><bezeichnung>§ 191</bezeichnung><titel>Revision bei Klagen aus dem Beamtenverhältnis</titel></norm>
+        <norm><bezeichnung>§ 192</bezeichnung><titel>Änderungsvorschrift</titel></norm>
+        <norm><bezeichnung>§ 193</bezeichnung><titel>Oberverwaltungsgericht als Landesverfassungsgericht</titel></norm>
+        <norm><bezeichnung>§ 194</bezeichnung><titel>Übergangsvorschriften für Rechtsmittel</titel></norm>
+        <norm><bezeichnung>§ 195</bezeichnung><titel>Inkrafttreten, Außerkrafttreten</titel></norm>
+    </inhalt>
+</nichtamtlicheTitel>

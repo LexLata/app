@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gesetz version="1">
+    <infos>
+        <kurztitel>MKH</kurztitel>
+        <langtitel>Fiktives Markierungskonflikt-Hauptgesetz</langtitel>
+        <normgeber>de-bund</normgeber>
+        <normpraefix>§</normpraefix>
+        <verarbeitungszeit>2026-10-20T12:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <norm id="n90-p">
+            <bezeichnung>§ 90</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n91-p">
+            <bezeichnung>§ 91</bezeichnung>
+            <titel>Kürzung ohne Wortgrenze</titel>
+            <text>Aktueller Wortlaut.</text>
+        </norm>
+        <norm id="n10-p">
+            <bezeichnung>§ 10</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n11-p">
+            <bezeichnung>§ 11</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n12-p">
+            <bezeichnung>§ 12</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n13-p">
+            <bezeichnung>§ 13</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <gliederung gliederungskennzahl="100">
+            <bezeichnung>Teil 100</bezeichnung>
+            <titel>Allgemeine Vorschriften für die gemeinsame manuelle Prüfung langer Überschriftentitel</titel>
+        </gliederung>
+        <gliederung gliederungskennzahl="101">
+            <bezeichnung>Teil 101</bezeichnung>
+        </gliederung>
+        <norm id="n20-p">
+            <bezeichnung>§ 20</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n21-p">
+            <bezeichnung>§ 21</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n22-p">
+            <bezeichnung>§ 22</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n23-p">
+            <bezeichnung>§ 23</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <gliederung gliederungskennzahl="110">
+            <bezeichnung>Teil 110</bezeichnung>
+            <titel>Allgemeine Vorschriften für die gemeinsame manuelle Prüfung langer Überschriftentitel</titel>
+        </gliederung>
+        <gliederung gliederungskennzahl="111">
+            <bezeichnung>Teil 111</bezeichnung>
+        </gliederung>
+        <norm id="n30-p">
+            <bezeichnung>§ 30</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n31-p">
+            <bezeichnung>§ 31</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n32-p">
+            <bezeichnung>§ 32</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n33-p">
+            <bezeichnung>§ 33</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <gliederung gliederungskennzahl="120">
+            <bezeichnung>Teil 120</bezeichnung>
+            <titel>Allgemeine Vorschriften für die gemeinsame manuelle Prüfung langer Überschriftentitel</titel>
+        </gliederung>
+        <gliederung gliederungskennzahl="121">
+            <bezeichnung>Teil 121</bezeichnung>
+        </gliederung>
+        <norm id="n40-p">
+            <bezeichnung>§ 40</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n41-p">
+            <bezeichnung>§ 41</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n42-p">
+            <bezeichnung>§ 42</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n43-p">
+            <bezeichnung>§ 43</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <gliederung gliederungskennzahl="130">
+            <bezeichnung>Teil 130</bezeichnung>
+            <titel>Allgemeine Vorschriften für die gemeinsame manuelle Prüfung langer Überschriftentitel</titel>
+        </gliederung>
+        <gliederung gliederungskennzahl="131">
+            <bezeichnung>Teil 131</bezeichnung>
+        </gliederung>
+        <norm id="n50-p">
+            <bezeichnung>§ 50</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n51-p" status="weggefallen">
+            <bezeichnung>§ 51</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n52-p">
+            <bezeichnung>§ 52</bezeichnung>
+            <titel>Neuer amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n60-p">
+            <bezeichnung>§ 60</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n61-p">
+            <bezeichnung>§ 61</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n61-zweit" vorgaenger="zweites Vorkommen">
+            <bezeichnung>§ 61</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <gliederung gliederungskennzahl="200">
+            <bezeichnung>Teil 200</bezeichnung>
+            <titel>Allgemeine Vorschriften für die gemeinsame manuelle Prüfung langer Überschriftentitel</titel>
+        </gliederung>
+        <gliederung gliederungskennzahl="200">
+            <bezeichnung>Andere Bezeichnung</bezeichnung>
+            <titel>Allgemeine Vorschriften für die gemeinsame manuelle Prüfung langer Überschriftentitel</titel>
+        </gliederung>
+        <norm id="n70-p">
+            <bezeichnung>§ 70</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>
+                <absatz zahl="(1)">
+                    <satz zahl="1">Der aktuelle Wortlaut gilt.</satz>
+                </absatz>
+            </text>
+        </norm>
+        <norm id="n71-p">
+            <bezeichnung>§ 71</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>
+                <absatz zahl="(1)">
+                    <unterabsatz zahl="1">
+                        <satz zahl="1">
+                            Voraussetzungen:
+                            <nummer zahl="1">
+                                <litera buchstabe="a">
+                                    <litera buchstabe="aa">Der aktuelle Wortlaut gilt.</litera>
+                                </litera>
+                            </nummer>
+                        </satz>
+                    </unterabsatz>
+                </absatz>
+            </text>
+        </norm>
+        <norm id="n72-p">
+            <bezeichnung>§ 72</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>
+                <absatz zahl="(2)">
+                    <satz zahl="1">
+                        Voraussetzungen:
+                        <nummer zahl="3">
+                            <litera buchstabe="a">
+                                <satz zahl="1">Erster Satz.</satz>
+                                <satz zahl="2">Der aktuelle Wortlaut gilt.</satz>
+                            </litera>
+                        </nummer>
+                    </satz>
+                </absatz>
+            </text>
+        </norm>
+        <norm id="n80-p">
+            <bezeichnung>§ 80</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n81-p">
+            <bezeichnung>§ 81</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n82-p">
+            <bezeichnung>§ 82</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n83-p">
+            <bezeichnung>§ 83</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n84-p">
+            <bezeichnung>§ 84</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n85-p">
+            <bezeichnung>§ 85</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n86-p">
+            <bezeichnung>§ 86</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n87-p">
+            <bezeichnung>§ 87</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <gliederung gliederungskennzahl="400"><bezeichnung>Teil 400</bezeichnung><titel>Geänderte Überschrift</titel></gliederung>
+        <gliederung gliederungskennzahl="402"><bezeichnung>Teil 402</bezeichnung><titel>Unverändert</titel></gliederung>
+        <norm id="e1" typ="erwaegungsgrund"><bezeichnung>E1</bezeichnung><text>Aktuell.</text></norm>
+        <norm id="ohne-praefix"><bezeichnung>5</bezeichnung><text>Aktuell.</text></norm>
+        <norm id="kontrollverweise"><bezeichnung>§ 94</bezeichnung><text>Kontrolle.</text></norm>
+        <norm id="n229-Art" gliederungskennzahl="300">
+            <bezeichnung>Art. 229</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n2-p">
+            <bezeichnung>§ 2</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+    </inhalt>
+</gesetz>

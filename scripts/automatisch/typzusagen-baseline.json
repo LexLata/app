@@ -1,0 +1,721 @@
+{
+  "produktion": {
+    "src/components/einfuehrung/EinfuehrungsOverlay.tsx": {
+      "nichtNull": 6,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/StrukturKontextLeiste.tsx": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/scrollen/virtualizer.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/scrollen/resizeAnker.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/scrollen/useGesetzSprung.helpers.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/scrollen/useObersteSichtbareZeile.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/struktur/klappstufenNavigation.ts": {
+      "nichtNull": 9,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/struktur/pfeilNavigation.ts": {
+      "nichtNull": 8,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/struktur/strukturAuswertung.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/struktur/useStrukturZustand.ts": {
+      "nichtNull": 1,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/useAnsichtssteuerung.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/useStrukturKontext.helpers.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/useStrukturKontext.ts": {
+      "nichtNull": 6,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/auswahl/auswahlleiste.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/baum/normBlock.tsx": {
+      "nichtNull": 0,
+      "cast": 4,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/baum/satzEintragBausteine.tsx": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/baum/textBlatt.tsx": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/baum/textBlattSegmente.tsx": {
+      "nichtNull": 8,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/baum/textStile.ts": {
+      "nichtNull": 0,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/baum/ueberschriftZeile.tsx": {
+      "nichtNull": 0,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/components/seitenleisten/favoriten/useFavoritenleiste.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/markierung/markierungsBausteine.tsx": {
+      "nichtNull": 5,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/text-darstellung/textDarstellung.modell.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/gemeinsam/hilfsfensterGroesse.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/markierungskonflikte/MarkierungskonfliktFenster.helpers.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/markierungskonflikte/KonfliktseitenleisteAuswahl.tsx": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/markierungskonflikte/konfliktTexte.ts": {
+      "nichtNull": 6,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/markierungskonflikte/MarkierungskonfliktFenster.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/verweismarkierung/VerweismarkierungFormular.tsx": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/verweismarkierung/verweisImportMeldungen.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/einstellungsfenster/AllgemeinAbschnitt.tsx": {
+      "nichtNull": 0,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/einstellungsfenster/ErweitertAbschnitt.tsx": {
+      "nichtNull": 0,
+      "cast": 3,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/einstellungsfenster/FarbAuswahlDropdown.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/einstellungsfenster/GesetzestextAbschnitt.tsx": {
+      "nichtNull": 0,
+      "cast": 4,
+      "doppelCast": 0
+    },
+    "src/components/hilfsfenster/einstellungsfenster/WerkzeugeAbschnitt.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/overlays/OverlayRahmen.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/overlays/standard/ExportOverlay.tsx": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/overlays/standard/FavoritenHinzufuegenOverlay.tsx": {
+      "nichtNull": 1,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/overlays/standard/GesetzInfoOverlay.tsx": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/overlays/standard/Gesetzesuebersicht.tastatur.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/overlays/standard/TastenkuerzelOverlay.tsx": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/overlays/suche/VolltextSucheOverlay.helpers.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/overlays/suche/VolltextSucheOverlay.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/tableiste/Tableiste.hoehe.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/components/tableiste/Tableiste.tsx": {
+      "nichtNull": 0,
+      "cast": 4,
+      "doppelCast": 0
+    },
+    "src/components/tableiste/hooks/useTabDragUeberFenster.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/tableiste/hooks/useTabDragUndReihenfolge.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/hooks/eingabe/useTastenkuerzel.helpers.ts": {
+      "nichtNull": 2,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/hooks/eingabe/useTastenkuerzel.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/hooks/einstellungen/useAktiverEinstellungenAbschnitt.ts": {
+      "nichtNull": 1,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/hooks/einstellungen/useAutoAktualisierungsIntervall.ts": {
+      "nichtNull": 0,
+      "cast": 4,
+      "doppelCast": 0
+    },
+    "src/hooks/einstellungen/useLocalStorageState.ts": {
+      "nichtNull": 0,
+      "cast": 0,
+      "doppelCast": 1
+    },
+    "src/hooks/einstellungen/useTextDarstellung.ts": {
+      "nichtNull": 0,
+      "cast": 4,
+      "doppelCast": 0
+    },
+    "src/hooks/einstellungen/useUiGroesse.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/hooks/fenster/useFensterRestore.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/hooks/markierungen/useVerweismarkierungUndKommentarHilfsfenster.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/hooks/tabs/useAppTabs.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/hooks/tabs/useTabSchliessen.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/darstellung/gesetzesXMLParser.inline.ts": {
+      "nichtNull": 1,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/lib/darstellung/gesetzesXMLParser.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/darstellung/textSegmentierung.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/app/oeffnen/oeffnenAnfrage.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/app/tabAktivierung.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/app/tabVerlauf.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/gesetzHierarchie.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0,
+      "begruendung": "Unveränderte drei Zusagen aus pfeilNavigation.ts nach gesetzHierarchie.ts verschoben; durch Schleifen- und Stackgrenzen belegt. Gesamtbudget unverändert."
+    },
+    "src/lib/domain/gesetzesreferenz.ts": {
+      "nichtNull": 1,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/domain/norm/bezeichnungZuId.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/norm/normAufloesung.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/norm/normStrukturPruefung.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/norm/verweisAufloesung.ts": {
+      "nichtNull": 6,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/domain/textpfad/textpfad.ts": {
+      "nichtNull": 1,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/domain/textpfad/textpfad.vergleich.ts": {
+      "nichtNull": 3,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/import-export/datei-import/dateiImport.aktionen.ts": {
+      "nichtNull": 4,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import-export/datei-import/dateiImport.einfach.ts": {
+      "nichtNull": 4,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import-export/datei-import/formatErkennung.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import-export/datei-import/gesetzDateiImport.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/einstellungen/einstellungenBackup.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import-export/exportSpeicher.ts": {
+      "nichtNull": 4,
+      "cast": 7,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/ausfertigungsdatum.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/gesetzesXMLBauer.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/gliederungsebenenErmittler.ts": {
+      "nichtNull": 10,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/satzTokenizer.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/verweisTagger.gesetzerkennung.ts": {
+      "nichtNull": 5,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/verweisTagger.normkette.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 2
+    },
+    "src/lib/import/basis/verweisTagger.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/xmlSerialisierung.ts": {
+      "nichtNull": 16,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/bund/XMLImporterBund.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/import/bund/gesetzImportBund.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/bund/importindexErstellungBund.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/bund/parseP.ts": {
+      "nichtNull": 35,
+      "cast": 7,
+      "doppelCast": 0
+    },
+    "src/lib/import/bw/HTMLImporterBW.lesen.ts": {
+      "nichtNull": 2,
+      "cast": 3,
+      "doppelCast": 0
+    },
+    "src/lib/import/bw/HTMLImporterBW.ts": {
+      "nichtNull": 5,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/bw/gesetzImportBW.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/bw/importindexErstellungBW.abgleich.ts": {
+      "nichtNull": 6,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/lib/import/bw/importindexErstellungBW.nachbearbeitung.ts": {
+      "nichtNull": 7,
+      "cast": 0,
+      "doppelCast": 1
+    },
+    "src/lib/import/dispatch/gesetzesreferenzImport.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/basis/parallelMitLimit.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/eu/cellar.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/import/eu/formexText.ts": {
+      "nichtNull": 0,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/lib/import/eu/formexZip.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/eu/importindexErstellungEU.ts": {
+      "nichtNull": 1,
+      "cast": 3,
+      "doppelCast": 0
+    },
+    "src/lib/import/eu/kurztitelEU.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/importabschluss/gesetzReferenzen.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/importabschluss/gesetzesXMLNachbereiten.ts": {
+      "nichtNull": 2,
+      "cast": 6,
+      "doppelCast": 0
+    },
+    "src/lib/import/importindex/europaKuratiert.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 1
+    },
+    "src/lib/import/importindex/importindexErstellung.persistenz.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/importindex/importindexErstellung.ts": {
+      "nichtNull": 11,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/importindex/importindexValidierung.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/praefixstruktur/praefixlauf.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/import/praefixstruktur/praefixstrukturXml.ts": {
+      "nichtNull": 2,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/eintrag/markierungSpeicher.hinzufuegen.ts": {
+      "nichtNull": 8,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/markierungs-xml/markierungsXML.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/hilfsfenster-aktionen/verweismarkierungAktionen.persistieren.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/hilfsfenster-aktionen/verweismarkierungAktionen.zitatAufloesung.ts": {
+      "nichtNull": 4,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/markierungskonflikte/markierungskonflikteAnzeige.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/markierungskonflikte/konfliktspeicher/markierungskonflikteSpeicher.pruefdurchlauf.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/zitat/zitatParser.canon.ts": {
+      "nichtNull": 4,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/zitat/zitatParser.helpers.ts": {
+      "nichtNull": 5,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/zitat/zitatParser.normgrenzen.komma.ts": {
+      "nichtNull": 8,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/zitat/zitatParser.normgrenzen.ts": {
+      "nichtNull": 15,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/zitat/zitatParser.normzustand.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/markierungen/zitat/zitatParser.ts": {
+      "nichtNull": 5,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/gesetz/gesetzspeicher/gesetzSpeicher.schreiben.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/gesetz/gesetzspeicher/gesetzSpeicher.sicherung.ts": {
+      "nichtNull": 6,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/gesetz/nichtamtliche-titel/nichtamtlicheTitelSpeicher.synchronisieren.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/kern/gesetzDateipfad.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/kern/localStorageJSON.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/kern/schemaversionHinweis.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/nutzerdaten/aktivierungSpeicher.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/persistenz/nutzerdaten/gesetzeskurzbefehlSpeicher.ts": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/plattform/praefixlaufAuftrag.ts": {
+      "nichtNull": 1,
+      "cast": 2,
+      "doppelCast": 0
+    },
+    "src/lib/plattform/tastenkuerzel/tastenkuerzelKatalog.ts": {
+      "nichtNull": 4,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/plattform/tauriHelpers.ts": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/lib/stil/textRollen.ts": {
+      "nichtNull": 0,
+      "cast": 5,
+      "doppelCast": 0
+    },
+    "src/lib/utils/miniMarkdown.ts": {
+      "nichtNull": 16,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/lib/utils/roemischeZahlen.ts": {
+      "nichtNull": 3,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/main.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/mobile/components/CustomTastatur.Taste.tsx": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/mobile/components/CustomTastatur.tsx": {
+      "nichtNull": 0,
+      "cast": 1,
+      "doppelCast": 0
+    },
+    "src/mobile/screens/OeffnenScreen.tsx": {
+      "nichtNull": 2,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/mobile/useCustomTastatur.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0
+    },
+    "src/components/gesetzestextansicht/ansichtssteuerung/usePfeilbedienung.ts": {
+      "nichtNull": 1,
+      "cast": 0,
+      "doppelCast": 0,
+      "begruendung": "Unveränderte Zusage aus useAnsichtssteuerung.ts nach usePfeilbedienung.ts verschoben; Schlüssel durch istPfeilbedienung geprüft. Gesamtbudget unverändert."
+    }
+  },
+  "tests": {
+    "nichtNull": 2358,
+    "cast": 404,
+    "doppelCast": 38
+  }
+}

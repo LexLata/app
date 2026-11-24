@@ -1,0 +1,33 @@
+# Verlauf
+
+Der Verlauf macht Sprünge rückgängig, ohne jeden Leseschritt als Besuch zu führen. Er gilt je Desktop-Tab, auch über Gesetzeswechsel hinweg; die Mobilansicht hat keinen Verlauf.
+
+## Regeln
+
+- **V1 Liste:** Neueste Einträge stehen vorn, jeder höchstens einmal; ein Eintrag identifiziert eine Norm oder Überschrift durch Gesetzesreferenz und XML-ID. Höchstens 100 Einträge bleiben erhalten, ältere fallen weg. Eintragen setzt den Zeiger auf 0. Stand er zuvor auf einem älteren Eintrag, wird dieser zuerst nach vorn verschoben: Der bisherige Weg bleibt erreichbar.
+- **V2 Sprung:** Eine Zielwahl trägt das Ziel ein, wenn das aktive Element tatsächlich wechselt. Das gilt für Suche, Tiefenlinks, Verweise, Favoriten, Lesezeichen, Gesetzeskurzbefehle, Gesetzesübersicht, StrukturKontextLeiste und Ebenenwechsel nach links. Ein bloßer Klappstufenwechsel erzeugt keinen Eintrag. Die Einführung nutzt dieselben Regeln.
+- **V3 Schritt:** Pfeilnavigation im Lesefluss, Aufklappen nach rechts, Text- und Titelklick sowie Scroll-Nachführung aktualisieren das aktive Element, ohne sofort einzutragen. Sie löschen eine Rückkehrmarke.
+- **V4 Nachtragen:** Weicht das aktive Element vom Eintrag am Zeiger ab, trägt ein Sprung diese verlassene Stelle vor seinem Ziel nach. Maßgeblich ist das aktive Element des Zieltabs unmittelbar vor dem Öffnungsecho, bei nachladenden Gesetzen nach dem Laden. Ein neuer Tab hat keine verlassene Stelle. Beim Verweisklick wird ausschließlich die Ausgangsnorm bzw. Ausgangsüberschrift nachgetragen.
+- **V5 Zurück (⌥←):** Von einer abgewichenen Stelle geht es zum Eintrag am Zeiger; Liste und Zeiger bleiben. Die verlassene Stelle wird Rückkehrmarke an dieser Position. Sonst geht der Zeiger einen Eintrag zurück; am Rand und bei leerem Verlauf geschieht nichts.
+- **V6 Vorwärts (⌥→):** Vom Eintrag am Zeiger führt eine dort gebundene Rückkehrmarke zurück zur Marke und verbraucht sie. Sonst geht es zum nächsten neueren Eintrag, auch von einer abgewichenen Stelle ohne Marke. Fehlt ein neuerer Eintrag, geschieht nichts.
+- **V7 Verfall:** Jeder Sprung, Schritt, jede Nachführung und jeder Timer-Eintrag löschen die Rückkehrmarke. Sie ist ein vorübergehender Rückweg, kein Verlaufseintrag.
+- **V8 Overlay:** Auswahl im aktuellen Tab verschiebt nach Erfolg den Zeiger, erhält die Liste und merkt eine abgewichene verlassene Stelle als Rückkehrmarke. ⌘/⌃-Klick öffnet einen neuen Tab mit eigenem Starteintrag; der Quelltab bleibt erhalten. Überschriften haben eine eigene Zeile, nur Normen eine Textvorschau.
+- **V9 Timer:** Eine durch Schritt oder Nachführung erreichte abgewichene Stelle wird nach 60 Sekunden im sichtbaren Tab eingetragen; das gilt auch für Überschriften. Andere Aktivierungen und Navigation setzen die Frist zurück. Tabwechsel, auch zum leeren Tab, stoppt sie. Bei Rückkehr beginnt eine volle neue Frist, ohne frühere Zeiten zu addieren. Am Eintrag oder ohne aktives Element läuft kein Timer. Ein bloßes Wiederherstellungsecho verschiebt die neu gestartete Frist nicht.
+- **V10 Startelement:** Beim neuen Zeigen eines Gesetzes wird das ausdrückliche Ziel, sonst das zuletzt aktive, hilfsweise das erste Element eingetragen. Das gilt auch bei App-Start und Fensterwiederherstellung. Ein vorhandener Tab ohne ausdrückliches Ziel behält dagegen seine eigene aktive Stelle und Scrollposition, ohne neuen Eintrag.
+- **V11 Ausnahmen:** Verlaufsnavigation und Overlay im aktuellen Tab schreiben keinen regulären Zieleintrag, weil sie den Zeiger steuern. Wiederherstellen eines geschlossenen Tabs (⇧⌘T) übernimmt dessen vollständigen Verlauf.
+- **V12 Echo:** Die Textansicht meldet eine durch Öffnung vorgegebene Aktivierung als `vorgegeben`. Sie aktualisiert nur das aktive Element, ohne Liste oder Marke zu ändern.
+- **V13 Scrollen:** Nach 250 ms Ruhe wird das aktive Element nur nach Nutzerscrollen nachgeführt. Es bleibt aktiv, solange sein Titel oder Körper sichtbar ist. Sonst wird der oberste sichtbare Titel aktiv, hilfsweise die Norm mit sichtbarem Körper. Während der Einführung bleibt die Nachführung aus, solange Normwechsel oder Überschriftenauswahl gesperrt sind. Ein Klappstufenwechsel führt eine fällige Nachführung einmal vorab aus, wenn das aktive Element weder mit Titel noch mit Körper sichtbar ist; dafür ist kein vorgemerktes Nutzerscrollen erforderlich. Dies ist ein Schritt; Scrollen selbst schreibt keinen Eintrag.
+
+## Zuständigkeiten und Lebensdauer
+
+[useVerlaufSteuerung](../../src/hooks/tabs/useVerlaufSteuerung.ts) besitzt als einzige Zustandsquelle den bestätigten Verlauf je Tab: Liste, Zeiger, aktives Element und Rückkehrmarke. Die reinen Regeln samt Obergrenze stehen in [tabVerlauf](../../src/lib/domain/app/tabVerlauf.ts). Andere Hooks lesen und schreiben über schmale Funktionen. Häufige Aktivierungsmeldungen lösen nur bei geänderter Liste oder geänderten Pfeilzuständen einen neuen Render aus.
+
+Der Verlauf liegt fensterlokal im Arbeitsspeicher. Die bestehende Ausnahme ist der [Stapel geschlossener Tabs](../../src/lib/persistenz/fenster/geschlosseneTabsSpeicher.ts) in localStorage (höchstens zehn Tabs). Dort und bei Fensterübertragung werden ausschließlich Liste und Zeiger übernommen; aktives Element und Rückkehrmarke bleiben zurück. Die gespeicherte zuletzt aktive Stelle je Gesetz und die Laufzeit-ID im Strukturzustand ersetzen keine tabweite Verlaufsposition.
+
+## Gültiger Navigationsabschluss
+
+Der Verlaufsbesitzer reiht Befehle je Tab. Ein Befehl wird erst gegen das Ergebnis seines Vorgängers ausgewertet. Die [Öffnungssteuerung](../../src/hooks/tabs/useGesetzOeffnen.ts) verantwortet Laden und Zielprüfung; ihr Lauf ist fensterlokal und nicht am Tab gespeichert. Erst ihr erfolgreicher, nicht abgelöster Abschluss samt Aktivierungsecho bestätigt Zeiger und Rückkehrmarke. Die Verlaufsfrist im Ausgangstab läuft während eines Imports weiter. Fehler, fehlende Ziele und abgelöste Öffnungen lassen den bestätigten Verlauf unverändert und verbrauchen keine Marke. Neuere Bedienung entwertet alte Abschlüsse. Vorläufige Befehle werden weder gespeichert noch übertragen.
+
+## Scroll-Nachführung
+
+Das Scrollmodul unterscheidet Nutzerscrollen von eigenen Positionskorrekturen. [useScrollNachfuehrung](../../src/components/gesetzestextansicht/ansichtssteuerung/useScrollNachfuehrung.ts) besitzt nur die ausstehende Frist; der Strukturzustand bleibt für die aktive Laufzeit-ID zuständig. Navigation, Aktivierung, Klappoperationen, Größenänderungen und Unmount entwerten ausstehende Nachführung. So kann eine alte Scrollmessung keine neuere Bedienung überschreiben. Nach der einmaligen Nachführung vor einem Klappstufenwechsel löst das Klappen keine weitere Nachführung aus. Höhenausgleich und Neueinhängen lösen selbst keine Nachführung aus.

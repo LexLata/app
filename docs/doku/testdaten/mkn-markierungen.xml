@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">MKN</gesetz>
+        <verarbeitungszeit>2026-10-21T12:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <unterstreichung>
+            <bezeichnung>Art. 9</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17"/>
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+    </inhalt>
+</markierungen>

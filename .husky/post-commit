@@ -1,0 +1,9 @@
+set +e
+
+# Mitteilung und automatischer Push nur mit lokal gesetztem
+# lexlata.persoenlicheHooks=true (siehe veroeffentlichung/einrichten.sh).
+[ "$(git config --bool --get lexlata.persoenlicheHooks 2>/dev/null)" = true ] || exit 0
+
+node scripts/automatisch/commit-benachrichtigung.mjs
+
+git push || echo "❌ Push fehlgeschlagen – bitte manuell pushen"

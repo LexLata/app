@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">MKF</gesetz>
+        <verarbeitungszeit>2026-10-21T12:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <kommentar>
+            <bezeichnung>§ 1</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 1</kommentartext>
+        </kommentar>
+    </inhalt>
+</markierungen>

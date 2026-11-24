@@ -1,0 +1,68 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for all app windows",
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-set-cursor-icon",
+    "core:window:allow-close",
+    "core:window:allow-destroy",
+    "core:window:allow-show",
+    "core:window:allow-center",
+    "core:window:allow-set-size",
+    "core:window:allow-set-title",
+    "core:window:allow-set-position",
+    "core:window:allow-maximize",
+    "core:window:allow-unmaximize",
+    "core:window:allow-minimize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-set-focus",
+    "core:window:allow-set-decorations",
+    "deep-link:default",
+    "dialog:default",
+    "http:default",
+    {
+      "identifier": "http:allow-fetch",
+      "allow": [
+        { "url": "https://www.gesetze-im-internet.de/:kuerzel/xml.zip" },
+        { "url": "https://www.gesetze-im-internet.de/Teilliste_*.html" },
+        { "url": "https://www.landesrecht-bw.de/*" },
+        { "url": "https://publications.europa.eu/**" }
+      ]
+    },
+    "fs:allow-read-file",
+    "fs:allow-write-file",
+    "fs:allow-write-text-file",
+    {
+      "identifier": "fs:allow-read-text-file",
+      "allow": [
+        { "path": "$LOCALDATA/LexLata/**" },
+        { "path": "$RESOURCE/resources/europa/**" },
+        { "path": "$RESOURCE/resources/importindizes/**" },
+        { "path": "$RESOURCE/resources/praefixstrukturen/de-bund.xml" },
+        { "path": "$RESOURCE/resources/praefixstrukturen/de-bw.xml" },
+        { "path": "$RESOURCE/resources/nichtamtliche-titel/**" }
+      ]
+    },
+    {
+      "identifier": "fs:allow-read-dir",
+      "allow": [
+        { "path": "$LOCALDATA/LexLata/**" },
+        { "path": "$RESOURCE/resources/europa" },
+        { "path": "$RESOURCE/resources/europa/**" },
+        { "path": "$RESOURCE/resources/nichtamtliche-titel/**" }
+      ]
+    },
+    {
+      "identifier": "fs:allow-exists",
+      "allow": [
+        { "path": "$LOCALDATA/LexLata/**" },
+        { "path": "$RESOURCE/resources/praefixstrukturen/de-bund.xml" },
+        { "path": "$RESOURCE/resources/praefixstrukturen/de-bw.xml" }
+      ]
+    },
+    { "identifier": "fs:allow-mkdir", "allow": [{ "path": "$LOCALDATA/LexLata/**" }] }
+  ]
+}

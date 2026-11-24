@@ -1,0 +1,154 @@
+set +e
+# husky ruft dieses Script über 'sh -e' auf (siehe .husky/_/h). Unter
+# errexit bricht z.B. 'ausgabe=$(fehlschlagender_befehl)' die Shell SOFORT
+# ab – vor jeder eigenen Fehlerbehandlung, ohne jede Ausgabe (siehe
+# Rückfrage im Chat: "→ jscpd: ..." war die letzte Zeile, kein
+# "❌ Commit abgebrochen: knip"-Marker). Deaktiviert, weil jeder Schritt
+# unten seinen Exit-Code ohnehin explizit prüft – errexit ist hier nicht
+# nötig und aktiv gefährlich für die Fehler-Sichtbarkeit.
+
+# Persönliche Hooks (nur lokal gesetzt, siehe veroeffentlichung/einrichten.sh):
+# Mitteilung bei Abbruch und gitleaks als Pflicht. Beitragende ohne diese
+# Einstellung erhalten keine Mitteilung; gitleaks läuft, wenn installiert.
+PERSOENLICH=$(git config --bool --get lexlata.persoenlicheHooks 2>/dev/null)
+
+# Jeder reguläre Fehlerausgang meldet den Abbruch, auch vor den späteren Checks.
+# Der ursprüngliche Status bleibt bei fehlgeschlagener Benachrichtigung erhalten.
+melde_abbruch() {
+  status=$?
+  trap - EXIT
+  if [ "$status" -ne 0 ] && [ "$PERSOENLICH" = true ]; then
+    node scripts/automatisch/commit-benachrichtigung.mjs abgebrochen || :
+  fi
+  exit "$status"
+}
+trap melde_abbruch EXIT
+
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --verbose || {
+    echo ""
+    echo "❌ Commit abgebrochen: gitleaks"
+    exit 1
+  }
+elif [ "$PERSOENLICH" = true ]; then
+  echo "gitleaks fehlt, ist bei lexlata.persoenlicheHooks=true aber Pflicht."
+  echo ""
+  echo "❌ Commit abgebrochen: gitleaks"
+  exit 1
+else
+  echo "⚠️  WARNUNG: gitleaks ist nicht installiert – Commit wird NICHT auf Geheimnisse geprüft."
+  echo "⚠️  Bitte gitleaks installieren: https://github.com/gitleaks/gitleaks"
+fi
+
+STAGED_TS=$(git diff --cached --name-only --diff-filter=ACMR -- '*.ts' '*.tsx')
+STAGED_QUELLEN=$(git diff --cached --name-only --diff-filter=ACMR -- '*.ts' '*.tsx' '*.mjs' '*.cjs' '*.js')
+STAGED_RS=$(git diff --cached --name-only --diff-filter=ACMR -- '*.rs')
+STAGED_LOCKFILE=$(git diff --cached --name-only --diff-filter=ACMR -- 'package-lock.json' 'package.json')
+# Zeilengrenze (verpflichtend): auch bei gelöschten oder umbenannten Dateien und bei
+# Änderungen an der Ausnahmeliste, weil dann Einträge veralten können.
+STAGED_ZEILENLIMIT=$(git diff --cached --name-only --diff-filter=ACMRD -- '*.ts' '*.tsx' '*.rs' 'scripts/automatisch/zeilenlimit-ausnahmen.json' 'scripts/automatisch/zeilenlimit-pruefen.mjs')
+# Modulgrenzen gelten auch für Tests und Werkzeuge unter scripts/, auch in .mjs/.cjs/.js.
+STAGED_SKRIPTE=$(git diff --cached --name-only --diff-filter=ACMRD -- 'scripts/*.mjs' 'scripts/*.cjs' 'scripts/*.js')
+STAGED_ARCHITEKTUR=$(git diff --cached --name-only --diff-filter=ACMRD -- 'scripts/automatisch/dependency-cruiser.cjs' 'scripts/automatisch/modulgrenzen.cjs' 'eslint.config.js')
+
+STAGED_TEXTANZEIGE=$(git diff --cached --name-only --diff-filter=ACMRD -- 'eslint.config.js' 'eslint-rules/textanzeige-verbindlich.cjs' 'scripts/automatisch/textanzeige-ausnahmen.mjs' 'scripts/audit/audit-eslint.mjs' 'scripts/audit/audit-eslint.sh')
+# Die Durchreich-Regel greift in allen Interface-Dateien; bei Regeländerung alle prüfen.
+# Das Glob wertet ESLint selbst aus (plattformneutral, unabhängig von der Shell).
+STAGED_DURCHREICHEN=$(git diff --cached --name-only --diff-filter=ACMRD -- 'eslint-rules/interface-durchreichen.cjs')
+
+npx lint-staged || {
+  echo ""
+  echo "❌ Commit abgebrochen: lint-staged"
+  exit 1
+}
+
+# Garantiert letzte Zeile bei jedem Abbruch, egal welcher Check ihn auslöst –
+# wer nur ans Ende des Outputs scrollt, sieht sonst nur die Rohausgabe des
+# gescheiterten Tools (z.B. eine knip-Fundzeile), ohne dass klar wird, aus
+# welchem Check sie stammt (siehe Rückfrage im Chat).
+stoppe_mit_marker() {
+  echo ""
+  echo "❌ Commit abgebrochen: $1"
+  exit 1
+}
+
+# Für Checks, die bei Erfolg absichtlich KEINEN Output zeigen sollen
+# (dependency-cruiser, knip – deren Erfolgsmeldungen nichts zu tun geben):
+# volle Rohausgabe nur bei Fehler, danach immer der Marker.
+pruefe_still() {
+  local label="$1"
+  shift
+  local ausgabe
+  ausgabe=$("$@" 2>&1)
+  local exit_code=$?
+  if [ $exit_code -ne 0 ]; then
+    echo "$ausgabe"
+    stoppe_mit_marker "$label"
+  fi
+}
+
+pruefe_still "pfad-kleinschreibung" node scripts/automatisch/pfad-kleinschreibung.mjs --staged
+pruefe_still "kopfkommentare" node scripts/automatisch/kopfkommentare.mjs --staged
+pruefe_still "doppelte-dateinamen" node scripts/automatisch/doppelte-dateinamen.mjs --staged
+
+if [ -n "$STAGED_ZEILENLIMIT" ]; then
+  # --staged: nur Dateien im Index; unfertige ungetrackte Dateien blockieren nicht.
+  pruefe_still "zeilenlimit" node scripts/automatisch/zeilenlimit-pruefen.mjs --staged
+fi
+
+if [ -n "$STAGED_QUELLEN" ]; then
+  pruefe_still "unterdrueckungen" node scripts/automatisch/unterdrueckungen-begruendet.mjs
+fi
+
+if [ -n "$STAGED_LOCKFILE" ]; then
+  echo "→ lockfile-lint (package.json/package-lock.json geändert)…"
+  npx lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm --validate-integrity ||
+    stoppe_mit_marker "lockfile-lint"
+fi
+
+# Regeländerungen müssen auch ohne geänderten Anwendungscode wirksam geprüft
+# werden. Bei gleichzeitig geändertem TypeScript den Graphen nur einmal prüfen.
+if [ -n "$STAGED_TS" ] || [ -n "$STAGED_ARCHITEKTUR" ] || [ -n "$STAGED_SKRIPTE" ]; then
+  pruefe_still "dependency-cruiser" npx dependency-cruiser src scripts --config scripts/automatisch/dependency-cruiser.cjs --output-type err
+  # Laufzeitkreise auf Modul- und Dateiebene, ohne Ausnahmendatei.
+  pruefe_still "modulzyklen" node scripts/automatisch/modulzyklen-pruefen.mjs
+fi
+
+if [ -n "$STAGED_ARCHITEKTUR" ]; then
+  pruefe_still "architektur-regeln" npx vitest run scripts/automatisch/architektur-regeln.test.ts scripts/automatisch/modulgrenzen.test.ts
+fi
+
+if [ -n "$STAGED_TEXTANZEIGE" ]; then
+  pruefe_still "textanzeige-regeln" npx vitest run scripts/automatisch/textanzeige-verbindlich.test.ts scripts/automatisch/textanzeige-ausnahmen.test.ts scripts/automatisch/audit-textanzeige.test.ts scripts/automatisch/architektur-regeln.test.ts scripts/automatisch/pre-commit.test.ts
+fi
+
+if [ -n "$STAGED_DURCHREICHEN" ]; then
+  pruefe_still "interface-durchreichen" npx vitest run scripts/automatisch/interface-durchreichen.test.ts
+  pruefe_still "interface-durchreichen" npx eslint 'src/**/*.index.ts'
+fi
+
+if [ -n "$STAGED_TS" ]; then
+  pruefe_still "textanzeige-ausnahmen" node scripts/automatisch/textanzeige-ausnahmen.mjs
+  # jscpd-pruefen.mjs zeigt bei Erfolg absichtlich IMMER eine Kompakt-Zeile
+  # (nicht komplett still) – daher kein pruefe_still, nur der Marker on top.
+  node scripts/automatisch/jscpd-pruefen.mjs ||
+    stoppe_mit_marker "jscpd"
+
+  pruefe_still "knip" npx knip
+
+fi
+
+if [ -n "$STAGED_RS" ]; then
+  echo "→ Rust-AppData-Guard…"
+  bash scripts/automatisch/rust-appdata-guard.sh || stoppe_mit_marker "Rust-AppData-Guard"
+
+  if command -v cargo >/dev/null 2>&1; then
+    echo "→ cargo test (nur weil .rs-Dateien gestaged sind)…"
+    (cd src-tauri && node ../scripts/automatisch/wegwerf-heimat.mjs cargo test) || stoppe_mit_marker "cargo test"
+
+    echo "→ cargo clippy (nur weil .rs-Dateien gestaged sind)…"
+    (cd src-tauri && cargo clippy --all-targets -- -D warnings) || stoppe_mit_marker "cargo clippy"
+  else
+    echo "⚠️  .rs-Dateien gestaged, aber 'cargo' nicht gefunden – Tests und clippy übersprungen."
+  fi
+fi

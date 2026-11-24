@@ -1,0 +1,715 @@
+/* index.css */
+/* Design-Tokens für die LexLata-App.
+   Light/Dark über das data-farbschema-Attribut auf <html> (gesetzt von
+   index.html synchron beim Start, siehe dortiger Kommentar, sowie zur
+   Laufzeit von useFarbschema.ts) – NICHT über CSS-eigene
+   prefers-color-scheme-Media-Queries (bewusst entfernt, um die frühere
+   Doppelung zu vermeiden, siehe Kommentar beim Hell-Block unten).
+   Alle Farben (inkl. Grautöne) sind auf OKLCH umgestellt, Semantik bleibt
+   gleich. */
+
+:root {
+  /* Schrift – serifenlose Schrift für UI-Elemente */
+  --schrift: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* Statische Basiswerte. Gesetzestextansicht und Absatzvorschau wenden die
+     aktuellen Präferenzen ausschließlich in ihrem lokalen Rahmen an. */
+  --schrift-text: var(--schrift);
+  --zeilen-abstand: 1.2;
+  --text-align: justify;
+  --hyphens: none;
+  /* Hinweis: "Größe der Bedienelemente" (Einstellungen) läuft NICHT über
+     eine CSS-Variable/calc() – siehe useUiGroesse.tsx: reiner Zahlenfaktor,
+     der beim Lesen von textRollen/iconGroessen (useTextRollen()/
+     useIconGroessen()) direkt in JS multipliziert wird. */
+
+  /* Steuert native Formularelemente (Slider, Checkbox, Scrollbars) –
+     unabhängig von den --bg-* oder --text-*-Variablen unten. "light dark" heißt
+     "beides unterstützt, folge der OS-Einstellung" – das ist bewusst der
+     Fallback für farbschema: 'system'. Bei erzwungenem Hell/Dunkel
+     (useFarbschema.ts) MUSS das hier ebenfalls überschrieben werden, sonst
+     zeigen native Steuerelemente weiterhin das OS-Schema, obwohl der Rest
+     der App bereits das erzwungene Schema zeigt (genau der gemeldete Bug:
+     System dunkel + App-Einstellung hell → Slider trotzdem dunkel).*/
+  color-scheme: light dark;
+
+  /* ---------- OKLCH Foundation ---------- */
+
+  /* Farbtöne der Auswahlpalette, siehe farbpalette.ts. */
+  --h-red: 23.5;
+  --h-purple: 326;
+  --h-blue: 262;
+  --h-pink: 358;
+  --h-orange: 46.5;
+  --h-gelb: 83;
+  --h-gruen: 139;
+
+  /* Base chroma per color */
+  --c-red: 0.23;
+  --c-purple: 0.17;
+  --c-blue: 0.24;
+  --c-pink: 0.235;
+  --c-orange: 0.175;
+  --c-gelb: 0.17;
+  --c-gruen: 0.18;
+
+  /* intensity scale */
+  --chroma-blass-faktor: 0.7;
+
+  /* ---------- Helligkeits-Boost je Farbe (Faktor auf --l-accent/--l-pale)
+     ----------
+     Gelb/Orange/Pink wirken bei gleicher Lightness wie Blau/Lila/etc.
+     "schmutziger"/dunkler (bekannter OKLCH-Effekt, Absprache: "Gelb wirkt
+     eher braun"). Statt das über Chroma zu kompensieren (würde entsättigen,
+     nicht aufhellen), wird --l-accent/--l-pale hier mit einem Faktor > 1
+     multipliziert – 1 = kein Boost. --l-boost-blau ist der einzige globale
+     Default (1 = kein Boost) und deckt darüber automatisch ALLE
+     nicht-geboosteten Farben ab (--app-akzent-l-boost etc. defaulten
+     weiter unten auf var(--l-boost-blau), s.u.) – bewusst KEINE eigenen
+     --l-boost-lila/-rot/-gruen/-grau-Variablen, die wären immer nur 1 und
+     würden nirgends referenziert. Die tatsächlichen Gelb/Orange/Pink-Werte
+     werden pro Theme in den :root[data-farbschema=…]-Blöcken gesetzt (s.u.),
+     da sie sich absichtlich pro Theme unterscheiden können. */
+  --l-boost-blau: 1;
+
+  /* Fixe (theme-UNABHÄNGIGE) Gegenstücke zu --l-boost-gelb/-orange/-pink
+     unten, NUR für --akzent-einheitlich (Button-Hintergründe) – Buttons
+     sollen wie --l-button selbst unabhängig vom aktuellen Theme immer
+     denselben Kontrast zum weißen Button-Text haben, verwenden dafür
+     bewusst IMMER die Hell-Boost-Werte (Absprache: "Kontrast zu weißem
+     Text passt mit den Hell-Werten besser"). Kann nicht einfach auf
+     --l-boost-gelb etc. verweisen, weil diese pro Theme unterschiedlich
+     aufgelöst werden (late-binding) – daher zwangsläufig eigene, hier fest
+     eingetragene Werte, die bei einer Anpassung der Hell-Boost-Werte unten
+     manuell mitgezogen werden müssen (identisches Duplizierungs-Muster wie
+     bei --akzent-einheitlich im OKLCH-Fallback-Block weiter unten). */
+  --l-boost-gelb-fest: 2.3;
+  --l-boost-orange-fest: 1.04;
+  --l-boost-pink-fest: 1.4;
+
+  /* ---------- Gemeinsames Delta-System (Hell/Dunkel) ----------
+     Alle Deltas hier sind AUSSCHLIESSLICH Beträge – die Richtung (Hell =
+     Flächen dunkler abstufen, Dunkel = heller; bei Text umgekehrt) kommt
+     aus --richtung-abstufung (pro Theme unten definiert: -1 in Hell, +1 in
+     Dunkel). Ändert man einen Delta-Wert hier, zieht das automatisch BEIDE
+     Themes mit (Absprache). Basis der aktuellen Werte: die bisherigen
+     Dunkel-Abstufungen ("der Darkmode gefällt mir besser"). */
+  --delta-bg-leiste: 5%;
+  /* --bg-panel ist die einzige Ausnahme vom gemeinsamen Flächen-Delta: in
+     Hell auf 0% überschrieben (siehe Kommentar dort), hier gilt der Wert
+     nur noch für Dunkel. */
+  --delta-bg-panel: 4.18%;
+  --delta-bg-eingabe: 8.61%;
+  --delta-text-sekundaer: 24%;
+  /* Gedämpfte Symbole, ausdrücklich keine Schriftfarbe. */
+  --delta-symbol-gedaempft: 37%;
+  /* Deltas für --l-strong/--l-pale relativ zu --l-accent (s.u.) – dieselbe
+     Systematik wie bei den Grautönen, nur eine Ebene höher (Lightness der
+     gesättigten Akzent-/Paletten-Farben statt reiner Grauflächen). */
+  --delta-l-strong: 6.3%;
+  --delta-l-pale: 13%;
+
+  /* Ebenentrenner bleiben transparent; Standardrahmen sind deckend. */
+  --trenner-ebene-alpha: 18%;
+
+  /* Aktuell gewählte Chroma+Hue je Farbwahl-Einstellung (App-Akzentfarbe,
+     Gesetzestext-Akzentfarbe, Markierungsfarbe) – Default "Blau", wird von
+     den jeweiligen [data-app-akzent=…]/[data-gesetzestext-akzent=…]/
+     [data-markierungsfarbe=…]-Blöcken weiter unten pro gewählter Farbe
+     überschrieben. Ersetzt die vorherige Handhabung, bei der Blau separat
+     behandelt wurde und die anderen 7 Farben eine eigene, fest eingestellte
+     Lightness (--l-palette, jetzt entfernt) hatten – jetzt sind alle 8
+     Farben über denselben Mechanismus themenadaptiv (--l-accent/--l-pale
+     s.u.), Absprache. */
+  --app-akzent-c: var(--c-blue);
+  --app-akzent-h: var(--h-blue);
+  --gesetzestext-akzent-c: var(--c-blue);
+  --gesetzestext-akzent-h: var(--h-blue);
+  --markierung-c: var(--c-blue);
+  --markierung-h: var(--h-blue);
+
+  /* Analog zu -c/-h oben: aktuell gewählter Helligkeits-Boost-Faktor
+     (s. Foundation weiter oben) je Farbwahl-Einstellung, Default "Blau" =
+     kein Boost (1). --app-akzent-l-boost-fest ist die zusätzliche, immer
+     Hell-gebundene Variante NUR für --akzent-einheitlich (Buttons, s.o.) –
+     gesetzestext-akzent/markierung brauchen kein Button-Gegenstück, da sie
+     nie für Button-Hintergründe verwendet werden. */
+  --app-akzent-l-boost: var(--l-boost-blau);
+  --app-akzent-l-boost-fest: 1;
+  --gesetzestext-akzent-l-boost: var(--l-boost-blau);
+  --markierung-l-boost: var(--l-boost-blau);
+
+  /* NUR für Button-Hintergründe (buttonRollen.ts, --akzent-einheitlich
+     weiter unten): bewusst die EINZIGE Stelle, an der Blau UND alle
+     Paletten-Farben dieselbe (feste, theme-unabhängige) Lightness teilen –
+     Buttons sollen unabhängig von Hell/Dunkel und unabhängig von der
+     gewählten Farbe immer gut lesbaren weißen Text haben. Alle anderen
+     Verwendungen (--akzent, --aktiv-element, --markierungsfarbe) bleiben
+     bewusst NICHT einheitlich (siehe --l-accent/--l-pale weiter unten,
+     Absprache: "Dark/Lightmode grundsätzlich NICHT einheitlich").*/
+  --l-button: 50%;
+}
+
+/* ---------- Hell ----------
+   Einzige Quelle für das Hell-Theme (data-farbschema wird von index.html
+   synchron und IMMER gesetzt – auch ohne funktionierendes localStorage, über
+   matchMedia, siehe dortiger Kommentar – ein zusätzlicher
+   @media(prefers-color-scheme)-Fallback ist daher bewusst NICHT mehr
+   vorhanden, um die frühere Doppelung zu vermeiden). Siehe useFarbschema.ts
+   für das Setzen des Attributs zur Laufzeit. */
+:root[data-farbschema='hell'] {
+  /* H-Kästchen: neben --bg-panel bewusste Ausnahme vom Delta-System;
+     gleicher Flächenkontrast zur Auswahlleiste in beiden Themes. */
+  --hervorheben-kaestchen-bg: oklch(78.3% 0 0);
+  --strukturkontextleiste-schatten-alpha: 12%;
+
+  color-scheme: light;
+
+  /* Anker-Werte für das gemeinsame Delta-System oben: die einzigen Werte,
+     die zwangsläufig pro Theme unterschiedlich bleiben ("nahe Weiß" und
+     "nahe Schwarz" können keine gemeinsame Zahl sein) – alle abgeleiteten
+     Grautöne/Text-Stufen/Lightness-Stufen entstehen daraus + den globalen
+     Deltas, siehe --bg-leiste etc. weiter unten (theme-unabhängig
+     definiert, löst sich per Late-Binding pro Theme korrekt auf). */
+  --l-bg-haupt: 100%;
+  --l-text-primaer: 21.78%;
+  --l-accent: 52%;
+  --rahmen-basis: 0%;
+  --l-rahmen: 92%;
+  /* Vorzeichen der Abstufungsrichtung: Hell stuft Flächen DUNKLER ab
+     (negativ) – bei Text und --l-strong/--l-pale kehrt sich das in der
+     jeweiligen Formel um, siehe dortige Kommentare. */
+  --richtung-abstufung: -1;
+
+  /* --bg-panel: BEWUSSTE Ausnahme vom gemeinsamen
+     Flächen-Delta – bleibt = --bg-haupt (0 statt 4.18). Entspricht der
+     macOS-üblichen Konvention, dass Content-Panels sich in Hell nahtlos in
+     die Seite einfügen und die Abgrenzung über --rahmen läuft statt über
+     Flächenkontrast (in Dunkel dagegen die ebenso übliche "tonale
+     Erhöhung": Panel heller als bg-haupt, da Schatten dort kaum wirken). */
+  --delta-bg-panel: 0%;
+
+  /* Custom-Tastatur (mobile/components/CustomTastatur.tsx): im Hellmodus
+     weiße Tasten auf grauem Hintergrund (umgekehrt zur sonstigen
+     bg-haupt/bg-eingabe-Zuordnung); im Dunkelmodus bleibt es bei der
+     normalen Zuordnung (siehe Dunkel-Block unten). */
+  --tastatur-taste-bg: var(--bg-haupt);
+  /* Eigener, dunklerer Grauton statt var(--bg-eingabe) (das ist der
+     App-weite Standard für Eingabefelder u.ä. und war für die Tastatur zu
+     hell/kontrastarm) – bewusst NICHT Teil des Delta-Systems oben, da
+     strukturell unabhängig von --bg-haupt (anders als in Dunkel, wo
+     tastatur-hintergrund-bg = bg-haupt gilt, s.u.). Zum Anpassen: einfach
+     den L-Wert ändern. */
+  --tastatur-hintergrund-bg: oklch(87.73% 0 0);
+
+  /* Helligkeits-Boost für Hell (s.o.) – aktuell identisch zu Dunkel als
+     Startwert (Absprache), aber bewusst getrennt hinterlegt und unabhängig
+     voneinander änderbar. */
+  --l-boost-gelb: 1.9;
+  --l-boost-orange: 1.55;
+  --l-boost-pink: 1.25;
+}
+
+/* ---------- Dunkel ----------
+   Einzige Quelle für das Dunkel-Theme, siehe Kommentar beim Hell-Block. */
+:root[data-farbschema='dunkel'] {
+  /* H-Kästchen: neben --bg-panel bewusste Ausnahme vom Delta-System;
+     gleicher Flächenkontrast zur Auswahlleiste in beiden Themes. */
+  --hervorheben-kaestchen-bg: oklch(44.95% 0 0);
+  --strukturkontextleiste-schatten-alpha: 40%;
+
+  color-scheme: dark;
+
+  --l-bg-haupt: 23.5%;
+  --l-text-primaer: 93.1%;
+  --l-accent: 63.7%;
+  --rahmen-basis: 100%;
+  --l-rahmen: 37%;
+  --richtung-abstufung: 1;
+
+  /* Custom-Tastatur: im Dunkelmodus bleibt es bei grauen Tasten
+     (bg-eingabe) auf dunklerem Hintergrund (bg-haupt), siehe Kommentar im
+     Hell-Block. */
+  --tastatur-taste-bg: var(--bg-eingabe);
+  --tastatur-hintergrund-bg: var(--bg-haupt);
+
+  /* Helligkeits-Boost für Dunkel (s.o.) – aktuell identisch zu Hell als
+     Startwert (Absprache), aber bewusst getrennt hinterlegt und unabhängig
+     voneinander änderbar. */
+  --l-boost-gelb: 2;
+  --l-boost-orange: 1.4;
+  --l-boost-pink: 1.1;
+}
+
+/* ---------- Aus den Theme-Ankern + globalen Deltas abgeleitet ----------
+   Gilt für BEIDE Themes gleichzeitig (kein Hell-/Dunkel-Block nötig):
+   --l-bg-haupt/--l-text-primaer/--l-accent/--richtung-abstufung sind pro
+   Theme unterschiedlich definiert (s.o.), die Formel selbst ist es nicht –
+   dank CSS-Custom-Property-Late-Binding löst sich das zur Laufzeit korrekt
+   pro Theme auf (derselbe Mechanismus wie beim --akzent weiter unten). */
+:root {
+  --bg-haupt: oklch(var(--l-bg-haupt) 0 0);
+  --bg-leiste: oklch(
+    calc(var(--l-bg-haupt) + var(--richtung-abstufung) * var(--delta-bg-leiste)) 0 0
+  );
+  --bg-panel: oklch(
+    calc(var(--l-bg-haupt) + var(--richtung-abstufung) * var(--delta-bg-panel)) 0 0
+  );
+  --bg-eingabe: oklch(
+    calc(var(--l-bg-haupt) + var(--richtung-abstufung) * var(--delta-bg-eingabe)) 0 0
+  );
+  /* Gekoppelt an --bg-eingabe (wie bisher schon in Dunkel, jetzt auch in
+     Hell, Absprache). */
+  --hover: var(--bg-eingabe);
+
+  --text-primaer: oklch(var(--l-text-primaer) 0 0);
+  /* Vorzeichen umgekehrt zu den Flächen oben: in Dunkel ist
+     --richtung-abstufung +1 (Flächen werden heller abgestuft), Text soll
+     dort aber DUNKLER abgestuft werden (näher an den dunklen Hintergrund,
+     weniger Betonung) – daher Minus statt Plus. */
+  --text-sekundaer: oklch(
+    calc(var(--l-text-primaer) - var(--richtung-abstufung) * var(--delta-text-sekundaer)) 0 0
+  );
+  --symbol-gedaempft: oklch(
+    calc(var(--l-text-primaer) - var(--richtung-abstufung) * var(--delta-symbol-gedaempft)) 0 0
+  );
+
+  --strukturkontextleiste-schatten: oklch(0% 0 0 / var(--strukturkontextleiste-schatten-alpha));
+  /* Einheitliche sichtbare Rahmenfarbe unabhängig von der Hintergrundfläche. */
+  --rahmen: oklch(var(--l-rahmen) 0 0);
+  --trenner-ebene: oklch(var(--rahmen-basis) 0 0 / var(--trenner-ebene-alpha));
+
+  /* --l-strong/--l-pale: analoge Vorzeichen-Logik wie bei Text oben (mehr
+     Kontrast bei "strong" braucht dasselbe Vorzeichen wie die Flächen,
+     weniger Kontrast bei "pale" das umgekehrte). */
+  --l-strong: calc(var(--l-accent) + var(--richtung-abstufung) * var(--delta-l-strong));
+  --l-pale: calc(var(--l-accent) - var(--richtung-abstufung) * var(--delta-l-pale));
+}
+
+/* Themenadaptive Warnfarbe. */
+:root {
+  --akzent-warnung: oklch(var(--l-strong) var(--c-red) var(--h-red));
+}
+
+/* Gemeinsame Formeln für Akzentfarbe (App-Akzentfarbe/Gesetzestext-Akzentfarbe)
+   und Markierungsfarbe – gelten für ALLE 8 Farben (inkl. "Blau", dem
+   Default) gleichzeitig: die jeweiligen -c/-h-Variablen sind pro Farbwahl
+   unterschiedlich definiert (Default weiter oben in der globalen OKLCH
+   Foundation, Overrides in den Auswahlpaletten-Blöcken weiter unten), die
+   Formel selbst ist es nicht – dank CSS-Custom-Property-Late-Binding löst
+   sich das zur Laufzeit korrekt pro gewählter Farbe UND pro Theme auf
+   (--l-accent/--l-pale sind ihrerseits pro Theme unterschiedlich, s.o.).
+   Vorher war "Blau" hier separat und fest verdrahtet, alle anderen 7 Farben
+   liefen über eine eigene, theme-unabhängige Lightness (--l-palette) –
+   jetzt sind alle 8 Farben über denselben Mechanismus themenadaptiv
+   (Absprache). Zusätzlich fließt hier --…-l-boost ein (Faktor, Default 1 =
+   kein Boost, s.o.) – Gelb/Orange/Pink wirken bei identischer Lightness
+   "schmutziger" als die anderen Farben, der Boost gleicht das gezielt nur
+   für diese drei aus (Absprache), ohne die Formel selbst pro Farbe zu
+   duplizieren. --…-l-boost wird dabei NICHT direkt multipliziert, sondern
+   auf den Restabstand zu Weiß (100%) angewendet: L_neu = 100% -
+   (100% - L_alt) / boost. Grund: reines "L * boost" lässt bei hohen
+   Boost-Werten (z.B. 1,5) ein bereits helles L (--l-pale liegt in Hell
+   ohnehin nah an 100%) über die 100%-Decke hinauswachsen wollen – das ist
+   in OKLCH zwar rechnerisch möglich, aber bei hoher Chroma (wie bei
+   Gelb/Orange/Pink) praktisch nicht mehr im sRGB-Gamut darstellbar, der
+   Browser entsättigt dann automatisch fast bis Weiß (verwaschener Effekt,
+   Absprache). Die Distanz-zu-Weiß-Formel ist von Natur aus
+   selbstbegrenzend (bei L_alt nahe 100% ist kaum noch Restabstand da, den
+   der Boost vergrößern könnte) und braucht daher KEIN manuelles Cap/Clamp –
+   funktioniert automatisch einheitlich für --l-accent UND --l-pale, für
+   jede Farbe und jedes Theme (Absprache). */
+:root {
+  --akzent: oklch(
+    calc(100% - (100% - var(--l-accent)) / var(--app-akzent-l-boost)) var(--app-akzent-c)
+      var(--app-akzent-h)
+  );
+  --akzent-blass: oklch(
+    calc(100% - (100% - var(--l-pale)) / var(--app-akzent-l-boost))
+      calc(var(--app-akzent-c) * var(--chroma-blass-faktor)) var(--app-akzent-h)
+  );
+  --aktiv-element: oklch(
+    calc(100% - (100% - var(--l-accent)) / var(--gesetzestext-akzent-l-boost))
+      var(--gesetzestext-akzent-c) var(--gesetzestext-akzent-h)
+  );
+  --aktiv-element-blass: oklch(
+    calc(100% - (100% - var(--l-pale)) / var(--gesetzestext-akzent-l-boost))
+      calc(var(--gesetzestext-akzent-c) * var(--chroma-blass-faktor)) var(--gesetzestext-akzent-h)
+  );
+}
+
+/* --akzent-einheitlich: NUR für Button-Hintergründe (buttonRollen.ts) –
+   Ausnahme von der obigen "nicht einheitlich"-Regel: Buttons sollen
+   unabhängig vom Theme und von der gewählten Farbe immer denselben
+   Kontrast zum (weiterhin fest weißen) Button-Text haben (Absprache). Feste
+   Lightness --l-button (s.o.) statt --l-accent/--l-pale – folgt aber der
+   gewählten App-Akzentfarbe (--app-akzent-c/-h), genau wie --akzent oben.
+   Nutzt bewusst --app-akzent-l-boost-fest statt --app-akzent-l-boost: die
+   Boost-Werte für Gelb/Orange/Pink dürfen sich zwischen Hell und Dunkel
+   unterscheiden (s.o.), Buttons sollen aber IMMER die Hell-Werte verwenden
+   (Absprache: besserer Kontrast zu weißem Text) – daher die eigene,
+   theme-unabhängige Variable statt der theme-adaptiven. */
+:root {
+  --akzent-einheitlich: oklch(
+    calc(100% - (100% - var(--l-button)) / var(--app-akzent-l-boost-fest)) var(--app-akzent-c)
+      var(--app-akzent-h)
+  );
+}
+
+/* Auswahlfarbe – zwei GETRENNTE Verwendungen mit unterschiedlichem Bedarf,
+   daher zwei eigene Variablen (folgen beide der App-Akzentfarbe, --akzent,
+   siehe [data-app-akzent]-Blöcke oben und useAppAkzentfarbe.ts):
+   1. --auswahl-bg/--auswahl-text: SOLIDES ausgewähltes Element in einer
+      Liste (aktuell nur Gesetzesuebersicht.tsx – die Trefferliste des Öffnen-Overlays
+      hat ihre eigene, bereits transparente Hervorhebung, siehe
+      OeffnenTrefferZeile.tsx). Braucht volle Deckkraft + weißen Text
+      für ausreichenden Kontrast, wie eine übliche Listen-Auswahl.
+   2. --textauswahl-bg: die eigentliche Browser-Textauswahl (::selection,
+      s.u.) – bewusst nur teildeckend statt voll deckend (Absprache: "viel
+      zu kräftig"), Textfarbe bleibt dabei unverändert (kein color:, siehe
+      ::selection-Regel unten), da eine deckende weiße Schrift auf einem nur
+      teildeckenden Hintergrund unleserlich würde.
+   Vormals kam --auswahl-bg/--auswahl-text per Tauri-Befehl aus der
+   macOS-Systemeinstellung, das entfällt (Absprache). */
+:root {
+  --auswahl-bg: var(--akzent);
+  --auswahl-text: oklch(100% 0 0);
+  --auswahl-text-sekundaer: color-mix(in oklch, var(--auswahl-text) 75%, transparent);
+  /* Deckkraft bewusst SCHWÄCHER als --hervorheben-bg (45%, s.u.) – normale
+     Textauswahl soll dezenter wirken als aktives Hervorheben (Absprache:
+     "als reine Textauswahl zu kräftig"). Bei Bedarf einfach diesen
+     Prozentwert anpassen. */
+  --textauswahl-bg: color-mix(in oklch, var(--akzent) 30%, transparent);
+}
+
+/* Markierungsfarbe (Hervorheben-Feature, siehe useHervorhebungsfarbe.ts) –
+   betrifft ALLE Markierungsarten: Hervorheben-Hintergrund (--hervorheben-bg,
+   abgeleitet), Unterstreichen, sowie die Unterstreichungen von
+   Normzitaten/Kommentaren (siehe textBlatt.tsx). Formel
+   analog zu --akzent/--aktiv-element oben (--markierung-c/-h, s.o.).
+   --markierungsfarbe-blass: für Markierungen innerhalb einer zugeklappten
+   Überschrift/einer zugeklappten Norm (Absprache) – dieselbe blasse
+   Systematik wie --aktiv-element-blass, nur für die Markierungsfarbe. Wird
+   NICHT direkt konsumiert, sondern nur über die von UeberschriftZeile.tsx/
+   NormBlock.tsx pro Titel-Zeile inline gesetzte --markierungsfarbe-aktuell
+   (siehe textBlatt.tsx) wirksam. */
+:root {
+  --markierungsfarbe: oklch(
+    calc(100% - (100% - var(--l-accent)) / var(--markierung-l-boost)) var(--markierung-c)
+      var(--markierung-h)
+  );
+  --markierungsfarbe-blass: oklch(
+    calc(100% - (100% - var(--l-pale)) / var(--markierung-l-boost))
+      calc(var(--markierung-c) * var(--chroma-blass-faktor)) var(--markierung-h)
+  );
+  --hervorheben-bg: color-mix(in oklch, var(--markierungsfarbe) 45%, transparent);
+}
+/* ---------- Auswahlpalette: Gesetzestext-Akzentfarbe ----------
+   Einstellungen > Gesetzestext (useGesetzestextAkzentfarbe.ts). Jeder
+   Block setzt nur Chroma+Hue (--gesetzestext-akzent-c/-h, Default "Blau",
+   s.o.) – die eigentliche Formel (--aktiv-element/-blass, inkl.
+   themenadaptiver Lightness --l-accent/--l-pale, wie bei Blau) steht
+   einmalig weiter oben bei den anderen Farbwahl-Formeln. */
+:root[data-gesetzestext-akzent='lila'] {
+  --gesetzestext-akzent-c: var(--c-purple);
+  --gesetzestext-akzent-h: var(--h-purple);
+}
+:root[data-gesetzestext-akzent='pink'] {
+  --gesetzestext-akzent-c: var(--c-pink);
+  --gesetzestext-akzent-h: var(--h-pink);
+  --gesetzestext-akzent-l-boost: var(--l-boost-pink);
+}
+:root[data-gesetzestext-akzent='rot'] {
+  --gesetzestext-akzent-c: var(--c-red);
+  --gesetzestext-akzent-h: var(--h-red);
+}
+:root[data-gesetzestext-akzent='orange'] {
+  --gesetzestext-akzent-c: var(--c-orange);
+  --gesetzestext-akzent-h: var(--h-orange);
+  --gesetzestext-akzent-l-boost: var(--l-boost-orange);
+}
+:root[data-gesetzestext-akzent='gelb'] {
+  --gesetzestext-akzent-c: var(--c-gelb);
+  --gesetzestext-akzent-h: var(--h-gelb);
+  --gesetzestext-akzent-l-boost: var(--l-boost-gelb);
+}
+:root[data-gesetzestext-akzent='gruen'] {
+  --gesetzestext-akzent-c: var(--c-gruen);
+  --gesetzestext-akzent-h: var(--h-gruen);
+}
+:root[data-gesetzestext-akzent='grau'] {
+  --gesetzestext-akzent-c: 0;
+  --gesetzestext-akzent-h: 0;
+}
+
+/* ---------- Auswahlpalette: App-Akzentfarbe ----------
+   Einstellungen > Erscheinungsbild (useAppAkzentfarbe.ts). Jeder Block
+   setzt nur Chroma+Hue (--app-akzent-c/-h, Default "Blau", s.o.) – die
+   Formeln (--akzent/-blass/-einheitlich; --auswahl-bg/--hervorheben-bg
+   folgen automatisch, da sie selbst nur "var(--akzent)"/
+   "var(--markierungsfarbe)" referenzieren) stehen einmalig weiter oben. */
+:root[data-app-akzent='lila'] {
+  --app-akzent-c: var(--c-purple);
+  --app-akzent-h: var(--h-purple);
+}
+:root[data-app-akzent='pink'] {
+  --app-akzent-c: var(--c-pink);
+  --app-akzent-h: var(--h-pink);
+  --app-akzent-l-boost: var(--l-boost-pink);
+  --app-akzent-l-boost-fest: var(--l-boost-pink-fest);
+}
+:root[data-app-akzent='rot'] {
+  --app-akzent-c: var(--c-red);
+  --app-akzent-h: var(--h-red);
+}
+:root[data-app-akzent='orange'] {
+  --app-akzent-c: var(--c-orange);
+  --app-akzent-h: var(--h-orange);
+  --app-akzent-l-boost: var(--l-boost-orange);
+  --app-akzent-l-boost-fest: var(--l-boost-orange-fest);
+}
+:root[data-app-akzent='gelb'] {
+  --app-akzent-c: var(--c-gelb);
+  --app-akzent-h: var(--h-gelb);
+  --app-akzent-l-boost: var(--l-boost-gelb);
+  --app-akzent-l-boost-fest: var(--l-boost-gelb-fest);
+}
+:root[data-app-akzent='gruen'] {
+  --app-akzent-c: var(--c-gruen);
+  --app-akzent-h: var(--h-gruen);
+}
+:root[data-app-akzent='grau'] {
+  --app-akzent-c: 0;
+  --app-akzent-h: 0;
+}
+
+/* ---------- Auswahlpalette: Markierungsfarbe ----------
+   Hervorheben-Feature (useHervorhebungsfarbe.ts). Jeder Block setzt nur
+   Chroma+Hue (--markierung-c/-h, Default "Blau", s.o.) – die Formel steht
+   einmalig weiter oben bei den anderen Farbwahl-Formeln. */
+:root[data-markierungsfarbe='lila'] {
+  --markierung-c: var(--c-purple);
+  --markierung-h: var(--h-purple);
+}
+:root[data-markierungsfarbe='pink'] {
+  --markierung-c: var(--c-pink);
+  --markierung-h: var(--h-pink);
+  --markierung-l-boost: var(--l-boost-pink);
+}
+:root[data-markierungsfarbe='rot'] {
+  --markierung-c: var(--c-red);
+  --markierung-h: var(--h-red);
+}
+:root[data-markierungsfarbe='orange'] {
+  --markierung-c: var(--c-orange);
+  --markierung-h: var(--h-orange);
+  --markierung-l-boost: var(--l-boost-orange);
+}
+:root[data-markierungsfarbe='gelb'] {
+  --markierung-c: var(--c-gelb);
+  --markierung-h: var(--h-gelb);
+  --markierung-l-boost: var(--l-boost-gelb);
+}
+:root[data-markierungsfarbe='gruen'] {
+  --markierung-c: var(--c-gruen);
+  --markierung-h: var(--h-gruen);
+}
+:root[data-markierungsfarbe='grau'] {
+  --markierung-c: 0;
+  --markierung-h: 0;
+}
+
+/* ---------- Fallback für Umgebungen ohne OKLCH-Unterstützung ----------
+   Betrifft ältere webkit2gtk-Versionen (< 2.40 hatte teils noch keine
+   vollständige OKLCH-Unterstützung, siehe README). Statische Hex-/rgba()-
+   Werte, aus den obigen oklch()-Definitionen berechnet – bei Änderung der
+   OKLCH-Werte oben NICHT mehr manuell nachziehen, sondern
+   scripts/werkzeuge/oklchFallbacksGenerieren.ts laufen lassen (siehe Kopfkommentar
+   dort), das rechnet diese Werte automatisch neu und schreibt sie hier rein.
+   --akzent/--aktiv-element/--markierungsfarbe (Blau) sind hier wieder pro
+   Theme UNTERSCHIEDLICH (Blau bleibt themenadaptiv, Absprache) –
+   --akzent-einheitlich (nur Button-Hintergründe) dagegen bewusst in beiden
+   Blöcken identisch (#004fe8, siehe --l-button oben). Deckt bewusst NUR
+   "blau" ab (die Farbwahl-Paletten-Overrides oben nutzen [data-*]-Selektoren
+   mit oklch() literal in den Werten – ohne OKLCH-Unterstützung greift dort
+   ohnehin nur dieser blaue Basiswert). Enthält seit der Lückenschließung auch
+   --auswahl-text(-sekundaer)/--textauswahl-bg/--hervorheben-bg (nutzen
+   color-mix(in oklch, …) bzw. reines oklch() und hatten vorher KEINEN
+   Fallback – ohne OKLCH/color-mix-Unterstützung wären diese Custom
+   Properties sonst ungültig geblieben, z. B. falsche/keine Textfarbe auf der
+   soliden Listen-Auswahlfläche in Gesetzesuebersicht.tsx). */
+@supports not (color: oklch(0% 0 0)) {
+  /* Kein @media(prefers-color-scheme)-Zweig mehr nötig: data-farbschema wird
+     von index.html synchron und IMMER gesetzt (auch ohne localStorage, über
+     matchMedia), siehe dortiger Kommentar. Analog zu den beiden
+     :root[data-farbschema=…]-Hauptblöcken oben. */
+  :root[data-farbschema='hell'] {
+    --bg-haupt: #ffffff;
+    --bg-leiste: #eeeeee;
+    --bg-panel: #ffffff;
+    --bg-eingabe: #e2e2e2;
+    --hover: #e2e2e2;
+    --text-primaer: #1a1a1a;
+    --text-sekundaer: #575757;
+    --strukturkontextleiste-schatten: rgba(0, 0, 0, 0.12);
+    --hervorheben-kaestchen-bg: #b8b8b8;
+    --symbol-gedaempft: #7c7c7c;
+    --rahmen: #e4e4e4;
+    --trenner-ebene: rgba(0, 0, 0, 0.18);
+    --tastatur-hintergrund-bg: #d6d6d6;
+    --akzent: #0056ef;
+    --akzent-blass: #548bf4;
+    --akzent-einheitlich: #004fe8;
+    --ueberschrift-rot: #b50000;
+    --ueberschrift-rot-blass: #e0605e;
+    --aktiv-ueberschrift: #983d9c;
+    --aktiv-ueberschrift-blass: #b474b6;
+    --akzent-warnung: #b50000;
+    --aktiv-element: #0056ef;
+    --aktiv-element-blass: #548bf4;
+    --markierungsfarbe: #0056ef;
+    --markierungsfarbe-blass: #548bf4;
+    --auswahl-text: #ffffff;
+    --auswahl-text-sekundaer: rgba(255, 255, 255, 0.75);
+    --textauswahl-bg: rgba(0, 86, 239, 0.3);
+    --hervorheben-bg: rgba(0, 86, 239, 0.45);
+  }
+
+  :root[data-farbschema='dunkel'] {
+    --bg-haupt: #1e1e1e;
+    --bg-leiste: #2a2a2a;
+    --bg-panel: #282828;
+    --bg-eingabe: #333333;
+    --hover: #333333;
+    --text-primaer: #e8e8e8;
+    --text-sekundaer: #9b9b9b;
+    --strukturkontextleiste-schatten: rgba(0, 0, 0, 0.4);
+    --hervorheben-kaestchen-bg: #555555;
+    --symbol-gedaempft: #757575;
+    --rahmen: #404040;
+    --trenner-ebene: rgba(255, 255, 255, 0.18);
+    --tastatur-hintergrund-bg: #1e1e1e;
+    --akzent: #2f7eff;
+    --akzent-blass: #2b5ec3;
+    --akzent-einheitlich: #004fe8;
+    --ueberschrift-rot: #ff4c54;
+    --ueberschrift-rot-blass: #af3235;
+    --aktiv-ueberschrift: #be61c2;
+    --aktiv-ueberschrift-blass: #874a89;
+    --akzent-warnung: #ff4c54;
+    --aktiv-element: #2f7eff;
+    --aktiv-element-blass: #2b5ec3;
+    --markierungsfarbe: #2f7eff;
+    --markierungsfarbe-blass: #2b5ec3;
+    --auswahl-text: #ffffff;
+    --auswahl-text-sekundaer: rgba(255, 255, 255, 0.75);
+    --textauswahl-bg: rgba(47, 126, 255, 0.3);
+    --hervorheben-bg: rgba(47, 126, 255, 0.45);
+  }
+}
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: var(--schrift);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden; /* Kein Body-Scroll – Scroll findet in Gesetzestextansicht statt */
+}
+
+/* Statische Basis für Gesetzestext außerhalb eines lokalen Darstellungsrahmens. */
+.gesetz-text {
+  font-family: var(--schrift-text);
+}
+
+/* Scrollbar dezent halten */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rahmen);
+  border-radius: 3px;
+}
+
+/* Tabs: horizontaler Scroll ohne sichtbare Scrollbar */
+.tabs-scroll::-webkit-scrollbar {
+  height: 0;
+}
+
+/* Hover-Chevron vor Überschriften-/Normzeilen (siehe KlappChevron in
+   Gesetzestextansicht.bausteine.tsx): standardmäßig unsichtbar, erscheint beim
+   Hover über die gesamte Titel-Zeile. Anpassen: Übergangsdauer/-art hier,
+   Größe/Abstand über CHEVRON_SPALTE_BREITE + <svg>-Maße in bausteine.tsx. */
+.gt-chevron {
+  opacity: 0;
+}
+.gt-klapp-zeile:hover .gt-chevron {
+  opacity: 1;
+}
+
+/* Fokus-Ring für Accessibility */
+:focus-visible {
+  outline: 2px solid var(--akzent);
+  outline-offset: 1px;
+}
+
+/* Textauswahl folgt der App-Akzentfarbe, teildeckend (siehe --textauswahl-bg
+   oben) – Textfarbe bleibt bewusst unverändert. */
+::selection {
+  background: var(--textauswahl-bg);
+}
+
+/* Tauri: verhindert Text-Selektion beim Doppelklick auf Tableiste */
+[data-tauri-drag-region] {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Blinkanimation für den Kurzbefehl-Aufnahme-Chip */
+@keyframes kurzbefehl-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Banner zeigen Aktivität, keinen messbaren Importfortschritt. */
+.banner-ladeindikator {
+  animation: banner-kreis-drehen 1s linear infinite;
+}
+
+@keyframes banner-kreis-drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .banner-ladeindikator {
+    animation: none;
+  }
+}
+
+/* Der Scrollbereich zeichnet ihre greifbare Scrollbar über dem Inhalt. */
+.ueberlagerter-scrollbereich::-webkit-scrollbar {
+  display: none;
+}

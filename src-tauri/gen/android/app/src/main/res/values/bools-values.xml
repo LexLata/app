@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Basis-Wert für Handys (< 600dp). Overlay siehe values-sw600dp/bools.xml.
+     Ausgewertet zur Laufzeit in MainActivity, um die Portrait-Sperre aus dem
+     AndroidManifest.xml (android:screenOrientation="portrait") auf Tablets
+     durch volle Rotation zu ersetzen. -->
+<resources>
+    <bool name="ist_tablet">false</bool>
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<!-- Verbindlicher Datenbankindex-Vertrag; Schreiber und Leser folgen in der Datenbankumsetzung. -->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="datenbankindex">
+      <interleave>
+        <zeroOrMore>
+          <attribute>
+            <anyName>
+              <except>
+                <name>version</name>
+              </except>
+            </anyName>
+            <text/>
+          </attribute>
+        </zeroOrMore>
+        <attribute name="version">
+          <value>1</value>
+        </attribute>
+        <element name="infos">
+          <interleave>
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <element name="verarbeitungszeit">
+              <interleave>
+                <zeroOrMore>
+                  <attribute>
+                    <anyName/>
+                    <text/>
+                  </attribute>
+                </zeroOrMore>
+                <ref name="utcZeitstempel"/>
+              </interleave>
+            </element>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>verarbeitungszeit</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <element name="inhalt">
+          <interleave>
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element name="gesetz">
+                <interleave>
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName/>
+                      <text/>
+                    </attribute>
+                  </zeroOrMore>
+                  <element name="kurztitel">
+                    <interleave>
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName/>
+                          <text/>
+                        </attribute>
+                      </zeroOrMore>
+                      <data type="token">
+                        <param name="minLength">1</param>
+                      </data>
+                    </interleave>
+                  </element>
+                  <element name="normgeber">
+                    <interleave>
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName/>
+                          <text/>
+                        </attribute>
+                      </zeroOrMore>
+                      <ref name="normgeber"/>
+                    </interleave>
+                  </element>
+                  <element name="letzteNeuerung">
+                    <interleave>
+                      <zeroOrMore>
+                        <attribute>
+                          <anyName/>
+                          <text/>
+                        </attribute>
+                      </zeroOrMore>
+                      <ref name="utcZeitstempel"/>
+                    </interleave>
+                  </element>
+                  <zeroOrMore>
+                    <element>
+                      <anyName>
+                        <except>
+                          <name>kurztitel</name>
+                          <name>normgeber</name>
+                          <name>letzteNeuerung</name>
+                        </except>
+                      </anyName>
+                      <ref name="extensionContent"/>
+                    </element>
+                  </zeroOrMore>
+                </interleave>
+              </element>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>gesetz</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent"/>
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>infos</name>
+                <name>inhalt</name>
+              </except>
+            </anyName>
+            <ref name="extensionContent"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </start>
+  <define name="utcZeitstempel">
+    <data type="dateTime">
+      <param name="pattern">[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z</param>
+    </data>
+  </define>
+  <define name="normgeber">
+    <data type="string">
+      <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+      <param name="maxLength">20</param>
+    </data>
+  </define>
+  <define name="extensionContent">
+    <zeroOrMore>
+      <attribute>
+        <anyName/>
+        <text/>
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName/>
+          <ref name="extensionContent"/>
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>

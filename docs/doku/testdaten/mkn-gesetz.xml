@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gesetz version="1">
+    <infos>
+        <kurztitel>MKN</kurztitel>
+        <langtitel>Fiktives Markierungskonflikt-Nebengesetz</langtitel>
+        <normgeber>de-bund</normgeber>
+        <normpraefix>Art.</normpraefix>
+        <verarbeitungszeit>2026-10-20T12:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <norm id="n1-Art">
+            <bezeichnung>Art. 1</bezeichnung>
+            <titel>Aktueller Zieltitel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n2-Art">
+            <bezeichnung>Art. 2</bezeichnung>
+            <titel>Aktueller Zieltitel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n4-Art">
+            <bezeichnung>Art. 4</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n4-Art-zweit">
+            <bezeichnung>Art. 4</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n5-Art">
+            <bezeichnung>Art. 5</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n5-Art-zweit">
+            <bezeichnung>Art. 5</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n9-Art">
+            <bezeichnung>Art. 9</bezeichnung>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n229-Art" gliederungskennzahl="300">
+            <bezeichnung>Art. 229</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n2-p">
+            <bezeichnung>§ 2</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+        <norm id="n3-p">
+            <bezeichnung>§ 3</bezeichnung>
+            <titel>Aktueller amtlicher Titel</titel>
+            <text>Der aktuelle Wortlaut gilt.</text>
+        </norm>
+    </inhalt>
+</gesetz>

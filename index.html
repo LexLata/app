@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/lexlata-logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>LexLata</title>
+    <!-- Liest das gespeicherte Farbschema (siehe useFarbschema.ts) synchron
+         VOR dem folgenden Style-Tag und setzt data-farbschema auf <html>.
+         Muss synchron und vor dem <style> unten stehen, sonst greift beim
+         allerersten Frame kurz das falsche Schema (Aufblitzen), auch wenn
+         der Nutzer explizit Hell/Dunkel statt "System" gewählt hat.
+         WICHTIG: Key 'lexlata.farbschema' muss mit useFarbschema.ts
+         übereinstimmen.
+         data-farbschema wird dadurch IMMER gesetzt, auch wenn localStorage
+         nicht verfügbar ist (matchMedia hängt anders als localStorage nicht
+         von Storage-Berechtigungen ab und kann in dem Sinne nicht
+         "fehlschlagen") – ein separater Media-Query-Fallback in index.css
+         (für den Fall, dass das Attribut mal fehlt) ist deshalb bewusst NICHT
+         mehr vorhanden, siehe dortiger Kommentar. Ein "kein JS"-Fall ist für
+         diese rein React-gerenderte Tauri-App ohnehin irrelevant – ohne JS
+         bliebe die Seite so oder so leer. -->
+    <script>
+      (function () {
+        var dunkel;
+        try {
+          var wert = localStorage.getItem('lexlata.farbschema');
+          dunkel =
+            wert === 'dunkel' ||
+            (wert !== 'hell' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        } catch (e) {
+          // localStorage nicht verfügbar (z. B. eingeschränkter Storage-Zugriff)
+          // – matchMedia allein entscheidet dann, ohne gespeicherte Präferenz.
+          dunkel = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+        document.documentElement.setAttribute('data-farbschema', dunkel ? 'dunkel' : 'hell');
+      })();
+    </script>
+    <!-- Hintergrundfarbe inline statt erst über index.css: das greift sofort
+         beim HTML-Parsen, bevor das CSS-Bundle geladen ist, und verhindert so
+         das kurze weiße Aufblitzen beim Fenster-Start. Werte müssen mit
+         --bg-haupt in index.css übereinstimmen. Das Script oben setzt
+         data-farbschema synchron und IMMER (s.o.) – eine zusätzliche
+         Media-Query als Fallback ist daher nicht nötig. -->
+    <style>
+      html[data-farbschema='hell'] body,
+      html[data-farbschema='hell'] {
+        background-color: #ffffff;
+      }
+      html[data-farbschema='dunkel'] body,
+      html[data-farbschema='dunkel'] {
+        background-color: #1e1e1e;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

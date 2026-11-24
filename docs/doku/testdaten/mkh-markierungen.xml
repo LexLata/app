@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<markierungen version="1">
+    <infos>
+        <gesetz normgeber="de-bund">MKH</gesetz>
+        <verarbeitungszeit>2026-10-21T12:00:00Z</verarbeitungszeit>
+    </infos>
+    <inhalt>
+        <unterstreichung>
+            <bezeichnung>§ 10</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="74" />
+            </textstelle>
+            <bezugstext>Ein früherer ausführlicher Bezugstext mit mehreren Wörtern für die Kürzung</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <bezeichnung>§ 11</bezeichnung>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <bezeichnung>§ 12</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <bezeichnung>§ 13</bezeichnung>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <gliederungskennzahl>100</gliederungskennzahl>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <gliederungskennzahl>101</gliederungskennzahl>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <hervorhebung>
+            <bezeichnung>§ 20</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="74" />
+            </textstelle>
+            <bezugstext>Ein früherer ausführlicher Bezugstext mit mehreren Wörtern für die Kürzung</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <bezeichnung>§ 21</bezeichnung>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <bezeichnung>§ 22</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <bezeichnung>§ 23</bezeichnung>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <gliederungskennzahl>110</gliederungskennzahl>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <gliederungskennzahl>111</gliederungskennzahl>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <kommentar>
+            <bezeichnung>§ 30</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="74" />
+            </textstelle>
+            <bezugstext>Ein früherer ausführlicher Bezugstext mit mehreren Wörtern für die Kürzung</bezugstext>
+            <kommentartext>Manuelle Prüfung 30</kommentartext>
+        </kommentar>
+        <kommentar>
+            <bezeichnung>§ 31</bezeichnung>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <kommentartext>Manuelle Prüfung 31</kommentartext>
+        </kommentar>
+        <kommentar>
+            <bezeichnung>§ 32</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <kommentartext>Manuelle Prüfung 32</kommentartext>
+        </kommentar>
+        <kommentar>
+            <bezeichnung>§ 33</bezeichnung>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <kommentartext>Manuelle Prüfung 33</kommentartext>
+        </kommentar>
+        <kommentar>
+            <gliederungskennzahl>120</gliederungskennzahl>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <kommentartext>Manuelle Prüfung 120</kommentartext>
+        </kommentar>
+        <kommentar>
+            <gliederungskennzahl>121</gliederungskennzahl>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <kommentartext>Manuelle Prüfung 121</kommentartext>
+        </kommentar>
+        <verweismarkierung>
+            <bezeichnung>§ 40</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="74" />
+            </textstelle>
+            <bezugstext>Ein früherer ausführlicher Bezugstext mit mehreren Wörtern für die Kürzung</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 41</bezeichnung>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 42</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 43</bezeichnung>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <gliederungskennzahl>130</gliederungskennzahl>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <gliederungskennzahl>131</gliederungskennzahl>
+            <textstelle>
+                <bereich>bezeichnung</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <unterstreichung>
+            <bezeichnung>§ 50</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <bezeichnung>§ 51</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <bezeichnung>§ 52</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <unterstreichung>
+            <bezeichnung>§ 53</bezeichnung>
+            <textstelle>
+                <bereich>nichtamtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <kommentar>
+            <bezeichnung>§ 60</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 60</kommentartext>
+        </kommentar>
+        <kommentar>
+            <bezeichnung>§ 61</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 61</kommentartext>
+        </kommentar>
+        <kommentar>
+            <bezeichnung>§ 69</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 69</kommentartext>
+        </kommentar>
+        <kommentar>
+            <gliederungskennzahl>200</gliederungskennzahl>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 200</kommentartext>
+        </kommentar>
+        <kommentar>
+            <gliederungskennzahl>299</gliederungskennzahl>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 299</kommentartext>
+        </kommentar>
+        <verweismarkierung>
+            <bezeichnung>§ 60</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 61</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 69</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <gliederungskennzahl>200</gliederungskennzahl>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <gliederungskennzahl>299</gliederungskennzahl>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Aktueller Zieltitel</titel>
+                        <textlaenge>27</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <unterstreichung>
+            <bezeichnung>§ 61</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <hervorhebung>
+            <gliederungskennzahl>200</gliederungskennzahl>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <kommentar>
+            <bezeichnung>§ 69</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+            <kommentartext>Manuelle Prüfung 69</kommentartext>
+        </kommentar>
+        <unterstreichung>
+            <gliederungskennzahl>299</gliederungskennzahl>
+            <textstelle>
+                <bereich>amtlicher-titel</bereich>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </unterstreichung>
+        <hervorhebung>
+            <bezeichnung>§ 70</bezeichnung>
+            <textstelle>
+                <absatz>(1)</absatz>
+                <satz>1</satz>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <bezeichnung>§ 71</bezeichnung>
+            <textstelle>
+                <absatz>(1)</absatz>
+                <unterabsatz>1</unterabsatz>
+                <satz>1</satz>
+                <nummer>1</nummer>
+                <litera>a</litera>
+                <litera>aa</litera>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <hervorhebung>
+            <bezeichnung>§ 72</bezeichnung>
+            <textstelle>
+                <absatz>(2)</absatz>
+                <satz>1</satz>
+                <nummer>3</nummer>
+                <litera>a</litera>
+                <satz>2</satz>
+                <zeichenbereich start="0" ende="17" />
+            </textstelle>
+            <bezugstext>Früherer Wortlaut</bezugstext>
+        </hervorhebung>
+        <verweismarkierung>
+            <bezeichnung>§ 80</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 81</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN; Art. 2 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 2</bezeichnung>
+                    <verweistextZeichenbereich start="12" ende="22" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 82</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 4 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 4</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 83</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 4 MKN; Art. 5 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 4</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 5</bezeichnung>
+                    <verweistextZeichenbereich start="12" ende="22" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 84</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 998 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 998</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="12" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 85</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 998 MKN; Art. 999 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 998</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="12" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 999</bezeichnung>
+                    <verweistextZeichenbereich start="14" ende="26" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 86</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="74" />
+            </textstelle>
+            <bezugstext>Ein früherer ausführlicher Bezugstext mit mehreren Wörtern für die Kürzung</bezugstext>
+            <verweisinhalt>
+                <verweistext>Art. 1 MKN; Art. 4 MKN; Art. 998 MKN; § 1 MKF — gemeinsamer Verweis mit langem Wortlaut für die vollständige Erläuterung</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="10" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 4</bezeichnung>
+                    <verweistextZeichenbereich start="12" ende="22" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 998</bezeichnung>
+                    <verweistextZeichenbereich start="24" ende="36" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKF</gesetz>
+                    <bezeichnung>§ 1</bezeichnung>
+                    <verweistextZeichenbereich start="38" ende="45" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <verweismarkierung>
+            <bezeichnung>§ 87</bezeichnung>
+            <elementstand>
+                <titel>Aktueller amtlicher Titel</titel>
+                <textlaenge>27</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>§ 1 MKF</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKF</gesetz>
+                    <bezeichnung>§ 1</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="7" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <kommentar>
+            <bezeichnung>Art. 229 § 2</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <kommentartext>Prüfung pauschal 229 2</kommentartext>
+        </kommentar>
+        <verweismarkierung>
+            <bezeichnung>§ 60</bezeichnung>
+            <elementstand>
+                <titel>Früherer Ausgangstitel</titel>
+                <textlaenge>999</textlaenge>
+            </elementstand>
+            <verweisinhalt>
+                <verweistext>Art. 229 § 2 MKN; Art. 229 § 3 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 229 § 2</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="16" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>Art. 229 § 3</bezeichnung>
+                    <verweistextZeichenbereich start="18" ende="34" />
+                    <elementstand>
+                        <titel>Früherer Zieltitel</titel>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <unterstreichung>
+            <bezeichnung>§ 90</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="12" />
+            </textstelle>
+            <bezugstext>Der aktuelle</bezugstext>
+        </unterstreichung>
+        <verweismarkierung>
+            <elementstand><titel>Aktueller amtlicher Titel</titel><textlaenge>27</textlaenge></elementstand>
+            <bezeichnung>§ 80</bezeichnung>
+            <verweisinhalt>
+                <verweistext>§ 998 MKN; § 999 MKN</verweistext>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>§ 998</bezeichnung>
+                    <verweistextZeichenbereich start="0" ende="9" />
+                    <elementstand>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+                <verweisziel>
+                    <gesetz normgeber="de-bund">MKN</gesetz>
+                    <bezeichnung>§ 999</bezeichnung>
+                    <verweistextZeichenbereich start="11" ende="20" />
+                    <elementstand>
+                        <textlaenge>999</textlaenge>
+                    </elementstand>
+                </verweisziel>
+            </verweisinhalt>
+        </verweismarkierung>
+        <unterstreichung>
+            <bezeichnung>§ 91</bezeichnung>
+            <textstelle>
+                <zeichenbereich start="0" ende="56" />
+            </textstelle>
+            <bezugstext>UnunterbrochenlangerBezugstextZurPrüfungDerZeichengrenze</bezugstext>
+        </unterstreichung>
+        <kommentar><gliederungskennzahl>400</gliederungskennzahl><elementstand><titel>Frühere Überschrift</titel><textlaenge>999</textlaenge></elementstand><kommentartext>Pauschale Überschrift 400</kommentartext></kommentar>
+        <verweismarkierung><gliederungskennzahl>400</gliederungskennzahl><elementstand><titel>Frühere Überschrift</titel><textlaenge>999</textlaenge></elementstand><verweisinhalt><verweistext>Abs. 3 400</verweistext></verweisinhalt></verweismarkierung>
+        <kommentar><gliederungskennzahl>401</gliederungskennzahl><elementstand><titel>Frühere Überschrift</titel><textlaenge>999</textlaenge></elementstand><kommentartext>Pauschale Überschrift 401</kommentartext></kommentar>
+        <verweismarkierung><gliederungskennzahl>401</gliederungskennzahl><elementstand><titel>Frühere Überschrift</titel><textlaenge>999</textlaenge></elementstand><verweisinhalt><verweistext>Abs. 3 401</verweistext></verweisinhalt></verweismarkierung>
+        <kommentar><gliederungskennzahl>402</gliederungskennzahl><elementstand><titel>Unverändert</titel><textlaenge>19</textlaenge></elementstand><kommentartext>Pauschale Überschrift 402</kommentartext></kommentar>
+        <verweismarkierung><gliederungskennzahl>402</gliederungskennzahl><elementstand><titel>Unverändert</titel><textlaenge>19</textlaenge></elementstand><verweisinhalt><verweistext>Abs. 3 402</verweistext></verweisinhalt></verweismarkierung>
+        <kommentar><bezeichnung>E1</bezeichnung><elementstand><textlaenge>999</textlaenge></elementstand><kommentartext>Geänderter Sonderfall</kommentartext></kommentar>
+        <kommentar><bezeichnung>5</bezeichnung><elementstand><textlaenge>999</textlaenge></elementstand><kommentartext>Geänderter Sonderfall</kommentartext></kommentar>
+        <verweismarkierung><bezeichnung>§ 94</bezeichnung><elementstand><textlaenge>10</textlaenge></elementstand><verweisinhalt><verweistext>Abs. 3</verweistext></verweisinhalt></verweismarkierung>
+        <verweismarkierung><bezeichnung>§ 94</bezeichnung><elementstand><textlaenge>10</textlaenge></elementstand><verweisinhalt><verweistext>§ 999 MKF</verweistext><verweisziel><gesetz normgeber="de-bund">MKF</gesetz><bezeichnung>§ 999</bezeichnung><verweistextZeichenbereich start="0" ende="9"/></verweisziel></verweisinhalt></verweismarkierung>
+        <verweismarkierung><bezeichnung>§ 94</bezeichnung><elementstand><textlaenge>10</textlaenge></elementstand><verweisinhalt><verweistext>MKF</verweistext><verweisziel><gesetz normgeber="de-bund">MKF</gesetz><verweistextZeichenbereich start="0" ende="3"/></verweisziel></verweisinhalt></verweismarkierung>
+    </inhalt>
+</markierungen>

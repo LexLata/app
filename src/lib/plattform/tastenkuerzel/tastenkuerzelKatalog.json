@@ -1,0 +1,782 @@
+[
+  {
+    "id": "gesetzesuebersicht",
+    "bezeichnung": "Gesetze verwalten",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+Shift+O",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "einstellungen",
+    "bezeichnung": "Einstellungen…",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+,",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "neues-fenster",
+    "bezeichnung": "Neues Fenster",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+N",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "neuer-tab",
+    "bezeichnung": "Neuer Tab",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+T",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "letzter-tab",
+    "bezeichnung": "Zuletzt geschlossenen Tab öffnen",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+Shift+T",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "schliessen-tab",
+    "bezeichnung": "Tab schließen",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+W",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "fenster-schliessen",
+    "bezeichnung": "Fenster schließen",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+Shift+W",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "gesetz-info",
+    "bezeichnung": "Informationen zum geöffneten Gesetz",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+I",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "dateien-importieren",
+    "bezeichnung": "Dateien importieren…",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+Shift+I",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "gesetze-aktualisieren",
+    "bezeichnung": "Gesetze aktualisieren",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+R",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "export",
+    "bezeichnung": "Export",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+E",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "oeffnen",
+    "bezeichnung": "Gesetz oder Norm öffnen",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+O",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "volltext-suche",
+    "bezeichnung": "Suche im geöffneten Gesetz",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+F",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "volltext-alle",
+    "bezeichnung": "Suche in allen Gesetzen",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+Shift+F",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "verlauf-anzeigen",
+    "bezeichnung": "Verlauf anzeigen",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "CmdOrCtrl+Y",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "favorit-speichern",
+    "bezeichnung": "Ausgewählte Norm als Favoriten speichern",
+    "bereich": "global",
+    "thema": "Lesezeichen & Favoriten",
+    "accelerator": "CmdOrCtrl+Shift+D",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "lesezeichen-speichern",
+    "bezeichnung": "Ausgewählte Norm als Lesezeichen speichern",
+    "bereich": "global",
+    "thema": "Lesezeichen & Favoriten",
+    "accelerator": "CmdOrCtrl+D",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "alle-lesezeichen-entfernen",
+    "bezeichnung": "Alle Lesezeichen löschen",
+    "bereich": "global",
+    "thema": "Lesezeichen & Favoriten",
+    "accelerator": "CmdOrCtrl+Shift+Alt+D",
+    "menue": true,
+    "physisch": true,
+    "behandlung": "J"
+  },
+  {
+    "id": "unterstreichen",
+    "bezeichnung": "Unterstreichen",
+    "bereich": "gesetztext",
+    "thema": "Markieren",
+    "accelerator": "CmdOrCtrl+U",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "hervorheben",
+    "bezeichnung": "Hervorheben",
+    "bereich": "gesetztext",
+    "thema": "Markieren",
+    "accelerator": "CmdOrCtrl+Shift+U",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "verweismarkierung",
+    "bezeichnung": "Verweis",
+    "bereich": "gesetztext",
+    "thema": "Markieren",
+    "accelerator": "CmdOrCtrl+K",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "kommentar",
+    "bezeichnung": "Kommentar",
+    "bereich": "gesetztext",
+    "thema": "Markieren",
+    "accelerator": "CmdOrCtrl+Shift+K",
+    "menue": true,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "markierung-rueckgaengig",
+    "bezeichnung": "Markierung rückgängig",
+    "bereich": "gesetztext",
+    "thema": "Markieren",
+    "accelerator": "CmdOrCtrl+Z",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "markierung-wiederholen",
+    "bezeichnung": "Markierung wiederholen",
+    "bereich": "gesetztext",
+    "thema": "Markieren",
+    "accelerator": "CmdOrCtrl+Shift+Z",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "J"
+  },
+  {
+    "id": "tab-position",
+    "bezeichnung": "Tab nach Position",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "CmdOrCtrl+1..9",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "tab-naechster",
+    "bezeichnung": "Nächster Tab",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "Ctrl+Tab",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "tab-vorheriger",
+    "bezeichnung": "Vorheriger Tab",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "Ctrl+Shift+Tab",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "verlauf-zurueck",
+    "bezeichnung": "Verlauf des Tabs zurück",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "Alt+ArrowLeft",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "verlauf-vor",
+    "bezeichnung": "Verlauf des Tabs vor",
+    "bereich": "global",
+    "thema": "Fenster & Tabs",
+    "accelerator": "Alt+ArrowRight",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "oeffnen-vorbelegt",
+    "bezeichnung": "Gesetz oder Norm öffnen, Ziffer vorbelegt",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "0..9",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "oeffnen-paragraf",
+    "bezeichnung": "Gesetz oder Norm öffnen, § vorbelegt",
+    "bereich": "global",
+    "thema": "Gesetze & Suche",
+    "accelerator": "§",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "lesezeichen-1-10",
+    "bezeichnung": "Lesezeichen 1–10 öffnen",
+    "bereich": "global",
+    "thema": "Lesezeichen & Favoriten",
+    "accelerator": "Alt+0..9",
+    "menue": false,
+    "physisch": true,
+    "behandlung": "A"
+  },
+  {
+    "id": "lesezeichen-11-20",
+    "bezeichnung": "Lesezeichen 11–20 öffnen",
+    "bereich": "global",
+    "thema": "Lesezeichen & Favoriten",
+    "accelerator": "Alt+Shift+0..9",
+    "menue": false,
+    "physisch": true,
+    "behandlung": "A"
+  },
+  {
+    "id": "favoriten-1-26",
+    "bezeichnung": "Favorit 1–26 öffnen",
+    "bereich": "gesetztext",
+    "thema": "Favoriten",
+    "accelerator": "A..Z",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "favoriten-27-52",
+    "bezeichnung": "Favorit 27–52 öffnen",
+    "bereich": "gesetztext",
+    "thema": "Favoriten",
+    "accelerator": "Shift+A..Z",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "favoriten-53-78",
+    "bezeichnung": "Favorit 53–78 öffnen",
+    "bereich": "gesetztext",
+    "thema": "Favoriten",
+    "accelerator": "Alt+A..Z",
+    "menue": false,
+    "physisch": true,
+    "behandlung": "A"
+  },
+  {
+    "id": "klappstufe-zuklappen",
+    "bezeichnung": "Klappstufe des Gesetzes zuklappen",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "CmdOrCtrl+ArrowLeft",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "klappstufe-aufklappen",
+    "bezeichnung": "Klappstufe des Gesetzes aufklappen",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "CmdOrCtrl+ArrowRight",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "scrollen-hoch",
+    "bezeichnung": "Ein Stück nach oben scrollen (aktives Element bleibt unverändert)",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "ArrowUp",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "scrollen-runter",
+    "bezeichnung": "Ein Stück nach unten scrollen (aktives Element bleibt unverändert)",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "ArrowDown",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "element-vorheriges",
+    "bezeichnung": "Zum vorherigen Element",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "Alt+ArrowUp",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "element-naechstes",
+    "bezeichnung": "Zum nächsten Element",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "Alt+ArrowDown",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "ueberschrift-vorherige",
+    "bezeichnung": "Zur vorherigen Überschrift (direkt aufeinanderfolgende gelten als eine)",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "CmdOrCtrl+ArrowUp",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "ueberschrift-naechste",
+    "bezeichnung": "Zur nächsten Überschrift (direkt aufeinanderfolgende gelten als eine)",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "CmdOrCtrl+ArrowDown",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "elternelement",
+    "bezeichnung": "Zum Elternelement springen",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "ArrowLeft",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "elternelement-einklappen",
+    "bezeichnung": "Zum Elternelement springen und dieses einklappen",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "Shift+ArrowLeft",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "element-aufklappen",
+    "bezeichnung": "Überschrift oder die Normtexte des Kapitels aufklappen",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "ArrowRight",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "element-einzeln-aufklappen",
+    "bezeichnung": "Überschrift oder nur den Text dieser Norm aufklappen",
+    "bereich": "gesetztext",
+    "thema": "Navigation",
+    "accelerator": "Shift+ArrowRight",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-x",
+    "bezeichnung": "Ausschneiden",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+X",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-c",
+    "bezeichnung": "Kopieren",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+C",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-v",
+    "bezeichnung": "Einfügen",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+V",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-a",
+    "bezeichnung": "Alles auswählen",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+A",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-m",
+    "bezeichnung": "Fenster minimieren",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+M",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-q",
+    "bezeichnung": "App beenden",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+Q",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "system-h",
+    "bezeichnung": "App ausblenden",
+    "bereich": "system",
+    "thema": "System",
+    "accelerator": "CmdOrCtrl+H",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "oeffnen-neuer-tab",
+    "bezeichnung": "In neuem Tab öffnen",
+    "bereich": "overlay",
+    "thema": "Gesetz oder Norm öffnen",
+    "accelerator": "CmdOrCtrl+Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "gesetzesuebersicht-export",
+    "bezeichnung": "Exportieren",
+    "bereich": "overlay",
+    "thema": "Gesetze verwalten",
+    "accelerator": "CmdOrCtrl+E",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "overlays-schliessen",
+    "bezeichnung": "Overlay schließen",
+    "bereich": "overlay",
+    "thema": "Alle Overlays",
+    "accelerator": "Escape",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "oeffnen-vorherige",
+    "bezeichnung": "Vorherigen Eintrag auswählen",
+    "bereich": "overlay",
+    "thema": "Gesetz oder Norm öffnen",
+    "accelerator": "ArrowUp",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "oeffnen-naechste",
+    "bezeichnung": "Nächsten Eintrag auswählen",
+    "bereich": "overlay",
+    "thema": "Gesetz oder Norm öffnen",
+    "accelerator": "ArrowDown",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "oeffnen-eintrag-oeffnen",
+    "bezeichnung": "Ausgewählten Eintrag öffnen",
+    "bereich": "overlay",
+    "thema": "Gesetz oder Norm öffnen",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "volltextsuche-vorherige",
+    "bezeichnung": "Vorherigen Eintrag auswählen",
+    "bereich": "overlay",
+    "thema": "Suche im geöffneten Gesetz / in allen Gesetzen",
+    "accelerator": "ArrowUp",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "volltextsuche-naechste",
+    "bezeichnung": "Nächsten Eintrag auswählen",
+    "bereich": "overlay",
+    "thema": "Suche im geöffneten Gesetz / in allen Gesetzen",
+    "accelerator": "ArrowDown",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "volltextsuche-oeffnen",
+    "bezeichnung": "Ausgewählten Eintrag öffnen",
+    "bereich": "overlay",
+    "thema": "Suche im geöffneten Gesetz / in allen Gesetzen",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "gesetzesuebersicht-vorherige",
+    "bezeichnung": "Vorherigen Eintrag auswählen",
+    "bereich": "overlay",
+    "thema": "Gesetze verwalten",
+    "accelerator": "ArrowUp",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "gesetzesuebersicht-naechste",
+    "bezeichnung": "Nächsten Eintrag auswählen",
+    "bereich": "overlay",
+    "thema": "Gesetze verwalten",
+    "accelerator": "ArrowDown",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "gesetzesuebersicht-oeffnen",
+    "bezeichnung": "Ausgewählten Eintrag öffnen",
+    "bereich": "overlay",
+    "thema": "Gesetze verwalten",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "gesetzesuebersicht-loeschen-entf",
+    "bezeichnung": "Ausgewähltes Gesetz löschen",
+    "bereich": "overlay",
+    "thema": "Gesetze verwalten",
+    "accelerator": "Delete",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "gesetzesuebersicht-loeschen-ruecktaste",
+    "bezeichnung": "Ausgewähltes Gesetz löschen",
+    "bereich": "overlay",
+    "thema": "Gesetze verwalten",
+    "accelerator": "Backspace",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "export-kategorie",
+    "bezeichnung": "Kategorie nach Anfangsbuchstabe auswählen",
+    "bereich": "overlay",
+    "thema": "Export",
+    "accelerator": "A..Z",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "export-starten",
+    "bezeichnung": "Exportieren",
+    "bereich": "overlay",
+    "thema": "Export",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "export-sammlung",
+    "bezeichnung": "Vollständige Sammlung exportieren",
+    "bereich": "overlay",
+    "thema": "Export",
+    "accelerator": "CmdOrCtrl+Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "aktualisieren-alle",
+    "bezeichnung": "Alle Gesetze aktualisieren",
+    "bereich": "overlay",
+    "thema": "Gesetze aktualisieren",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "favoriten-hinzufuegen-speichern",
+    "bezeichnung": "Favoriten speichern",
+    "bereich": "overlay",
+    "thema": "Favoriten hinzufügen",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "favoriten-hinzufuegen-zeilenumbruch",
+    "bezeichnung": "Zeilenumbruch einfügen",
+    "bereich": "overlay",
+    "thema": "Favoriten hinzufügen",
+    "accelerator": "Shift+Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "hilfsfenster-schliessen",
+    "bezeichnung": "Fenster schließen",
+    "bereich": "hilfsfenster",
+    "thema": "Verweis- und Kommentarfenster",
+    "accelerator": "Escape",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "hilfsfenster-hauptaktion",
+    "bezeichnung": "Hauptaktion ausführen",
+    "bereich": "hilfsfenster",
+    "thema": "Verweis- und Kommentarfenster",
+    "accelerator": "Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  },
+  {
+    "id": "hilfsfenster-zeilenumbruch",
+    "bezeichnung": "Zeilenumbruch einfügen",
+    "bereich": "hilfsfenster",
+    "thema": "Verweis- und Kommentarfenster",
+    "accelerator": "Shift+Enter",
+    "menue": false,
+    "physisch": false,
+    "behandlung": "A"
+  }
+]

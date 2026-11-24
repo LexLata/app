@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="praefixstrukturen">
+      <interleave>
+        <attribute name="version">
+          <value>1</value>
+        </attribute>
+        <element name="infos">
+          <interleave>
+            <element name="verarbeitungszeit">
+              <interleave>
+                <data type="dateTime">
+                  <param name="pattern">[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z</param>
+                </data>
+                <zeroOrMore>
+                  <attribute>
+                    <anyName />
+                    <text />
+                  </attribute>
+                </zeroOrMore>
+              </interleave>
+            </element>
+            <element name="normgeber">
+              <interleave>
+                <ref name="normgeber"/>
+                <zeroOrMore>
+                  <attribute>
+                    <anyName />
+                    <text />
+                  </attribute>
+                </zeroOrMore>
+              </interleave>
+            </element>
+            <zeroOrMore>
+              <attribute>
+                <anyName />
+                <text />
+              </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>verarbeitungszeit</name>
+                    <name>normgeber</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent" />
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <element name="inhalt">
+          <interleave>
+            <zeroOrMore>
+              <element name="gesetz">
+                <interleave>
+                  <choice>
+                    <attribute name="ermittlungsstatus"><value>leer</value></attribute>
+                    <group>
+                      <attribute name="ermittlungsstatus"><value>gescheitert</value></attribute>
+                      <attribute name="fehlerart">
+                        <choice>
+                          <value>identifikation</value>
+                          <value>tablink-zeitueberschreitung</value>
+                          <value>keine-normen</value>
+                          <value>gesetz-laden</value>
+                        </choice>
+                      </attribute>
+                    </group>
+                    <group>
+                      <attribute name="praefixstruktur"><value>unklar</value></attribute>
+                      <optional>
+                        <attribute name="diagnosegrund">
+                          <choice>
+                            <value>keine-elemente</value>
+                            <value>nur-ueberschriften</value>
+                            <value>keine-zaehlbaren-normen</value>
+                            <value>unbezeichnete-normen</value>
+                            <value>nur-sonstige-bezeichnungen</value>
+                            <value>gemischte-praefixe</value>
+                            <value>sonstige-bezeichnungen</value>
+                          </choice>
+                        </attribute>
+                      </optional>
+                    </group>
+                    <optional>
+                      <attribute name="praefixstruktur">
+                        <choice>
+                          <value>artikel</value>
+                          <value>ohne-praefix</value>
+                          <value>artikel-und-paragraphen</value>
+                          <value>gliederungsartikel</value>
+                          <value>roemisch</value>
+                        <value>arabisch</value>
+                        <value>alphabetisch</value>
+                          <value>regel</value>
+                          <value>nummer</value>
+                        </choice>
+                      </attribute>
+                    </optional>
+                  </choice>
+                  <data type="token">
+                    <param name="minLength">1</param>
+                  </data>
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName>
+                        <except>
+                          <name>praefixstruktur</name>
+                          <name>diagnosegrund</name>
+                          <name>ermittlungsstatus</name>
+                          <name>fehlerart</name>
+                        </except>
+                      </anyName>
+                      <text />
+                    </attribute>
+                  </zeroOrMore>
+                </interleave>
+              </element>
+            </zeroOrMore>
+            <zeroOrMore>
+              <attribute>
+                <anyName />
+                <text />
+              </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+              <element>
+                <anyName>
+                  <except>
+                    <name>gesetz</name>
+                  </except>
+                </anyName>
+                <ref name="extensionContent" />
+              </element>
+            </zeroOrMore>
+          </interleave>
+        </element>
+        <zeroOrMore>
+          <attribute>
+            <anyName>
+              <except>
+                <name>version</name>
+              </except>
+            </anyName>
+            <text />
+          </attribute>
+        </zeroOrMore>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>infos</name>
+                <name>inhalt</name>
+              </except>
+            </anyName>
+            <ref name="extensionContent" />
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </start>
+  <define name="normgeber">
+    <data type="string">
+      <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+      <param name="maxLength">20</param>
+    </data>
+  </define>
+  <define name="extensionContent">
+    <zeroOrMore>
+      <attribute>
+        <anyName />
+        <text />
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName />
+          <ref name="extensionContent" />
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Kanonisches Gesetz: bekannte Felder bleiben geschützt; additive Metadaten und Inline-Hüllen sind offen. -->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="gesetz">
+      <attribute name="version">
+        <value>1</value>
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>version</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <ref name="infos"/>
+        <optional>
+          <ref name="inhalt"/>
+        </optional>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>infos</name>
+                <name>inhalt</name>
+              </except>
+            </anyName>
+            <ref name="beliebigInhalt"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </start>
+  <define name="nichtleer">
+    <data type="token">
+      <param name="minLength">1</param>
+    </data>
+  </define>
+  <!-- Offene Normgebercodes: Kleinbuchstaben und Ziffern, getrennt durch Bindestriche. -->
+  <define name="normgeber">
+    <data type="string">
+      <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+      <param name="maxLength">20</param>
+    </data>
+  </define>
+  <define name="positive">
+    <data type="string">
+      <param name="pattern">[1-9][0-9]*</param>
+    </data>
+  </define>
+  <define name="kennzahl">
+    <data type="string">
+      <param name="pattern">([0-9]{3})+</param>
+    </data>
+  </define>
+  <define name="beliebig">
+    <element>
+      <anyName/>
+      <ref name="beliebigInhalt"/>
+    </element>
+  </define>
+  <define name="beliebigInhalt">
+    <zeroOrMore>
+      <attribute>
+        <anyName/>
+        <text/>
+      </attribute>
+    </zeroOrMore>
+    <mixed>
+      <zeroOrMore>
+        <ref name="beliebig"/>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  <define name="infos">
+    <element name="infos">
+      <zeroOrMore>
+        <attribute>
+          <anyName/>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <element name="kurztitel">
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+              <text/>
+            </attribute>
+          </zeroOrMore>
+          <ref name="nichtleer"/>
+        </element>
+        <optional>
+          <element name="langtitel">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="fundstelle">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="ausfertigung">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <choice>
+              <data type="date"/>
+              <data type="gYearMonth"/>
+              <data type="gYear"/>
+            </choice>
+          </element>
+        </optional>
+        <optional>
+          <element name="stand">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <interleave>
+              <optional>
+                <element name="aenderungsvermerk">
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName/>
+                      <text/>
+                    </attribute>
+                  </zeroOrMore>
+                  <text/>
+                </element>
+              </optional>
+              <optional>
+                <element name="neugefasst">
+                  <zeroOrMore>
+                    <attribute>
+                      <anyName/>
+                      <text/>
+                    </attribute>
+                  </zeroOrMore>
+                  <text/>
+                </element>
+              </optional>
+              <zeroOrMore>
+                <element>
+                  <anyName>
+                    <except>
+                      <name>aenderungsvermerk</name>
+                      <name>neugefasst</name>
+                    </except>
+                  </anyName>
+                  <ref name="beliebigInhalt"/>
+                </element>
+              </zeroOrMore>
+            </interleave>
+          </element>
+        </optional>
+        <optional>
+          <element name="fassung">
+            <attribute name="art"><choice><value>konsolidiert</value><value>original</value></choice></attribute>
+            <optional><attribute name="stichtag"><data type="date"/></attribute></optional>
+            <optional><attribute name="erwaegungsgruendeErgaenzt"><value>true</value></attribute></optional>
+          </element>
+        </optional>
+        <optional>
+          <element name="datenquelle">
+            <optional><attribute name="name"><text/></attribute></optional>
+            <optional><attribute name="url"><text/></attribute></optional>
+            <empty/>
+          </element>
+        </optional>
+        <element name="normgeber">
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+              <text/>
+            </attribute>
+          </zeroOrMore>
+          <ref name="normgeber"/>
+        </element>
+        <optional>
+          <element name="sprache">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="normpraefix">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="verarbeitungszeit">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name="letzteNeuerung">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>kurztitel</name>
+                <name>langtitel</name>
+                <name>fundstelle</name>
+                <name>ausfertigung</name>
+                <name>stand</name>
+                <name>datenquelle</name>
+                <name>fassung</name>
+                <name>normgeber</name>
+                <name>sprache</name>
+                <name>normpraefix</name>
+                <name>verarbeitungszeit</name>
+                <name>letzteNeuerung</name>
+              </except>
+            </anyName>
+            <ref name="beliebigInhalt"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="norm">
+    <element name="norm">
+      <attribute name="id">
+        <ref name="nichtleer"/>
+      </attribute>
+      <optional>
+        <attribute name="gliederungskennzahl">
+          <ref name="kennzahl"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="status">
+          <!-- Bekannter Status: weggefallen; weitere Werte bleiben offen. -->
+          <text/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="typ">
+          <!-- Bekannter Typ: erwaegungsgrund; weitere Werte bleiben offen. -->
+          <text/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="vorgaenger"><text/></attribute>
+      </optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>id</name>
+              <name>gliederungskennzahl</name>
+              <name>status</name>
+              <name>typ</name>
+              <name>vorgaenger</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <element name="bezeichnung">
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+              <text/>
+            </attribute>
+          </zeroOrMore>
+          <text/>
+        </element>
+        <optional>
+          <element name="titel">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <ref name="text"/>
+        </optional>
+        <optional>
+          <element name="fussnoten">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>bezeichnung</name>
+                <name>titel</name>
+                <name>text</name>
+                <name>fussnoten</name>
+              </except>
+            </anyName>
+            <ref name="beliebigInhalt"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="gliederung">
+    <element name="gliederung">
+      <attribute name="gliederungskennzahl">
+        <ref name="kennzahl"/>
+      </attribute>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>gliederungskennzahl</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <interleave>
+        <element name="bezeichnung">
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+              <text/>
+            </attribute>
+          </zeroOrMore>
+          <text/>
+        </element>
+        <optional>
+          <element name="titel">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <ref name="text"/>
+        </optional>
+        <optional>
+          <element name="fussnoten">
+            <zeroOrMore>
+              <attribute>
+                <anyName/>
+                <text/>
+              </attribute>
+            </zeroOrMore>
+            <text/>
+          </element>
+        </optional>
+        <zeroOrMore>
+          <element>
+            <anyName>
+              <except>
+                <name>bezeichnung</name>
+                <name>titel</name>
+                <name>text</name>
+                <name>fussnoten</name>
+              </except>
+            </anyName>
+            <ref name="beliebigInhalt"/>
+          </element>
+        </zeroOrMore>
+      </interleave>
+    </element>
+  </define>
+  <define name="inhalt">
+    <element name="inhalt">
+      <zeroOrMore>
+        <attribute>
+          <anyName/>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <zeroOrMore>
+        <choice>
+          <ref name="norm"/>
+          <ref name="gliederung"/>
+          <element>
+            <anyName>
+              <except>
+                <name>norm</name>
+                <name>gliederung</name>
+              </except>
+            </anyName>
+            <ref name="beliebigInhalt"/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="fluss">
+    <mixed>
+      <zeroOrMore>
+        <choice>
+          <ref name="absatz"/>
+          <ref name="unterabsatz"/>
+          <ref name="satz"/>
+          <ref name="nummer"/>
+          <ref name="litera"/>
+          <ref name="verweis"/>
+          <ref name="zeilenumbruch"/>
+          <ref name="inline"/>
+        </choice>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  <define name="text">
+    <element name="text">
+      <zeroOrMore>
+        <attribute>
+          <anyName/>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="fluss"/>
+    </element>
+  </define>
+  <define name="absatz">
+    <element name="absatz">
+      <optional>
+        <attribute name="zahl">
+          <text/>
+        </attribute>
+      </optional>
+      <!-- Bekannter Absatztyp: zwischenueberschrift; weitere Werte bleiben offen. -->
+      <optional><attribute name="typ"><text/></attribute></optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>zahl</name>
+              <name>typ</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="fluss"/>
+    </element>
+  </define>
+  <define name="unterabsatz">
+    <element name="unterabsatz">
+      <optional>
+        <attribute name="zahl">
+          <text/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>zahl</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="fluss"/>
+    </element>
+  </define>
+  <define name="satz">
+    <element name="satz">
+      <optional>
+        <attribute name="zahl">
+          <ref name="positive"/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>zahl</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="fluss"/>
+    </element>
+  </define>
+  <define name="nummer">
+    <element name="nummer">
+      <optional>
+        <attribute name="zahl">
+          <text/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>zahl</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="fluss"/>
+    </element>
+  </define>
+  <define name="litera">
+    <element name="litera">
+      <optional>
+        <attribute name="buchstabe">
+          <text/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>buchstabe</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="fluss"/>
+    </element>
+  </define>
+  <define name="verweis">
+    <element name="verweis">
+      <optional>
+        <attribute name="gesetz">
+          <ref name="nichtleer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="normgeber">
+          <ref name="normgeber"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="norm">
+          <text/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <attribute>
+          <anyName>
+            <except>
+              <name>gesetz</name>
+              <name>normgeber</name>
+              <name>norm</name>
+            </except>
+          </anyName>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="inlineInhalt"/>
+    </element>
+  </define>
+  <define name="zeilenumbruch">
+    <element name="zeilenumbruch">
+      <zeroOrMore>
+        <attribute>
+          <anyName/>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <empty/>
+    </element>
+  </define>
+  <define name="inlineInhalt">
+    <mixed>
+      <zeroOrMore>
+        <choice>
+          <ref name="verweis"/>
+          <ref name="zeilenumbruch"/>
+          <ref name="inline"/>
+        </choice>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  <define name="inline">
+    <element>
+      <anyName>
+        <except>
+          <name>absatz</name>
+          <name>unterabsatz</name>
+          <name>satz</name>
+          <name>nummer</name>
+          <name>litera</name>
+          <name>verweis</name>
+          <name>zeilenumbruch</name>
+          <name>text</name>
+        </except>
+      </anyName>
+      <zeroOrMore>
+        <attribute>
+          <anyName/>
+          <text/>
+        </attribute>
+      </zeroOrMore>
+      <ref name="inlineInhalt"/>
+    </element>
+  </define>
+</grammar>

@@ -1,0 +1,100 @@
+# Baut die Windows- und Linux-Pakete eines Releases auf gehosteten Runnern.
+# Start nur manuell auf dem Tag-Ref (gh workflow run release-bau.yml --ref vx.y.z).
+# Keine Secrets: Die Updater-Signatur entsteht lokal (tauri signer sign).
+name: Release-Bau
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Node LTS einrichten
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: 'package.json'
+
+      - name: Rust einrichten
+        uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
+        with:
+          toolchain: 1.96.0
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Pakete bauen
+        # Updater-Artefakte ohne Schlüssel abschalten; Cargo strikt nach Cargo.lock.
+        # Bash statt PowerShell: JSON-Argument ohne Quoting-Fallen an npx.cmd.
+        shell: bash
+        run: npx tauri build --ci --bundles nsis --config '{"bundle":{"createUpdaterArtifacts":false}}' -- --locked
+
+      - name: Pakete hochladen
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: lexlata-windows
+          path: src-tauri/target/release/bundle/nsis/*-setup.exe
+          if-no-files-found: error
+          retention-days: 7
+
+  linux:
+    # Ältere glibc, damit die AppImage auf möglichst vielen Systemen läuft.
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Linux-Abhängigkeiten installieren
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            build-essential \
+            libayatana-appindicator3-dev \
+            libgtk-3-dev \
+            librsvg2-dev \
+            libssl-dev \
+            libwebkit2gtk-4.1-dev \
+            patchelf \
+            pkg-config \
+            rpm \
+            xdg-utils
+
+      - name: Node LTS einrichten
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: 'package.json'
+
+      - name: Rust einrichten
+        uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
+        with:
+          toolchain: 1.96.0
+
+      - name: Abhängigkeiten installieren
+        run: npm ci
+
+      - name: Pakete bauen
+        # Updater-Artefakte ohne Schlüssel abschalten; Cargo strikt nach Cargo.lock.
+        run: npx tauri build --ci --bundles appimage,deb,rpm --config '{"bundle":{"createUpdaterArtifacts":false}}' -- --locked
+
+      - name: Pakete hochladen
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: lexlata-linux
+          path: |
+            src-tauri/target/release/bundle/appimage/*.AppImage
+            src-tauri/target/release/bundle/deb/*.deb
+            src-tauri/target/release/bundle/rpm/*.rpm
+          if-no-files-found: error
+          retention-days: 7

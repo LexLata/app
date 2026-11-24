@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<praefixstrukturen version="1">
+    <infos>
+        <verarbeitungszeit>2026-10-18T16:41:54Z</verarbeitungszeit>
+        <normgeber>de-bw</normgeber>
+    </infos>
+    <inhalt>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">1. RBerVO</gesetz>
+        <gesetz>1BKFHVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">1BKSPVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">2. HRÄG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">2. KIT-WG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">2. RBerG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">2. RBerVO</gesetz>
+        <gesetz>2BFS-VO</gesetz>
+        <gesetz>2BKKaufVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">3. HRÄG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">3. RBerG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">4. HRÄG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">4. RBerG</gesetz>
+        <gesetz>AAnwPrGStGEinrStVtrG</gesetz>
+        <gesetz>AAVO</gesetz>
+        <gesetz>AAZuVO</gesetz>
+        <gesetz>ABacknangStBauV</gesetz>
+        <gesetz>AbdGymnV</gesetz>
+        <gesetz>AbdGymV</gesetz>
+        <gesetz>AbdRealSchulV</gesetz>
+        <gesetz>ABezInstUmwG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">AbfVerbrG§6Abs1StVtrG</gesetz>
+        <gesetz>AbfWPlV</gesetz>
+        <gesetz>AbgEntG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">AbgEntschKPBek</gesetz>
+        <gesetz>AbgG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">AbgGÄndG</gesetz>
+        <gesetz>ABPVO</gesetz>
+        <gesetz>AbRSA-VO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">AbwStVtrG</gesetz>
+        <gesetz>AbwVVO</gesetz>
+        <gesetz>ADK-ZVO</gesetz>
+        <gesetz praefixstruktur="artikel">ADVGuaÄndG</gesetz>
+        <gesetz>ADVZG</gesetz>
+        <gesetz>AFBGZuVO</gesetz>
+        <gesetz>AG BtG</gesetz>
+        <gesetz>AG G10</gesetz>
+        <gesetz>AGBAföG</gesetz>
+        <gesetz>AGBauGB</gesetz>
+        <gesetz>AGBBiG</gesetz>
+        <gesetz>AGBDG</gesetz>
+        <gesetz>AGBezNOG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">AGBGB</gesetz>
+        <gesetz>AGBtGAVO</gesetz>
+        <gesetz>AGFGO</gesetz>
+        <gesetz>AGFlHG</gesetz>
+        <gesetz>AGFlurBG</gesetz>
+        <gesetz>AGGFIHG</gesetz>
+        <gesetz>AGGVG</gesetz>
+        <gesetz>AGInsOAVO</gesetz>
+        <gesetz>AGLMBG</gesetz>
+        <gesetz>AGLwVG</gesetz>
+        <gesetz>AGProstSchG</gesetz>
+        <gesetz>AGPStG</gesetz>
+        <gesetz>AgrStatG-DVO</gesetz>
+        <gesetz>AGSchKG</gesetz>
+        <gesetz>AGSGB II</gesetz>
+        <gesetz>AGSGB IX</gesetz>
+        <gesetz>AGSGB XII</gesetz>
+        <gesetz>AGSGG</gesetz>
+        <gesetz>AGTierNebG</gesetz>
+        <gesetz>AGVerwGAnpG</gesetz>
+        <gesetz>AGVIG</gesetz>
+        <gesetz>AGVO</gesetz>
+        <gesetz>AGVwGO</gesetz>
+        <gesetz>AGWVG</gesetz>
+        <gesetz>AGZensG 2022</gesetz>
+        <gesetz praefixstruktur="artikel">AGZweigAufhV</gesetz>
+        <gesetz>AHaftVO</gesetz>
+        <gesetz>AHaftVollzG</gesetz>
+        <gesetz>AHiVwVtrAUTGZustV</gesetz>
+        <gesetz>AkadG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">AkaGrAbkG</gesetz>
+        <gesetz>AkkLehrSchulAV</gesetz>
+        <gesetz>AkkLehrVO</gesetz>
+        <gesetz praefixstruktur="artikel">AllgDSAnpG</gesetz>
+        <gesetz>AltPflegWBildV</gesetz>
+        <gesetz>AMSachKVZustV</gesetz>
+        <gesetz>AngWoMBestV</gesetz>
+        <gesetz>AnwAuflVO</gesetz>
+        <gesetz>AnwSoZVO</gesetz>
+        <gesetz>AOKVereinigV</gesetz>
+        <gesetz>AOStrafErmV</gesetz>
+        <gesetz>ApoAnwRstGZustV</gesetz>
+        <gesetz>APRDVMVO</gesetz>
+        <gesetz>APrO Eich</gesetz>
+        <gesetz>APrO-gPVD</gesetz>
+        <gesetz>APrO-hPVD</gesetz>
+        <gesetz>APrO-LMK</gesetz>
+        <gesetz>APrO-mPVD</gesetz>
+        <gesetz>APrOAltPflHi</gesetz>
+        <gesetz>APrOAmtsanw</gesetz>
+        <gesetz>APrOArbErz</gesetz>
+        <gesetz>APrOArch gD</gesetz>
+        <gesetz>APrOArchhD</gesetz>
+        <gesetz>APrOBau hD Städtebau und Raumordnung</gesetz>
+        <gesetz>APrOBau hD VM</gesetz>
+        <gesetz>APrOBibhD</gesetz>
+        <gesetz>APrOBKDesign</gesetz>
+        <gesetz>APrODVMgD</gesetz>
+        <gesetz>APrOFin gD</gesetz>
+        <gesetz>APrOFin mD</gesetz>
+        <gesetz>APrOFL</gesetz>
+        <gesetz>APrOFTL</gesetz>
+        <gesetz>APrOFw gD</gesetz>
+        <gesetz>APrOFw hD</gesetz>
+        <gesetz>APrOFw mD</gesetz>
+        <gesetz>APrOGeKrPflHi</gesetz>
+        <gesetz>APrOGVgD</gesetz>
+        <gesetz>APrOGVmD</gesetz>
+        <gesetz>APrOHeilErzAss</gesetz>
+        <gesetz>APrOHeilErzPfl</gesetz>
+        <gesetz>APrOHeilPäd</gesetz>
+        <gesetz>APrOHF</gesetz>
+        <gesetz>APrOHochbau gD</gesetz>
+        <gesetz>APrOHochbau hD</gesetz>
+        <gesetz>APrOHygKon</gesetz>
+        <gesetz>APrOJuHeErz</gesetz>
+        <gesetz>APrOLmChem</gesetz>
+        <gesetz>APrOLW gD</gesetz>
+        <gesetz>APrOLW hD</gesetz>
+        <gesetz>APrOLW TLB</gesetz>
+        <gesetz>APrOmAhVzD</gesetz>
+        <gesetz>APrOmVWV</gesetz>
+        <gesetz>APrORpfl</gesetz>
+        <gesetz>APrORV gD</gesetz>
+        <gesetz>APrOStrM</gesetz>
+        <gesetz>APrOTL</gesetz>
+        <gesetz>APrOVerm gD</gesetz>
+        <gesetz>APrOVerm hD</gesetz>
+        <gesetz>APrOVerm mD</gesetz>
+        <gesetz>APrOVSgD</gesetz>
+        <gesetz>APrOVw gD</gesetz>
+        <gesetz>APrOVw mD</gesetz>
+        <gesetz>APrVgePflHi</gesetz>
+        <gesetz>ArbBerFbehMZustV</gesetz>
+        <gesetz>ArbGDaVO</gesetz>
+        <gesetz>ArbGEhrRiBerV</gesetz>
+        <gesetz>ArbGG</gesetz>
+        <gesetz>ArbHeilSchulV</gesetz>
+        <gesetz>ArbSchGZuVO</gesetz>
+        <gesetz>ArbZZuVO</gesetz>
+        <gesetz>ArchG</gesetz>
+        <gesetz>ArchGEintrV</gesetz>
+        <gesetz>ARD-StV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ARD/DLRHörFVeröff</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ARD/ZDFTeleAVeröff</gesetz>
+        <gesetz praefixstruktur="unklar" diagnosegrund="nur-ueberschriften">ARDTelemRL</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">Art91cGGAStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel">Art91cGGAStVtrÄStVtrG</gesetz>
+        <gesetz>ASiGZustV</gesetz>
+        <gesetz>ASVG</gesetz>
+        <gesetz>AsylAufenthVO</gesetz>
+        <gesetz>AsylbLGErstG</gesetz>
+        <gesetz>AsylUKoVert2016V</gesetz>
+        <gesetz>AsylUKoVert2017V</gesetz>
+        <gesetz>AsylUKoVert2018V</gesetz>
+        <gesetz>AsylUKoVert2019V</gesetz>
+        <gesetz>AsylUKoVert2020V</gesetz>
+        <gesetz>AsylUKoVert2021V</gesetz>
+        <gesetz>AtGZuVO</gesetz>
+        <gesetz>AufbGymAufnO</gesetz>
+        <gesetz>AufbGymHeimGebV</gesetz>
+        <gesetz>AufbGymHeimOV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">AufenthG§78Bek</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">AufenthG§78G</gesetz>
+        <gesetz>AufnV</gesetz>
+        <gesetz>AufwEntG</gesetz>
+        <gesetz>AufwErstZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">AujeszkKrSchV</gesetz>
+        <gesetz>AusbPersVLIMV</gesetz>
+        <gesetz>AusbPersVLJMV</gesetz>
+        <gesetz>AusbPersVLKMV</gesetz>
+        <gesetz>AusbPersVLWissMV</gesetz>
+        <gesetz>AusglTransfG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">AusgStGZuVO</gesetz>
+        <gesetz>AuslBeauftrInfoEV</gesetz>
+        <gesetz>AuswSGAVO</gesetz>
+        <gesetz>AuszG</gesetz>
+        <gesetz>AVD-VO</gesetz>
+        <gesetz>AVO SGG</gesetz>
+        <gesetz>AWGZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">AWG§ 43Abs5V</gesetz>
+        <gesetz>AzUVO</gesetz>
+        <gesetz>BacknGemVbAuflV</gesetz>
+        <gesetz>BadegVO</gesetz>
+        <gesetz>BAföG-ZuVO</gesetz>
+        <gesetz>BAKG</gesetz>
+        <gesetz>BallAkadAPV</gesetz>
+        <gesetz>BannMG</gesetz>
+        <gesetz>BaudarlVerzinsV</gesetz>
+        <gesetz>BauGB-DVO</gesetz>
+        <gesetz>BauOBefugÜV</gesetz>
+        <gesetz>BauPMÜDG</gesetz>
+        <gesetz>BauPrüfVO</gesetz>
+        <gesetz>BauSVO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">BayApoVersorgVtrG</gesetz>
+        <gesetz>BBergGZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">BBetVertV</gesetz>
+        <gesetz>BBiG-ZuVO</gesetz>
+        <gesetz>BeamtZuVO</gesetz>
+        <gesetz>BedGVO</gesetz>
+        <gesetz>BEEGZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BefrG WB</gesetz>
+        <gesetz>BeglV</gesetz>
+        <gesetz>BerAkadTriNatZulV</gesetz>
+        <gesetz>BerAufbSchulAPV</gesetz>
+        <gesetz>BerGerOArch</gesetz>
+        <gesetz>BerGerVDV</gesetz>
+        <gesetz>BergWStilluaZustV</gesetz>
+        <gesetz>BerOSchulAPrV</gesetz>
+        <gesetz>BerSchulAPV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BerufsHZVO</gesetz>
+        <gesetz>BerVorbJV</gesetz>
+        <gesetz>BesGemRefG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">BesGÄndG</gesetz>
+        <gesetz praefixstruktur="artikel">BesRÄndG</gesetz>
+        <gesetz>BesSchulV</gesetz>
+        <gesetz>BestattG</gesetz>
+        <gesetz>BestattVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">BesVersAnpG</gesetz>
+        <gesetz>BetFoG</gesetz>
+        <gesetz>BetFoVO</gesetz>
+        <gesetz>BetrAngV</gesetz>
+        <gesetz>BetriebswirtVO</gesetz>
+        <gesetz>BeurtVO</gesetz>
+        <gesetz>BeurtVO-LRiStAG</gesetz>
+        <gesetz>BeurtVO-PVD</gesetz>
+        <gesetz>BewGDV</gesetz>
+        <gesetz>BFischAufzV</gesetz>
+        <gesetz praefixstruktur="artikel">BFSGAufgStVtr</gesetz>
+        <gesetz>BFSGAufgStVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BGB§§ 1059aNr2uaV</gesetz>
+        <gesetz>BGVO</gesetz>
+        <gesetz>BGÄndG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BHV1V</gesetz>
+        <gesetz>BiberVO</gesetz>
+        <gesetz>BiblGebVO</gesetz>
+        <gesetz>BienSeuchDV</gesetz>
+        <gesetz praefixstruktur="artikel">BilgEVStVtrG</gesetz>
+        <gesetz>BioStoff-ZuVO</gesetz>
+        <gesetz>BisamVAV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BistFrpäbstBVerk BA</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BistRoFundInst WÜ</gesetz>
+        <gesetz>BITBWG</gesetz>
+        <gesetz>BK-I-Verordnung</gesetz>
+        <gesetz>BK-II-Verordnung</gesetz>
+        <gesetz>BKrFQG-ZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BKrFQG§8Abs3V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BKSPIT-VO</gesetz>
+        <gesetz>BliHG</gesetz>
+        <gesetz>BliSchulStTafelV</gesetz>
+        <gesetz>BliwaGZustV</gesetz>
+        <gesetz>BOA</gesetz>
+        <gesetz>BodenseeufNatSchGebV</gesetz>
+        <gesetz>BodenseeufUGNatSchGebV</gesetz>
+        <gesetz>BodFischVO</gesetz>
+        <gesetz>BodSchASUVO</gesetz>
+        <gesetz>BodSchWaldV</gesetz>
+        <gesetz>BodSeeMietBootV</gesetz>
+        <gesetz>BodseeWasEntnRV</gesetz>
+        <gesetz>BodseeWasVerbZV</gesetz>
+        <gesetz>BPersVGFKamEhrRiBerV</gesetz>
+        <gesetz>BPVOS</gesetz>
+        <gesetz>BQAnerkBG</gesetz>
+        <gesetz>BQFG-BW</gesetz>
+        <gesetz>BQFG-ZuVO</gesetz>
+        <gesetz>BrexitÜG-BW</gesetz>
+        <gesetz>BSchfAusschrVfV</gesetz>
+        <gesetz>BSG-VO Schwarzwald</gesetz>
+        <gesetz>BSHGAG</gesetz>
+        <gesetz>BSPO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">BV AnpG 2008</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BVAnp-ÄG 2022</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BVAnp-ÄG 2024/2025</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BVAnpGBW 2009/2010</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BVAnpGBW 2011</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BVAnpGBW 2015/2016</gesetz>
+        <gesetz praefixstruktur="artikel">BVAnpGBW 2017/2018</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BVJVO</gesetz>
+        <gesetz>BVO</gesetz>
+        <gesetz>BVormVGFrVerl</gesetz>
+        <gesetz>BW AGBMG</gesetz>
+        <gesetz>BWaldGZustV</gesetz>
+        <gesetz>BwBauFöG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">BWG/EuWGZustVO</gesetz>
+        <gesetz>BWildSchVZuVO</gesetz>
+        <gesetz>BWPatMobG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">BzBlGZustV</gesetz>
+        <gesetz>BzG</gesetz>
+        <gesetz>BörsRVErmÜtrV</gesetz>
+        <gesetz>BürgBG</gesetz>
+        <gesetz>BüroBerFSchulAPV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">CarlZeissStiftStVtrG</gesetz>
+        <gesetz>ChancenG</gesetz>
+        <gesetz>ChemLUAOrgV</gesetz>
+        <gesetz>ChemZuVO</gesetz>
+        <gesetz>CO2-SP-VO</gesetz>
+        <gesetz>CoHFH-ZVO</gesetz>
+        <gesetz>CoronaSoZahlG</gesetz>
+        <gesetz>CoronaVHNtragG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">CoronaVLHO§18Abs6G</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">CoronaVPrüfV</gesetz>
+        <gesetz>CoronaVSofortHilfAusglG</gesetz>
+        <gesetz>CorUnVO</gesetz>
+        <gesetz>CoSHG-II-ZVO</gesetz>
+        <gesetz>CoSHG-ZVO</gesetz>
+        <gesetz>CPlVO</gesetz>
+        <gesetz>CSCZuVO</gesetz>
+        <gesetz>CSG</gesetz>
+        <gesetz>CSVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">D/FGrSchulV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">D/FGymAufnV</gesetz>
+        <gesetz>DBG</gesetz>
+        <gesetz>DBPVO</gesetz>
+        <gesetz>DFGVO</gesetz>
+        <gesetz>DGrünV</gesetz>
+        <gesetz>DH-ErrichtG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">DIBtAbkG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">DIBtAbkÜbertrG</gesetz>
+        <gesetz>DIBtZustÜV</gesetz>
+        <gesetz>DigFahrtGebV</gesetz>
+        <gesetz>DiplAFilmAkadPrV</gesetz>
+        <gesetz>DkuAkadSchauspPrV</gesetz>
+        <gesetz>DkuAkadUDramaPrV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">DLRStVtrG</gesetz>
+        <gesetz>DolmPrV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Don/IllLEntwBYStVtrG</gesetz>
+        <gesetz>DonauSchiffPV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">DRG</gesetz>
+        <gesetz>DrogKRV</gesetz>
+        <gesetz>DruckLVZustV</gesetz>
+        <gesetz>DRVG</gesetz>
+        <gesetz>DSchG</gesetz>
+        <gesetz>DSchRKV</gesetz>
+        <gesetz>DSÜbkV</gesetz>
+        <gesetz>DUVO</gesetz>
+        <gesetz>DVFoVG</gesetz>
+        <gesetz>DVO BeschG</gesetz>
+        <gesetz>DVO FAG</gesetz>
+        <gesetz>DVO FlüAG</gesetz>
+        <gesetz>DVO GemO</gesetz>
+        <gesetz>DVO JWMG</gesetz>
+        <gesetz>DVO LBGS</gesetz>
+        <gesetz>DVO LKrO</gesetz>
+        <gesetz>DVO PolG</gesetz>
+        <gesetz>DVO TierSchMVG</gesetz>
+        <gesetz>DVO-FZV</gesetz>
+        <gesetz>DVOWaffG</gesetz>
+        <gesetz>DüGewStGrStVO</gesetz>
+        <gesetz>E-Akten-BußgeldVO</gesetz>
+        <gesetz>EAG</gesetz>
+        <gesetz praefixstruktur="artikel">EAJEGuERVFöGÜRglV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">eAktVO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">EAnpG</gesetz>
+        <gesetz>EBewiVZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EBG§3Abs2V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EBG§6aV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">EDVGBEuaG</gesetz>
+        <gesetz>EG-ObstGemüseDV</gesetz>
+        <gesetz>EgauqBYStVtrG</gesetz>
+        <gesetz>EGB-VO</gesetz>
+        <gesetz>eGBRStVtrG</gesetz>
+        <gesetz>EglG</gesetz>
+        <gesetz>EglZuVO</gesetz>
+        <gesetz>EGovG</gesetz>
+        <gesetz>EheAufhzustVwBehV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EhrBürgMEntschErh2024/25V</gesetz>
+        <gesetz>EigBG</gesetz>
+        <gesetz>EigBVO-Doppik</gesetz>
+        <gesetz>EigBVO-HGB</gesetz>
+        <gesetz>EigelNeubG</gesetz>
+        <gesetz>EinfUVuaGrKontrStV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">EinfVO-BSO</gesetz>
+        <gesetz>EinheitlDVVerfVO</gesetz>
+        <gesetz>EinigungsstellenVO</gesetz>
+        <gesetz>EinreiseJHiZustV</gesetz>
+        <gesetz>Eisenb-Sachverst VO</gesetz>
+        <gesetz>EKVO</gesetz>
+        <gesetz>ElBergVO</gesetz>
+        <gesetz>ElektAktStrFinZÜV</gesetz>
+        <gesetz praefixstruktur="artikel">ElektÜberwStStVtrG</gesetz>
+        <gesetz>ElekVerbUmwG</gesetz>
+        <gesetz>EltBauVO</gesetz>
+        <gesetz>EltBeirV</gesetz>
+        <gesetz>EltGrLastVO</gesetz>
+        <gesetz>EnSZuG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EntschÄFortfV WH</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">EnVKG-ZuVO</gesetz>
+        <gesetz>EnWGZuVO</gesetz>
+        <gesetz>ErbbauRgV</gesetz>
+        <gesetz>ERechVOBW</gesetz>
+        <gesetz>ErfVZustV</gesetz>
+        <gesetz>ERGA-VO</gesetz>
+        <gesetz>EriskNatSchGebV</gesetz>
+        <gesetz>ErlIfSMG</gesetz>
+        <gesetz>ErnBerKollAPV</gesetz>
+        <gesetz>ErnFSchulAPV</gesetz>
+        <gesetz>ErnG</gesetz>
+        <gesetz>ErosionsSchVO</gesetz>
+        <gesetz>ErsFrhStrAbwV</gesetz>
+        <gesetz>ErV HfPolBW</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ErzbFrbErVerk WÜ</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ErzBFrDoUrk BA</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ErzBFrFundUrk BA</gesetz>
+        <gesetz>ErzieherVO</gesetz>
+        <gesetz>ESchulStichTV</gesetz>
+        <gesetz>EsslsozBetrNeuOV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EStG§ 14aAbs3V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EStG§ 7dV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EStG§ 7kV</gesetz>
+        <gesetz>EthylRohrErG</gesetz>
+        <gesetz>EuAuskÜbkGZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">EuAuslVwZ/AuskÜbkAGZustV</gesetz>
+        <gesetz>EUErzMittPflG</gesetz>
+        <gesetz>EUFinKontrVerlV</gesetz>
+        <gesetz praefixstruktur="artikel">EugrFernsÜbkG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">EugrFernsÜbkÄndProtG</gesetz>
+        <gesetz>EULehrVO</gesetz>
+        <gesetz>EULG</gesetz>
+        <gesetz>EuroEG</gesetz>
+        <gesetz praefixstruktur="artikel">Ev-ProtLKVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Ev/KathKiVG</gesetz>
+        <gesetz praefixstruktur="artikel">EvKiVtrG</gesetz>
+        <gesetz>EVPZuVO</gesetz>
+        <gesetz>EVTZVODG</gesetz>
+        <gesetz>EvVO HfR</gesetz>
+        <gesetz>EWärmeG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">EZ2011G</gesetz>
+        <gesetz>EZPsychG</gesetz>
+        <gesetz>EZulVOBW</gesetz>
+        <gesetz>EZuVO</gesetz>
+        <gesetz>FachgebHSchulErgPrV</gesetz>
+        <gesetz>FAeStrAktVO</gesetz>
+        <gesetz>FAG</gesetz>
+        <gesetz>FAkadNOG</gesetz>
+        <gesetz>FamNamÄndGZustV</gesetz>
+        <gesetz>FAZuVO</gesetz>
+        <gesetz>FE-VO</gesetz>
+        <gesetz>FeFahrlPrivG</gesetz>
+        <gesetz>FeFahrlZuVO</gesetz>
+        <gesetz>FELEGZustV</gesetz>
+        <gesetz praefixstruktur="artikel">FernsKultVtrG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">FernsSatVtrG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">FernUVtrG</gesetz>
+        <gesetz>FerV</gesetz>
+        <gesetz>FeuerwGLRBöAufgZV</gesetz>
+        <gesetz>FeuVO</gesetz>
+        <gesetz>FFeuerwFBerV</gesetz>
+        <gesetz>FFVO</gesetz>
+        <gesetz>FGSchulWahlDV</gesetz>
+        <gesetz>FGZVO</gesetz>
+        <gesetz>FHSchulPolVAufhV</gesetz>
+        <gesetz>FHSRGymVO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">FideiAuflRG</gesetz>
+        <gesetz>FilmAkadGStudGebZustV</gesetz>
+        <gesetz>FilmAkadPrV</gesetz>
+        <gesetz>FilmAkadZulV</gesetz>
+        <gesetz>FinFHV</gesetz>
+        <gesetz>FinMinLKredBkAufgV</gesetz>
+        <gesetz>FinVwAufbV</gesetz>
+        <gesetz>FischAbgV</gesetz>
+        <gesetz>FischG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">FischSeuchSchV</gesetz>
+        <gesetz>FischVtrG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">FischVtrV</gesetz>
+        <gesetz>FlHGebV</gesetz>
+        <gesetz>FliegBautenZuVO</gesetz>
+        <gesetz>FlKZustV</gesetz>
+        <gesetz>FlugLatV</gesetz>
+        <gesetz>FluglärmGZuVO</gesetz>
+        <gesetz>FluLärmFriedhV</gesetz>
+        <gesetz>FluLärmKarlsBadV</gesetz>
+        <gesetz>FluLärmMannhV</gesetz>
+        <gesetz>FluLärmStuttgV</gesetz>
+        <gesetz>FlurbZuVO</gesetz>
+        <gesetz>FLVO</gesetz>
+        <gesetz>FlüAG</gesetz>
+        <gesetz>FlüAGErstVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">FlüG§15V</gesetz>
+        <gesetz praefixstruktur="artikel">FoltÜbkArt3ProtStVtrG</gesetz>
+        <gesetz>ForschUmwG</gesetz>
+        <gesetz>ForstBWG</gesetz>
+        <gesetz>ForstDKlVO</gesetz>
+        <gesetz>ForstVOZustV</gesetz>
+        <gesetz praefixstruktur="artikel">ForstvwNeuOrgaUÄndG</gesetz>
+        <gesetz>FPersGZuVO</gesetz>
+        <gesetz>FPolDG</gesetz>
+        <gesetz>FraktG</gesetz>
+        <gesetz>FranzMSprGymV</gesetz>
+        <gesetz>FrKiStV</gesetz>
+        <gesetz>FronrAusschV</gesetz>
+        <gesetz>FrVertrSchlichtStV</gesetz>
+        <gesetz>FrVertrWV</gesetz>
+        <gesetz>FrühKiBiFoG</gesetz>
+        <gesetz>FSK-VO</gesetz>
+        <gesetz>FTG</gesetz>
+        <gesetz>FundBekV</gesetz>
+        <gesetz praefixstruktur="artikel">FunktRefG</gesetz>
+        <gesetz>FunktZulV</gesetz>
+        <gesetz>FuttMRZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">FVG§ 17Abs2V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">FVG§ 17Abs3V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">FVG§ 2Abs2u3V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">FVG§ 8Abs3V</gesetz>
+        <gesetz>FwG</gesetz>
+        <gesetz>FzZulVweigG</gesetz>
+        <gesetz>FördSchStTafelV</gesetz>
+        <gesetz>G8-VO</gesetz>
+        <gesetz>GaAusbStatDV</gesetz>
+        <gesetz>GAP-ReformVO</gesetz>
+        <gesetz>GAPRefG</gesetz>
+        <gesetz>GasGrLastVO</gesetz>
+        <gesetz>GasÖlBeihLwVDV</gesetz>
+        <gesetz>GaVO</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt10V</gesetz>
+        <gesetz>GBEinsSt11V</gesetz>
+        <gesetz>GBEinsSt12V</gesetz>
+        <gesetz>GBEinsSt13V</gesetz>
+        <gesetz>GBEinsSt14V</gesetz>
+        <gesetz>GBEinsSt15V</gesetz>
+        <gesetz>GBEinsSt16V</gesetz>
+        <gesetz>GBEinsSt17V</gesetz>
+        <gesetz>GBEinsSt18V</gesetz>
+        <gesetz>GBEinsSt19V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt1V</gesetz>
+        <gesetz>GBEinsSt20V</gesetz>
+        <gesetz>GBEinsSt21V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt2V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt3V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt4V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt5V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt6V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt7V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt8V</gesetz>
+        <gesetz praefixstruktur="artikel">GBEinsSt9V</gesetz>
+        <gesetz>GBFWVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">GBFührÜV</gesetz>
+        <gesetz>GBVO</gesetz>
+        <gesetz>GDFG</gesetz>
+        <gesetz>GDFGDVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Geb/SterbBehBek BA</gesetz>
+        <gesetz>GebSprBKAPrV</gesetz>
+        <gesetz>GebSprBKV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GebVNeuOG</gesetz>
+        <gesetz>GebVO BQFG JuM</gesetz>
+        <gesetz>GebVO IM</gesetz>
+        <gesetz>GebVO KM</gesetz>
+        <gesetz>GebVO LfDI</gesetz>
+        <gesetz>GebVO MLW</gesetz>
+        <gesetz>GebVO MWK</gesetz>
+        <gesetz>GebVO SM</gesetz>
+        <gesetz>GebVO UM</gesetz>
+        <gesetz>GebVO VM</gesetz>
+        <gesetz>GebVO WM</gesetz>
+        <gesetz>GebVO-ChemUA</gesetz>
+        <gesetz>GebVO-MLR</gesetz>
+        <gesetz>GebVO-NLP</gesetz>
+        <gesetz>GebVOLIFG-FM</gesetz>
+        <gesetz>GebVOLIFG-JuM</gesetz>
+        <gesetz>GebVOLIFG-RH</gesetz>
+        <gesetz>GebVOLIFG-StM</gesetz>
+        <gesetz>GefStoffG</gesetz>
+        <gesetz>GEG-DVO</gesetz>
+        <gesetz>GeldwGZustV</gesetz>
+        <gesetz>GemEinglG</gesetz>
+        <gesetz>GemFinRefGDV</gesetz>
+        <gesetz>GemFinRefGErmÜV</gesetz>
+        <gesetz>GemHVO</gesetz>
+        <gesetz>GemKVO</gesetz>
+        <gesetz>GemO</gesetz>
+        <gesetz>GemPrO</gesetz>
+        <gesetz>GemRefGErgG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GemRuaAmtsZÄndG</gesetz>
+        <gesetz>GemTStrRV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GenRescript WÜ</gesetz>
+        <gesetz>GenTZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">GeolD-ZuVO</gesetz>
+        <gesetz>GerAtr</gesetz>
+        <gesetz>GerGeschStV</gesetz>
+        <gesetz>GeroPsychWBildV</gesetz>
+        <gesetz>GerOrgG</gesetz>
+        <gesetz>GeschPDatVO</gesetz>
+        <gesetz>GesWZustV</gesetz>
+        <gesetz>GEVO</gesetz>
+        <gesetz>GewBerFSchulAV</gesetz>
+        <gesetz>GewBerKollAPV</gesetz>
+        <gesetz>GewOZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GewO§ 36V</gesetz>
+        <gesetz>GewStGAV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GGArt87Abs2S2StVtrG</gesetz>
+        <gesetz>GGZuVO</gesetz>
+        <gesetz>GKBFHVO</gesetz>
+        <gesetz>GKL-StV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GKL/GlüÄndStVtrG</gesetz>
+        <gesetz>GKV</gesetz>
+        <gesetz>GKZ</gesetz>
+        <gesetz>GlüStVtr</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GlüStVtr2021ÄndG</gesetz>
+        <gesetz>GlüStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel">GlüÄndStVtr2G</gesetz>
+        <gesetz praefixstruktur="artikel">GlüÄndStVtr3G</gesetz>
+        <gesetz>GMSVO</gesetz>
+        <gesetz>GnRPolBefrV</gesetz>
+        <gesetz>GoldschmBerFSchulAPrV</gesetz>
+        <gesetz>GPAG</gesetz>
+        <gesetz>GPO</gesetz>
+        <gesetz>GQP</gesetz>
+        <gesetz>GrbezVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GrDienstbG WH</gesetz>
+        <gesetz>GrEStFestG</gesetz>
+        <gesetz>GrEStStrukturGZustV</gesetz>
+        <gesetz>GrSchulStTafelV</gesetz>
+        <gesetz>GrSchulVersV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GrStG/GewStGErmÜV</gesetz>
+        <gesetz>GräbGZustV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GrÄndBYStrVtr3G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GrÄndBYStVtr1G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GrÄndBYStVtr2G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GrÄndHEStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">GrÄndRPStVtrG</gesetz>
+        <gesetz>GSJ</gesetz>
+        <gesetz>GTVO</gesetz>
+        <gesetz>GuAVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GutMünGr/GewStErh2V</gesetz>
+        <gesetz>GutMünNeuGlG</gesetz>
+        <gesetz>GVGebAntVO 2010</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">GVGEG§31V</gesetz>
+        <gesetz>GVollzAPV</gesetz>
+        <gesetz>GVRS</gesetz>
+        <gesetz>GVVergVO</gesetz>
+        <gesetz>Gym5bis11StTafelV</gesetz>
+        <gesetz>GymPO</gesetz>
+        <gesetz>GymSchulTypV</gesetz>
+        <gesetz>GymVersV</gesetz>
+        <gesetz>GüKZuVO</gesetz>
+        <gesetz>HaagUrkBefrÜbkGDV</gesetz>
+        <gesetz>HaagÜbkAGZBehV</gesetz>
+        <gesetz>Hafen VO</gesetz>
+        <gesetz>HafenGeldO</gesetz>
+        <gesetz>HafenSiG</gesetz>
+        <gesetz>HAGZustV</gesetz>
+        <gesetz>HalbiMettNatSchGebV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Haus/FamPflSchulV</gesetz>
+        <gesetz>HauswBerFSchulAPV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">HBegleitG</gesetz>
+        <gesetz>HBKG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">HdbguaBez/OMBestV</gesetz>
+        <gesetz>HdlReguaMaschFV</gesetz>
+        <gesetz>HebBO</gesetz>
+        <gesetz>HebGebO</gesetz>
+        <gesetz>HebMindEinkV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Heil/GesBerZustV</gesetz>
+        <gesetz praefixstruktur="artikel">HeilStuhlVG</gesetz>
+        <gesetz>HeimSoSchulGebV</gesetz>
+        <gesetz>HeimSoSchulPflEZustV</gesetz>
+        <gesetz>HeizkostenVZuVVO</gesetz>
+        <gesetz>HeizkZusch-ZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">HFKomVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">HFlV§10Abs3V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">HFürsAbgZustV</gesetz>
+        <gesetz>HilfSysSexMZustV</gesetz>
+        <gesetz>HintG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">HkBefrGAnwG WB</gesetz>
+        <gesetz praefixstruktur="artikel">HMG</gesetz>
+        <gesetz>HNStudAkaErrV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">HNtrag2G</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">HNtrag3G</gesetz>
+        <gesetz>HNtrag4G</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">HNtragG</gesetz>
+        <gesetz>HNTVO</gesetz>
+        <gesetz>HochrheinSchPatV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">HofgutG BA</gesetz>
+        <gesetz>HofGWdEinfG</gesetz>
+        <gesetz>HopfenVO</gesetz>
+        <gesetz>HornspNatSchGebV</gesetz>
+        <gesetz praefixstruktur="artikel">HRWeitEG</gesetz>
+        <gesetz>HSAPO</gesetz>
+        <gesetz>HSchulBegabtPrV</gesetz>
+        <gesetz>HSchulEssErrichtG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">HSchulFördRefUmsG</gesetz>
+        <gesetz>HSchulPflAPrAnlV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">HSchulQSAkkrStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">HSchulZulEErStVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">HSchulZulGÄnd/StVtrG</gesetz>
+        <gesetz praefixstruktur="artikel">HSchulZulStVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">HStruktG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">HTSEssMannErrG</gesetz>
+        <gesetz>HUntV</gesetz>
+        <gesetz>HuV</gesetz>
+        <gesetz>HVO</gesetz>
+        <gesetz>HWasMeldeDEinrV</gesetz>
+        <gesetz>HwKBeitrEinzV</gesetz>
+        <gesetz>HwKBezNOV</gesetz>
+        <gesetz>HwOZustV</gesetz>
+        <gesetz>HwOZustWMinV</gesetz>
+        <gesetz>HwSoBerFSchulAPrV</gesetz>
+        <gesetz>HygBFortBV</gesetz>
+        <gesetz>HygV</gesetz>
+        <gesetz>HygWeitBiV</gesetz>
+        <gesetz>HZaBVO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">HZG</gesetz>
+        <gesetz>HZVO</gesetz>
+        <gesetz>HörGSchulStTafelV</gesetz>
+        <gesetz>IBBWG</gesetz>
+        <gesetz>IfSGAntrV</gesetz>
+        <gesetz>IfSGSMErmÜV</gesetz>
+        <gesetz>IfSGZustV</gesetz>
+        <gesetz>IHKG</gesetz>
+        <gesetz>IHKVO</gesetz>
+        <gesetz>ImSchZuVO</gesetz>
+        <gesetz>IndVO</gesetz>
+        <gesetz>InflAbmilBG 2024</gesetz>
+        <gesetz>InflAbmilVG 2024</gesetz>
+        <gesetz>IngG</gesetz>
+        <gesetz>IngKammG</gesetz>
+        <gesetz>InKKVereinV</gesetz>
+        <gesetz>InMinuaVfMängelBerV</gesetz>
+        <gesetz>InsOAG</gesetz>
+        <gesetz>IntLehrVO</gesetz>
+        <gesetz>IntVerstVO</gesetz>
+        <gesetz>InvZulGZustV</gesetz>
+        <gesetz>IsrKiStVwV</gesetz>
+        <gesetz praefixstruktur="artikel">IsrRelGVtrG</gesetz>
+        <gesetz>ItalKultInstStBefrNotWG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">ITErGuÄndG</gesetz>
+        <gesetz>JadgInfrVOZustV</gesetz>
+        <gesetz>JAG</gesetz>
+        <gesetz>JagdAbgV</gesetz>
+        <gesetz>JAPGebV</gesetz>
+        <gesetz>JAPrO</gesetz>
+        <gesetz>JArbEhrStärkG</gesetz>
+        <gesetz>JArbSchGZuVO</gesetz>
+        <gesetz>JArrG</gesetz>
+        <gesetz>JBeitrOVollstrBehV</gesetz>
+        <gesetz>JBiG</gesetz>
+        <gesetz>JHiSchiedStV</gesetz>
+        <gesetz>JHiTrAufhV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">JMStV</gesetz>
+        <gesetz>JPrO</gesetz>
+        <gesetz>JSVG</gesetz>
+        <gesetz>JubGVO</gesetz>
+        <gesetz>JunKlaV</gesetz>
+        <gesetz>JuSchZustV</gesetz>
+        <gesetz>JVollzGB I</gesetz>
+        <gesetz>JVollzGB II</gesetz>
+        <gesetz>JVollzGB III</gesetz>
+        <gesetz>JVollzGB IV</gesetz>
+        <gesetz>JVollzGB V</gesetz>
+        <gesetz>JVollzUKAbsG</gesetz>
+        <gesetz>JVollzVergO</gesetz>
+        <gesetz>JWBG</gesetz>
+        <gesetz>JWMG</gesetz>
+        <gesetz>JZahlVO</gesetz>
+        <gesetz>JZahnPflDV</gesetz>
+        <gesetz>KAG</gesetz>
+        <gesetz>KAnK-VO</gesetz>
+        <gesetz>KappVO</gesetz>
+        <gesetz>KapVO VII</gesetz>
+        <gesetz>KarlsrSpardaUmwG</gesetz>
+        <gesetz>KastrGutachtStG</gesetz>
+        <gesetz>KastrGutachtStV</gesetz>
+        <gesetz>KatzHundEVerbZustV</gesetz>
+        <gesetz>KatzSchZustV</gesetz>
+        <gesetz>KBefruGenV</gesetz>
+        <gesetz>KCanG-AVO</gesetz>
+        <gesetz>KDVMuKV</gesetz>
+        <gesetz>KFG</gesetz>
+        <gesetz praefixstruktur="artikel">KfmBerKollV</gesetz>
+        <gesetz>KHGSchiedVO</gesetz>
+        <gesetz>KHPauschV</gesetz>
+        <gesetz>KinderBFG</gesetz>
+        <gesetz>KiPflVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">KirchBesPensV WÜ</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">KirchG WÜ 2025</gesetz>
+        <gesetz>KirchgeldVO</gesetz>
+        <gesetz>KiSchutzG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">KiStBetrStättV</gesetz>
+        <gesetz>KiStG</gesetz>
+        <gesetz>KiStKapStBetrStättVO</gesetz>
+        <gesetz>KIT-ErrichtG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">KIT-WG</gesetz>
+        <gesetz>KiTaG</gesetz>
+        <gesetz>KiTaInvG</gesetz>
+        <gesetz>KiTaVO</gesetz>
+        <gesetz>KITG</gesetz>
+        <gesetz>KITZeitpV</gesetz>
+        <gesetz>KleingZuVO</gesetz>
+        <gesetz>KlimaG</gesetz>
+        <gesetz>KlingEinglG</gesetz>
+        <gesetz>KlPVO</gesetz>
+        <gesetz>KMKHSchulZustV</gesetz>
+        <gesetz>KMZuVO</gesetz>
+        <gesetz>KollegVO</gesetz>
+        <gesetz>KommissionsVO</gesetz>
+        <gesetz>KommMeldG</gesetz>
+        <gesetz>KommRegBefrG</gesetz>
+        <gesetz>KompVzVO</gesetz>
+        <gesetz>KomStatDVV</gesetz>
+        <gesetz>KomVerfÄndG</gesetz>
+        <gesetz>KomWG</gesetz>
+        <gesetz>KomWO</gesetz>
+        <gesetz>KonfO</gesetz>
+        <gesetz praefixstruktur="artikel">KonkordatG</gesetz>
+        <gesetz>KonnexAG</gesetz>
+        <gesetz>KonstanzAufnV</gesetz>
+        <gesetz>KorbuaEinglG</gesetz>
+        <gesetz>KornwestGemGrÄndG</gesetz>
+        <gesetz>KorVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">KOVVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">KraftStG§15Abs2V</gesetz>
+        <gesetz>KrankHZustV</gesetz>
+        <gesetz>KrebsRVO</gesetz>
+        <gesetz>KreisRefG</gesetz>
+        <gesetz praefixstruktur="artikel">KreuzWMainBrStVtrG</gesetz>
+        <gesetz>KrHRVO</gesetz>
+        <gesetz>KSpVO</gesetz>
+        <gesetz>KStatusG</gesetz>
+        <gesetz>KultgGZustV</gesetz>
+        <gesetz>KurorteG</gesetz>
+        <gesetz>KuVwAboZustV</gesetz>
+        <gesetz>KWaldVO</gesetz>
+        <gesetz>KäseButtDV</gesetz>
+        <gesetz>L-Bank-ZustVO</gesetz>
+        <gesetz>L-BGG</gesetz>
+        <gesetz>L-BGG-DVO</gesetz>
+        <gesetz>LadÖG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LandGrErhBerV BA</gesetz>
+        <gesetz>LandwSachverstVO</gesetz>
+        <gesetz>LArchBO</gesetz>
+        <gesetz>LArchG</gesetz>
+        <gesetz>LArchGebO</gesetz>
+        <gesetz>LArztG</gesetz>
+        <gesetz>LArztG-DVO</gesetz>
+        <gesetz>LAStrWErrG</gesetz>
+        <gesetz>LatPrV</gesetz>
+        <gesetz>LbAnVO-BW</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LBBW/RPVStVtrG</gesetz>
+        <gesetz>LBeamtVGBW</gesetz>
+        <gesetz>LBesGBW</gesetz>
+        <gesetz>LBetrVermBWErrG</gesetz>
+        <gesetz>LBG</gesetz>
+        <gesetz>LBGZustV</gesetz>
+        <gesetz>LBO</gesetz>
+        <gesetz>LBodSchAG</gesetz>
+        <gesetz>LBOHAVO</gesetz>
+        <gesetz>LBOVVO</gesetz>
+        <gesetz>LBOÜTVO</gesetz>
+        <gesetz>LBSSüdwestStVtr</gesetz>
+        <gesetz praefixstruktur="artikel">LBSSüdwestStVtrG</gesetz>
+        <gesetz>LBVErG</gesetz>
+        <gesetz>LBVO</gesetz>
+        <gesetz>LBVZuVO</gesetz>
+        <gesetz>LBWG</gesetz>
+        <gesetz>LDG</gesetz>
+        <gesetz praefixstruktur="artikel">LDNOG</gesetz>
+        <gesetz>LDSG</gesetz>
+        <gesetz>LDSG-JB</gesetz>
+        <gesetz>LEBK-VO</gesetz>
+        <gesetz>LEFG</gesetz>
+        <gesetz>LegHRegZustV</gesetz>
+        <gesetz>LehrAnwuaUBV</gesetz>
+        <gesetz>LehrArbZV</gesetz>
+        <gesetz>LEisenbG</gesetz>
+        <gesetz>LeistBeurtGrSchulV</gesetz>
+        <gesetz>LEntG</gesetz>
+        <gesetz>LEPlVerbEV</gesetz>
+        <gesetz>LernBVersO</gesetz>
+        <gesetz>LERVVO</gesetz>
+        <gesetz>LFGBZustV</gesetz>
+        <gesetz>LFGG</gesetz>
+        <gesetz>LFischVO</gesetz>
+        <gesetz>LGastG</gesetz>
+        <gesetz>LGebG</gesetz>
+        <gesetz>LGeoZG</gesetz>
+        <gesetz>LGFG</gesetz>
+        <gesetz>LGG</gesetz>
+        <gesetz>LGlüG</gesetz>
+        <gesetz>LGrStG</gesetz>
+        <gesetz>LGrStG AnerkVO</gesetz>
+        <gesetz>LGVFG</gesetz>
+        <gesetz>LGymHochbV</gesetz>
+        <gesetz>LHeilvfVOBW</gesetz>
+        <gesetz>LHG</gesetz>
+        <gesetz>LHGebG</gesetz>
+        <gesetz>LHO</gesetz>
+        <gesetz>LHzG</gesetz>
+        <gesetz>LIFG</gesetz>
+        <gesetz>LipbachNatSchGebV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LIS/StatLABenGebV</gesetz>
+        <gesetz>LJagdG DVO</gesetz>
+        <gesetz>LJAufbewVO</gesetz>
+        <gesetz>LJKG</gesetz>
+        <gesetz>LKatSG</gesetz>
+        <gesetz>LKHG</gesetz>
+        <gesetz>LKHG-MAVO</gesetz>
+        <gesetz>LKJHG</gesetz>
+        <gesetz>LKomBesG</gesetz>
+        <gesetz>LKrebsRG</gesetz>
+        <gesetz>LKredBkG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">LKreisÄndG</gesetz>
+        <gesetz>LKreiWiG</gesetz>
+        <gesetz>LKrO</gesetz>
+        <gesetz>LKurortBzZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LLG</gesetz>
+        <gesetz>LMBetrZulZustV</gesetz>
+        <gesetz>LMedienG</gesetz>
+        <gesetz>LMG</gesetz>
+        <gesetz>LMVO</gesetz>
+        <gesetz>LNRSchG</gesetz>
+        <gesetz>LNTVO</gesetz>
+        <gesetz>LohnkZBudgetV</gesetz>
+        <gesetz>LottWStVtrG</gesetz>
+        <gesetz>LOWiG</gesetz>
+        <gesetz praefixstruktur="artikel">LPartEinbezG</gesetz>
+        <gesetz>LPflBG</gesetz>
+        <gesetz>LPflG</gesetz>
+        <gesetz>LPKG</gesetz>
+        <gesetz>LplG</gesetz>
+        <gesetz praefixstruktur="artikel">LPlGÄndG</gesetz>
+        <gesetz>LPSG</gesetz>
+        <gesetz>LPVG</gesetz>
+        <gesetz>LPVGWO</gesetz>
+        <gesetz>LPVO-FM</gesetz>
+        <gesetz>LPVO-MWK</gesetz>
+        <gesetz>LRegBG</gesetz>
+        <gesetz>LRFStrGZustV</gesetz>
+        <gesetz>LRiStAG</gesetz>
+        <gesetz>LRKfSachvRZustV</gesetz>
+        <gesetz>LRKG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">LRLKredBkAufgV</gesetz>
+        <gesetz>LRVerpflGZustV</gesetz>
+        <gesetz>LRVfMängelBerV</gesetz>
+        <gesetz>LSchuldBG</gesetz>
+        <gesetz>LSeilbG</gesetz>
+        <gesetz>LStatG</gesetz>
+        <gesetz>LStiftFinG</gesetz>
+        <gesetz>LSubvG</gesetz>
+        <gesetz>LSÜG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">LTDSAufsO</gesetz>
+        <gesetz>LTGO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LTMG</gesetz>
+        <gesetz>LUBW</gesetz>
+        <gesetz>LUBWG</gesetz>
+        <gesetz>LudwigFHErV</gesetz>
+        <gesetz>LuftVGPlanFBehV</gesetz>
+        <gesetz>LuftVVerwZustV</gesetz>
+        <gesetz>LUKG</gesetz>
+        <gesetz praefixstruktur="artikel">LV</gesetz>
+        <gesetz>LVG</gesetz>
+        <gesetz>LVO MLW</gesetz>
+        <gesetz>LVO WM</gesetz>
+        <gesetz>LVO-IM</gesetz>
+        <gesetz>LVO-JuM</gesetz>
+        <gesetz>LVO-KM</gesetz>
+        <gesetz>LVO-MLR</gesetz>
+        <gesetz>LVO-MWK</gesetz>
+        <gesetz>LVO-PVD</gesetz>
+        <gesetz>LVO-SM</gesetz>
+        <gesetz>LVO-StM</gesetz>
+        <gesetz>LVO-UM</gesetz>
+        <gesetz>LVO-VM</gesetz>
+        <gesetz>LVSG</gesetz>
+        <gesetz>LVVO</gesetz>
+        <gesetz>LVVO KHS</gesetz>
+        <gesetz>LVwVfG</gesetz>
+        <gesetz>LVwVG</gesetz>
+        <gesetz>LVwVGKO</gesetz>
+        <gesetz>LVwZG</gesetz>
+        <gesetz>LWaldG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LWAltHilfG§ 41Abs1uaV</gesetz>
+        <gesetz>LwAusbG</gesetz>
+        <gesetz>LwEntschAV</gesetz>
+        <gesetz>LWG</gesetz>
+        <gesetz>LwGrdstVStatV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">LWirtAltHilfG§2aS2V</gesetz>
+        <gesetz>LWO</gesetz>
+        <gesetz>LWoFG</gesetz>
+        <gesetz>LwVfBVertrV</gesetz>
+        <gesetz>LwVOZustV</gesetz>
+        <gesetz>LwZustV</gesetz>
+        <gesetz>MaiKäfBekV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MainGrBYStVtrG</gesetz>
+        <gesetz>MammmoAltGrV</gesetz>
+        <gesetz>MammoEzStG</gesetz>
+        <gesetz>MarkelWNatSchGebV</gesetz>
+        <gesetz>MarkschG</gesetz>
+        <gesetz>MarktStruktG2DV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">MarktStruktGDV</gesetz>
+        <gesetz>MedHygV</gesetz>
+        <gesetz praefixstruktur="artikel">MedienStVtrG</gesetz>
+        <gesetz>MedienZG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MedienÄndStVtr2G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MedienÄndStVtr3G</gesetz>
+        <gesetz praefixstruktur="artikel">MedienÄndStVtr4G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MedienÄndStVtr5G</gesetz>
+        <gesetz praefixstruktur="artikel">MedienÄndStVtrG</gesetz>
+        <gesetz>MedInstV</gesetz>
+        <gesetz>MesseG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">MessEinhG/EichGZustBestV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">MessEinhG/EichGZustV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MeßAkkrStAbkG</gesetz>
+        <gesetz>MFG</gesetz>
+        <gesetz>MietBegrenzVO</gesetz>
+        <gesetz>Mietspiegel-ZuG</gesetz>
+        <gesetz>Milch-GüteDVO</gesetz>
+        <gesetz>MindRebFlV</gesetz>
+        <gesetz>MinG</gesetz>
+        <gesetz praefixstruktur="artikel">MinGeschAbgrBek</gesetz>
+        <gesetz>MinWiStrVerzV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MOberrhRaumORPStVtrG</gesetz>
+        <gesetz>ModSchulAPV</gesetz>
+        <gesetz>MoorSchVO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">MPAbkG</gesetz>
+        <gesetz praefixstruktur="artikel">MPAbkÄnd2G</gesetz>
+        <gesetz>MStV</gesetz>
+        <gesetz>MURheinSchNGewV</gesetz>
+        <gesetz>MusbachNeubG</gesetz>
+        <gesetz>MuSchBVÄndV</gesetz>
+        <gesetz>MuSchGDV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">MVO</gesetz>
+        <gesetz>MVollzKostZustV</gesetz>
+        <gesetz>MZuLKraftStVO</gesetz>
+        <gesetz>NachlBenV</gesetz>
+        <gesetz>NaFiBWG</gesetz>
+        <gesetz>NatSchBehBeirV</gesetz>
+        <gesetz>NatSchG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">NatSchVwNO/DSchGÄndG</gesetz>
+        <gesetz>NephWeitBiV</gesetz>
+        <gesetz>NeuhSchiffV</gesetz>
+        <gesetz>NiedSchlWasBesV</gesetz>
+        <gesetz>NiklasNeubG</gesetz>
+        <gesetz>NiSGZuVO</gesetz>
+        <gesetz>NLPG</gesetz>
+        <gesetz>NOOTSStVtr</gesetz>
+        <gesetz>NOOTSStVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Not/GBAmtSitzVÄndIIV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Not/GBAmtSitzVÄndV</gesetz>
+        <gesetz>NotarVO</gesetz>
+        <gesetz>NotRefAbsG</gesetz>
+        <gesetz>NotrufVZuVO</gesetz>
+        <gesetz>NotVersWSa</gesetz>
+        <gesetz>NotVG</gesetz>
+        <gesetz>NRG</gesetz>
+        <gesetz>NRKVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">NSAhndG WB</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">NSMilBefrV BA</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">NSStrGAufhV BA</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">NSUnrG WB 2</gesetz>
+        <gesetz>NVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">OAmtsBezWeinsG WÜ</gesetz>
+        <gesetz>ObereGüllNatSchGebV</gesetz>
+        <gesetz>ObstbSchädlBekV</gesetz>
+        <gesetz>OFDGAusschBerV</gesetz>
+        <gesetz>OLGVwAbtErV</gesetz>
+        <gesetz>OnkoWeitBiV</gesetz>
+        <gesetz>OPrechNeubG</gesetz>
+        <gesetz>OPWeitBiV</gesetz>
+        <gesetz>OrdenGZustV</gesetz>
+        <gesetz>OrtUniKlinStiftG</gesetz>
+        <gesetz>OWiZuVO</gesetz>
+        <gesetz>ParkgebVOBW</gesetz>
+        <gesetz>PartIntG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PassG/PAuswG</gesetz>
+        <gesetz>PBefKostV</gesetz>
+        <gesetz>PBefZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Pers/VermKITÜblG</gesetz>
+        <gesetz>PersStdGErmÜV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">PersVGWO1996ÄndV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">PersVRÄndG</gesetz>
+        <gesetz>PersÜAöRForstG</gesetz>
+        <gesetz>PetAusschG</gesetz>
+        <gesetz>PflAbfV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PflAPrV§7ZPV</gesetz>
+        <gesetz>PflBerWeitBiV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PflBG§7praktAV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PflBSchieds-VO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PflBSchStV</gesetz>
+        <gesetz>PflegeheimFVO</gesetz>
+        <gesetz>PflegeStatG</gesetz>
+        <gesetz>PflegeZGZustuaV</gesetz>
+        <gesetz>PfliExplAblG</gesetz>
+        <gesetz>PfliExplAblGDV</gesetz>
+        <gesetz>PflSchFHSRVO</gesetz>
+        <gesetz>PflSchGDV</gesetz>
+        <gesetz>PflSchGerätVDV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PflSchMAnwEinschrG§3V</gesetz>
+        <gesetz>PflSchNVO</gesetz>
+        <gesetz>PflSchulV</gesetz>
+        <gesetz>PflSozBerAnVO</gesetz>
+        <gesetz praefixstruktur="artikel">PforzFHErG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PforzhBez/OMBestV</gesetz>
+        <gesetz>PIDEthikKStVtr</gesetz>
+        <gesetz>PIDEthikKStVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PMZuVO</gesetz>
+        <gesetz>PO-AEP</gesetz>
+        <gesetz>PO-Sofa</gesetz>
+        <gesetz>PolBeschStErV</gesetz>
+        <gesetz>PolDErsLV</gesetz>
+        <gesetz>PolDKlVO</gesetz>
+        <gesetz>PolG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PolRG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">PolSG2020</gesetz>
+        <gesetz>PolSäubG</gesetz>
+        <gesetz>PopAkadEignPrV</gesetz>
+        <gesetz>PopAkadMAMCIPrV</gesetz>
+        <gesetz>PopAkadMAPMPrV</gesetz>
+        <gesetz>PopAkadPrV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Preis/APflVZustV</gesetz>
+        <gesetz>PresseG</gesetz>
+        <gesetz>PrKlSüVfV</gesetz>
+        <gesetz>ProdSZuVO</gesetz>
+        <gesetz>ProfArbZV</gesetz>
+        <gesetz>ProfhcVerfBek</gesetz>
+        <gesetz>ProstVerbV</gesetz>
+        <gesetz>PrOtS</gesetz>
+        <gesetz>PrSchAusglDV</gesetz>
+        <gesetz>PrSchulGDV</gesetz>
+        <gesetz>PrVergHVO</gesetz>
+        <gesetz>PSchG</gesetz>
+        <gesetz>PStG-DVO</gesetz>
+        <gesetz>PsychKHG</gesetz>
+        <gesetz>PsychPbGAG</gesetz>
+        <gesetz>PsychPbV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">PsychthVersWNWStVtrG</gesetz>
+        <gesetz>PsychWeitBiV</gesetz>
+        <gesetz>PsychZentErG</gesetz>
+        <gesetz>PVorVO</gesetz>
+        <gesetz>PVPf-VO</gesetz>
+        <gesetz>PVPromVO</gesetz>
+        <gesetz>PWaldVO</gesetz>
+        <gesetz>PÜZAVO</gesetz>
+        <gesetz>QSM-RVO</gesetz>
+        <gesetz>QualSiG</gesetz>
+        <gesetz>QuaPrO JWMD</gesetz>
+        <gesetz>QuaPrO-VetHK</gesetz>
+        <gesetz>QuaPrOhF</gesetz>
+        <gesetz>RAEGHErV</gesetz>
+        <gesetz>RAGPrABYuaStVtrG</gesetz>
+        <gesetz>RahmenVO-BS-KM</gesetz>
+        <gesetz>RahmenVO-KM</gesetz>
+        <gesetz praefixstruktur="artikel">RaumOHEuaStVtrGua</gesetz>
+        <gesetz>RAVG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">RBerG</gesetz>
+        <gesetz>RdFunkBeitrStVtr</gesetz>
+        <gesetz>RdFunkGebSa</gesetz>
+        <gesetz>RdFunkStVtrErgG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">RdFunkStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr10G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr11G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr12G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr13G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr14G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr15G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr16G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr17G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr18G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr19G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr1G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr20G</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">RdFunkÄndStVtr21/MDSAnpG</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr22G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr23G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr2G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr3G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">RdFunkÄndStVtr4G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr5G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr6G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr7G</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">RdFunkÄndStVtr8G</gesetz>
+        <gesetz praefixstruktur="artikel">RdFunkÄndStVtr9G</gesetz>
+        <gesetz>RDG</gesetz>
+        <gesetz>RDPlanVO</gesetz>
+        <gesetz>RealSchulStTafelV</gesetz>
+        <gesetz>RealSchulVersV</gesetz>
+        <gesetz>RebflAnpflVDV</gesetz>
+        <gesetz>RefUBeihVO</gesetz>
+        <gesetz>RegelstudienzeitverlängerungsVO</gesetz>
+        <gesetz>RegGO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">RegiDonauStVtrBY/BWAendStVtrG</gesetz>
+        <gesetz>RegieBAPrV</gesetz>
+        <gesetz>RegPortalNWStVtrG</gesetz>
+        <gesetz>RegSatzV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">RegStuttgZStärkG</gesetz>
+        <gesetz>RehaWeitBiV</gesetz>
+        <gesetz>ReichenbEinglG</gesetz>
+        <gesetz>RepTVV</gesetz>
+        <gesetz>RFinStV</gesetz>
+        <gesetz>RheinauFischVO</gesetz>
+        <gesetz>RheinfallVtrCHE1967DG</gesetz>
+        <gesetz>RHG</gesetz>
+        <gesetz>RichtAufgÜV</gesetz>
+        <gesetz>RiFlEtikettGuaZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">RiGÄndG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">RKG§5V</gesetz>
+        <gesetz praefixstruktur="artikel">RohrZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ROkA</gesetz>
+        <gesetz praefixstruktur="artikel">RottenFHErG</gesetz>
+        <gesetz>RotWGebBV</gesetz>
+        <gesetz>RPflAufgÜV</gesetz>
+        <gesetz>RPflFHErV</gesetz>
+        <gesetz>RPflFHSozBetrV</gesetz>
+        <gesetz>RSAFW-VO</gesetz>
+        <gesetz>RSAPO</gesetz>
+        <gesetz>RSE-SBBZ-VO</gesetz>
+        <gesetz>RSEbSVO</gesetz>
+        <gesetz>RstG</gesetz>
+        <gesetz>RVErmäV</gesetz>
+        <gesetz>SaatErzG</gesetz>
+        <gesetz>SAbfVO</gesetz>
+        <gesetz>SanktAusschV</gesetz>
+        <gesetz>SBA-VO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SchafWG BA</gesetz>
+        <gesetz>SchALVO</gesetz>
+        <gesetz>SchbEFöG</gesetz>
+        <gesetz>SchBerGFestsBehV</gesetz>
+        <gesetz>SchfZuG</gesetz>
+        <gesetz>SchG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">SchGerBezHEuaAbkG</gesetz>
+        <gesetz>SchiedsVO Reha</gesetz>
+        <gesetz>SchiedVO SGB V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SchifffahrtsVO Rheinf.-Basel</gesetz>
+        <gesetz>SchluchtEinglG</gesetz>
+        <gesetz>SchLVO</gesetz>
+        <gesetz>SchPOWizustBehV</gesetz>
+        <gesetz>SchRegBEStVtrG</gesetz>
+        <gesetz>SchRegBYStVtrG</gesetz>
+        <gesetz>SchRegHEStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel">SchRegStVtr</gesetz>
+        <gesetz>SchriftAufbewG</gesetz>
+        <gesetz>SchulASitzV</gesetz>
+        <gesetz>SchulBauFöG</gesetz>
+        <gesetz>SchulBeirV</gesetz>
+        <gesetz>SchulBesV</gesetz>
+        <gesetz>SchulBZulV</gesetz>
+        <gesetz praefixstruktur="artikel">SchulGuaÄndG</gesetz>
+        <gesetz>SchulInklkomAusglG</gesetz>
+        <gesetz>SchulKonfO</gesetz>
+        <gesetz>SchulOrgZustV</gesetz>
+        <gesetz>SchulStatDVV</gesetz>
+        <gesetz>SchulStiftV</gesetz>
+        <gesetz>SchulUV</gesetz>
+        <gesetz>SchulVwEinrNStruktG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">SchVErmÜtrV</gesetz>
+        <gesetz>SchwAlbBioGebV</gesetz>
+        <gesetz>SchwHGZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SchwWNatP/ÄndG</gesetz>
+        <gesetz>SeefelderAachNatSchGebV</gesetz>
+        <gesetz>SeeRVAGHHZustAbkG</gesetz>
+        <gesetz>SehBehSchulStTafelV</gesetz>
+        <gesetz>SeilbV</gesetz>
+        <gesetz>SeismikBergVO</gesetz>
+        <gesetz>Sek I PO 2014</gesetz>
+        <gesetz>SemV</gesetz>
+        <gesetz>SEVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SexÜKr/TbKostG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SexÜKr/TbÄKostV</gesetz>
+        <gesetz>SFBWG</gesetz>
+        <gesetz>SFP-VO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SGB11§7cSchiedV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SGB11§92V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SGB11§ 76V</gesetz>
+        <gesetz>SGB1G</gesetz>
+        <gesetz>SGB4V</gesetz>
+        <gesetz>SGB6ZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SGB9§133SchiedsV</gesetz>
+        <gesetz>SGGVollstrBehV</gesetz>
+        <gesetz>SGVwDAufsV</gesetz>
+        <gesetz>SiKBPVO</gesetz>
+        <gesetz>SMVV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">SoBehEinglG</gesetz>
+        <gesetz>SodEG-AG</gesetz>
+        <gesetz>SonGebVO</gesetz>
+        <gesetz>SoSchulStTafelV</gesetz>
+        <gesetz>SoVermWaldWG</gesetz>
+        <gesetz>SoZahlAnpG</gesetz>
+        <gesetz praefixstruktur="unklar" diagnosegrund="nur-ueberschriften">SoZahlRglG</gesetz>
+        <gesetz>SozMinOEGuaZustV</gesetz>
+        <gesetz>SozWFSchulV</gesetz>
+        <gesetz>SpG</gesetz>
+        <gesetz>SpGVO</gesetz>
+        <gesetz>Spiel77V</gesetz>
+        <gesetz>SPO 2014</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">SportWettGDV WB</gesetz>
+        <gesetz>SprachBV</gesetz>
+        <gesetz>SprachFöGrV</gesetz>
+        <gesetz>SprBehSchulStTafelV</gesetz>
+        <gesetz>SprengZuVO</gesetz>
+        <gesetz>SPrOaFA</gesetz>
+        <gesetz>SpWO</gesetz>
+        <gesetz>StAHiBV</gesetz>
+        <gesetz>StAkkrVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StallDesinfV BA</gesetz>
+        <gesetz>StAngZustV</gesetz>
+        <gesetz>StBAZuVO</gesetz>
+        <gesetz>StBVG</gesetz>
+        <gesetz>StGBEGArt293V</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2002/03</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2004</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2005/06</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2007/08</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2009</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2010/11</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2012</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2013/14</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2015/16</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2017</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2018/19</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2020/21</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2022</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2023/2024</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StHG 2025/2026</gesetz>
+        <gesetz>StiftG</gesetz>
+        <gesetz>StO</gesetz>
+        <gesetz>StOGVO</gesetz>
+        <gesetz>StrafDKlVO</gesetz>
+        <gesetz>StrG</gesetz>
+        <gesetz>StrlNotÜwZuVO</gesetz>
+        <gesetz>StrLREssZustV</gesetz>
+        <gesetz>StrlSchZuVO</gesetz>
+        <gesetz>StrPflWdGG</gesetz>
+        <gesetz praefixstruktur="artikel">StrRG1AnpG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StrRG2/StGBEGAnpG</gesetz>
+        <gesetz>StrUBG</gesetz>
+        <gesetz>StrVerfFinZustV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">StrVollzZustAbkG</gesetz>
+        <gesetz>StSchuldVwAufhG</gesetz>
+        <gesetz>StSG</gesetz>
+        <gesetz>StTafelÖKlV</gesetz>
+        <gesetz>StudAkadsozBetrV</gesetz>
+        <gesetz>StudFondsG</gesetz>
+        <gesetz>StudGebBefrVO</gesetz>
+        <gesetz>StudGebVO</gesetz>
+        <gesetz>StufenVO</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">StuGebAbschG</gesetz>
+        <gesetz>StuttgFHErG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StuttguaBez/OMBestV</gesetz>
+        <gesetz>StVDAErmächtVO</gesetz>
+        <gesetz>StVDAZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">StVerm/HBVwOFDZustV</gesetz>
+        <gesetz>StVincentUmwG</gesetz>
+        <gesetz>StVOZuG</gesetz>
+        <gesetz>StVwRZV</gesetz>
+        <gesetz>StVZuVO</gesetz>
+        <gesetz>StWG</gesetz>
+        <gesetz>SubdelMLRV</gesetz>
+        <gesetz>SubVOJu</gesetz>
+        <gesetz>Super6V</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">SWRStVtrG</gesetz>
+        <gesetz praefixstruktur="unklar" diagnosegrund="nur-ueberschriften">SWRTelemRL</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">SyrOrthöRVerlBek</gesetz>
+        <gesetz>SÜVO</gesetz>
+        <gesetz>TAVO</gesetz>
+        <gesetz>TechnikerVO</gesetz>
+        <gesetz>TGBPVO</gesetz>
+        <gesetz>ThUGVollzG</gesetz>
+        <gesetz>TierGesAG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">TierHaltKennzZuVO</gesetz>
+        <gesetz>TierKBAnstVZustV</gesetz>
+        <gesetz>TierNebPrEinzBV</gesetz>
+        <gesetz>TierNebZuVO</gesetz>
+        <gesetz>TierSchMVG</gesetz>
+        <gesetz>TierSchZuVO</gesetz>
+        <gesetz>TiertransZustV</gesetz>
+        <gesetz>TilCo-II-ZVO</gesetz>
+        <gesetz>TilCo-III-ZVO</gesetz>
+        <gesetz>TilCo-ZVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">TKZuVO</gesetz>
+        <gesetz praefixstruktur="ohne-praefix">TMKonzVeröff</gesetz>
+        <gesetz>TPQG</gesetz>
+        <gesetz>TPQGAVO</gesetz>
+        <gesetz>TrochtelEinglG</gesetz>
+        <gesetz>TSEVerhV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">Tüb/HohGemStudWV</gesetz>
+        <gesetz>TÜVOrgV</gesetz>
+        <gesetz>UAG</gesetz>
+        <gesetz>UEVOBW</gesetz>
+        <gesetz>UF-ZuVO</gesetz>
+        <gesetz>UhAnsprAuslÜbkÜStV</gesetz>
+        <gesetz>UhVorschGDG</gesetz>
+        <gesetz>UKG</gesetz>
+        <gesetz>UKlPVO</gesetz>
+        <gesetz>UkZuVO</gesetz>
+        <gesetz>UmwandVO</gesetz>
+        <gesetz praefixstruktur="artikel">UmwVwEinheitG</gesetz>
+        <gesetz>UnBefGZustV</gesetz>
+        <gesetz>UnBefZustVO</gesetz>
+        <gesetz>UnfKErV</gesetz>
+        <gesetz>UniHdbgDÜtrV</gesetz>
+        <gesetz>UniHohAufgÄndG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">UntWDiskrÜbkG</gesetz>
+        <gesetz>UrkBefrBELV</gesetz>
+        <gesetz>UrkBefrITAV</gesetz>
+        <gesetz>USGZustV</gesetz>
+        <gesetz>USOVO Schule</gesetz>
+        <gesetz>UstA-VO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">UStG§4Nr20fZustV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">UStG§4ZustV</gesetz>
+        <gesetz>UVergVO</gesetz>
+        <gesetz>UVwG</gesetz>
+        <gesetz>VAbstG</gesetz>
+        <gesetz>VAGZustV</gesetz>
+        <gesetz>VAStuttgGUVV</gesetz>
+        <gesetz>VatAnfberBehBestV</gesetz>
+        <gesetz>VAwS</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">VDSRVtrG</gesetz>
+        <gesetz>VerdOStiftBek</gesetz>
+        <gesetz>VereinsGGemV</gesetz>
+        <gesetz>VerfArt15Abs2AG</gesetz>
+        <gesetz>VerfGGO</gesetz>
+        <gesetz>VerfGHG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">VerfStudG</gesetz>
+        <gesetz>VerhältnismPrG</gesetz>
+        <gesetz>VerkG</gesetz>
+        <gesetz>VermG</gesetz>
+        <gesetz>VerpflGZuVO</gesetz>
+        <gesetz>VersAbgVO</gesetz>
+        <gesetz>VersAuslZustVO</gesetz>
+        <gesetz>VersAV</gesetz>
+        <gesetz>VersFondsG</gesetz>
+        <gesetz>VersGZuV</gesetz>
+        <gesetz>VersorgLastTeilStVtrG</gesetz>
+        <gesetz>VersorgVwLRBöZustV</gesetz>
+        <gesetz>VersRücklG</gesetz>
+        <gesetz>VersUBerVO</gesetz>
+        <gesetz>VersVG</gesetz>
+        <gesetz>VersWerkAufsVO</gesetz>
+        <gesetz>VfaBVO</gesetz>
+        <gesetz>VfMängelBerG</gesetz>
+        <gesetz>ViehFlGDVO</gesetz>
+        <gesetz>VieVersAufsBehV</gesetz>
+        <gesetz>VillingNeubG</gesetz>
+        <gesetz>VkVO</gesetz>
+        <gesetz>VNPVO</gesetz>
+        <gesetz>VO BzG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">VO zu § 18 LHO</gesetz>
+        <gesetz>VOAPLandw</gesetz>
+        <gesetz>VODüVGebiete</gesetz>
+        <gesetz>VOFPHandwMilch</gesetz>
+        <gesetz>VOFPLandw</gesetz>
+        <gesetz>VOFSLandw</gesetz>
+        <gesetz>VOHvO</gesetz>
+        <gesetz>VOKeFw</gesetz>
+        <gesetz>VorbDZulV</gesetz>
+        <gesetz>VorbKlStTafelV</gesetz>
+        <gesetz>VOSchulBau</gesetz>
+        <gesetz>VoZählG1987DV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">VRG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">VRWG</gesetz>
+        <gesetz>VSG-VO</gesetz>
+        <gesetz>VStättVO</gesetz>
+        <gesetz>VtdgLVwNOG</gesetz>
+        <gesetz>VtdgLZustV</gesetz>
+        <gesetz>VuDZu-VO</gesetz>
+        <gesetz praefixstruktur="unklar" diagnosegrund="nur-ueberschriften">VVPSchG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">VwGO§26V</gesetz>
+        <gesetz>VwPraktUBV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="identifikation">VwRefG</gesetz>
+        <gesetz>VwVGZustV</gesetz>
+        <gesetz>WaffVerbZSubdelV</gesetz>
+        <gesetz>WaffVerbZÜV</gesetz>
+        <gesetz>WaffÖPNVVerbotV</gesetz>
+        <gesetz>WahlO-LRiStAG</gesetz>
+        <gesetz>WahlPrG</gesetz>
+        <gesetz>WaldEAVO</gesetz>
+        <gesetz>WaldorfAbiPrV</gesetz>
+        <gesetz>WaldorfFHSchulRV</gesetz>
+        <gesetz>WaldorfSchulV</gesetz>
+        <gesetz>WaldPädZQPrV</gesetz>
+        <gesetz>WaldSpVO</gesetz>
+        <gesetz>WasBauPVO</gesetz>
+        <gesetz>WasJagdAufhV</gesetz>
+        <gesetz>WasWiSachvStV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">WeideRAAblG WÜ</gesetz>
+        <gesetz>WeinLaV</gesetz>
+        <gesetz>Weinrechts-DVO</gesetz>
+        <gesetz>WeitBiFöG</gesetz>
+        <gesetz>WeitBiFöGDV</gesetz>
+        <gesetz>WerkVErsFzgV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">WertAusglG§9V</gesetz>
+        <gesetz>WG</gesetz>
+        <gesetz>WGrGErhG</gesetz>
+        <gesetz>WGymHeidenhV</gesetz>
+        <gesetz praefixstruktur="artikel">WiFöNOG</gesetz>
+        <gesetz>WildTManagGUV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">WiPr/BPrVersorgNWStVtrG</gesetz>
+        <gesetz>WMeßVO</gesetz>
+        <gesetz>WochMArtV</gesetz>
+        <gesetz>WoFürsVerzinsV</gesetz>
+        <gesetz>WoGDVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">WoGGAG</gesetz>
+        <gesetz>WohlfVbdAuflG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">WohnWFördRefUmsG</gesetz>
+        <gesetz>WollmatNatSchGebV</gesetz>
+        <gesetz>WPapBörsRatWV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">WRM-ZuVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">WRSAPO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">WRSVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">WStättVAG</gesetz>
+        <gesetz>WVO-Pflegeberufe</gesetz>
+        <gesetz>ZaPrOmDJu</gesetz>
+        <gesetz>ZaPrOmVwJV</gesetz>
+        <gesetz>ZDF-StV</gesetz>
+        <gesetz>ZE VO</gesetz>
+        <gesetz>ZPOVollstrPortStVtrG</gesetz>
+        <gesetz>ZSLG</gesetz>
+        <gesetz>ZSZustV</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">ZusArbÜbkG</gesetz>
+        <gesetz>ZusMedVO</gesetz>
+        <gesetz>ZustLErmÜV</gesetz>
+        <gesetz>ZustVO TrinkwV</gesetz>
+        <gesetz>ZustVO-Tierseuchenrecht</gesetz>
+        <gesetz>ZuständigkeitsVO-LWoFG</gesetz>
+        <gesetz>ZuVo-IntFöPr</gesetz>
+        <gesetz>ZuVO-MinÖlBewV</gesetz>
+        <gesetz>ZuVOJu</gesetz>
+        <gesetz>ZVO-BEG</gesetz>
+        <gesetz>ZVTBestV</gesetz>
+        <gesetz>ZVZuG</gesetz>
+        <gesetz>Zweite GAPRefVO</gesetz>
+        <gesetz>ZwEWG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ZwVerbuaHE/RPStVtrG</gesetz>
+        <gesetz praefixstruktur="artikel-und-paragraphen">ZwVerbuaVtrG</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ZZVO Universitäten 2025/2026</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ZZVO Zentrales Vergabeverfahren 2025/2026</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ZZVO-HAW 2025/2026</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">ZZVO-PH 2025/2026</gesetz>
+        <gesetz>ZÜSVO</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="tablink-zeitueberschreitung">§12PflAFinV</gesetz>
+        <gesetz>ÄVersorgAnstG</gesetz>
+        <gesetz>ÖbVI-BO</gesetz>
+        <gesetz>ÖGDG</gesetz>
+        <gesetz>ÖKVO</gesetz>
+        <gesetz>ÖLGDV</gesetz>
+        <gesetz>ÖPNV-VO</gesetz>
+        <gesetz>ÖPNVG</gesetz>
+        <gesetz>ÖVwGVertrAufhV</gesetz>
+        <gesetz ermittlungsstatus="gescheitert" fehlerart="keine-normen">ÜAnlZuVO</gesetz>
+        <gesetz>ÜZVO</gesetz>
+    </inhalt>
+</praefixstrukturen>

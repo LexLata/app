@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Strenger Neuaufbau des Bauers; erhaltene Erweiterungen der Nachbereitung gehören zum Leseschema gesetz.rng. -->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="gesetz">
+      <attribute name="version">
+        <value>1</value>
+      </attribute>
+      <interleave>
+        <ref name="infos" />
+        <ref name="inhalt" />
+      </interleave>
+    </element>
+  </start>
+  <define name="nichtleer">
+    <data type="token">
+      <param name="minLength">1</param>
+    </data>
+  </define>
+  <define name="normgeber">
+    <data type="string">
+      <param name="pattern">[a-z0-9]+(-[a-z0-9]+)*</param>
+      <param name="maxLength">20</param>
+    </data>
+  </define>
+  <define name="positive">
+    <data type="string">
+      <param name="pattern">[1-9][0-9]*</param>
+    </data>
+  </define>
+  <define name="kennzahl">
+    <data type="string">
+      <param name="pattern">([0-9]{3})+</param>
+    </data>
+  </define>
+  <define name="infos">
+    <element name="infos">
+      <interleave>
+        <element name="kurztitel">
+          <ref name="nichtleer" />
+        </element>
+        <optional>
+          <element name="langtitel">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <element name="fundstelle">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <element name="ausfertigung">
+            <choice>
+              <data type="date" />
+              <data type="gYearMonth" />
+              <data type="gYear" />
+            </choice>
+          </element>
+        </optional>
+        <optional>
+          <element name="stand">
+            <interleave>
+              <optional>
+                <element name="aenderungsvermerk">
+                  <text />
+                </element>
+              </optional>
+              <optional>
+                <element name="neugefasst">
+                  <text />
+                </element>
+              </optional>
+            </interleave>
+          </element>
+        </optional>
+        <optional>
+          <element name="fassung">
+            <attribute name="art">
+              <choice>
+                <value>konsolidiert</value>
+                <value>original</value>
+              </choice>
+            </attribute>
+            <optional>
+              <attribute name="stichtag">
+                <data type="date" />
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="erwaegungsgruendeErgaenzt">
+                <value>true</value>
+              </attribute>
+            </optional>
+          </element>
+        </optional>
+        <optional>
+          <element name="datenquelle">
+            <optional>
+              <attribute name="name">
+                <text />
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="url">
+                <text />
+              </attribute>
+            </optional>
+            <empty />
+          </element>
+        </optional>
+        <element name="normgeber">
+          <ref name="normgeber" />
+        </element>
+        <optional>
+          <element name="sprache">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <element name="normpraefix">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <element name="verarbeitungszeit">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <element name="letzteNeuerung">
+            <text />
+          </element>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+  <define name="norm">
+    <element name="norm">
+      <attribute name="id">
+        <ref name="nichtleer" />
+      </attribute>
+      <optional>
+        <attribute name="gliederungskennzahl">
+          <ref name="kennzahl" />
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="status">
+          <value>weggefallen</value>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="typ">
+          <value>erwaegungsgrund</value>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="vorgaenger">
+          <text />
+        </attribute>
+      </optional>
+      <interleave>
+        <element name="bezeichnung">
+          <text />
+        </element>
+        <optional>
+          <element name="titel">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <ref name="text" />
+        </optional>
+        <optional>
+          <element name="fussnoten">
+            <text />
+          </element>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+  <define name="gliederung">
+    <element name="gliederung">
+      <attribute name="gliederungskennzahl">
+        <ref name="kennzahl" />
+      </attribute>
+      <interleave>
+        <element name="bezeichnung">
+          <text />
+        </element>
+        <optional>
+          <element name="titel">
+            <text />
+          </element>
+        </optional>
+        <optional>
+          <ref name="text" />
+        </optional>
+        <optional>
+          <element name="fussnoten">
+            <text />
+          </element>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+  <define name="inhalt">
+    <element name="inhalt">
+      <zeroOrMore>
+        <choice>
+          <ref name="norm" />
+          <ref name="gliederung" />
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="verweis">
+    <element name="verweis">
+      <optional>
+        <attribute name="gesetz">
+          <ref name="nichtleer" />
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="normgeber">
+          <ref name="normgeber" />
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="norm">
+          <text />
+        </attribute>
+      </optional>
+      <ref name="inlineInhalt" />
+    </element>
+  </define>
+  <define name="zeilenumbruch">
+    <element name="zeilenumbruch">
+      <empty />
+    </element>
+  </define>
+  <define name="text">
+    <element name="text">
+      <choice>
+        <oneOrMore>
+          <ref name="absatz" />
+        </oneOrMore>
+        <ref name="absatzInhalt" />
+      </choice>
+    </element>
+  </define>
+  <define name="absatz">
+    <element name="absatz">
+      <optional>
+        <attribute name="zahl">
+          <text />
+        </attribute>
+      </optional>
+      <choice>
+        <group>
+          <attribute name="typ">
+            <value>zwischenueberschrift</value>
+          </attribute>
+          <ref name="inlineInhalt" />
+        </group>
+        <ref name="absatzInhalt" />
+      </choice>
+    </element>
+  </define>
+  <define name="absatzInhalt">
+    <choice>
+      <oneOrMore>
+        <ref name="unterabsatz" />
+      </oneOrMore>
+      <ref name="unterabsatzInhalt" />
+    </choice>
+  </define>
+  <define name="unterabsatz">
+    <element name="unterabsatz">
+      <attribute name="zahl">
+        <text />
+      </attribute>
+      <ref name="unterabsatzInhalt" />
+    </element>
+  </define>
+  <define name="unterabsatzInhalt">
+    <choice>
+      <oneOrMore>
+        <ref name="satz" />
+      </oneOrMore>
+      <ref name="satzInhalt" />
+    </choice>
+  </define>
+  <define name="satz">
+    <element name="satz">
+      <attribute name="zahl">
+        <ref name="positive" />
+      </attribute>
+      <ref name="satzInhalt" />
+    </element>
+  </define>
+  <define name="satzInhalt">
+    <mixed>
+      <zeroOrMore>
+        <choice>
+          <ref name="verweis" />
+          <ref name="zeilenumbruch" />
+          <ref name="nummer" />
+          <ref name="litera" />
+        </choice>
+      </zeroOrMore>
+    </mixed>
+  </define>
+  <define name="nummer">
+    <element name="nummer">
+      <attribute name="zahl">
+        <text />
+      </attribute>
+      <ref name="unterabsatzInhalt" />
+    </element>
+  </define>
+  <define name="litera">
+    <element name="litera">
+      <attribute name="buchstabe">
+        <text />
+      </attribute>
+      <ref name="unterabsatzInhalt" />
+    </element>
+  </define>
+  <define name="inlineInhalt">
+    <mixed>
+      <zeroOrMore>
+        <choice>
+          <ref name="verweis" />
+          <ref name="zeilenumbruch" />
+        </choice>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>
